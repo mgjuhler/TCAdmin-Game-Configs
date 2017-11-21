@@ -1,0 +1,3858 @@
+<Factorio>
+  <tc_games>
+    <game_id>34</game_id>
+    <operating_system>2</operating_system>
+    <display_name>Factorio - [v1.0.0]*</display_name>
+    <short_name>Factorio</short_name>
+    <private_rule_value>1</private_rule_value>
+    <private_rule_name>password</private_rule_name>
+    <hostname_rule />
+    <map_rule />
+    <slots_rule />
+    <exclude_rules />
+    <query_protocol>a2s</query_protocol>
+    <rcon_protocol>18</rcon_protocol>
+    <show_in_create_list>1</show_in_create_list>
+    <is_voice_server>0</is_voice_server>
+    <is_template>0</is_template>
+    <min_slots>1</min_slots>
+    <max_slots>65535</max_slots>
+    <default_slots>10</default_slots>
+    <name_from_query>1</name_from_query>
+    <exclude_load_balancing>0</exclude_load_balancing>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="Factorio TCAdmin v2 Configuration File&amp;#xA;&amp;#xA;Made by Brit for the TCAdmin Community&amp;#xA;&amp;#xA;MAKE SURE YOU INPUT YOUR FACTORIO DETAILS IN &amp;quot;server-settings.json&amp;quot;&amp;#xA;AND LINK YOUR STEAM ACCOUNT IN FACTORIO WEBSITE!" type="System.String,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.json&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.json&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;        &amp;lt;Filters&amp;gt;config-path.cfg&amp;lt;/Filters&amp;gt;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;Advanced&amp;lt;/PermissionMode&amp;gt;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xA;        &amp;lt;Permissions&amp;gt;ReadFile&amp;lt;/Permissions&amp;gt;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;        &amp;lt;Filters&amp;gt;config.ini&amp;lt;/Filters&amp;gt;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;Advanced&amp;lt;/PermissionMode&amp;gt;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xA;        &amp;lt;Permissions&amp;gt;ReadFile WriteFile&amp;lt;/Permissions&amp;gt;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;        &amp;lt;Filters&amp;gt;config-path.cfg&amp;lt;/Filters&amp;gt;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;Advanced&amp;lt;/PermissionMode&amp;gt;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xA;        &amp;lt;Permissions&amp;gt;ReadFile&amp;lt;/Permissions&amp;gt;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;        &amp;lt;Filters&amp;gt;config.ini&amp;lt;/Filters&amp;gt;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;Advanced&amp;lt;/PermissionMode&amp;gt;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xA;        &amp;lt;Permissions&amp;gt;ReadFile WriteFile&amp;lt;/Permissions&amp;gt;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 17:36:39" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-11-12 23:39:53" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:STEAM_API_GAME_VERSION" value="17" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:STEAM_API_GAME_VERSION_UPDATE" value="2017-11-05 02:00:08" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_games>
+  <tc_game_paths>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <relative_executable>bin\x64\factorio.exe</relative_executable>
+    <relative_working_dir />
+    <relative_subadmin_files />
+    <relative_reseller_files />
+    <relative_user_files />
+    <files_folder_name>Factorio</files_folder_name>
+    <enable_ext_download>0</enable_ext_download>
+    <ext_download_url />
+    <ext_save_name />
+    <ext_extract_opt>0</ext_extract_opt>
+    <ext_script_engine_id>1</ext_script_engine_id>
+    <ext_script />
+    <ext_license />
+  </tc_game_paths>
+  <tc_game_general_config>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <enable_start_cpu_0>0</enable_start_cpu_0>
+    <enable_interact_desktop>1</enable_interact_desktop>
+    <enable_configs_icon>1</enable_configs_icon>
+    <enable_log_viewer>1</enable_log_viewer>
+    <log_extensions>*.log</log_extensions>
+    <branded_text />
+    <branded_text_space>0</branded_text_space>
+    <brand_at_end>0</brand_at_end>
+    <brand_regex_search />
+    <brand_regex_case_insensitive>0</brand_regex_case_insensitive>
+    <stop_delay_seconds>2</stop_delay_seconds>
+    <sched_tasks_limit>0</sched_tasks_limit>
+    <force_config_editor_create>0</force_config_editor_create>
+    <collapse_mod_groups>0</collapse_mod_groups>
+  </tc_game_general_config>
+  <tc_game_ports>
+    <game_id>34</game_id>
+    <only_default_ports>0</only_default_ports>
+    <only_primary_ip>1</only_primary_ip>
+    <game_port>34197</game_port>
+    <query_port>0</query_port>
+    <rcon_port>0</rcon_port>
+    <port_increment>15</port_increment>
+    <query_port_expression />
+    <rcon_port_expression />
+    <custom_port_1>0</custom_port_1>
+    <custom_port_2>0</custom_port_2>
+    <custom_port_3>0</custom_port_3>
+    <custom_port_4>0</custom_port_4>
+    <custom_port_5>0</custom_port_5>
+    <custom_port_6>0</custom_port_6>
+    <custom_port_7>0</custom_port_7>
+    <custom_port_8>0</custom_port_8>
+    <custom_port_9>0</custom_port_9>
+    <custom_port_10>0</custom_port_10>
+    <custom_port_1_expression />
+    <custom_port_2_expression />
+    <custom_port_3_expression />
+    <custom_port_4_expression />
+    <custom_port_5_expression />
+    <custom_port_6_expression />
+    <custom_port_7_expression />
+    <custom_port_8_expression />
+    <custom_port_9_expression />
+    <custom_port_10_expression />
+    <supports_ipv6>0</supports_ipv6>
+    <unique_ports>2</unique_ports>
+  </tc_game_ports>
+  <tc_game_cmdlines>
+    <game_id>34</game_id>
+    <cmdline_default>--start-server \saves\my-save.zip --server-settings data\server-settings.json -c $[Service.RootDirectory]config\config.ini</cmdline_default>
+    <cmdline_private />
+    <cmdline_default_custom>--start-server \saves\my-save.zip --server-settings data\server-settings.json -c $[Service.RootDirectory]config\config.ini</cmdline_default_custom>
+    <cmdline_private_custom />
+    <predef_cmdlines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfPredefinedCommandLine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;PredefinedCommandLine&gt;
+    &lt;Id&gt;98c67943-e0e7-454d-9993-6a904e120e5c&lt;/Id&gt;
+    &lt;CommandLine&gt;--start-server \saves![LoadWordBackup].zip --server-settings data\server-settings.json -c $[Service.RootDirectory]config\config.ini&lt;/CommandLine&gt;
+    &lt;Description&gt;Load World Backup&lt;/Description&gt;
+  &lt;/PredefinedCommandLine&gt;
+&lt;/ArrayOfPredefinedCommandLine&gt;</predef_cmdlines>
+    <disable_param_selection>0</disable_param_selection>
+  </tc_game_cmdlines>
+  <tc_game_punkbuster_config>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <enable_pbweb>0</enable_pbweb>
+    <pb_relative_path>pb\</pb_relative_path>
+    <pb_download_url />
+    <execute_on_create>0</execute_on_create>
+  </tc_game_punkbuster_config>
+  <tc_game_query_monitoring>
+    <game_id>34</game_id>
+    <query_interval>300000</query_interval>
+    <query_interval_retry>30000</query_interval_retry>
+    <enable_query_detect>0</enable_query_detect>
+    <query_detect_actions>8</query_detect_actions>
+    <query_detect_max>3</query_detect_max>
+    <query_detect_max_actions>9</query_detect_max_actions>
+    <enable_slot_detect>1</enable_slot_detect>
+    <slot_detect_actions>9</slot_detect_actions>
+    <slot_detect_additional_slots>0</slot_detect_additional_slots>
+    <enable_private_detect>1</enable_private_detect>
+    <private_detect_actions>9</private_detect_actions>
+    <enable_brand_detect>1</enable_brand_detect>
+    <brand_detect_actions>9</brand_detect_actions>
+    <enable_rule_detect>0</enable_rule_detect>
+    <rules>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameMonitorRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</rules>
+    <enable_stats>1</enable_stats>
+    <stats_interval>900</stats_interval>
+    <det_stats_max_days>7</det_stats_max_days>
+    <stats_max_days>30</stats_max_days>
+    <enable_live_stats>1</enable_live_stats>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:QueryFailureUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureMaxAllowedUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureMaxAllowedAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:QUERY_FAILURE_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCA:QUERY_FAILURE_MAX_ALLOWED_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCAGH:SlotDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:SlotDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:SLOT_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCAGH:PrivateDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:PrivateDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:PRIVATE_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCAGH:BrandDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:BrandDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:BRAND_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-22 02:07:35" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-09-22 12:55:08" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_query_monitoring>
+  <tc_game_mail_templates>
+    <game_id>34</game_id>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:InstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:InstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 17:36:40" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-11-12 23:39:53" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_mail_templates>
+  <tc_game_steam_config>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <enable_hldsupdate>2</enable_hldsupdate>
+    <hlds_game_type>427520</hlds_game_type>
+    <validate>1</validate>
+    <execute_on_create>1</execute_on_create>
+    <extra_options />
+    <steam_account>anonymous</steam_account>
+    <steam_password />
+    <run_as_service_user>0</run_as_service_user>
+    <store_game_id>0</store_game_id>
+  </tc_game_steam_config>
+  <tc_game_bukkit_config>
+    <game_id>34</game_id>
+  </tc_game_bukkit_config>
+  <tc_game_tracker_config>
+    <game_id>34</game_id>
+    <ts_id>0</ts_id>
+  </tc_game_tracker_config>
+  <tc_game_identity>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <run_as>1</run_as>
+    <user_name />
+    <password />
+  </tc_game_identity>
+  <tc_game_text_console>
+    <game_id>34</game_id>
+    <control_input>1</control_input>
+    <control_output>1</control_output>
+    <stop_commands>^C</stop_commands>
+    <wait_for_exit>1</wait_for_exit>
+  </tc_game_text_console>
+  <tc_game_web_console>
+    <game_id>34</game_id>
+    <enable_web_console>1</enable_web_console>
+    <input_source>1</input_source>
+    <output_source>0</output_source>
+    <log_file>data\factorio-current.log</log_file>
+    <print_rcon_response>1</print_rcon_response>
+  </tc_game_web_console>
+  <tc_game_fast_download>
+    <game_id>34</game_id>
+    <enable_fast_download>0</enable_fast_download>
+    <root_directory />
+    <url_expression>$[FastDownloadBaseUrl]/</url_expression>
+    <files />
+    <exclude_files />
+    <sync_created>0</sync_created>
+    <auto_sync>0</auto_sync>
+    <enable_compress>0</enable_compress>
+    <compress_format>zip</compress_format>
+    <disk_quota_mb>0</disk_quota_mb>
+  </tc_game_fast_download>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>24</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>data\server-settings.json</relative_path>
+    <description>Main Configuration File</description>
+    <view_order>1</view_order>
+    <template>{
+  "name": "$[HostName]",
+  "description": "Description of the game that will appear in the listing",
+  "tags": ["game", "tags"],
+
+  "_comment_max_players": "Maximum number of players allowed, admins can join even a full server. 0 means unlimited.",
+  "max_players": $[Service.Slots],
+
+  "_comment_visibility": ["public: Game will be published on the official Factorio matching server",
+                          "lan: Game will be broadcast on LAN"],
+  "visibility":
+  {
+    "public": true,
+    "lan": true
+  },
+
+  "_comment_credentials": "Your factorio.com login credentials. Required for games with visibility public",
+  "username": "TCAdminExperts",
+  "password": "",
+
+  "_comment_token": "Authentication token. May be used instead of 'password' above.",
+  "token": "",
+
+  "game_password": "",
+
+  "_comment_require_user_verification": "When set to true, the server will only allow clients that have a valid Factorio.com account",
+  "require_user_verification": false,
+
+  "_comment_max_upload_in_kilobytes_per_second" : "optional, default value is 0. 0 means unlimited.",
+  "max_upload_in_kilobytes_per_second": 0,
+
+  "_comment_minimum_latency_in_ticks": "optional one tick is 16ms in default speed, default value is 0. 0 means no minimum.",
+  "minimum_latency_in_ticks": 0,
+
+  "_comment_ignore_player_limit_for_returning_players": "Players that played on this map already can join even when the max player limit was reached.",
+  "ignore_player_limit_for_returning_players": false,
+
+  "_comment_allow_commands": "possible values are, true, false and admins-only",
+  "allow_commands": "admins-only",
+
+  "_comment_autosave_interval": "Autosave interval in minutes",
+  "autosave_interval": 10,
+
+  "_comment_autosave_slots": "server autosave slots, it is cycled through when the server autosaves.",
+  "autosave_slots": 5,
+
+  "_comment_afk_autokick_interval": "How many minutes until someone is kicked when doing nothing, 0 for never.",
+  "afk_autokick_interval": 0,
+
+  "_comment_auto_pause": "Whether should the server be paused when no players are present.",
+  "auto_pause": true,
+
+  "only_admins_can_pause_the_game": true,
+
+  "_comment_autosave_only_on_server": "Whether autosaves should be saved only on server or also on all connected clients. Default is true.",
+  "autosave_only_on_server": true,
+
+  "_comment_admins": "List of case insensitive usernames, that will be promoted immediately",
+  "admins": []
+}
+</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 18:01:50" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-11-05 02:38:16" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>25</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>data\map-settings.json</relative_path>
+    <description>Main Map Configuration File</description>
+    <view_order>2</view_order>
+    <template>{
+  "difficulty_settings":
+  {
+     "recipe_difficulty": 1,
+     "technology_difficulty": 1,
+     "technology_price_multiplier": 1
+  },
+  "pollution":
+  {
+    "enabled": true,
+    "_comment_min_to_diffuse_1": "these are values for 60 ticks (1 simulated second)",
+    "_comment_min_to_diffuse_2": "amount that is diffused to neighboring chunk",
+    "diffusion_ratio":0.02,
+    "min_to_diffuse":15,
+    "ageing":1,
+    "expected_max_per_chunk":7000,
+    "min_to_show_per_chunk":700,
+    "min_pollution_to_damage_trees": 3500,
+    "pollution_with_max_forest_damage": 10000,
+    "pollution_per_tree_damage": 2000,
+    "pollution_restored_per_tree_damage": 500,
+    "max_pollution_to_restore_trees": 1000
+  },
+  "enemy_evolution":
+  {
+    "enabled": true,
+    "time_factor": 0.000004,
+    "destroy_factor": 0.002,
+    "pollution_factor": 0.000015
+  },
+  "enemy_expansion":
+  {
+    "enabled": true,
+    "min_base_spacing": 3,
+    "max_expansion_distance": 7,
+    "friendly_base_influence_radius": 2,
+    "enemy_building_influence_radius": 2,
+    "building_coefficient": 0.1,
+    "other_base_coefficient": 2.0,
+    "neighbouring_chunk_coefficient": 0.5,
+    "neighbouring_base_chunk_coefficient": 0.4,
+    "max_colliding_tiles_coefficient": 0.9,
+    "settler_group_min_size": 5,
+    "settler_group_max_size": 20,
+    "min_expansion_cooldown": 14400,
+    "max_expansion_cooldown": 216000
+  },
+  "unit_group":
+  {
+    "min_group_gathering_time": 3600,
+    "max_group_gathering_time": 36000,
+    "max_wait_time_for_late_members": 7200,
+    "max_group_radius": 30.0,
+    "min_group_radius": 5.0,
+    "max_member_speedup_when_behind": 1.4,
+    "max_member_slowdown_when_ahead": 0.6,
+    "max_group_slowdown_factor": 0.3,
+    "max_group_member_fallback_factor": 3,
+    "member_disown_distance": 10,
+    "tick_tolerance_when_member_arrives": 60,
+    "max_gathering_unit_groups": 30,
+    "max_unit_group_size": 200
+  },
+  "steering":
+  {
+    "default":
+    {
+      "radius": 1.2,
+      "separation_force": 0.005,
+      "separation_factor": 1.2,
+      "force_unit_fuzzy_goto_behavior": false
+    },
+    "moving":
+    {
+      "radius": 3,
+      "separation_force": 0.01,
+      "separation_factor": 3,
+      "force_unit_fuzzy_goto_behavior": false
+    }
+  },
+  "path_finder":
+  {
+    "fwd2bwd_ratio": 5,
+    "goal_pressure_ratio": 2,
+    "max_steps_worked_per_tick": 100,
+    "use_path_cache": true,
+    "short_cache_size": 5,
+    "long_cache_size": 25,
+    "short_cache_min_cacheable_distance": 10,
+    "short_cache_min_algo_steps_to_cache": 50,
+    "long_cache_min_cacheable_distance": 30,
+    "cache_max_connect_to_cache_steps_multiplier": 100,
+    "cache_accept_path_start_distance_ratio": 0.2,
+    "cache_accept_path_end_distance_ratio": 0.15,
+    "negative_cache_accept_path_start_distance_ratio": 0.3,
+    "negative_cache_accept_path_end_distance_ratio": 0.3,
+    "cache_path_start_distance_rating_multiplier": 10,
+    "cache_path_end_distance_rating_multiplier": 20,
+    "stale_enemy_with_same_destination_collision_penalty": 30,
+    "ignore_moving_enemy_collision_distance": 5,
+    "enemy_with_different_destination_collision_penalty": 30,
+    "general_entity_collision_penalty": 10,
+    "general_entity_subsequent_collision_penalty": 3,
+    "max_clients_to_accept_any_new_request": 10,
+    "max_clients_to_accept_short_new_request": 100,
+    "direct_distance_to_consider_short_request": 100,
+    "short_request_max_steps": 1000,
+    "short_request_ratio": 0.5,
+    "min_steps_to_check_path_find_termination": 2000,
+    "start_to_goal_cost_multiplier_to_terminate_path_find": 500.0
+  },
+  "max_failed_behavior_count": 3
+}
+</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 18:10:40" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-09-22 12:30:40" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>26</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>data\map-gen-settings.jason</relative_path>
+    <description>Main Gen Configuration File</description>
+    <view_order>3</view_order>
+    <template>{
+  "_comment": "Sizes can be specified as none, very-low, low, normal, high, very-high",
+
+  "terrain_segmentation": "normal",
+  "water": "normal",
+  "width": 0,
+  "height": 0,
+  "starting_area": "normal",
+  "peaceful_mode": false,
+  "autoplace_controls":
+  {
+    "coal": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "copper-ore": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "crude-oil": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "enemy-base": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "iron-ore": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "stone": {"frequency": "normal", "size": "normal", "richness": "normal"},
+    "uranium-ore": {"frequency": "normal", "size": "normal", "richness": "normal"}
+  },
+
+  "_comment_seed": "Use null for a random seed, number for a specific seed.",
+  "seed": null
+}
+</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 18:12:24" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-09-22 12:30:44" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>27</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>data\server-whitelist.json</relative_path>
+    <description>Main Whitelist Configuration File</description>
+    <view_order>4</view_order>
+    <template>[
+  "Rseding91",
+  "Oxyd"
+]</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 18:13:09" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-09-22 12:30:51" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>28</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>config-path.cfg</relative_path>
+    <description>User Data Directory</description>
+    <view_order>5</view_order>
+    <template>config-path=$[Service.RootDirectory]config\config.ini
+use-system-read-write-data-directories=false</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="This file has been hidden in &amp;quot;File System Permissions&amp;quot;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;YOU SHOULD NOT CHANGE THIS!" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 21:39:41" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-09-22 13:24:38" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>29</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>config\config.ini</relative_path>
+    <description>Configuration INI File</description>
+    <view_order>7</view_order>
+    <template>; version=2
+; This is INI file: https://en.wikipedia.org/wiki/INI_file#Format 
+; Semicolons (;) at the beginning of the line indicate a comment. Comment lines are ignored.
+[path]
+read-data=$[Service.RootDirectory]data
+write-data=$[Service.RootDirectory]data
+
+[general]
+locale=
+
+[other]
+; Options: true, false
+; verbose-logging=false
+
+; tooltip-delay=0.040000
+
+; output-console-delay=1200
+
+; autosave-interval=2
+
+; autosave-slots=3
+
+; minimum-latency-in-multiplayer=0
+
+port=$[Service.GamePort]
+
+; proxy=
+
+; proxy-username=
+
+; proxy-password=
+
+; Options: true, false
+; force-default-logistic-filter-count-to-one=false
+
+; Options: true, false
+; show-tips-and-tricks=true
+
+; Options: true, false
+; show-tutorial-notifications=true
+
+; Options: true, false
+; autosort-inventory=true
+
+; Options: true, false
+; research-finished-stops-game=true
+
+; Options: true, false
+; use-item-groups=true
+
+; Options: true, false
+; use-item-subgroups=true
+
+; Options: true, false
+; enable-new-mods=true
+
+; Options: true, false
+; use-version-filter-in-browse-games-gui=true
+
+; Options: true, false
+; use-mod-settings-per-save=true
+
+; Options: true, false
+; disable-minimal-mode=false
+
+
+[sound]
+; master-volume=0.600000
+
+; music-volume=0.400000
+
+; game-effects-volume=0.700000
+
+; gui-effects-volume=0.700000
+
+; walking-sound-volume=0.300000
+
+; environment-sounds-volume=0.450000
+
+; alerts-volume=0.550000
+
+; audible-distance=40.000000
+
+; environment-audible-distance=15.000000
+
+; maximum-environment-sounds=15
+
+; active-gui-volume-modifier=1.300000
+
+; active-gui-environment-volume-modifier=0.600000
+
+; ambient-music-pause-mean-seconds=45.000000
+
+; ambient-music-pause-variance-seconds=30.000000
+
+; Options: main-tracks-only, interleave-main-tracks-with-interludes, randomize-all
+; ambient-music-mode=interleave-main-tracks-with-interludes
+
+
+[map-view]
+; Options: true, false
+; show-logistic-network=false
+
+; Options: true, false
+; show-electric-network=false
+
+; Options: true, false
+; show-turret-range=false
+
+; Options: true, false
+; show-pollution=true
+
+; Options: true, false
+; show-train-station-names=true
+
+; Options: true, false
+; show-player-names=true
+
+; Options: true, false
+; show-networkless-logistic-members=false
+
+; Options: true, false
+; show-non-standard-map-info=false
+
+
+[debug]
+; force=enemy
+
+; Options: always, basic, detailed, full, never
+; show-fps=basic
+
+; Options: always, basic, detailed, full, never
+; show-detailed-info=basic
+
+; Options: always, basic, detailed, full, never
+; show-time-usage=basic
+
+; Options: always, basic, detailed, full, never
+; show-sprite-counts=detailed
+
+; Options: always, basic, detailed, full, never
+; show-multiplayer-waiting-icon=basic
+
+; Options: always, basic, detailed, full, never
+; show-multiplayer-statistics=basic
+
+; Options: always, basic, detailed, full, never
+; show-tile-grid=full
+
+; Options: always, basic, detailed, full, never
+; show-collision-rectangles=detailed
+
+; Options: always, basic, detailed, full, never
+; show-selection-rectangles=detailed
+
+; Options: always, basic, detailed, full, never
+; show-paths=full
+
+; Options: always, basic, detailed, full, never
+; show-next-waypoint-bb=full
+
+; Options: always, basic, detailed, full, never
+; show-target=full
+
+; Options: always, basic, detailed, full, never
+; show-unit-group-info=full
+
+; Options: always, basic, detailed, full, never
+; show-unit-behavior-info=full
+
+; Options: always, basic, detailed, full, never
+; show-last-path-detail=full
+
+; Options: always, basic, detailed, full, never
+; show-path-cache=full
+
+; Options: always, basic, detailed, full, never
+; show-path-cache-paths=full
+
+; Options: always, basic, detailed, full, never
+; show-rail-paths=full
+
+; Options: always, basic, detailed, full, never
+; show-rolling-stock-count=full
+
+; Options: always, basic, detailed, full, never
+; show-rail-connections=detailed
+
+; Options: always, basic, detailed, full, never
+; show-rail-segments=detailed
+
+; Options: always, basic, detailed, full, never
+; show-rail-blocks=detailed
+
+; Options: always, basic, detailed, full, never
+; show-rail-joints=detailed
+
+; Options: always, basic, detailed, full, never
+; show-train-stop-point=detailed
+
+; Options: always, basic, detailed, full, never
+; show-train-braking-distance=full
+
+; Options: always, basic, detailed, full, never
+; show-train-signals=full
+
+; Options: always, basic, detailed, full, never
+; show-network-connected-entities=detailed
+
+; Options: always, basic, detailed, full, never
+; show-circuit-network-numbers=detailed
+
+; Options: always, basic, detailed, full, never
+; show-energy-sources-networks=detailed
+
+; Options: always, basic, detailed, full, never
+; show-active-state=detailed
+
+; Options: always, basic, detailed, full, never
+; show-wakeup-lists=detailed
+
+; Options: always, basic, detailed, full, never
+; show-pollution-values=full
+
+; Options: always, basic, detailed, full, never
+; show-active-entities-on-chunk-counts=full
+
+; Options: always, basic, detailed, full, never
+; show-active-chunks=full
+
+; Options: always, basic, detailed, full, never
+; show-polluted-chunks=full
+
+; Options: always, basic, detailed, full, never
+; show-enemy-expansion-candidate-chunks=full
+
+; Options: always, basic, detailed, full, never
+; show-enemy-expansion-candidate-chunk-values=full
+
+; Options: always, basic, detailed, full, never
+; show-bad-attack-chunks=full
+
+; Options: always, basic, detailed, full, never
+; show-tile-variations=full
+
+; Options: always, basic, detailed, full, never
+; show-raw-tile-transitions=never
+
+; Options: always, basic, detailed, full, never
+; show-tile-correction-previews=never
+
+; Options: always, basic, detailed, full, never
+; show-fluid-box-fluid-info=basic
+
+; Options: always, basic, detailed, full, never
+; show-environment-sound-info=basic
+
+; Options: always, basic, detailed, full, never
+; show-logistic-robot-targets=full
+
+; Options: always, basic, detailed, full, never
+; show-fire-info=full
+
+; Options: always, basic, detailed, full, never
+; show-sticker-info=full
+
+; Options: always, basic, detailed, full, never
+; show-map-generator-info=full
+
+
+[multiplayer-lobby]
+; name=
+
+; description=
+
+; Options: true, false
+; visibility-public=true
+
+; Options: true, false
+; visibility-lan=true
+
+; max-players=0
+
+; Options: true, false
+; ignore-player-limit-when-returning=false
+
+; max-upload-in-kilobytes-per-second=0
+
+; password=
+
+; tag-list=
+
+; afk-auto-kick=0
+
+; Options: true, false, admins-only
+; allowed-commands=admins-only
+
+; Options: true, false
+; only-admins-can-pause=true
+
+; Options: true, false
+; autosave-only-on-server=true
+
+; Options: true, false
+; verify-user-identity=true
+
+
+[graphics]
+; lights-render-quality=0.250000
+
+; custom-ui-scale=1.000000
+
+; multisampling-level=0
+
+; preferred-screen-index=255
+
+; screenshots-queue-size=10
+
+; screenshots-threads-count=1
+
+; debug-font-size=18
+
+; max-texture-size=0
+
+; max-threads=8
+
+; Options: high, normal, low, very-low
+; graphics-quality=normal
+
+; Options: true, false
+; full-screen=true
+
+; Options: true, false
+; system-ui-scale=true
+
+; Options: true, false
+; show-minimap=true
+
+; Options: true, false
+; show-turret-radius-when-blueprinting=false
+
+; Options: true, false
+; show-item-labels-in-cursor=true
+
+; Options: true, false
+; show-grid-when-paused=true
+
+; Options: true, false
+; show-smoke=true
+
+; Options: true, false
+; show-clouds=true
+
+; Options: true, false
+; show-decoratives=true
+
+; Options: true, false
+; show-item-shadows=true
+
+; Options: true, false
+; show-inserter-shadows=true
+
+; Options: true, false
+; show-inserter-arrows-when-selected=true
+
+; Options: true, false
+; show-inserter-arrows-when-detailed-info-is-on=false
+
+; Options: true, false
+; show-pump-arrows-when-detailed-info-is-on=true
+
+; Options: true, false
+; show-mining-drill-arrows-when-detailed-info-is-on=true
+
+; Options: true, false
+; show-combinator-settings-when-detailed-info-is-on=false
+
+; Options: true, false
+; force-opengl=false
+
+; Options: true, false
+; cache-sprite-atlas=false
+
+; Options: true, false
+; v-sync=false
+
+; Options: true, false
+; tree-sprite-mipmaps=true
+
+; Options: true, false
+; trilinear-filtering=true
+
+; Options: true, false
+; shader-enabled=true
+
+; Options: true, false
+; atlas-specialization=true
+
+; Options: true, false
+; skip-vram-detection=false
+
+; Options: true, false
+; runtime-sprite-reload=false
+
+; train-stop-label-angle=0.085526
+
+; Options: all, high, medium, low
+; video-memory-usage=high
+
+; Options: false, true, auto
+; texture-compression=false
+
+; Options: false, true, auto
+; disable-fma3=auto
+
+
+</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-22 12:30:27" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-09-22 13:03:56" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>11</file_id>
+    <mod_id>2</mod_id>
+    <relative_path>.\@epochhive\EpochServer.ini</relative_path>
+    <description>Redis Config</description>
+    <view_order>0</view_order>
+    <template>[EpochServer]
+
+InstanceID = NA123
+LogAbuse = 1
+LogLimit = 999
+IP = $[Service.IpAddress]
+Port = $[Service.GamePort]
+Password = $[RConPassword]
+
+[Redis]
+IP = $[Service.IpAddress]
+Port = $[Service.CustomPort1]
+DB = 0
+Password = $[RConPassword]
+
+[SteamAPI]
+Logging = 0
+Key =
+VACBanned = 0
+VACMinimumNumberOfBans = 0
+VACMaximumDaysSinceLastBan = 0
+PlayerAllowOlderThan = 0</template>
+    <enable_config_editor>1</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-23 02:55:28" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-04 04:53:03" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>23</file_id>
+    <mod_id>3</mod_id>
+    <relative_path>.\@ExileServer\extdb-conf.ini</relative_path>
+    <description>DB</description>
+    <view_order>0</view_order>
+    <template>[Main]
+Version = 5
+;Threads = 0  
+; Default Value is the number of CPU Cores Detected (max value is 6, min value is 2)
+Randomize Config File = false
+;This is a legacy option to randomize config file for Arma2 Servers. Only for Windows Builds
+
+
+[Rcon]
+;; This is functional, should be working fine. Just needs abit of testing on a $
+;; Allow for changing Address for those running server in a VM environment.
+IP = 127.0.0.1
+Port = 2302
+
+;; Rcon Password i.e Battleye/beserver.cfg
+Password = password
+
+;; Bad Player Name Checks
+;;		This will only work if your mission / mod has started extDB2 Rcon. i.e 9:START_RCON:RCON
+Bad Playername Enable = true
+Bad Playername Kick Message = Bad Player Name
+
+;; By default : is a bad character (used as seperator for extDB2 Calls (this is hardcoded in)
+Bad Playername Strings = (:):{:}
+;;Bad Playername Regex_1 = [:alnum:]
+;;Bad Playername Regex_2 = [:alnum:]
+;;Bad Playername Regex_3 = [:alnum:]
+
+;; Whitelisting / Reserve Slots
+;;		This will only work if your mission / mod has started extDB2 Rcon. i.e 9:START_RCON:RCON
+Whitelist Enable = false
+Whitelist Kick Message = Only Reserved Slots Left
+Whitelist Public Slots = 999
+
+;; Database settings to use (Optional)
+Whitelist Database = MySQL_Example
+Whitelist SQL Prepared Statement = SELECT CASE WHEN EXISTS(SELECT UID FROM PlayerInfo WHERE BattlEyeGUID=? AND Whitelisted=1) THEN 1 ELSE 0 END
+Whitelist Kick on SQL Query Failed = false
+
+;; Hardcoded BEGuids for whitelisted players
+;Whitelist BEGuids = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx : yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+
+[Steam]
+;; This is for VAC Protocol for VAC Bans + Steam Friends.
+;; https://steamcommunity.com/dev/apikey
+API Key = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+[VAC]
+;; This feature requires Steam + Rcon to be enabled.
+;; Also this feature is called via SQF Code atm, i.e it doesn't auto detect players joining server yet....
+Auto Ban = false
+
+;; For Player to get banned ( their total VAC Bans =&gt; NumberOfVACBans)  AND ( Days Since their Last Ban was &lt;= DaysSinceLastBan)
+;; This is also used extDB Protocol VAC:VACBanned returned results
+
+NumberOfVACBans = 1
+DaysSinceLastBan = 999999999
+BanDuration = 1
+;; 0 = Forever, otherwise its x Minutes
+BanMessage = Steam VAC Banned
+
+[Log]
+;; Flush Logs after each write, more work on Harddrive
+Flush = true
+
+[exile]
+Type = MySQL
+Name = ![MySQLUser]
+Username = ![MySQLUser]
+Password = ![MySQLPassword]
+IP = 37.59.53.156
+Port = 3306
+minSessions = 2
+idleTime = 60
+; Really should only use this if MySQL server is external. Also only for MySQL
+compress = false
+; Recommend you turn this on  http://dev.mysql.com/doc/refman/5.6/en/mysql-command-options.html#option_mysql_secure-auth
+Secure Auth = true
+
+[SQLite_Example]
+Type = SQLite
+Name = sqlite.db
+
+minSessions = 1
+; minSession Default Value = 1
+
+;maxSessions = 4
+; maxSession Default Value = number of Main-&gt;Threads
+; 	You really should leave this value alone
+idleTime = 60
+; idleTime no Default Value yet, needs to be defined.
+; 	idleTime is the time before a database session is stopped if not used. 
+;	If Database Sessions are greater than minSessions</template>
+    <enable_config_editor>1</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-04 03:30:31" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-09 22:22:57" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>6</file_id>
+    <mod_id>1</mod_id>
+    <relative_path>.\@extdb2\extdb-conf.ini</relative_path>
+    <description>DB info</description>
+    <view_order>0</view_order>
+    <template>[Main]
+Version = 5
+
+;Threads = 0  
+; Default Value is the number of CPU Cores Detected (max value is 6, min value is 2)
+
+Randomize Config File = false
+;This is a legacy option to randomize config file for Arma2 Servers. Only for Windows Builds
+
+[Rcon]
+;; This is functional, should be working fine. Just needs abit of testing on a $
+;; Allow for changing Address for those running server in a VM environment.
+IP = 127.0.0.1
+Port = 2302
+
+;; Rcon Password i.e Battleye/beserver.cfg
+Password = password
+
+;; Bad Player Name Checks
+;;		This will only work if your mission / mod has started extDB2 Rcon. i.e 9:START_RCON:RCON
+Bad Playername Enable = false
+Bad Playername Kick Message = Bad Player Name
+
+;; By default : is a bad character (used as seperator for extDB2 Calls (this is hardcoded in)
+;;Bad Playername Strings = (:):{:}
+;;Bad Playername Regex_1 = [:alnum:]
+;;Bad Playername Regex_2 = [:alnum:]
+;;Bad Playername Regex_3 = [:alnum:]
+
+
+;; Whitelisting / Reserve Slots
+;;		This will only work if your mission / mod has started extDB2 Rcon. i.e 9:START_RCON:RCON
+Whitelist Enable = false
+Whitelist Kick Message = Only Reserved Slots Left
+
+Whitelist Public Slots = 999
+
+;; Database settings to use (Optional)
+Whitelist Database = MySQL_Example
+Whitelist SQL Prepared Statement = SELECT CASE WHEN EXISTS(SELECT UID FROM PlayerInfo WHERE BattlEyeGUID=? AND Whitelisted=1) THEN 1 ELSE 0 END
+Whitelist Kick on SQL Query Failed = false
+
+;; Hardcoded BEGuids for whitelisted players
+;Whitelist BEGuids = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx : yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+
+
+[Steam]
+;; This is for VAC Protocol for VAC Bans + Steam Friends.
+;; https://steamcommunity.com/dev/apikey
+API Key = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+[VAC]
+;; This feature requires Steam + Rcon to be enabled.
+;; Also this feature is called via SQF Code atm, i.e it doesn't auto detect players joining server yet....
+Auto Ban = true
+
+;; For Player to get banned ( their total VAC Bans =&gt; NumberOfVACBans)  AND ( Days Since their Last Ban was &lt;= DaysSinceLastBan)
+;; This is also used extDB Protocol VAC:VACBanned returned results
+
+NumberOfVACBans = 1
+DaysSinceLastBan = 999999999
+BanDuration = 0
+;; 0 = Forever, otherwise its x Minutes
+BanMessage = Steam VAC Banned
+
+
+[Log]
+;; Flush Logs after each write, more work on Harddrive
+Flush = true
+
+
+[altislife]
+Type = MySQL
+Name = ![MySQLUser]
+
+Username = ![MySQLUser]
+Password = ![MySQLPassword]
+
+IP = 37.59.53.156
+Port = 3306
+
+;minSessions = 2
+idleTime = 60
+
+compress = false
+; Really should only use this if MySQL server is external. Also only for MySQL
+
+Secure Auth = true
+; Recommend you turn this on  http://dev.mysql.com/doc/refman/5.6/en/mysql-command-options.html#option_mysql_secure-auth
+
+
+[SQLite_Example]
+Type = SQLite
+Name = sqlite.db
+
+minSessions = 1
+; minSession Default Value = 1
+
+;maxSessions = 4
+; maxSession Default Value = number of Main-&gt;Threads
+; 	You really should leave this value alone
+idleTime = 60
+; idleTime no Default Value yet, needs to be defined.
+; 	idleTime is the time before a database session is stopped if not used. 
+;	If Database Sessions are greater than minSessions</template>
+    <enable_config_editor>1</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-22 13:14:50" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-24 22:10:47" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>12</file_id>
+    <mod_id>2</mod_id>
+    <relative_path>.\DB\redis.conf</relative_path>
+    <description />
+    <view_order>0</view_order>
+    <template>bind 37.59.53.156
+port $[Service.CustomPort1]
+dir $[Service.RootDirectory]\DB\
+maxmemory 1gb
+maxheap 2gb
+save 900 1
+save 300 10
+save 60 1000
+requirepass $[RConPassword]
+</template>
+    <enable_config_editor>1</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-23 02:56:52" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-04 04:52:50" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>8</file_id>
+    <mod_id>1</mod_id>
+    <relative_path>.\ServerRPT\basic.cfg</relative_path>
+    <description>Basic Configuration</description>
+    <view_order>0</view_order>
+    <template>language="English";
+adapter=-1;
+MinBandwidth=800000;
+MaxBandwidth=25000000;
+MaxMsgSend=384;
+MaxSizeGuaranteed=512;
+MaxSizeNonguaranteed=256;
+MinErrorToSend=0.003;
+MaxCustomFileSize=100000;</template>
+    <enable_config_editor>1</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-22 13:29:56" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-04 04:51:09" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>9</file_id>
+    <mod_id>2</mod_id>
+    <relative_path>.\ServerRPT\basic.cfg</relative_path>
+    <description>Basic Bandwidth Settings</description>
+    <view_order>0</view_order>
+    <template>// These options are created by default
+language="English";
+adapter=-1;
+3D_Performance=1.000000;
+Resolution_W=800;
+Resolution_H=600;
+Resolution_Bpp=32;
+
+
+// These options are important for performance tuning
+
+MinBandwidth = 107374182;			// Bandwidth the server is guaranteed to have (in bps). This value helps server to estimate bandwidth available. Increasing it to too optimistic values can increase lag and CPU load, as too many messages will be sent but discarded. Default: 131072
+MaxBandwidth = 1073741824;		// Bandwidth the server is guaranteed to never have. This value helps the server to estimate bandwidth available.
+
+MaxMsgSend = 256;			// Maximum number of messages that can be sent in one simulation cycle. Increasing this value can decrease lag on high upload bandwidth servers. Default: 128
+MaxSizeGuaranteed = 512;		// Maximum size of guaranteed packet in bytes (without headers). Small messages are packed to larger frames. Guaranteed messages are used for non-repetitive events like shooting. Default: 512
+MaxSizeNonguaranteed = 256;		// Maximum size of non-guaranteed packet in bytes (without headers). Non-guaranteed messages are used for repetitive updates like soldier or vehicle position. Increasing this value may improve bandwidth requirement, but it may increase lag. Default: 256
+
+MinErrorToSend = 0.002;			// Minimal error to send updates across network. Using a smaller value can make units observed by binoculars or sniper rifle to move smoother. Default: 0.001
+MinErrorToSendNear = 0.02;		// Minimal error to send updates across network for near units. Using larger value can reduce traffic sent for near units. Used to control client to server traffic as well. Default: 0.01
+
+MaxCustomFileSize = 0;			// (bytes) Users with custom face or custom sound larger than this size are kicked when trying to connect.</template>
+    <enable_config_editor>1</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-23 02:46:15" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-04 04:53:08" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>10</file_id>
+    <mod_id>2</mod_id>
+    <relative_path>.\ServerRPT\server.cfg</relative_path>
+    <description>Server Config</description>
+    <view_order>0</view_order>
+    <template>// EPOCH SERVER CONFIG
+
+// GLOBAL SETTINGS
+hostname        	= "$[HostName]";
+password         	= "$[RConPassword]]";
+passwordAdmin      	= "$[RConPassword]";
+serverCommandPassword = "$[PrivatePassword]";
+logFile            	= "A3Master.log";
+verifySignatures   	= 2;
+BattlEye            = 1;
+requiredBuild = 136470;
+
+// WHITELIST FILE TYPES
+allowedLoadFileExtensions[] = {:};
+allowedPreprocessFileExtensions[] = {"sqf"};
+allowedHTMLLoadExtensions[] = {"html"};
+
+disconnectTimeout = 10; // default 90
+
+// WELCOME MESSAGE ("message of the day")
+// It can be several lines, separated by comma
+// Empty messages "" will not be displayed at all but are only for increasing the interval
+
+motd[] = {
+	"Welcome to ArmA3 Epoch!",
+	"Server hosted by Needaserver.co.uk"
+};
+motdInterval = 5;               // Time interval (in seconds) between each message
+
+// JOINING RULES
+maxPlayers = $[Service.Slots];   		// Maximum amount of players. Civilians and watchers, beholder, bystanders and so on also count as player.
+
+// VOTING
+voteMissionPlayers	= 200;    // Prevents Votes.
+voteThreshold		= 2; // Prevents Votes.
+// DISALLOW VOTING since 1.39
+allowedVoteCmds[] = {};
+allowedVotedAdminCmds[] = {};
+
+// INGAME SETTINGS
+disableVoN	= 0;        	// If set to 1, Voice over Net will not be available
+vonCodecQuality = 30;       // Quality from 1 to 30
+forceRotorLibSimulation = 0; // Enforces the Advanced Flight Model on the server. Default = 0 (up to the player). 1 - forced AFM, 2 - forced SFM.
+persistent	= 1;        	// If 1, missions still run on even after the last player disconnected.
+
+// MISSIONS CYCLE (see below) (epoch.Altis, epoch.Stratis, epoch.Chernarus, epoch.Bornholm)
+class Missions
+{
+	class Epoch {
+		template = epoch.Altis; // DO NOT CHANGE THIS, IT WILL BREAK YOUR SERVER
+		difficulty = "custom";    // difficulty settings: Recruit, Regular Veteran, Custom
+	};
+};
+
+
+kickDuplicate = 1;
+equalModRequired = 0;
+requiredSecureId = 2;
+timeStampFormat = "short";
+
+// SCRIPTING ISSUES
+onUserConnected = "";
+onUserDisconnected = "";
+doubleIdDetected = "";
+
+// SIGNATURE VERIFICATION
+onUnsignedData = "kick (_this select 0)";	// unsigned data detected
+onHackedData = 	"kick (_this select 0)";	//"ban (_this select 0)"; // tampering of the signature detected
+onDifferentData = "kick (_this select 0)";
+</template>
+    <enable_config_editor>1</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-23 02:48:12" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-04 04:52:57" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>5</file_id>
+    <mod_id>1</mod_id>
+    <relative_path>.\ServerRPT\server.cfg</relative_path>
+    <description>Server Config</description>
+    <view_order>0</view_order>
+    <template>//
+// server.cfg
+//
+// comments are written with "//" in front of them.
+
+// GLOBAL SETTINGS
+
+hostname            = "$[HostName]";    // The name of the server that will be displayed in the public server list
+//password          = "$[PrivatePassword]";                        // Password to join the server
+passwordAdmin       = "$[RConPassword]";                         // Password to become server admin. When you're connected to the server, open the chat and type '#login password'
+//reportingIP       = "arma3pc.master.gamespy.com";            // not used anymore in Arma 3
+logFile             = "server.log";
+verifySignatures    = 2;    // Prevent players with unknown mods from joining the server (best kept at 2 if you want to reduce the number of hackers)
+equalModRequired    = 0;    // Prevent players who don't have the exact same mods as the server from joining (best kept at 0)
+requiredSecureId    = 2;    // was used to define type of secureID
+
+// WELCOME MESSAGE ("message of the day")
+// It can be several lines, separated by comma
+// Empty messages,"" will not be displayed at all but are only for increasing the interval
+
+motd[] =
+{
+	"Welcome to $[HostName]",
+	"TS3 Server:     teamspeak.somewhere.com",
+	"Web:            www.example.com"
+};
+motdInterval        = 30;        // Time interval (in seconds) between each message
+
+// JOINING RULES
+maxPlayers          = $[Service.Slots];        // Maximum amount of players. Anybody who joins the server is considered a player, regardless of their role or team.
+kickDuplicate       = 1;         // Each player normally has its own unique ID. If set to 1, players with an ID that is identical to another player will be kicked
+//requiredBuild     = 12345;     // Require clients joining to have at least this build version of game, preventing obsolete clients to connect
+
+// VOTING
+voteMissionPlayers  = 1;         // Tells the server how many people must connect before displaying the mission selection screen, if you have not already selected a mission in this config
+voteThreshold       = 0.33;      // Percentage (0.00 to 1.00) of players needed to vote for something, for example an admin or a new mission, to become effective. Set to 9999 to prevent people from voting random players as admins.
+
+// MISSIONS CYCLE
+class Missions
+{
+	class Mission1
+	{
+		template="Altis_Life.Altis";
+		difficulty="Regular";
+	};
+};
+
+// INGAME SETTINGS
+disableVoN = 0;                  // If set to 1, voice chat will be disabled
+vonCodecQuality = 10;            // Supports range 1-30; 8kHz is 0-10 (narrowband), 16kHz is 11-20 (wideband), 32kHz is 21-30 (ultrawideband); higher = better sound quality
+persistent = 1;                  // If set to 1, missions will continue to run after all players have disconnected
+timeStampFormat = "short";       // Set the timestamp format used on each line of the server RPT log file. Possible values are "none" (default), "short", "full".
+BattlEye = 1;                    // If set to 0, BattlEye Anti-Cheat will be disabled on the server (not recommended)
+
+// FILE EXTENSIONS
+allowedLoadFileExtensions[] =       {"hpp","sqs","sqf","fsm","cpp","paa","txt","xml","inc","ext","sqm","ods","fxy","lip","csv","kb","bik","bikb","html","htm","biedi"}; // only allow files with those extensions to be loaded via loadFile command (since Arma 3 build 1.19.124216) 
+allowedPreprocessFileExtensions[] = {"hpp","sqs","sqf","fsm","cpp","paa","txt","xml","inc","ext","sqm","ods","fxy","lip","csv","kb","bik","bikb","html","htm","biedi"}; // only allow files with those extensions to be loaded via preprocessFile/preprocessFileLineNumber commands (since Arma 3 build 1.19.124323)
+allowedHTMLLoadExtensions[] =       {"htm","html","xml","txt"}; // only allow files with those extensions to be loaded via HTMLLoad command (since Arma 3 build 1.27.126715)
+
+// SCRIPTING ISSUES
+onUserConnected = "";            // command to run when a player connects
+onUserDisconnected = "";         // command to run when a player disconnects
+doubleIdDetected = "";           // command to run if a player has the same ID as another player in the server
+
+// SIGNATURE VERIFICATION
+onUnsignedData = "kick (_this select 0)";    // command to run if a player has unsigned data
+onHackedData =  "kick (_this select 0)";     // command to run if a player has data with invalid signatures
+onDifferentData = "";                        // command to run if a player has modified data</template>
+    <enable_config_editor>1</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-22 13:14:19" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-04 04:51:12" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>21</file_id>
+    <mod_id>3</mod_id>
+    <relative_path>ServerRPT\Basic.cfg</relative_path>
+    <description>Network</description>
+    <view_order>0</view_order>
+    <template>//
+// Exile Mod basic.cfg Settings
+//
+// This file has been tuned for a box running only one Arma 3 server on a 
+// 1 GBit/s pipe with 100 slots
+//
+// See https://community.bistudio.com/wiki/basic.cfg
+//
+
+///////////////////////////////////////////////////////////////////////////////
+// Default Options
+///////////////////////////////////////////////////////////////////////////////
+language = "English";
+adapter = -1;
+3D_Performance = 1.000000;
+Resolution_W = 800;
+Resolution_H = 600;
+Resolution_Bpp = 32;
+
+///////////////////////////////////////////////////////////////////////////////
+// Bandwidth Tuning 
+//
+// Be sure to adjust this to your server settings!
+// This example is for 1GBit/s pipe
+///////////////////////////////////////////////////////////////////////////////
+// 100MB * 1024 * 1024 = 104857600
+MinBandwidth = 104857600;	
+
+// Do NOT set this too high or your Arma server will simulate ego-ddos
+// 600MB * 1024 * 1024 = 629145600
+MaxBandwidth = 629145600;		
+
+///////////////////////////////////////////////////////////////////////////////
+// Network Tuning 
+// 
+// Usually something we developers set. Only change these if you really know
+// what you are doing. Do something wrong here and your sever will burn in hell 
+// and cause massive desych.
+///////////////////////////////////////////////////////////////////////////////
+MaxMsgSend = 256;
+MaxSizeGuaranteed = 512;		
+MaxSizeNonguaranteed = 256;	
+MinErrorToSend = 0.004;	
+MinErrorToSendNear = 0.03;		
+MaxCustomFileSize = 0;			</template>
+    <enable_config_editor>1</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-04 03:30:31" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-04 10:35:43" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>34</game_id>
+    <file_id>22</file_id>
+    <mod_id>3</mod_id>
+    <relative_path>ServerRPT\Server.cfg</relative_path>
+    <description>Server Info</description>
+    <view_order>0</view_order>
+    <template>hostname        					= "$[HostName] exilemod.com (1.0.2|1.64)";
+password         					= "$[PrivatePassword]";
+passwordAdmin      					= "$[PrivatePassword]";
+serverCommandPassword				= "$[PrivatePassword]";
+logFile            					= "server.log";
+verifySignatures   					= 1; // Do NOT use verifySignatures=2! It costs too many FPS
+BattlEye            				= 1;
+requiredBuild 						= 139494; // 1.66 stable
+allowedLoadFileExtensions[] 		= {:};
+allowedPreprocessFileExtensions[] 	= {"sqf"};
+allowedHTMLLoadExtensions[] 		= {"html"};
+motdInterval 						= 5;               
+maxPlayers 					        = $[Service.Slots];		
+voteMissionPlayers 					= 200;   
+voteThreshold 						= 200;
+disableVoN							= 0;        
+vonCodecQuality 					= 30;   
+persistent							= 1;       
+kickDuplicate 						= 1;
+equalModRequired 					= 0;
+kickClientsOnSlowNetwork            = 0;
+timeStampFormat 					= "short";
+onUserConnected 					= "";
+onUserDisconnected 					= "";
+doubleIdDetected 					= "";
+onUnsignedData 						= "kick (_this select 0)";	
+onHackedData 						= "kick (_this select 0)";
+onDifferentData 					= "kick (_this select 0)";
+motd[] 								= {"Welcome to $[HostName] Arma 3 Exile Mod!", "www.exilemod.com", "Enjoy your stay!" };
+
+class Missions
+{
+	class Exile
+	{
+		template = Exile.Altis;  // Exile.Namalsk, Exile.Altis
+
+		// do NOT use custom difficulties!
+		// Use either ExileRegular or ExileHardcore
+		// or you will break Exile!
+		difficulty = "ExileRegular";
+	}; 
+};
+
+</template>
+    <enable_config_editor>1</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>1</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-04 03:30:31" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-04 10:42:07" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_config_files>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>1</variable_id>
+    <name>Description</name>
+    <default_value>Server provided by TCAdminExperts.com</default_value>
+    <is_numeric>0</is_numeric>
+    <preserve_value>1</preserve_value>
+    <view_order>1</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 20:35:47" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>2</variable_id>
+    <name>tags</name>
+    <default_value>tags</default_value>
+    <is_numeric>0</is_numeric>
+    <preserve_value>1</preserve_value>
+    <view_order>2</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 20:36:09" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>3</variable_id>
+    <name>commentmaxplayers</name>
+    <default_value>Maximum number of players allowed, admins can join even a full server.</default_value>
+    <is_numeric>0</is_numeric>
+    <preserve_value>1</preserve_value>
+    <view_order>3</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 20:37:45" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>4</variable_id>
+    <name>commentvisibility</name>
+    <default_value>public</default_value>
+    <is_numeric>0</is_numeric>
+    <preserve_value>1</preserve_value>
+    <view_order>4</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 20:44:37" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>5</variable_id>
+    <name>visibility</name>
+    <default_value>true</default_value>
+    <is_numeric>0</is_numeric>
+    <preserve_value>1</preserve_value>
+    <view_order>5</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 20:45:02" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>6</variable_id>
+    <name>commentvisibilitylan</name>
+    <default_value>lan</default_value>
+    <is_numeric>0</is_numeric>
+    <preserve_value>1</preserve_value>
+    <view_order>6</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 20:45:29" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>7</variable_id>
+    <name>visibilitylan</name>
+    <default_value>true</default_value>
+    <is_numeric>0</is_numeric>
+    <preserve_value>1</preserve_value>
+    <view_order>7</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 20:45:49" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>8</variable_id>
+    <name>LoadWordBackup</name>
+    <default_value />
+    <is_numeric>0</is_numeric>
+    <preserve_value>1</preserve_value>
+    <view_order>8</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-22 02:01:24" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-09-22 02:01:53" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>51</script_id>
+    <mod_id>0</mod_id>
+    <update_id>0</update_id>
+    <operating_system>2</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Create FactorioWorld.bat</description>
+    <script_contents>START "" /WAIT "bin\x64\factorio.exe" --create saves\my-save.zip --map-gen-settings data\map-gen-settings.json --map-settings data\map-settings.json</script_contents>
+    <service_event>2</service_event>
+    <execute_order>2</execute_order>
+    <ignore_errors>0</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 21:32:46" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-10-24 23:28:02" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>50</script_id>
+    <mod_id>0</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>World Save (CTRL+C) Before Shutdown</description>
+    <script_contents>Script.WriteToConsole("^C");</script_contents>
+    <service_event>17</service_event>
+    <execute_order>1</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2017-09-21 18:03:55" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2017-09-21 18:04:44" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>14</script_id>
+    <mod_id>2</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Delete Old DB</description>
+    <script_contents>import clr;
+import System;
+ 
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+ 
+mysql_server="127.0.0.1";
+mysql_root="root";
+mysql_password="";
+ 
+if not ThisService.Variables.HasValue("MySQLUser") :
+ Script.Exit();
+ 
+if ThisService.Variables["MySQLUser"] is None :
+ Script.Exit();
+ 
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+ 
+ mysql.ExecuteNonQuery(String.Format("DROP DATABASE IF EXISTS {0};", escapeduser));
+ if mysql.Execute(String.Format("SELECT * FROM mysql.user WHERE user='{0}' AND host='188.165.213.11';", escapeduser)).Rows.Count == 1 :
+  mysql.ExecuteNonQuery(String.Format("DROP USER {0}@127.0.0.1;", escapeduser));</script_contents>
+    <service_event>9</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-23 03:05:51" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-05 02:24:28" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>22</script_id>
+    <mod_id>3</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Delete Old DB</description>
+    <script_contents>import clr;
+import System;
+ 
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+
+mysql_server="37.59.53.156";
+mysql_root="NAS_TC";
+mysql_password="Qazxsw121";
+ 
+if not ThisService.Variables.HasValue("MySQLUser") :
+ Script.Exit();
+ 
+if ThisService.Variables["MySQLUser"] is None :
+ Script.Exit();
+ 
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+ 
+ mysql.ExecuteNonQuery(String.Format("DROP DATABASE IF EXISTS {0};", escapeduser));
+ if mysql.Execute(String.Format("SELECT * FROM mysql.user WHERE user='{0}' AND host='188.165.213.11';", escapeduser)).Rows.Count == 1 :
+  mysql.ExecuteNonQuery(String.Format("DROP USER {0}@127.0.0.1;", escapeduser));</script_contents>
+    <service_event>9</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-04 03:30:31" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-09 22:18:16" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>9</script_id>
+    <mod_id>1</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>New User</description>
+    <script_contents>import clr;
+import System;
+ 
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.SDK.Misc import Random;
+from System import String;
+ 
+ThisService.Variables["MySQLUser"] = String.Format("NAS_db{0}", ThisService.ServiceId);
+ThisService.Variables["MySQLPassword"] = Random.RandomString(10,True,True);
+ThisService.Save();</script_contents>
+    <service_event>9</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-22 13:08:44" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-05 02:30:24" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>34</script_id>
+    <mod_id>3</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>New User</description>
+    <script_contents>import clr;
+import System;
+ 
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.SDK.Misc import Random;
+from System import String;
+ 
+ThisService.Variables["MySQLUser"] = String.Format("NAS_db{0}", ThisService.ServiceId);
+ThisService.Variables["MySQLPassword"] = Random.RandomString(10,True,True);
+ThisService.Save();</script_contents>
+    <service_event>9</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-05 02:32:39" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>21</script_id>
+    <mod_id>1</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Remove Stock Mission</description>
+    <script_contents>@echo off
+
+rd   /q /s mpmissions
+del /q ServerRPT\server.cfg
+del /q ServerRPT\basic.cfg</script_contents>
+    <service_event>9</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-25 14:37:11" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>8</script_id>
+    <mod_id>1</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Delete Old DB</description>
+    <script_contents>import clr;
+import System;
+ 
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+ 
+mysql_server="37.59.53.156";
+mysql_root="NAS_TC";
+mysql_password="Qazxsw121";
+ 
+if not ThisService.Variables.HasValue("MySQLUser") :
+ Script.Exit();
+ 
+if ThisService.Variables["MySQLUser"] is None :
+ Script.Exit();
+ 
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+ 
+ mysql.ExecuteNonQuery(String.Format("DROP DATABASE IF EXISTS {0};", escapeduser));
+ if mysql.Execute(String.Format("SELECT * FROM mysql.user WHERE user='{0}' AND host='127.0.0.1';", escapeduser)).Rows.Count == 1 :
+  mysql.ExecuteNonQuery(String.Format("DROP USER {0}@188.165.213.11;", escapeduser));</script_contents>
+    <service_event>9</service_event>
+    <execute_order>1</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-22 13:07:56" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-09 22:14:08" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>24</script_id>
+    <mod_id>3</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>DB install</description>
+    <script_contents>import clr;
+import System;
+
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+
+
+mysql_server="37.59.53.156";
+mysql_root="NAS_TC";
+mysql_password="Qazxsw121";
+
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ escapedpass=mysql.PrepareSqlValue(ThisService.Variables["MySQLPassword"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+
+ mysql.ExecuteNonQuery(String.Format("CREATE DATABASE {0};", escapeduser));
+ mysql.ExecuteNonQuery(String.Format("GRANT ALL PRIVILEGES ON {0}.* TO '{0}'@'%' IDENTIFIED BY '{1}';", escapeduser, escapedpass));
+ mysql.Disconnect();
+ mysql.Connect(String.Format("Data Source={0};User Id={2};Password={3};Pooling=False;Database={1};", mysql_server, escapeduser, mysql_root, mysql_password));
+ mysql.ImportDatabase(" C:\\Users\\root\\Desktop\\sql\\exile.sql");</script_contents>
+    <service_event>11</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-04 03:36:19" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-09 22:17:58" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>5</script_id>
+    <mod_id>1</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Install Altis DB</description>
+    <script_contents>import clr;
+import System;
+
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+
+mysql_server="37.59.53.156";
+mysql_root="NAS_TC";
+mysql_password="Qazxsw121";
+
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ escapedpass=mysql.PrepareSqlValue(ThisService.Variables["MySQLPassword"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+
+ mysql.ExecuteNonQuery(String.Format("DROP DATABASE IF EXISTS {0};", escapeduser));
+ if mysql.Execute(String.Format("SELECT * FROM mysql.user WHERE user='{0}' AND host='%';", escapeduser)).Rows.Count == 1 :
+  mysql.ExecuteNonQuery(String.Format("DROP USER {0}@localhost;", escapeduser));
+
+ mysql.ExecuteNonQuery(String.Format("CREATE DATABASE {0};", escapeduser));
+ mysql.ExecuteNonQuery(String.Format("GRANT ALL PRIVILEGES ON {0}.* TO '{0}'@'%' IDENTIFIED BY '{1}';", escapeduser, escapedpass));
+ mysql.Disconnect();
+ mysql.Connect(String.Format("Data Source={0};User Id={2};Password={3};Pooling=False;Database={1};", mysql_server, escapeduser, mysql_root, mysql_password));
+ mysql.ImportDatabase(" C:\\Users\\root\\Desktop\\sql\\altislife.sql");</script_contents>
+    <service_event>11</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-22 13:03:44" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-09 22:14:03" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>38</script_id>
+    <mod_id>4</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mods</description>
+    <script_contents>@echo off
+rd   /q /s @CUP_Terrains
+</script_contents>
+    <service_event>12</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-20 22:40:38" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-21 00:42:56" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>42</script_id>
+    <mod_id>5</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mods</description>
+    <script_contents>@echo off
+rd   /q /s @CUP_Weapons
+</script_contents>
+    <service_event>12</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-20 22:51:09" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-20 23:23:22" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>40</script_id>
+    <mod_id>7</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mods</description>
+    <script_contents>@echo off
+rd   /q /s @Cup_vehicles
+</script_contents>
+    <service_event>12</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-20 22:43:30" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-20 23:22:40" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>6</script_id>
+    <mod_id>1</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Delete DB</description>
+    <script_contents>import clr;
+import System;
+ 
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+ 
+mysql_server="37.59.53.156";
+mysql_root="tcadmin";
+mysql_password="FuckOffHacker";
+
+ 
+if not ThisService.Variables.HasValue("MySQLUser") :
+ Script.Exit();
+ 
+if ThisService.Variables["MySQLUser"] is None :
+ Script.Exit();
+ 
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+ 
+ mysql.ExecuteNonQuery(String.Format("DROP DATABASE IF EXISTS {0};", escapeduser));
+ if mysql.Execute(String.Format("SELECT * FROM mysql.user WHERE user='{0}' AND host='188.165.213.11';", escapeduser)).Rows.Count == 1 :
+  mysql.ExecuteNonQuery(String.Format("DROP USER {0}@127.0.0.1;", escapeduser));</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-22 13:05:23" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-09 22:06:42" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>19</script_id>
+    <mod_id>2</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Delete Mod Files</description>
+    <script_contents>@echo off
+rd   /q /s @Epoch
+rd   /q /s @Epochhive
+rd   /q /s DB
+rd   /q /s mpmissions
+rd   /q /s mpmissions\[CTF][CLB].Stratis.pbo
+del /q ServerRPT\server.cfg
+del /q ServerRPT\basic.cfg</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-23 03:09:47" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-05 00:55:25" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>23</script_id>
+    <mod_id>3</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Delete Mod Files</description>
+    <script_contents>@echo off
+rd   /q /s @Epoch
+rd   /q /s @Epochhive
+rd   /q /s DB
+rd   /q /s mpmissions
+rd   /q /s mpmissions\[CTF][CLB].Stratis.pbo
+
+del /q ServerRPT\server.cfg
+del /q ServerRPT\basic.cfg</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-04 03:30:31" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-05 00:46:48" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>44</script_id>
+    <mod_id>15</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mod</description>
+    <script_contents>@echo off
+rd   /q /s @Tfar</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-21 00:39:48" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-21 00:39:59" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>36</script_id>
+    <mod_id>11</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mods</description>
+    <script_contents>@echo off
+rd   /q /s @Chernarus_Winter_A3_v1.11
+</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-20 22:36:57" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-20 22:54:21" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>37</script_id>
+    <mod_id>10</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mods</description>
+    <script_contents>@echo off
+rd   /q /s @ace
+</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-20 22:40:07" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>39</script_id>
+    <mod_id>6</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mods</description>
+    <script_contents>@echo off
+rd   /q /s @CUP_Units
+</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-20 22:41:05" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-20 23:19:45" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>41</script_id>
+    <mod_id>9</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mods</description>
+    <script_contents>@echo off
+rd   /q /s @CUP_Vehicles_ACE_compat</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-20 22:44:34" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-20 22:54:05" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>43</script_id>
+    <mod_id>8</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mods</description>
+    <script_contents>@echo off
+rd   /q /s @CUP_Weapons_ACE_compat</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-20 22:52:26" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-20 23:46:50" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>45</script_id>
+    <mod_id>16</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mods</description>
+    <script_contents>@echo off
+rd   /q /s @TRYK</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-21 01:13:16" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>46</script_id>
+    <mod_id>12</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mods</description>
+    <script_contents>@echo off
+rd   /q /s @esseker</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-21 01:14:11" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>47</script_id>
+    <mod_id>14</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Remove Mods</description>
+    <script_contents>@echo off
+rd   /q /s @Zombies</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-21 01:15:53" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>12</script_id>
+    <mod_id>1</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Removes Mod Folders</description>
+    <script_contents>@echo off
+rd   /q /s @life_server
+rd   /q /s @extDB2
+rd   /q /s MPmissions
+rd   /q /s mpmissions\[CTF][CLB].Stratis.pbo
+del /q ServerRPT\server.cfg
+del /q ServerRPT\basic.cfg</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-22 18:24:38" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-05 22:09:14" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>10</script_id>
+    <mod_id>1</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Database Login</description>
+    <script_contents>@echo off
+
+echo MySQL Server: 37.59.53.156
+echo Port 3306
+echo MySQL User: %ThisService_MySQLUser%
+echo MySQL Password: %ThisService_MySQLPassword%</script_contents>
+    <service_event>19</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>1</server_owner_access>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name>Database Login information </display_name>
+    <image_url>/App_Themes/Default/Images/ControlPanel/MenuIcons/Base/Database.png</image_url>
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-22 13:20:51" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-09 22:20:55" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>33</script_id>
+    <mod_id>3</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Database Login</description>
+    <script_contents>@echo off
+
+echo MySQL Server: 193.70.104.187
+echo Port 3306
+echo MySQL User: %ThisService_MySQLUser%
+echo MySQL Password: %ThisService_MySQLPassword%</script_contents>
+    <service_event>19</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name>Database Login information </display_name>
+    <image_url>/App_Themes/Default/Images/ControlPanel/MenuIcons/Base/Database.png</image_url>
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-05 02:29:01" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-05 02:32:14" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>32</script_id>
+    <mod_id>1</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Install Altis DB</description>
+    <script_contents>import clr;
+import System;
+
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+
+mysql_server="37.59.53.156";
+mysql_root="NAS_TC";
+mysql_password="Qazxsw121";
+
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ escapedpass=mysql.PrepareSqlValue(ThisService.Variables["MySQLPassword"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+
+
+
+ mysql.ExecuteNonQuery(String.Format("CREATE DATABASE {0};", escapeduser));
+ mysql.ExecuteNonQuery(String.Format("GRANT ALL PRIVILEGES ON {0}.* TO '{0}'@'%' IDENTIFIED BY '{1}';", escapeduser, escapedpass));
+ mysql.Disconnect();
+ mysql.Connect(String.Format("Data Source={0};User Id={2};Password={3};Pooling=False;Database={1};", mysql_server, escapeduser, mysql_root, mysql_password));
+ mysql.ImportDatabase(" C:\\Users\\root\\Desktop\\sql\\altislife.sql");</script_contents>
+    <service_event>19</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>1</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name>Install Altis DB</display_name>
+    <image_url>http://needaserver.co.uk/img/sql.png</image_url>
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-05 00:52:05" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-16 15:28:32" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>20</script_id>
+    <mod_id>2</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Redis</description>
+    <script_contents>@echo off
+echo Killing Redis Processes
+taskkill /f /fi "status eq not responding" /im redis-server.exe
+taskkill /f /im redis-server.exe
+timeout 3
+echo starting redisDB
+cd /d ".\DB\"
+start redis-server.exe redis.conf
+exit</script_contents>
+    <service_event>19</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>1</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name>Redis</display_name>
+    <image_url>http://clickslatam.com/wp-content/uploads/2015/10/redis.jpg</image_url>
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>1</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-23 03:20:35" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-11-23 04:09:52" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>29</script_id>
+    <mod_id>3</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Reinstall Exile DB</description>
+    <script_contents>import clr;
+import System;
+
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+
+mysql_server="37.59.53.156";
+mysql_root="NAS_TC";
+mysql_password="Qazxsw121";
+
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ escapedpass=mysql.PrepareSqlValue(ThisService.Variables["MySQLPassword"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+
+
+ mysql.ExecuteNonQuery(String.Format("CREATE DATABASE {0};", escapeduser));
+ mysql.ExecuteNonQuery(String.Format("GRANT ALL PRIVILEGES ON {0}.* TO '{0}'@'%' IDENTIFIED BY '{1}';", escapeduser, escapedpass));
+ mysql.Disconnect();
+ mysql.Connect(String.Format("Data Source={0};User Id={2};Password={3};Pooling=False;Database={1};", mysql_server, escapeduser, mysql_root, mysql_password));
+ mysql.ImportDatabase(" C:\\Users\\root\\Desktop\\sql\\exile.sql");
+</script_contents>
+    <service_event>19</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name>Reinstall Exile DB</display_name>
+    <image_url>https://yt3.ggpht.com/-3n-wlEKW2XA/AAAAAAAAAAI/AAAAAAAAAAA/uQY9V-eCG-8/s88-c-k-no-rj-c0xffffff/photo.jpg</image_url>
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-04 12:50:42" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-09 22:17:52" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>49</script_id>
+    <mod_id>3</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Wipe DB</description>
+    <script_contents>import clr;
+import System;
+ 
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+ 
+mysql_server="37.59.53.156";
+mysql_root="NAS_TC";
+mysql_password="Qazxsw121";
+ 
+if not ThisService.Variables.HasValue("MySQLUser") :
+ Script.Exit();
+ 
+if ThisService.Variables["MySQLUser"] is None :
+ Script.Exit();
+ 
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+ 
+ mysql.ExecuteNonQuery(String.Format("DROP DATABASE IF EXISTS {0};", escapeduser));
+ if mysql.Execute(String.Format("SELECT * FROM mysql.user WHERE user='{0}' AND host='127.0.0.1';", escapeduser)).Rows.Count == 1 :
+  mysql.ExecuteNonQuery(String.Format("DROP USER {0}@37.59.53.156;", escapeduser));
+ mysql.Disconnect();       
+import clr;
+import System;
+
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+
+mysql_server="37.59.53.156";
+mysql_root="NAS_TC";
+mysql_password="Qazxsw121";
+
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ escapedpass=mysql.PrepareSqlValue(ThisService.Variables["MySQLPassword"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+
+
+
+ mysql.ExecuteNonQuery(String.Format("CREATE DATABASE {0};", escapeduser));
+ mysql.ExecuteNonQuery(String.Format("GRANT ALL PRIVILEGES ON {0}.* TO '{0}'@'%' IDENTIFIED BY '{1}';", escapeduser, escapedpass));
+ mysql.Disconnect();
+ mysql.Connect(String.Format("Data Source={0};User Id={2};Password={3};Pooling=False;Database={1};", mysql_server, escapeduser, mysql_root, mysql_password));
+ mysql.ImportDatabase(" C:\\Users\\root\\Desktop\\sql\\exile.sql");</script_contents>
+    <service_event>19</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>1</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name>Wipe DB</display_name>
+    <image_url>http://198.27.70.199/wipe.png</image_url>
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-30 21:16:10" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-30 21:17:24" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>34</game_id>
+    <script_id>48</script_id>
+    <mod_id>1</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Wipe DB</description>
+    <script_contents>import clr;
+import System;
+ 
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+ 
+mysql_server="37.59.53.156";
+mysql_root="NAS_TC";
+mysql_password="Qazxsw121";
+ 
+if not ThisService.Variables.HasValue("MySQLUser") :
+ Script.Exit();
+ 
+if ThisService.Variables["MySQLUser"] is None :
+ Script.Exit();
+ 
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+ 
+ mysql.ExecuteNonQuery(String.Format("DROP DATABASE IF EXISTS {0};", escapeduser));
+ if mysql.Execute(String.Format("SELECT * FROM mysql.user WHERE user='{0}' AND host='127.0.0.1';", escapeduser)).Rows.Count == 1 :
+  mysql.ExecuteNonQuery(String.Format("DROP USER {0}@37.59.53.156;", escapeduser));
+ mysql.Disconnect();       
+import clr;
+import System;
+
+clr.AddReference("TCAdmin.DatabaseProviders.MySql");
+clr.AddReference("TCAdmin.SDK");
+from TCAdmin.DatabaseProviders.MySql import MySqlManager;
+from System import String;
+
+mysql_server="37.59.53.156";
+mysql_root="NAS_TC";
+mysql_password="Qazxsw121";
+
+with MySqlManager() as mysql:
+ escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
+ escapedpass=mysql.PrepareSqlValue(ThisService.Variables["MySQLPassword"]);
+ mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
+
+
+
+ mysql.ExecuteNonQuery(String.Format("CREATE DATABASE {0};", escapeduser));
+ mysql.ExecuteNonQuery(String.Format("GRANT ALL PRIVILEGES ON {0}.* TO '{0}'@'%' IDENTIFIED BY '{1}';", escapeduser, escapedpass));
+ mysql.Disconnect();
+ mysql.Connect(String.Format("Data Source={0};User Id={2};Password={3};Pooling=False;Database={1};", mysql_server, escapeduser, mysql_root, mysql_password));
+ mysql.ImportDatabase(" C:\\Users\\root\\Desktop\\sql\\altislife.sql");
+ </script_contents>
+    <service_event>19</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name>Wipe Database</display_name>
+    <image_url>http://198.27.70.199/wipe.png</image_url>
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-12-30 21:03:20" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-30 21:12:23" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+  </tc_game_scripts>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>BukGet</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineBuilder</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineChanger</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FastDlSync</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FileManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Ftp</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>GameSwitcher</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveBandwidthStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveCpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveMemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LivePlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewer</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerServiceActivity</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerTextConsole</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MapPacks</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ModManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PunkbusterUpdate</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Reinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Repair</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledGameSwitcher</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledReinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledRestart</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledScript</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>SteamUpdate</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Updates</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>34</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>WebConsole</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>1</variable_id>
+    <admin_access>0</admin_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>0</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="Return.MD5" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label />
+    <description />
+    <custom_cmdline_template />
+    <view_order>1</view_order>
+    <cmdline_parameter>0</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+    <skip_not_selected>0</skip_not_selected>
+  </tc_game_variables_config>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>2</variable_id>
+    <admin_access>0</admin_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>0</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="Return.MD5" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label />
+    <description />
+    <custom_cmdline_template />
+    <view_order>2</view_order>
+    <cmdline_parameter>0</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+    <skip_not_selected>0</skip_not_selected>
+  </tc_game_variables_config>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>3</variable_id>
+    <admin_access>0</admin_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>0</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="Return.MD5" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label />
+    <description />
+    <custom_cmdline_template />
+    <view_order>3</view_order>
+    <cmdline_parameter>0</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+    <skip_not_selected>0</skip_not_selected>
+  </tc_game_variables_config>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>4</variable_id>
+    <admin_access>0</admin_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>0</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="Return.MD5" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label />
+    <description />
+    <custom_cmdline_template />
+    <view_order>4</view_order>
+    <cmdline_parameter>0</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+    <skip_not_selected>0</skip_not_selected>
+  </tc_game_variables_config>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>5</variable_id>
+    <admin_access>0</admin_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>0</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="Return.MD5" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label />
+    <description />
+    <custom_cmdline_template />
+    <view_order>5</view_order>
+    <cmdline_parameter>0</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+    <skip_not_selected>0</skip_not_selected>
+  </tc_game_variables_config>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>6</variable_id>
+    <admin_access>0</admin_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>0</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="Return.MD5" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label />
+    <description />
+    <custom_cmdline_template />
+    <view_order>6</view_order>
+    <cmdline_parameter>0</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+    <skip_not_selected>0</skip_not_selected>
+  </tc_game_variables_config>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>7</variable_id>
+    <admin_access>0</admin_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>0</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="Return.MD5" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label />
+    <description />
+    <custom_cmdline_template />
+    <view_order>7</view_order>
+    <cmdline_parameter>0</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+    <skip_not_selected>0</skip_not_selected>
+  </tc_game_variables_config>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>34</variable_source_id>
+    <variable_id>8</variable_id>
+    <admin_access>1</admin_access>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <server_owner_access>1</server_owner_access>
+    <value_required>0</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="Return.MD5" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label>Load Your World Backup:</item_label>
+    <description />
+    <custom_cmdline_template />
+    <view_order>8</view_order>
+    <cmdline_parameter>1</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+    <skip_not_selected>0</skip_not_selected>
+  </tc_game_variables_config>
+  <tc_dynamic_forms>
+    <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
+    <dynamic_form_source_id>34.10</dynamic_form_source_id>
+    <dynamic_form_id>10</dynamic_form_id>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-11-23 03:00:33" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_dynamic_forms>
+  <tc_dynamic_form_items>
+    <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
+    <dynamic_form_source_id>34.10</dynamic_form_source_id>
+    <dynamic_form_id>10</dynamic_form_id>
+    <item_id>1</item_id>
+    <variable_source />
+    <variable_source_id />
+    <variable_id>0</variable_id>
+    <value_required>0</value_required>
+    <required_message />
+    <item_type>0</item_type>
+    <item_config />
+    <item_label>ServerCFG</item_label>
+    <description />
+    <repeat_section_id>-1</repeat_section_id>
+    <view_order>1</view_order>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+  </tc_dynamic_form_items>
+  <tc_dynamic_form_items>
+    <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
+    <dynamic_form_source_id>34.10</dynamic_form_source_id>
+    <dynamic_form_id>10</dynamic_form_id>
+    <item_id>2</item_id>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Service</variable_source>
+    <variable_source_id>__DEFAULT_VARIABLE:False</variable_source_id>
+    <variable_id>6</variable_id>
+    <value_required>1</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="Return.MD5" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <item_label>HostName</item_label>
+    <description />
+    <repeat_section_id>-1</repeat_section_id>
+    <view_order>2</view_order>
+    <parent_variable_source>TCAdmin.GameHosting.SDK.Objects.Service</parent_variable_source>
+    <parent_variable_source_id>__DEFAULT_VARIABLE:False</parent_variable_source_id>
+    <parent_variable_id>30</parent_variable_id>
+    <parent_variable_value />
+  </tc_dynamic_form_items>
+</Factorio>
