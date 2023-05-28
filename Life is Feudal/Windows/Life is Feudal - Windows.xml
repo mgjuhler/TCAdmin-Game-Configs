@@ -1,8 +1,8 @@
 <Life_x0020_is_x0020_Feudal>
   <tc_games>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <operating_system>2</operating_system>
-    <display_name>Life is Feudal: Your Own - [v1.0.0]*</display_name>
+    <display_name>Life is Feudal: Your Own</display_name>
     <short_name>Life is Feudal</short_name>
     <private_rule_value>1</private_rule_value>
     <private_rule_name>password</private_rule_name>
@@ -17,25 +17,31 @@
     <is_template>0</is_template>
     <min_slots>1</min_slots>
     <max_slots>64</max_slots>
-    <default_slots>10</default_slots>
+    <default_slots>64</default_slots>
     <name_from_query>1</name_from_query>
     <exclude_load_balancing>0</exclude_load_balancing>
+    <custom_home_view />
+    <custom_status_view />
+    <background_image>https://th.bing.com/th/id/R.8c3de62f58473d5c44af57f7ad62874f?rik=82Oh3q0g3AjGiQ&amp;riu=http%3a%2f%2fwww.brashgames.co.uk%2fwp-content%2fuploads%2f2016%2f01%2fLife-is-Feudal-Your-Own-Review-Screenshot-3.jpg&amp;ehk=yq1qYLOyYI%2byjvArbqrjCerIAWwIKTj9abVy5JG%2fmGA%</background_image>
+    <join_url />
     <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
   &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
-  &lt;add key="__TCA:NOTES" value="Life is Feudal: Your Own TCAdmin v2 Configuration File&amp;#xA;&amp;#xA;Made by Brit for the TCAdmin Community" type="System.String,mscorlib" /&gt;
-  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
+  &lt;add key="__TCA:NOTES" value="Life is Feudal: Your Own TCAdmin v2 Configuration File&amp;#xA;Updated by Mjoed" type="System.String,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.xml&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.log&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cs&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.sql&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;1024000&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
   &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
   &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2017-10-13 20:51:17" type="System.DateTime,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2017-11-13 09:19:36" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-05 15:59:56" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="__TCA:STEAM_API_GAME_VERSION" value="10" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCA:STEAM_API_GAME_VERSION_UPDATE" value="2017-11-05 19:15:17" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
+    <rcon_commands>[]</rcon_commands>
+    <enable_community_images>0</enable_community_images>
   </tc_games>
   <tc_game_paths>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <relative_executable>ddctd_cm_yo_server.exe</relative_executable>
     <relative_working_dir />
@@ -50,14 +56,15 @@
     <ext_script_engine_id>1</ext_script_engine_id>
     <ext_script />
     <ext_license />
+    <skip_exe_error>0</skip_exe_error>
   </tc_game_paths>
   <tc_game_general_config>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <enable_start_cpu_0>0</enable_start_cpu_0>
     <enable_interact_desktop>1</enable_interact_desktop>
     <enable_configs_icon>1</enable_configs_icon>
-    <enable_log_viewer>0</enable_log_viewer>
+    <enable_log_viewer>1</enable_log_viewer>
     <log_extensions>*.log</log_extensions>
     <branded_text />
     <branded_text_space>0</branded_text_space>
@@ -68,9 +75,11 @@
     <sched_tasks_limit>0</sched_tasks_limit>
     <force_config_editor_create>0</force_config_editor_create>
     <collapse_mod_groups>0</collapse_mod_groups>
+    <reuse_keys_on_ip>0</reuse_keys_on_ip>
+    <sched_tasks_interval_limit>15</sched_tasks_interval_limit>
   </tc_game_general_config>
   <tc_game_ports>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <only_default_ports>0</only_default_ports>
     <only_primary_ip>1</only_primary_ip>
     <game_port>28000</game_port>
@@ -89,6 +98,46 @@
     <custom_port_8>0</custom_port_8>
     <custom_port_9>0</custom_port_9>
     <custom_port_10>0</custom_port_10>
+    <custom_port_11>0</custom_port_11>
+    <custom_port_12>0</custom_port_12>
+    <custom_port_13>0</custom_port_13>
+    <custom_port_14>0</custom_port_14>
+    <custom_port_15>0</custom_port_15>
+    <custom_port_16>0</custom_port_16>
+    <custom_port_17>0</custom_port_17>
+    <custom_port_18>0</custom_port_18>
+    <custom_port_19>0</custom_port_19>
+    <custom_port_20>0</custom_port_20>
+    <custom_port_21>0</custom_port_21>
+    <custom_port_22>0</custom_port_22>
+    <custom_port_23>0</custom_port_23>
+    <custom_port_24>0</custom_port_24>
+    <custom_port_25>0</custom_port_25>
+    <custom_port_26>0</custom_port_26>
+    <custom_port_27>0</custom_port_27>
+    <custom_port_28>0</custom_port_28>
+    <custom_port_29>0</custom_port_29>
+    <custom_port_30>0</custom_port_30>
+    <custom_port_31>0</custom_port_31>
+    <custom_port_32>0</custom_port_32>
+    <custom_port_33>0</custom_port_33>
+    <custom_port_34>0</custom_port_34>
+    <custom_port_35>0</custom_port_35>
+    <custom_port_36>0</custom_port_36>
+    <custom_port_37>0</custom_port_37>
+    <custom_port_38>0</custom_port_38>
+    <custom_port_39>0</custom_port_39>
+    <custom_port_40>0</custom_port_40>
+    <custom_port_41>0</custom_port_41>
+    <custom_port_42>0</custom_port_42>
+    <custom_port_43>0</custom_port_43>
+    <custom_port_44>0</custom_port_44>
+    <custom_port_45>0</custom_port_45>
+    <custom_port_46>0</custom_port_46>
+    <custom_port_47>0</custom_port_47>
+    <custom_port_48>0</custom_port_48>
+    <custom_port_49>0</custom_port_49>
+    <custom_port_50>0</custom_port_50>
     <custom_port_1_expression />
     <custom_port_2_expression />
     <custom_port_3_expression />
@@ -101,19 +150,78 @@
     <custom_port_10_expression />
     <supports_ipv6>0</supports_ipv6>
     <unique_ports>2</unique_ports>
+    <enable_forcebindip>0</enable_forcebindip>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="GamePortComments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="QueryPortComments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="RConPortComments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort1Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort2Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort3Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort4Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort5Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort6Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort7Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort8Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort9Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort10Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort11Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort12Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort13Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort14Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort15Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort16Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort17Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort18Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort19Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort20Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort21Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort22Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort23Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort24Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort25Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort26Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort27Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort28Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort29Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort30Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort31Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort32Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort33Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort34Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort35Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort36Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort37Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort38Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort39Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort40Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort41Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort42Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort43Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort44Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort45Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort46Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort47Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort48Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort49Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomPort50Comments" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-05 15:59:56" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
   </tc_game_ports>
   <tc_game_cmdlines>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <cmdline_default>-world 1</cmdline_default>
     <cmdline_private />
     <cmdline_default_custom />
     <cmdline_private_custom />
     <predef_cmdlines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;ArrayOfPredefinedCommandLine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</predef_cmdlines>
+&lt;ArrayOfPredefinedCommandLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</predef_cmdlines>
     <disable_param_selection>0</disable_param_selection>
   </tc_game_cmdlines>
   <tc_game_punkbuster_config>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <enable_pbweb>0</enable_pbweb>
     <pb_relative_path>pb\</pb_relative_path>
@@ -121,23 +229,23 @@
     <execute_on_create>0</execute_on_create>
   </tc_game_punkbuster_config>
   <tc_game_query_monitoring>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <query_interval>600000</query_interval>
     <query_interval_retry>30000</query_interval_retry>
-    <enable_query_detect>1</enable_query_detect>
-    <query_detect_actions>8</query_detect_actions>
-    <query_detect_max>3</query_detect_max>
-    <query_detect_max_actions>9</query_detect_max_actions>
-    <enable_slot_detect>1</enable_slot_detect>
-    <slot_detect_actions>9</slot_detect_actions>
+    <enable_query_detect>0</enable_query_detect>
+    <query_detect_actions>0</query_detect_actions>
+    <query_detect_max>30</query_detect_max>
+    <query_detect_max_actions>0</query_detect_max_actions>
+    <enable_slot_detect>0</enable_slot_detect>
+    <slot_detect_actions>8</slot_detect_actions>
     <slot_detect_additional_slots>0</slot_detect_additional_slots>
-    <enable_private_detect>1</enable_private_detect>
-    <private_detect_actions>9</private_detect_actions>
+    <enable_private_detect>0</enable_private_detect>
+    <private_detect_actions>8</private_detect_actions>
     <enable_brand_detect>1</enable_brand_detect>
     <brand_detect_actions>9</brand_detect_actions>
     <enable_rule_detect>0</enable_rule_detect>
     <rules>&lt;?xml version="1.0" encoding="utf-16"?&gt;
-&lt;ArrayOfGameMonitorRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</rules>
+&lt;ArrayOfGameMonitorRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</rules>
     <enable_stats>1</enable_stats>
     <stats_interval>900</stats_interval>
     <det_stats_max_days>7</det_stats_max_days>
@@ -149,24 +257,24 @@
   &lt;add key="__TCAGH:QueryFailureAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCAGH:QueryFailureMaxAllowedUserTemplateId" value="" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCAGH:QueryFailureMaxAllowedAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
-  &lt;add key="__TCA:QUERY_FAILURE_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
-  &lt;add key="__TCA:QUERY_FAILURE_MAX_ALLOWED_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCA:QUERY_FAILURE_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCA:QUERY_FAILURE_MAX_ALLOWED_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
   &lt;add key="__TCAGH:SlotDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCAGH:SlotDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
-  &lt;add key="__TCA:SLOT_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCA:SLOT_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
   &lt;add key="__TCAGH:PrivateDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCAGH:PrivateDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
-  &lt;add key="__TCA:PRIVATE_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCA:PRIVATE_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
   &lt;add key="__TCAGH:BrandDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCAGH:BrandDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
-  &lt;add key="__TCA:BRAND_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCA:BRAND_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
   &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2017-10-21 15:04:07" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-03-26 16:27:03" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
   </tc_game_query_monitoring>
   <tc_game_mail_templates>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
   &lt;add key="__TCAGH:InstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
@@ -175,12 +283,12 @@
   &lt;add key="__TCAGH:ReinstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2017-10-13 20:51:18" type="System.DateTime,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2017-11-13 09:19:36" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-05 15:59:56" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
   </tc_game_mail_templates>
   <tc_game_steam_config>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <enable_hldsupdate>2</enable_hldsupdate>
     <hlds_game_type>320850</hlds_game_type>
@@ -191,38 +299,53 @@
     <steam_password />
     <run_as_service_user>0</run_as_service_user>
     <store_game_id>0</store_game_id>
+    <workshop_enabled>0</workshop_enabled>
+    <workshop_stop>0</workshop_stop>
+    <workshop_skip_download>0</workshop_skip_download>
+    <workshop_file_id_format>![FileId]</workshop_file_id_format>
+    <workshop_file_id_separator>,</workshop_file_id_separator>
+    <use_store_backgrounds>0</use_store_backgrounds>
+    <workshop_account />
+    <workshop_password />
+    <workshop_installed_icon>0</workshop_installed_icon>
+    <workshop_updatable_icon>0</workshop_updatable_icon>
+    <workshop_collections_enabled>0</workshop_collections_enabled>
+    <workshop_retry>10</workshop_retry>
+    <search_unlisted>0</search_unlisted>
+    <delete_steamapps_on_error>1</delete_steamapps_on_error>
   </tc_game_steam_config>
   <tc_game_bukkit_config>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
   </tc_game_bukkit_config>
   <tc_game_tracker_config>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <ts_id>0</ts_id>
   </tc_game_tracker_config>
   <tc_game_identity>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <run_as>1</run_as>
     <user_name />
     <password />
   </tc_game_identity>
   <tc_game_text_console>
-    <game_id>52</game_id>
-    <control_input>0</control_input>
-    <control_output>0</control_output>
-    <stop_commands />
+    <game_id>188</game_id>
+    <control_input>1</control_input>
+    <control_output>1</control_output>
+    <stop_commands>quit();</stop_commands>
     <wait_for_exit>1</wait_for_exit>
   </tc_game_text_console>
   <tc_game_web_console>
-    <game_id>52</game_id>
-    <enable_web_console>0</enable_web_console>
+    <game_id>188</game_id>
+    <enable_web_console>1</enable_web_console>
     <input_source>1</input_source>
-    <output_source>0</output_source>
-    <log_file />
-    <print_rcon_response>0</print_rcon_response>
+    <output_source>1</output_source>
+    <log_file>logs\*</log_file>
+    <print_rcon_response>1</print_rcon_response>
+    <output_filters />
   </tc_game_web_console>
   <tc_game_fast_download>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <enable_fast_download>0</enable_fast_download>
     <root_directory />
     <url_expression>$[FastDownloadBaseUrl]/</url_expression>
@@ -233,9 +356,11 @@
     <enable_compress>0</enable_compress>
     <compress_format>zip</compress_format>
     <disk_quota_mb>0</disk_quota_mb>
+    <max_compress_size>0</max_compress_size>
+    <requires_https>0</requires_https>
   </tc_game_fast_download>
   <tc_game_config_files>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <file_id>1</file_id>
     <mod_id>0</mod_id>
     <relative_path>config\world_1.xml</relative_path>
@@ -297,7 +422,7 @@
 &lt;/values&gt;</app_data>
   </tc_game_config_files>
   <tc_game_config_files>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <file_id>2</file_id>
     <mod_id>0</mod_id>
     <relative_path>config_local.cs</relative_path>
@@ -320,7 +445,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_game_config_files>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>1</variable_id>
     <name>MySQLUser</name>
     <default_value />
@@ -333,13 +458,13 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2017-10-21 14:30:49" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2017-10-21 14:30:51" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-03-11 19:50:25" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>2</variable_id>
     <name>MySQLPassword</name>
     <default_value />
@@ -352,11 +477,13 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2017-10-21 14:31:04" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-03-11 19:50:44" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>3</variable_id>
     <name>mode</name>
     <default_value>Sandbox</default_value>
@@ -373,7 +500,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>4</variable_id>
     <name>isPrivate</name>
     <default_value>0</default_value>
@@ -392,7 +519,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>5</variable_id>
     <name>skillsStatsMult</name>
     <default_value>10</default_value>
@@ -411,7 +538,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>6</variable_id>
     <name>skillcap1</name>
     <default_value>400</default_value>
@@ -430,7 +557,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>7</variable_id>
     <name>skillcap2</name>
     <default_value>400</default_value>
@@ -447,7 +574,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>8</variable_id>
     <name>skillcap3</name>
     <default_value>400</default_value>
@@ -464,7 +591,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>9</variable_id>
     <name>terraformingSpeed</name>
     <default_value>4</default_value>
@@ -481,7 +608,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>10</variable_id>
     <name>craftingPeriod</name>
     <default_value>60</default_value>
@@ -498,7 +625,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>11</variable_id>
     <name>animalBFPeriod</name>
     <default_value>60</default_value>
@@ -515,7 +642,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>12</variable_id>
     <name>dayCycle</name>
     <default_value>3</default_value>
@@ -534,7 +661,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>13</variable_id>
     <name>animalsCount</name>
     <default_value>20</default_value>
@@ -553,7 +680,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>14</variable_id>
     <name>objectDecayRate</name>
     <default_value>0</default_value>
@@ -570,7 +697,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>15</variable_id>
     <name>movableMaxDropHeightMeters</name>
     <default_value>5</default_value>
@@ -587,7 +714,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>16</variable_id>
     <name>randomEventChanceWalk</name>
     <default_value>0.03</default_value>
@@ -604,7 +731,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>17</variable_id>
     <name>randomEventChanceAbility</name>
     <default_value>0.02</default_value>
@@ -623,7 +750,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>18</variable_id>
     <name>horsesDecayTimeMinutes</name>
     <default_value>0</default_value>
@@ -642,7 +769,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>19</variable_id>
     <name>homecomingDrop</name>
     <default_value>0</default_value>
@@ -659,7 +786,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>20</variable_id>
     <name>judgementHour</name>
     <default_value>00:00</default_value>
@@ -676,7 +803,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>21</variable_id>
     <name>monday</name>
     <default_value>0</default_value>
@@ -693,7 +820,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>22</variable_id>
     <name>tuesday</name>
     <default_value>0</default_value>
@@ -710,7 +837,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>23</variable_id>
     <name>wednesday</name>
     <default_value>0</default_value>
@@ -727,7 +854,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>24</variable_id>
     <name>thursday</name>
     <default_value>0</default_value>
@@ -746,7 +873,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>25</variable_id>
     <name>friday</name>
     <default_value>0</default_value>
@@ -763,7 +890,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>26</variable_id>
     <name>saturday</name>
     <default_value>0</default_value>
@@ -780,7 +907,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>27</variable_id>
     <name>sunday</name>
     <default_value>0</default_value>
@@ -797,7 +924,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
   </tc_custom_variables>
   <tc_custom_variables>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>28</variable_id>
     <name>duration</name>
     <default_value>0</default_value>
@@ -815,7 +942,7 @@ $cm_config::DB::Connect::password = "![MySQLPassword]";</template>
 &lt;/values&gt;</app_data>
   </tc_custom_variables>
   <tc_game_scripts>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <script_id>1</script_id>
     <mod_id>0</mod_id>
     <update_id>0</update_id>
@@ -856,14 +983,14 @@ ThisService.Save();</script_contents>
     <custom_prompt />
   </tc_game_scripts>
   <tc_game_scripts>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <script_id>2</script_id>
     <mod_id>0</mod_id>
     <update_id>0</update_id>
     <operating_system>0</operating_system>
     <script_engine_id>1</script_engine_id>
     <description>Create MySQL Database and User</description>
-    <script_contents>						import clr;
+    <script_contents>import clr;
 import System;
 
 clr.AddReference("TCAdmin.DatabaseProviders.MySql");
@@ -872,8 +999,8 @@ from TCAdmin.DatabaseProviders.MySql import MySqlManager;
 from System import String;
 
 mysql_server="localhost";
-mysql_root="root";
-mysql_password="CHANGEME";
+mysql_root="root";  <!-- set your username for account creations possibly root? -->
+mysql_password="setpassword"; <!-- set your password for account creations -->
 
 with MySqlManager() as mysql:
  escapeduser=mysql.PrepareSqlValue(ThisService.Variables["MySQLUser"]);
@@ -882,16 +1009,18 @@ with MySqlManager() as mysql:
  mysql.Connect(String.Format("Data Source={0};User Id={1};Password={2};Pooling=False;", mysql_server, mysql_root, mysql_password));
 
  mysql.ExecuteNonQuery(String.Format("DROP DATABASE IF EXISTS {0};", escapeduser));
- if mysql.Execute(String.Format("SELECT * FROM mysql.user WHERE user='{0}' AND host='localhost';", escapeduser)).Rows.Count == 1 :
-  mysql.ExecuteNonQuery(String.Format("DROP USER {0}@localhost;", escapeduser));
+ if mysql.Execute(String.Format("SELECT * FROM mysql.user WHERE user='{0}' AND host='%';", escapeduser)).Rows.Count == 1 :
+  mysql.ExecuteNonQuery(String.Format("DROP USER {0}@'%';", escapeduser));
 
  mysql.ExecuteNonQuery(String.Format("CREATE DATABASE {0};", escapeduser));
- mysql.ExecuteNonQuery(String.Format("GRANT ALL PRIVILEGES ON {0}.* TO '{0}'@'localhost' IDENTIFIED BY '{1}';", escapeduser, escapedpass));
+ mysql.ExecuteNonQuery(String.Format("CREATE USER {0}@'%' IDENTIFIED BY '{1}';", escapeduser, escapedpass));
+ mysql.ExecuteNonQuery(String.Format("GRANT ALL PRIVILEGES ON {0}.* TO {0}@'%';", escapeduser));
                                      
 with MySqlManager() as mysql2:
  mysql2.DisableReplication=True;
  mysql2.Connect(String.Format("Data Source={0};Database={1};User Id= {1};Password={2};Pooling=False;", mysql_server, ThisService.Variables["MySQLUser"], ThisService.Variables["MySQLPassword"]));
- mysql2.ImportDatabase(ThisService.RootDirectory + "new.sql");                                     </script_contents>
+ mysql2.ImportDatabase(ThisService.RootDirectory + "sql/new.sql");   
+                    </script_contents>
     <service_event>2</service_event>
     <execute_order>2</execute_order>
     <ignore_errors>0</ignore_errors>
@@ -910,13 +1039,15 @@ with MySqlManager() as mysql2:
   &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2017-10-21 13:37:33" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2017-11-13 09:18:52" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-01 17:27:26" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
     <output_filters />
     <custom_prompt />
+    <execute_in_popup>0</execute_in_popup>
+    <sched_tasks_interval_limit>15</sched_tasks_interval_limit>
   </tc_game_scripts>
   <tc_game_scripts>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <script_id>3</script_id>
     <mod_id>0</mod_id>
     <update_id>0</update_id>
@@ -932,8 +1063,8 @@ from TCAdmin.DatabaseProviders.MySql import MySqlManager;
 from System import String;
 
 mysql_server="localhost";
-mysql_root="root";
-mysql_password="CHANGEME";
+mysql_root="root"; <!-- set your username for account creations possibly root? -->
+mysql_password="setpassword"; <!-- set your password for account creations possibly root? -->
 
 if not ThisService.Variables.HasValue("MySQLUser") :
  Script.Exit();
@@ -967,13 +1098,15 @@ with MySqlManager() as mysql:
   &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2017-10-21 13:39:56" type="System.DateTime,mscorlib" /&gt;
   &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2017-11-13 09:19:06" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-01 17:27:47" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
     <output_filters />
     <custom_prompt />
+    <execute_in_popup>0</execute_in_popup>
+    <sched_tasks_interval_limit>15</sched_tasks_interval_limit>
   </tc_game_scripts>
   <tc_game_scripts>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <script_id>4</script_id>
     <mod_id>0</mod_id>
     <update_id>0</update_id>
@@ -990,8 +1123,8 @@ from System import String;
 from System.IO import FileStream, Path, FileMode, FileAccess;
 
 mysql_server="localhost";
-mysql_root="root";
-mysql_password="CHANGEME";
+mysql_root="root"; <!-- set your username for account creations possibly root? -->
+mysql_password="setpassword"; <!-- set your password for account creations possibly root? -->
 
 if not ThisService.Variables.HasValue("MySQLUser") :
  Script.Exit();
@@ -1031,14 +1164,16 @@ with MySqlManager() as mysql:
 &lt;values&gt;
   &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2017-10-21 13:41:24" type="System.DateTime,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2017-11-13 09:19:15" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-03-11 20:44:48" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
     <output_filters />
     <custom_prompt />
+    <execute_in_popup>0</execute_in_popup>
+    <sched_tasks_interval_limit>15</sched_tasks_interval_limit>
   </tc_game_scripts>
   <tc_game_scripts>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <script_id>5</script_id>
     <mod_id>0</mod_id>
     <update_id>0</update_id>
@@ -1055,8 +1190,8 @@ from System import String;
 from System.IO import File, Path;
 
 mysql_server="localhost";
-mysql_root="root";
-mysql_password="CHANGEME";
+mysql_root="root"; <!-- set your username for account creations possibly root? -->
+mysql_password=""; <!-- set your password for account creations -->
 
 if not ThisService.Variables.HasValue("MySQLUser") :
  Script.Exit();
@@ -1099,32 +1234,522 @@ if File.Exists(backupfile) :
 &lt;values&gt;
   &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
   &lt;add key="__TCA:CREATED_ON" value="2017-10-21 13:42:42" type="System.DateTime,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2017-11-13 09:19:24" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-03-11 20:45:13" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
     <output_filters />
     <custom_prompt />
+    <execute_in_popup>0</execute_in_popup>
+    <sched_tasks_interval_limit>15</sched_tasks_interval_limit>
   </tc_game_scripts>
-  <tc_game_links>
-    <game_id>52</game_id>
-    <link_id>1</link_id>
-    <mod_id>0</mod_id>
-    <url>http://$[Service.IpHostname]/phpMyAdmin/index.php?pma_username=![MySQLUser]&amp;pma_password=![MySQLPassword]</url>
-    <display_name>MySQL Login</display_name>
-    <description>Manage your Database</description>
-    <icon>https://www.tcadminexperts.com/wp-content/uploads/kule-sql_icon_1416431134-e1508609634150.png</icon>
-    <new_page>1</new_page>
-    <inside_panel>0</inside_panel>
+  <tc_game_scripts>
+    <game_id>188</game_id>
+    <script_id>7</script_id>
+    <mod_id>3</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Remove mod.cs after uninstall</description>
+    <script_contents>import os
+import glob
+from System import Exception;
+fileList = glob.glob(os.path.join(ThisService.RootDirectory, 'mods\LiFx\OfflineRaidProtection-1.0.4/*.cs'))
+
+for filePath in fileList:
+  try:
+    os.remove(filePath)
+  except:
+    raise Exception("Error while deleting file: ", filePath)</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
     <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
-  &lt;add key="__TCA:CREATED_BY" value="4" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:CREATED_ON" value="2017-10-21 18:14:01" type="System.DateTime,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_BY" value="4" type="System.Int32,mscorlib" /&gt;
-  &lt;add key="__TCA:MODIFIED_ON" value="2017-10-21 18:28:20" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2023-04-03 15:54:26" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-03 15:55:03" type="System.DateTime,mscorlib" /&gt;
 &lt;/values&gt;</app_data>
-  </tc_game_links>
+    <output_filters />
+    <custom_prompt />
+    <execute_in_popup>1</execute_in_popup>
+    <sched_tasks_interval_limit>0</sched_tasks_interval_limit>
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>188</game_id>
+    <script_id>8</script_id>
+    <mod_id>4</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Remove mod.cs after uninstall</description>
+    <script_contents>import os
+import glob
+from System import Exception;
+fileList = glob.glob(os.path.join(ThisService.RootDirectory, 'mods\LiFx\FullServerFixVIPV1.0.1-FullServerFix-VIPV1.0.1/*.cs'))
+
+for filePath in fileList:
+  try:
+    os.remove(filePath)
+  except:
+    raise Exception("Error while deleting file: ", filePath)</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2023-04-03 16:02:01" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-03 17:08:44" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+    <execute_in_popup>1</execute_in_popup>
+    <sched_tasks_interval_limit>0</sched_tasks_interval_limit>
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>188</game_id>
+    <script_id>9</script_id>
+    <mod_id>5</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Remove mod.cs after uninstall</description>
+    <script_contents>import os
+import glob
+from System import Exception;
+fileList = glob.glob(os.path.join(ThisService.RootDirectory, 'mods\LiFx\Loot-1.0.0/*mod.cs'))
+
+for filePath in fileList:
+  try:
+    os.remove(filePath)
+  except:
+    raise Exception("Error while deleting file: ", filePath)</script_contents>
+    <service_event>13</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2023-04-03 18:17:35" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-03 18:57:43" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+    <execute_in_popup>1</execute_in_popup>
+    <sched_tasks_interval_limit>0</sched_tasks_interval_limit>
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>188</game_id>
+    <script_id>6</script_id>
+    <mod_id>2</mod_id>
+    <update_id>0</update_id>
+    <operating_system>2</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Delete the file after uninstall</description>
+    <script_contents>import os
+import glob
+from System import Exception;
+fileList = glob.glob(os.path.join(ThisService.RootDirectory, 'mods/LiFx/FullServerFix/FullServerFix-1.0.0/*.cs'))
+
+for filePath in fileList:
+  try:
+    os.remove(filePath)
+  except:
+    raise Exception("Error while deleting file: ", filePath)</script_contents>
+    <service_event>13</service_event>
+    <execute_order>1</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>1</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2023-04-02 21:32:51" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-02 22:15:53" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+    <execute_in_popup>1</execute_in_popup>
+    <sched_tasks_interval_limit>0</sched_tasks_interval_limit>
+  </tc_game_scripts>
+  <tc_game_mods>
+    <game_id>188</game_id>
+    <mod_id>1</mod_id>
+    <display_name>LiFx Framework</display_name>
+    <group_name>LiFx Mods</group_name>
+    <comments>This is the frame work which all LiFx Mods Require to work serverside.</comments>
+    <homepage_url>http://lifxmod.com/</homepage_url>
+    <help_url>http://lifxmod.com/Docs/server-framework.html</help_url>
+    <required_mods>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</required_mods>
+    <required_updates>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</required_updates>
+    <incompatible_mods>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</incompatible_mods>
+    <install_type>0</install_type>
+    <uninstallable>1</uninstallable>
+    <win_filename>art.zip</win_filename>
+    <lin_filename />
+    <extract_path />
+    <cmdline />
+    <user_access>1</user_access>
+    <reseller_access>1</reseller_access>
+    <subadmin_access>1</subadmin_access>
+    <add_lines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameModAddLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</add_lines>
+    <remove_lines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameModRemoveLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</remove_lines>
+    <default_install>0</default_install>
+    <post_install_msg>&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta http-equiv="Content-Language" content="en-gb"&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=windows-1252"&gt;
+&lt;title&gt;LiFx Framework Installation&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body bgcolor="#C0C0C0"&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align="center"&gt;LiFx Frame Work has been installed&lt;br&gt;
+&lt;br&gt;
+Please take your time to browse through the LiFx Mod options Available to 
+install modifications to your server&lt;/p&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</post_install_msg>
+    <disable_restart>0</disable_restart>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:UNIQUE_ID" value="6eceb61a-18a2-4fa0-8a08-0f5fd78c4fe7" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2023-04-02 20:44:46" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-02 20:48:10" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <version>1</version>
+    <update_visible>0</update_visible>
+    <image_url>http://lifxmod.com/uploads/lifx-lightgrey-logo.png</image_url>
+  </tc_game_mods>
+  <tc_game_mods>
+    <game_id>188</game_id>
+    <mod_id>2</mod_id>
+    <display_name>LiFx Full Server Fix</display_name>
+    <group_name>LiFx Mods</group_name>
+    <comments>This is a Mod which is aimed at improving performance for your game server, it excels the most when you have a full Server</comments>
+    <homepage_url>http://lifxmod.com/</homepage_url>
+    <help_url />
+    <required_mods>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;int&gt;1&lt;/int&gt;
+&lt;/ArrayOfInt&gt;</required_mods>
+    <required_updates>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</required_updates>
+    <incompatible_mods>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;int&gt;4&lt;/int&gt;
+&lt;/ArrayOfInt&gt;</incompatible_mods>
+    <install_type>0</install_type>
+    <uninstallable>1</uninstallable>
+    <win_filename>https://github.com/LiF-x/FullServerFix/archive/refs/tags/v1.0.0.zip</win_filename>
+    <lin_filename />
+    <extract_path>mods/LiFx/FullServerFix/</extract_path>
+    <cmdline />
+    <user_access>1</user_access>
+    <reseller_access>1</reseller_access>
+    <subadmin_access>1</subadmin_access>
+    <add_lines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameModAddLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</add_lines>
+    <remove_lines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameModRemoveLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</remove_lines>
+    <default_install>0</default_install>
+    <post_install_msg>&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta http-equiv="Content-Language" content="en-gb"&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=windows-1252"&gt;
+&lt;title&gt;LiFx Framework Installation&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body bgcolor="#C0C0C0"&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p align="center"&gt;LiFx Full ServerFix has been installed!&lt;br&gt;
+&lt;br&gt;
+Please take your time to browse through other LiFx Mod options Available to improve on your server&lt;/p&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</post_install_msg>
+    <disable_restart>0</disable_restart>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:UNIQUE_ID" value="9256021a-9eac-422e-b066-341f0827b9e0" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2023-04-02 21:02:04" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-03 17:41:01" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <version>1</version>
+    <update_visible>0</update_visible>
+    <image_url>http://lifxmod.com/uploads/lifx-lightgrey-logo.png</image_url>
+  </tc_game_mods>
+  <tc_game_mods>
+    <game_id>188</game_id>
+    <mod_id>4</mod_id>
+    <display_name>LiFx Full Server Fix &amp; VIP System</display_name>
+    <group_name>LiFx Mods</group_name>
+    <comments>This is a server side mod that adds a VIP System to your Game Server</comments>
+    <homepage_url>https://lifxmod.com/</homepage_url>
+    <help_url>https://discord.gg/EH9b6tqQ4C</help_url>
+    <required_mods>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;int&gt;1&lt;/int&gt;
+&lt;/ArrayOfInt&gt;</required_mods>
+    <required_updates>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</required_updates>
+    <incompatible_mods>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;int&gt;2&lt;/int&gt;
+&lt;/ArrayOfInt&gt;</incompatible_mods>
+    <install_type>0</install_type>
+    <uninstallable>1</uninstallable>
+    <win_filename>https://github.com/LiF-x/FullServerFixVIPV1.0.1/archive/refs/tags/FullServerFix+VIPV1.0.1.zip</win_filename>
+    <lin_filename />
+    <extract_path>/mods/LiFx/</extract_path>
+    <cmdline />
+    <user_access>1</user_access>
+    <reseller_access>1</reseller_access>
+    <subadmin_access>1</subadmin_access>
+    <add_lines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameModAddLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</add_lines>
+    <remove_lines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameModRemoveLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</remove_lines>
+    <default_install>0</default_install>
+    <post_install_msg>&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta http-equiv="Content-Language" content="en-gb"&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=windows-1252"&gt;
+&lt;title&gt;Mod Installed&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body text="#FFFFFF" bgcolor="#000000"&gt;
+
+&lt;p align="center"&gt;You have Installed the LiFx Full server Fix &amp; Vip Mod successfully!&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;font color="#FF0000"&gt;&lt;b&gt;Please make sure to restart your server for it to load 
+the new mod.&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
+&lt;br&gt;
+To USE this mod open your Database table "account"
+
+Set VIPFlag Column for the Account you wish to have as a VIP, Please check with the steam ID Before Issuing.
+
+When the server is full when a person with a vip flag attempts to join the server, any AFK Player will be removed from the game to allow VIP Access
+This is useful for heavily populated servers as alot of people will sit on the server afk for hours otherwise!&lt;/p&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</post_install_msg>
+    <disable_restart>0</disable_restart>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:UNIQUE_ID" value="fad7b968-0af5-46dc-8912-0eee769ee4c0" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2023-04-03 16:02:01" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-03 16:56:25" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <version>1</version>
+    <update_visible>0</update_visible>
+    <image_url>https://lifxmod.com/uploads/lifx-lightgrey-logo.png</image_url>
+  </tc_game_mods>
+  <tc_game_mods>
+    <game_id>188</game_id>
+    <mod_id>5</mod_id>
+    <display_name>LiFx Loot</display_name>
+    <group_name>LiFx Mods</group_name>
+    <comments>This is a server side mod that inserts new tables into the database and unlocks the ability to allow for items being inserted into new objects</comments>
+    <homepage_url>https://lifxmod.com/</homepage_url>
+    <help_url>https://discord.gg/EH9b6tqQ4C</help_url>
+    <required_mods>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;int&gt;1&lt;/int&gt;
+&lt;/ArrayOfInt&gt;</required_mods>
+    <required_updates>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</required_updates>
+    <incompatible_mods>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</incompatible_mods>
+    <install_type>0</install_type>
+    <uninstallable>1</uninstallable>
+    <win_filename>https://github.com/LiF-x/Loot/archive/refs/tags/v1.0.0.zip</win_filename>
+    <lin_filename />
+    <extract_path>/mods/LiFx/</extract_path>
+    <cmdline />
+    <user_access>1</user_access>
+    <reseller_access>1</reseller_access>
+    <subadmin_access>1</subadmin_access>
+    <add_lines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameModAddLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</add_lines>
+    <remove_lines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameModRemoveLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</remove_lines>
+    <default_install>0</default_install>
+    <post_install_msg>&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta http-equiv="Content-Language" content="en-gb"&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=windows-1252"&gt;
+&lt;title&gt;Installation Complete&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body text="#FFFFFF" bgcolor="#000000"&gt;
+
+&lt;p align="center"&gt;&lt;br&gt;
+You have Installed the LiFx Loot Mod successfully!&lt;br&gt;
+&lt;br&gt;
+Now you can make custom loot!&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;This is a perfect Addition for the LiFx Knool Pack&lt;br&gt;
+&lt;/b&gt;&lt;a href="http://lifxmod.com/mods/lifx-knools-weapons.html"&gt;LiFx Knool Pack | 
+LiF: Extended (lifxmod.com)&lt;/a&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;font color="#FF0000"&gt;&lt;b&gt;Please make sure to restart your server for 
+the new mod to load.&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</post_install_msg>
+    <disable_restart>0</disable_restart>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:UNIQUE_ID" value="7e09c204-ea29-493a-92cb-d92d1811be87" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2023-04-03 18:17:35" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-03 18:48:47" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <version>1</version>
+    <update_visible>0</update_visible>
+    <image_url>https://lifxmod.com/uploads/lifx-lightgrey-logo.png</image_url>
+  </tc_game_mods>
+  <tc_game_mods>
+    <game_id>188</game_id>
+    <mod_id>3</mod_id>
+    <display_name>LiFx Offline Raid Protection</display_name>
+    <group_name>LiFx Mods</group_name>
+    <comments>This is a server side mod that grants offline protection to protect your guild claim in the event, you are unable to login.</comments>
+    <homepage_url>https://lifxmod.com/</homepage_url>
+    <help_url>https://discord.gg/EH9b6tqQ4C</help_url>
+    <required_mods>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;int&gt;1&lt;/int&gt;
+&lt;/ArrayOfInt&gt;</required_mods>
+    <required_updates>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</required_updates>
+    <incompatible_mods>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfInt xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</incompatible_mods>
+    <install_type>0</install_type>
+    <uninstallable>1</uninstallable>
+    <win_filename>https://github.com/LiF-x/OfflineRaidProtection/archive/refs/tags/v1.0.4.zip</win_filename>
+    <lin_filename />
+    <extract_path>/mods/LiFx/</extract_path>
+    <cmdline />
+    <user_access>1</user_access>
+    <reseller_access>1</reseller_access>
+    <subadmin_access>1</subadmin_access>
+    <add_lines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameModAddLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</add_lines>
+    <remove_lines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameModRemoveLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</remove_lines>
+    <default_install>0</default_install>
+    <post_install_msg>&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta http-equiv="Content-Language" content="en-gb"&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=windows-1252"&gt;
+&lt;title&gt;New Page 1&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body text="#FFFFFF" bgcolor="#000000"&gt;
+
+&lt;p align="center"&gt;You have Installed the LiFx Raid Protection Mod successfully!&lt;br&gt;
+&lt;br&gt;
+Now your claims can be safe during Judgement hour.&lt;br&gt;
+&lt;br&gt;
+&lt;font color="#FF0000"&gt;&lt;b&gt;Please make sure to restart your server for it to load 
+the new mod.&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
+&lt;br&gt;
+To change the Activation Timer please change the AutoloadConfig.cs file located 
+in your mods folder to the time frame which you would like.&lt;/p&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</post_install_msg>
+    <disable_restart>0</disable_restart>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:UNIQUE_ID" value="1c4b9450-313d-48e4-b5b5-80d7e81259d2" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2023-04-03 15:29:17" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2023-04-03 16:01:20" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <version>1</version>
+    <update_visible>0</update_visible>
+    <image_url>https://lifxmod.com/uploads/lifx-lightgrey-logo.png</image_url>
+  </tc_game_mods>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>BukGet</permission_key>
@@ -1134,37 +1759,37 @@ if File.Exists(backupfile) :
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>CmdLineBuilder</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>CmdLineChanger</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>CpuStats</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>FastDlSync</permission_key>
@@ -1174,27 +1799,27 @@ if File.Exists(backupfile) :
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>FileManager</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>Ftp</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>GameSwitcher</permission_key>
@@ -1204,77 +1829,87 @@ if File.Exists(backupfile) :
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>GoogleDrive</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>LiveBandwidthStats</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>LiveCpuStats</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>LiveMemoryStats</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>LivePlayerStats</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>LogViewer</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>LogViewerServiceActivity</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>LogViewerTextConsole</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>MapPacks</permission_key>
@@ -1284,37 +1919,37 @@ if File.Exists(backupfile) :
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>MemoryStats</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>ModManager</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>PlayerStats</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>PunkbusterUpdate</permission_key>
@@ -1324,27 +1959,37 @@ if File.Exists(backupfile) :
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>Reinstall</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>Repair</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>RepairOptions</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>ScheduledGameSwitcher</permission_key>
@@ -1354,7 +1999,7 @@ if File.Exists(backupfile) :
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>ScheduledReinstall</permission_key>
@@ -1364,50 +2009,60 @@ if File.Exists(backupfile) :
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>ScheduledRestart</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>ScheduledScript</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>SteamUpdate</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>Updates</permission_key>
-    <subadmin_access>0</subadmin_access>
+    <subadmin_access>1</subadmin_access>
     <reseller_access>0</reseller_access>
-    <user_access>0</user_access>
+    <user_access>1</user_access>
     <reseller_override>0</reseller_override>
   </tc_game_permissions>
   <tc_game_permissions>
-    <game_id>52</game_id>
+    <game_id>188</game_id>
     <service_id>0</service_id>
     <user_id>0</user_id>
     <permission_key>WebConsole</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>188</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Workshop</permission_key>
     <subadmin_access>0</subadmin_access>
     <reseller_access>0</reseller_access>
     <user_access>0</user_access>
@@ -1415,7 +2070,7 @@ if File.Exists(backupfile) :
   </tc_game_permissions>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>1</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1449,10 +2104,12 @@ if File.Exists(backupfile) :
     <save_script_value>0</save_script_value>
     <disable_space>0</disable_space>
     <skip_not_selected>0</skip_not_selected>
+    <sync_cmdline_parameter>0</sync_cmdline_parameter>
+    <docker_parameter>0</docker_parameter>
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>2</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1486,10 +2143,12 @@ if File.Exists(backupfile) :
     <save_script_value>0</save_script_value>
     <disable_space>0</disable_space>
     <skip_not_selected>0</skip_not_selected>
+    <sync_cmdline_parameter>0</sync_cmdline_parameter>
+    <docker_parameter>0</docker_parameter>
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>3</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1526,7 +2185,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>4</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1563,7 +2222,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>5</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1600,7 +2259,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>6</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1637,7 +2296,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>7</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1674,7 +2333,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>8</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1711,7 +2370,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>9</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1748,7 +2407,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>10</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1785,7 +2444,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>11</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1822,7 +2481,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>12</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1859,7 +2518,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>13</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1896,7 +2555,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>14</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1933,7 +2592,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>15</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -1970,7 +2629,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>16</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2007,7 +2666,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>17</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2044,7 +2703,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>18</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2081,7 +2740,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>19</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2118,7 +2777,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>20</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2155,7 +2814,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>21</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2192,7 +2851,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>22</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2229,7 +2888,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>23</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2266,7 +2925,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>24</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2303,7 +2962,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>25</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2340,7 +2999,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>26</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2377,7 +3036,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>27</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2414,7 +3073,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_game_variables_config>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>28</variable_id>
     <admin_access>0</admin_access>
     <subadmin_access>0</subadmin_access>
@@ -2451,7 +3110,7 @@ if File.Exists(backupfile) :
   </tc_game_variables_config>
   <tc_dynamic_forms>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
@@ -2461,7 +3120,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_forms>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>1</item_id>
     <variable_source />
@@ -2482,7 +3141,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>2</item_id>
     <variable_source />
@@ -2503,7 +3162,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>3</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Service</variable_source>
@@ -2534,7 +3193,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>4</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Service</variable_source>
@@ -2554,7 +3213,7 @@ if File.Exists(backupfile) :
   &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
   &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
 &lt;/values&gt;</item_config>
-    <item_label>Private Password:</item_label>
+    <item_label>Password to join server:</item_label>
     <description />
     <repeat_section_id>-1</repeat_section_id>
     <view_order>4</view_order>
@@ -2565,7 +3224,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>5</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Service</variable_source>
@@ -2596,7 +3255,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>6</item_id>
     <variable_source />
@@ -2617,11 +3276,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>7</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>4</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -2643,7 +3302,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>8</item_id>
     <variable_source />
@@ -2664,7 +3323,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>9</item_id>
     <variable_source />
@@ -2685,7 +3344,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>10</item_id>
     <variable_source />
@@ -2706,11 +3365,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>17</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>5</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -2733,11 +3392,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>11</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>6</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -2749,7 +3408,7 @@ if File.Exists(backupfile) :
   &lt;add key="StepIncrement" value="10" type="System.Double,mscorlib" /&gt;
   &lt;add key="NoButtons" value="False" type="System.Boolean,mscorlib" /&gt;
 &lt;/values&gt;</item_config>
-    <item_label>Group 1:</item_label>
+    <item_label>Crafting:</item_label>
     <description />
     <repeat_section_id>-1</repeat_section_id>
     <view_order>12</view_order>
@@ -2760,11 +3419,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>12</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>7</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -2776,7 +3435,7 @@ if File.Exists(backupfile) :
   &lt;add key="StepIncrement" value="10" type="System.Double,mscorlib" /&gt;
   &lt;add key="NoButtons" value="False" type="System.Boolean,mscorlib" /&gt;
 &lt;/values&gt;</item_config>
-    <item_label>Group 2:</item_label>
+    <item_label>Combat:</item_label>
     <description />
     <repeat_section_id>-1</repeat_section_id>
     <view_order>13</view_order>
@@ -2787,11 +3446,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>13</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>8</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -2803,7 +3462,7 @@ if File.Exists(backupfile) :
   &lt;add key="StepIncrement" value="10" type="System.Double,mscorlib" /&gt;
   &lt;add key="NoButtons" value="False" type="System.Boolean,mscorlib" /&gt;
 &lt;/values&gt;</item_config>
-    <item_label>Group 3:</item_label>
+    <item_label>Minor:</item_label>
     <description />
     <repeat_section_id>-1</repeat_section_id>
     <view_order>14</view_order>
@@ -2814,7 +3473,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>14</item_id>
     <variable_source />
@@ -2835,7 +3494,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>15</item_id>
     <variable_source />
@@ -2856,7 +3515,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>16</item_id>
     <variable_source />
@@ -2877,11 +3536,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>28</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>19</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -2903,11 +3562,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>18</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>9</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -2930,11 +3589,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>19</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>10</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -2957,11 +3616,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>20</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>11</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -2984,23 +3643,23 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>21</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>12</variable_id>
     <value_required>0</value_required>
     <required_message />
     <item_type>11</item_type>
     <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
-  &lt;add key="MinValue" value="0.1" type="System.Double,mscorlib" /&gt;
+  &lt;add key="MinValue" value="0.5" type="System.Double,mscorlib" /&gt;
   &lt;add key="MaxValue" value="24" type="System.Double,mscorlib" /&gt;
-  &lt;add key="StepIncrement" value="1" type="System.Double,mscorlib" /&gt;
+  &lt;add key="StepIncrement" value="0.01" type="System.Double,mscorlib" /&gt;
   &lt;add key="NoButtons" value="False" type="System.Boolean,mscorlib" /&gt;
 &lt;/values&gt;</item_config>
-    <item_label>Day Cycle:</item_label>
+    <item_label>Day Cycle (0.5 - 24):</item_label>
     <description>Real life hours per in game day. Affects speed of crops and trees growth (range: 0.1 - 24)</description>
     <repeat_section_id>-1</repeat_section_id>
     <view_order>22</view_order>
@@ -3011,18 +3670,18 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>22</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>13</variable_id>
     <value_required>0</value_required>
     <required_message />
     <item_type>11</item_type>
     <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
-  &lt;add key="MinValue" value="1" type="System.Double,mscorlib" /&gt;
+  &lt;add key="MinValue" value="0" type="System.Double,mscorlib" /&gt;
   &lt;add key="MaxValue" value="100" type="System.Double,mscorlib" /&gt;
   &lt;add key="StepIncrement" value="1" type="System.Double,mscorlib" /&gt;
   &lt;add key="NoButtons" value="False" type="System.Boolean,mscorlib" /&gt;
@@ -3038,11 +3697,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>23</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>14</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -3065,21 +3724,30 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>24</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>15</variable_id>
     <value_required>0</value_required>
     <required_message />
-    <item_type>11</item_type>
+    <item_type>4</item_type>
     <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
-  &lt;add key="MinValue" value="0" type="System.Double,mscorlib" /&gt;
-  &lt;add key="MaxValue" value="1000" type="System.Double,mscorlib" /&gt;
+  &lt;add key="MinValue" value="1" type="System.Double,mscorlib" /&gt;
+  &lt;add key="MaxValue" value="5" type="System.Double,mscorlib" /&gt;
+  &lt;add key="MaxLength" value="5" type="System.Double,mscorlib" /&gt;
+  &lt;add key="DecimalDigits" value="2" type="System.Double,mscorlib" /&gt;
+  &lt;add key="DecimalSeparator" value="." type="System.String,mscorlib" /&gt;
+  &lt;add key="GroupSeparator" value="," type="System.String,mscorlib" /&gt;
+  &lt;add key="GroupSizes" value="3" type="System.Double,mscorlib" /&gt;
+  &lt;add key="NegativePattern" value="-n" type="System.String,mscorlib" /&gt;
+  &lt;add key="PositivePattern" value="n" type="System.String,mscorlib" /&gt;
+  &lt;add key="ShowSpinButtons" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="WriteAllDecimals" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="AllowEmpty" value="False" type="System.Boolean,mscorlib" /&gt;
   &lt;add key="StepIncrement" value="1" type="System.Double,mscorlib" /&gt;
-  &lt;add key="NoButtons" value="False" type="System.Boolean,mscorlib" /&gt;
 &lt;/values&gt;</item_config>
     <item_label>Movable Max Drop Height Meters:</item_label>
     <description>Allows you to restrict ability of players to hang logs, furniture and other movable objects in the air.</description>
@@ -3092,11 +3760,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>25</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>16</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -3119,11 +3787,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>26</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>17</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -3146,11 +3814,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>27</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>18</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -3173,7 +3841,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>29</item_id>
     <variable_source />
@@ -3194,7 +3862,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>30</item_id>
     <variable_source />
@@ -3215,7 +3883,7 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>31</item_id>
     <variable_source />
@@ -3236,28 +3904,28 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>32</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>20</variable_id>
     <value_required>0</value_required>
     <required_message />
     <item_type>2</item_type>
     <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
-  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="MaxLength" value="5" type="System.Double,mscorlib" /&gt;
   &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
-  &lt;add key="Width" value="80" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
   &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
   &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
   &lt;add key="Return.MD5" value="False" type="System.Boolean,mscorlib" /&gt;
   &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
-  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z" type="System.String,mscorlib" /&gt;
 &lt;/values&gt;</item_config>
-    <item_label>Start Time:</item_label>
-    <description>Local server real life time in HH:MM format, when Judgment Hour will start</description>
+    <item_label>JH Start Time:</item_label>
+    <description>Start Time HH:MM (Must be in this format)</description>
     <repeat_section_id>-1</repeat_section_id>
     <view_order>32</view_order>
     <parent_variable_source />
@@ -3267,11 +3935,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>33</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>21</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -3293,11 +3961,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>34</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>22</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -3319,11 +3987,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>35</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>23</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -3345,11 +4013,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>36</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>24</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -3371,11 +4039,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>37</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>25</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -3397,11 +4065,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>38</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>26</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -3423,11 +4091,11 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>39</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>27</variable_id>
     <value_required>0</value_required>
     <required_message />
@@ -3449,24 +4117,24 @@ if File.Exists(backupfile) :
   </tc_dynamic_form_items>
   <tc_dynamic_form_items>
     <dynamic_form_source>TCAdmin.GameHosting.SDK.Objects.GameConfigFile</dynamic_form_source>
-    <dynamic_form_source_id>52.1</dynamic_form_source_id>
+    <dynamic_form_source_id>188.1</dynamic_form_source_id>
     <dynamic_form_id>1</dynamic_form_id>
     <item_id>40</item_id>
     <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
-    <variable_source_id>52</variable_source_id>
+    <variable_source_id>188</variable_source_id>
     <variable_id>28</variable_id>
     <value_required>0</value_required>
     <required_message />
     <item_type>11</item_type>
     <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
 &lt;values&gt;
-  &lt;add key="MinValue" value="0" type="System.Double,mscorlib" /&gt;
-  &lt;add key="MaxValue" value="24" type="System.Double,mscorlib" /&gt;
+  &lt;add key="MinValue" value="1" type="System.Double,mscorlib" /&gt;
+  &lt;add key="MaxValue" value="1440" type="System.Double,mscorlib" /&gt;
   &lt;add key="StepIncrement" value="1" type="System.Double,mscorlib" /&gt;
   &lt;add key="NoButtons" value="False" type="System.Boolean,mscorlib" /&gt;
 &lt;/values&gt;</item_config>
     <item_label>Judgment Duration:</item_label>
-    <description />
+    <description>JH in Minutes </description>
     <repeat_section_id>-1</repeat_section_id>
     <view_order>40</view_order>
     <parent_variable_source />
