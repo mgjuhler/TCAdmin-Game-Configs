@@ -1,0 +1,1621 @@
+<KF2-Shared>
+  <tc_games>
+    <game_id>147</game_id>
+    <operating_system>2</operating_system>
+    <display_name>Killing Floor 2 (Shared)</display_name>
+    <short_name>KF2-Shared</short_name>
+    <private_rule_value>1</private_rule_value>
+    <private_rule_name>password</private_rule_name>
+    <hostname_rule />
+    <map_rule />
+    <slots_rule />
+    <exclude_rules />
+    <query_protocol>a2sutf8</query_protocol>
+    <rcon_protocol>0</rcon_protocol>
+    <show_in_create_list>1</show_in_create_list>
+    <is_voice_server>0</is_voice_server>
+    <is_template>1</is_template>
+    <min_slots>0</min_slots>
+    <max_slots>6</max_slots>
+    <default_slots>6</default_slots>
+    <name_from_query>1</name_from_query>
+    <exclude_load_balancing>0</exclude_load_balancing>
+    <custom_home_view />
+    <custom_status_view />
+    <background_image />
+    <join_url>steam://connect/$[Service.IpHostname]:$[Service.GamePort]</join_url>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 04:53:38" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="This config uses a shared set of files for all game servers." type="System.String,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2020-11-05 16:22:32" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATE_SYMLINK" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="__TCA:STEAM_API_GAME_VERSION" value="162:1056" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:STEAM_API_GAME_VERSION_UPDATE" value="2020-11-05 16:22:34" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__FSRM:DEFAULT_QUOTA" value="0" type="System.String,mscorlib" /&gt;
+  &lt;add key="__FSRM:APPLY_QUOTA_TO_ALL_SERVICES" value="false" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <enable_community_images>1</enable_community_images>
+  </tc_games>
+  <tc_game_paths>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <relative_executable>Binaries\Win64\KFServer.exe</relative_executable>
+    <relative_working_dir>Binaries\Win64\</relative_working_dir>
+    <relative_subadmin_files />
+    <relative_reseller_files />
+    <relative_user_files />
+    <files_folder_name>kf2-shared</files_folder_name>
+    <enable_ext_download>1</enable_ext_download>
+    <ext_download_url>https://master.tcadmin.net/</ext_download_url>
+    <ext_save_name>deleteme.txt</ext_save_name>
+    <ext_extract_opt>0</ext_extract_opt>
+    <ext_script_engine_id>3</ext_script_engine_id>
+    <ext_script>del %DownloadedFile%
+mkdir C:\TCAFiles\Users\KF2-Shared
+mkdir %FilesFolderFullName%\KFGame\Config
+"%TCAdminFolder%\Monitor\Tools\SteamCmd\steamcmd.exe" +login anonymous +force_install_dir C:\TCAFiles\Users\KF2-Shared +app_update 232130 validate +quit
+xcopy C:\TCAFiles\Users\KF2-Shared\KFGame\Config %FilesFolderFullName%\KFGame\Config</ext_script>
+    <ext_license />
+    <ext_license_accepted>0</ext_license_accepted>
+    <skip_exe_error>0</skip_exe_error>
+  </tc_game_paths>
+  <tc_game_general_config>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <enable_start_cpu_0>0</enable_start_cpu_0>
+    <enable_interact_desktop>1</enable_interact_desktop>
+    <enable_configs_icon>1</enable_configs_icon>
+    <enable_log_viewer>0</enable_log_viewer>
+    <log_extensions>*.log</log_extensions>
+    <branded_text />
+    <branded_text_space>0</branded_text_space>
+    <brand_at_end>0</brand_at_end>
+    <brand_regex_search />
+    <brand_regex_case_insensitive>1</brand_regex_case_insensitive>
+    <stop_delay_seconds>3</stop_delay_seconds>
+    <sched_tasks_limit>0</sched_tasks_limit>
+    <force_config_editor_create>0</force_config_editor_create>
+    <collapse_mod_groups>0</collapse_mod_groups>
+    <reuse_keys_on_ip>0</reuse_keys_on_ip>
+    <sched_tasks_interval_limit>15</sched_tasks_interval_limit>
+  </tc_game_general_config>
+  <tc_game_ports>
+    <game_id>147</game_id>
+    <only_default_ports>0</only_default_ports>
+    <only_primary_ip>0</only_primary_ip>
+    <game_port>7777</game_port>
+    <query_port>27015</query_port>
+    <rcon_port>0</rcon_port>
+    <port_increment>12</port_increment>
+    <query_port_expression />
+    <rcon_port_expression />
+    <custom_port_1>8080</custom_port_1>
+    <custom_port_2>0</custom_port_2>
+    <custom_port_3>0</custom_port_3>
+    <custom_port_4>0</custom_port_4>
+    <custom_port_5>0</custom_port_5>
+    <custom_port_6>0</custom_port_6>
+    <custom_port_7>0</custom_port_7>
+    <custom_port_8>0</custom_port_8>
+    <custom_port_9>0</custom_port_9>
+    <custom_port_10>0</custom_port_10>
+    <custom_port_11>0</custom_port_11>
+    <custom_port_12>0</custom_port_12>
+    <custom_port_13>0</custom_port_13>
+    <custom_port_14>0</custom_port_14>
+    <custom_port_15>0</custom_port_15>
+    <custom_port_16>0</custom_port_16>
+    <custom_port_17>0</custom_port_17>
+    <custom_port_18>0</custom_port_18>
+    <custom_port_19>0</custom_port_19>
+    <custom_port_20>0</custom_port_20>
+    <custom_port_21>0</custom_port_21>
+    <custom_port_22>0</custom_port_22>
+    <custom_port_23>0</custom_port_23>
+    <custom_port_24>0</custom_port_24>
+    <custom_port_25>0</custom_port_25>
+    <custom_port_26>0</custom_port_26>
+    <custom_port_27>0</custom_port_27>
+    <custom_port_28>0</custom_port_28>
+    <custom_port_29>0</custom_port_29>
+    <custom_port_30>0</custom_port_30>
+    <custom_port_31>0</custom_port_31>
+    <custom_port_32>0</custom_port_32>
+    <custom_port_33>0</custom_port_33>
+    <custom_port_34>0</custom_port_34>
+    <custom_port_35>0</custom_port_35>
+    <custom_port_36>0</custom_port_36>
+    <custom_port_37>0</custom_port_37>
+    <custom_port_38>0</custom_port_38>
+    <custom_port_39>0</custom_port_39>
+    <custom_port_40>0</custom_port_40>
+    <custom_port_41>0</custom_port_41>
+    <custom_port_42>0</custom_port_42>
+    <custom_port_43>0</custom_port_43>
+    <custom_port_44>0</custom_port_44>
+    <custom_port_45>0</custom_port_45>
+    <custom_port_46>0</custom_port_46>
+    <custom_port_47>0</custom_port_47>
+    <custom_port_48>0</custom_port_48>
+    <custom_port_49>0</custom_port_49>
+    <custom_port_50>0</custom_port_50>
+    <custom_port_1_expression />
+    <custom_port_2_expression>$[Service.GamePort] + 1</custom_port_2_expression>
+    <custom_port_3_expression />
+    <custom_port_4_expression />
+    <custom_port_5_expression />
+    <custom_port_6_expression />
+    <custom_port_7_expression />
+    <custom_port_8_expression />
+    <custom_port_9_expression />
+    <custom_port_10_expression />
+    <supports_ipv6>0</supports_ipv6>
+    <unique_ports>0</unique_ports>
+    <enable_forcebindip>0</enable_forcebindip>
+    <app_data />
+  </tc_game_ports>
+  <tc_game_cmdlines>
+    <game_id>147</game_id>
+    <cmdline_default>kf-bioticslab?MaxPlayers=$[Service.Slots] -Multihome=$[Service.IpAddress] -Port=$[Service.GamePort] -QueryPort=$[Service.QueryPort] -WebAdminPort=$[Service.CustomPort1] -ConfigSubDir=ConfigSvc$[Service.ServiceId]</cmdline_default>
+    <cmdline_private />
+    <cmdline_default_custom />
+    <cmdline_private_custom />
+    <predef_cmdlines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfPredefinedCommandLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</predef_cmdlines>
+    <disable_param_selection>0</disable_param_selection>
+  </tc_game_cmdlines>
+  <tc_game_punkbuster_config>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <enable_pbweb>0</enable_pbweb>
+    <pb_relative_path>pb\</pb_relative_path>
+    <pb_download_url />
+    <execute_on_create>0</execute_on_create>
+  </tc_game_punkbuster_config>
+  <tc_game_query_monitoring>
+    <game_id>147</game_id>
+    <query_interval>300000</query_interval>
+    <query_interval_retry>30000</query_interval_retry>
+    <enable_query_detect>1</enable_query_detect>
+    <query_detect_actions>10</query_detect_actions>
+    <query_detect_max>3</query_detect_max>
+    <query_detect_max_actions>0</query_detect_max_actions>
+    <enable_slot_detect>1</enable_slot_detect>
+    <slot_detect_actions>9</slot_detect_actions>
+    <slot_detect_additional_slots>0</slot_detect_additional_slots>
+    <enable_private_detect>1</enable_private_detect>
+    <private_detect_actions>9</private_detect_actions>
+    <enable_brand_detect>1</enable_brand_detect>
+    <brand_detect_actions>9</brand_detect_actions>
+    <enable_rule_detect>0</enable_rule_detect>
+    <rules>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameMonitorRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</rules>
+    <enable_stats>1</enable_stats>
+    <stats_interval>900</stats_interval>
+    <det_stats_max_days>7</det_stats_max_days>
+    <stats_max_days>30</stats_max_days>
+    <enable_live_stats>1</enable_live_stats>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:QueryFailureUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureMaxAllowedUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureMaxAllowedAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:SlotDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:SlotDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:PrivateDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:PrivateDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:BrandDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:BrandDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-31 23:40:58" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-08-01 05:52:17" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_query_monitoring>
+  <tc_game_mail_templates>
+    <game_id>147</game_id>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:InstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:InstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 04:54:14" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2020-11-05 16:22:35" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_mail_templates>
+  <tc_game_steam_config>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <enable_hldsupdate>0</enable_hldsupdate>
+    <hlds_game_type>232130</hlds_game_type>
+    <validate>0</validate>
+    <execute_on_create>0</execute_on_create>
+    <extra_options />
+    <steam_account />
+    <steam_password />
+    <run_as_service_user>0</run_as_service_user>
+    <store_game_id>232090</store_game_id>
+    <workshop_enabled>0</workshop_enabled>
+    <workshop_stop>0</workshop_stop>
+    <workshop_skip_download>0</workshop_skip_download>
+    <workshop_file_id_format>![FileId]</workshop_file_id_format>
+    <workshop_file_id_separator>,</workshop_file_id_separator>
+    <store_backgrounds>https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_12163b780191f084acf7cdf54e2e98e4129e297a.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_01ab15f45fb088b7e6f5d21128517a5711f7362a.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_e2a49c649cde0f214b1cbeab7005b6f43d1c4ab7.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_f3954b72086dc015f727288c4a5ba1b78611e009.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_d8963d7b0fe8daab824d06f6435572db0a72ba78.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_c04edce8047931858c9cc45e4615d05eeb30ffde.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_26a1c14da128f938789e75117abc6039487316fe.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_f379a229e188d817b0a63e00e8ad2f7a94d41f3f.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_440deb8b9806eef2f0426eb428bf37794c0ac902.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_1fe16a95b5fa2fbd6c16cc0760ee9a436ffdcc37.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_ab114ac9f0dc09dcf2d7ff9921fc33f50fbaafa1.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_3a3fe0cdb8643c59c23697bdecf18e8d76b78f1b.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_68d4055f2062ada5a8d2df7460b96ea125077d32.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_a903b1ac2c03afd727fb15e089586329b575de7d.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_805418b4ba06aafa70c52c4149483a8f57efdbca.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_4c7443b26b32632f2fdf7876f128a2b50294f78b.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_f6a9dac3d0184293a15a0eb8f8bf6b5de0c14fc3.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_a6a12ff216dd6362d5a7251f04cc211904037e49.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_0fc1844ba753e81cea3c405b91c99620713c2b85.1920x1080.jpg?t=1685044356|https://cdn.akamai.steamstatic.com/steam/apps/232090/ss_0edb07e9b4eb050ed60b266bfaf209824201d381.1920x1080.jpg?t=1685044356</store_backgrounds>
+    <use_store_backgrounds>1</use_store_backgrounds>
+    <workshop_account />
+    <workshop_password />
+    <workshop_installed_icon>0</workshop_installed_icon>
+    <workshop_updatable_icon>0</workshop_updatable_icon>
+    <workshop_collections_enabled>0</workshop_collections_enabled>
+    <workshop_retry>10</workshop_retry>
+    <search_unlisted>0</search_unlisted>
+    <delete_steamapps_on_error>1</delete_steamapps_on_error>
+  </tc_game_steam_config>
+  <tc_game_bukkit_config>
+    <game_id>147</game_id>
+  </tc_game_bukkit_config>
+  <tc_game_tracker_config>
+    <game_id>147</game_id>
+    <ts_id>0</ts_id>
+  </tc_game_tracker_config>
+  <tc_game_identity>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <run_as>1</run_as>
+    <user_name />
+    <password />
+  </tc_game_identity>
+  <tc_game_text_console>
+    <game_id>147</game_id>
+    <control_input>0</control_input>
+    <control_output>0</control_output>
+    <stop_commands />
+    <wait_for_exit>1</wait_for_exit>
+  </tc_game_text_console>
+  <tc_game_web_console>
+    <game_id>147</game_id>
+    <enable_web_console>1</enable_web_console>
+    <input_source>2</input_source>
+    <output_source>2</output_source>
+    <log_file />
+    <print_rcon_response>0</print_rcon_response>
+    <output_filters />
+  </tc_game_web_console>
+  <tc_game_fast_download>
+    <game_id>147</game_id>
+    <enable_fast_download>0</enable_fast_download>
+    <root_directory />
+    <url_expression>$[FastDownloadBaseUrl]/</url_expression>
+    <files />
+    <exclude_files />
+    <sync_created>0</sync_created>
+    <auto_sync>0</auto_sync>
+    <enable_compress>0</enable_compress>
+    <compress_format>zip</compress_format>
+    <disk_quota_mb>0</disk_quota_mb>
+    <max_compress_size>0</max_compress_size>
+    <requires_https>0</requires_https>
+  </tc_game_fast_download>
+  <tc_game_config_files>
+    <game_id>147</game_id>
+    <file_id>1</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>KFGame\Config\PCServer-KFGame.ini</relative_path>
+    <description />
+    <view_order>0</view_order>
+    <template>[Engine.GameInfo]
+DefaultGame=KFGameContent.KFGameInfo_Survival
+DefaultServerGame=KFGameContent.KFGameInfo_Survival
+bAdminCanPause=false
+MaxPlayers=12
+GameDifficulty=0.000000
+bChangeLevels=True
+MaxSpectators=2
+MaxIdleTime=0.000000
+MaxTimeMargin=0.000000
+TimeMarginSlack=1.350000
+MinTimeMargin=-1.000000
+TotalNetBandwidth=32000
+MaxDynamicBandwidth=7000
+MinDynamicBandwidth=4000
+DefaultGameType=KFGameContent.KFGameInfo_Survival
+GoreLevel=0
+TimeBetweenFailedVotes=10.0
+VoteTime=10.0
+bIsStandbyCheckingEnabled=false
+KickVotePercentage=0.500000
+bKickLiveIdlers=False
+ArbitrationHandshakeTimeout=0.000000
+
+[Engine.AccessControl]
+IPPolicies=ACCEPT;*
+bAuthenticateClients=True
+bAuthenticateServer=True
+bAuthenticateListenHost=True
+MaxAuthRetryCount=3
+AuthRetryDelay=5
+AdminPassword=
+GamePassword=
+
+[DefaultPlayer]
+Name=Player
+Team=255
+
+[Engine.HUD]
+bMessageBeep=true
+HudCanvasScale=0.95
+ConsoleMessageCount=4
+ConsoleFontSize=5
+MessageFontOffset=0
+bShowHUD=true
+bShowDirectorInfoDebug=false
+bShowDirectorInfoHUD=false
+DebugDisplay=AI
+
+[Engine.PlayerController]
+bAimingHelp=false
+InteractDistance=512
+bCheckRelevancyThroughPortals=true
+MaxConcurrentHearSounds=32
+bLogHearSoundOverflow=FALSE
+bShowKismetDrawText=True
+
+[Engine.Weapon]
+Priority=-1.0
+
+[Engine.WorldInfo]
+DefaultGravityZ=-750.0
+RBPhysicsGravityScaling=1.0
+MaxPhysicsSubsteps=5
+SquintModeKernelSize=128.0
+DecalManagerClassPath=Engine.DecalManager
+FracturedMeshWeaponDamage=1.0
+ChanceOfPhysicsChunkOverride=1.0
+bEnableChanceOfPhysicsChunkOverride=FALSE
+FractureExplosionVelScale=1.0
+DefaultAmbientZoneSettings=(bIsWorldInfo=true)
+bPersistPostProcessToNextLevel=False
+bAllowHostMigration=FALSE
+HostMigrationTimeout=15
+bAllowTemporalAA=True
+bNoMobileMapWarnings=True
+AkAudioPoolHelperClassPath=KFGame.KFAkAudioPoolHelper
+EmitterPoolScale=1.0
+DestructionLifetimeScale=1.0
+bAllowExplosionLights=True
+MaxExplosionDecals=15
+
+[Engine.AutoTestManager]
+NumMinutesPerMap=50
+#CommandsToRunAtEachTravelTheWorldNode=MemLeakCheck
+#CommandsToRunAtEachTravelTheWorldNode=SNAPSHOTMEMORY
+
+[Engine.DecalManager]
+DecalLifeSpan=10.0
+
+[Engine.UIDataStore_GameResource]
+ElementProviderTypes=(ProviderTag="GameTypes",ProviderClassName="KFGame.KFGameInfoSummary")
+ElementProviderTypes=(ProviderTag="Maps",ProviderClassName="KFGame.KFMapSummary")
+ElementProviderTypes=(ProviderTag="Mutators",ProviderClassName="KFGame.KFMutatorSummary")
+
+[GameFramework.GameCheatManager]
+DebugCameraControllerClassName=GameFramework.DebugCameraController
+
+[GameFramework.MobileHud]
+bShowMobileHud=true
+bShowGameHud=false
+
+[GameFramework.MobileInputZone]
+RenderColor=(R=255,G=255,B=255,A=255)
+InactiveAlpha=0.5
+SizeX=100
+SizeY=100
+VertMultiplier=1.0
+HorizMultiplier=1.0
+bUseGentleTransitions=true
+ResetCenterAfterInactivityTime=3.0
+ActivateTime=0.6
+DeactivateTime=0.2
+TapDistanceConstraint=5
+bApplyGlobalScaleToActiveSizes=true
+AuthoredGlobalScale=2.0
+
+[GameFramework.FrameworkGame]
+RequiredMobileInputConfigs=(GroupName="DebugGroup",RequireZoneNames=("DebugStickMoveZone","DebugStickLookZone","DebugLookZone"))
+
+[DebugLookZone MobileInputZone]
+InputKey=MouseY
+HorizontalInputKey=MouseX
+TapInputKey=MOBILE_Fire
+Type=ZoneType_Trackball
+bRelativeSizeX=true
+bRelativeSizeY=true
+X=0
+Y=0
+SizeX=1.0
+SizeY=1.0
+VertMultiplier=-0.0007
+HorizMultiplier=0.001
+Acceleration=12.0
+Smoothing=1.0
+EscapeVelocityStrength=0.85
+bIsInvisible=1
+TapDistanceConstraint=32
+
+[DebugStickMoveZone MobileInputZone]
+InputKey=MOBILE_AForward
+HorizontalInputKey=MOBILE_AStrafe
+Type=ZoneType_Joystick
+bRelativeX=true
+bRelativeY=true
+bRelativeSizeX=true
+bRelativeSizeY=true
+X=0.05
+Y=-0.4
+SizeX=0.1965
+SizeY=1.0
+bSizeYFromSizeX=true
+VertMultiplier=-1.0
+HorizMultiplier=1.0
+bScalePawnMovement=true
+RenderColor=(R=255,G=255,B=255,A=255)
+InactiveAlpha=0.25
+bUseGentleTransitions=true
+ResetCenterAfterInactivityTime=3.0
+ActivateTime=0.6
+DeactivateTime=0.2
+TapDistanceConstraint=5
+
+[DebugStickLookZone MobileInputZone]
+InputKey=MOBILE_ALookUp
+HorizontalInputKey=MOBILE_ATurn
+Type=ZoneType_Joystick
+bRelativeX=true
+bRelativeY=true
+bRelativeSizeX=true
+bRelativeSizeY=true
+VertMultiplier=-0.5
+HorizMultiplier=0.35
+X=-0.2465
+Y=-0.4
+SizeX=0.1965
+SizeY=1.0
+bSizeYFromSizeX=true
+RenderColor=(R=255,G=255,B=255,A=255)
+InactiveAlpha=0.25
+bUseGentleTransitions=true
+ResetCenterAfterInactivityTime=3.0
+ActivateTime=0.6
+DeactivateTime=0.2
+TapDistanceConstraint=5
+
+[BaseAI.AIDebugTool]
+DebugDrawMode=gcb
+
+[BaseAI.AnimationProxy]
+
+[Configuration]
+
+[KFGame.KFFlashlightAttachment]
+bSkipBestFlashlightCheck=false
+
+[KFGame.KFPlayerController]
+bDebugTargetAdhesion=False
+SavedPerkIndex=1
+ForceFeedbackManagerClassName=WinDrv.XnaForceFeedbackManager
+
+[KFGame.KFPawn]
+bAllowFootstepSounds=True
+bAllowAlwaysOnPhysics=True
+bAllowRagdollAndGoreOnDeadBodies=True
+
+[KFGame.KFPawn_Human]
+BloodPoolDelay=2
+
+[KFGame.KFImpactEffectManager]
+MaxImpactEffectDecals=20
+
+[KFGame.KFGoreManager]
+GoreFXLifetimeMultiplier=1.0
+BodyWoundDecalLifetime=30
+BloodSplatterLifetime=10
+BloodPoolLifetime=20
+GibletLifetime=10
+MaxBodyWoundDecals=5
+MaxBloodSplatterDecals=20
+MaxBloodPoolDecals=20
+BloodSplatSize=100
+BloodPoolSize=125
+MaxDeadBodies=12
+MaxBloodEffects=25
+MaxGoreEffects=10
+AllowBloodSplatterDecals=True
+PersistentSplatTraceLength=1000
+MaxPersistentSplatsPerFrame=75
+
+[KFGAME.KFHUDBase]
+FriendlyHudScale=1.0
+
+[KFGame.KFGameInfo]
+GameModes=(FriendlyName="Survival",ClassNameAndPath="KFGameContent.KFGameInfo_Survival",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=4,LocalizeID=0)
+GameModes=(FriendlyName="Weekly",ClassNameAndPath="KFGameContent.KFGameInfo_WeeklySurvival",bSoloPlaySupported=true,DifficultyLevels=0,Lengths=0,LocalizeID=1)
+GameModes=(FriendlyName="Versus",ClassNameAndPath="KFGameContent.KFGameInfo_VersusSurvival",bSoloPlaySupported=false,DifficultyLevels=0,Lengths=0,LocalizeID=2)
+GameModes=(FriendlyName="Endless",ClassNameAndPath="KFGameContent.KFGameInfo_Endless",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=3)
+GameModes=(FriendlyName="Objective",ClassNameAndPath="KFGameContent.KFGameInfo_Objective",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=4)
+GameLength=1
+MinNetPlayers=1
+GameStartDelay=4
+ReadyUpDelay=90
+bWaitForNetPlayers=true
+GameplayEventsWriterClassName=KFGame.KFGameplayEventsWriter
+bEnableMapObjectives=true
+bUseMapList=True
+ActiveMapCycle=0
+GameMapCycles=(Maps=("KF-Airship","KF-AshwoodAsylum","KF-Biolapse","KF-Bioticslab","KF-BlackForest","KF-BurningParis","KF-Catacombs","KF-ContainmentStation","KF-Desolation","KF-DieSector","KF-EvacuationPoint","KF-Farmhouse","KF-HellmarkStation","KF-HostileGrounds","KF-InfernalRealm","KF-KrampusLair","KF-Lockdown","KF-MonsterBall","KF-Nightmare","KF-Nuked","KF-Outpost","KF-PowerCore_Holdout","KF-Prison","KF-Sanitarium","KF-Santasworkshop","KF-ShoppingSpree","KF-Spillway","KF-SteamFortress","KF-TheDescent","KF-TragicKingdom","KF-VolterManor","KF-ZedLanding"))
+EndOfGameDelay=15
+FriendlyFireScale=0.000000
+KickVotePercentage=0.660000
+TimeBetweenFailedVotes=10.000000
+VoteTime=60.0
+MapVoteDuration=60.000000
+bLogGameBalance=true
+BannerLink=http://art.tripwirecdn.com/TestItemIcons/MOTDServer.png
+ServerMOTD=Welcome to our server. \n \n Have fun and good luck!
+WebsiteLink=http://killingfloor2.com/
+ServerMOTDColor=(B=254,G=254,R=254,A=192)
+WebLinkColor=(B=254,G=254,R=254,A=192)
+ClanMotto=This is the clan motto.
+ClanMottoColor=(B=254,G=254,R=254,A=192)
+bEnableDeadToVOIP=true
+ServerExpirationForKillWhenEmpty=120.0
+bDisableKickVote=False
+bDisablePublicTextChat=False
+bDisableVOIP=False
+bPartitionSpectators=False
+bDisablePickups=False
+bDisableMapVote=False
+bDisableTeamCollision=False
+bDisablePublicVOIPChannel=False
+MapVotePercentage=0.000000
+MapCycleIndex=-1
+
+[KFGameContent.KFGameInfo_Survival]
+bEnableGameAnalytics=true
+bRecordGameStatsFile=false
+MaxPlayers=6
+GameModes=(FriendlyName="Survival",ClassNameAndPath="KFGameContent.KFGameInfo_Survival",bSoloPlaySupported=True,DifficultyLevels=4,Lengths=4,LocalizeID=0)
+GameModes=(FriendlyName="Weekly",ClassNameAndPath="KFGameContent.KFGameInfo_WeeklySurvival",bSoloPlaySupported=True,DifficultyLevels=0,Lengths=0,LocalizeID=1)
+GameModes=(FriendlyName="Versus",ClassNameAndPath="KFGameContent.KFGameInfo_VersusSurvival",bSoloPlaySupported=False,DifficultyLevels=0,Lengths=0,LocalizeID=2)
+GameModes=(FriendlyName="Endless",ClassNameAndPath="KFGameContent.KFGameInfo_Endless",bSoloPlaySupported=True,DifficultyLevels=4,Lengths=0,LocalizeID=3)
+GameModes=(FriendlyName="Objective",ClassNameAndPath="KFGameContent.KFGameInfo_Objective",bSoloPlaySupported=True,DifficultyLevels=4,Lengths=0,LocalizeID=4)
+bWaitForNetPlayers=True
+bEnableMapObjectives=True
+bLogScoring=False
+bLogAIDefaults=False
+bLogAICount=False
+MinNetPlayers=1
+EndOfGameDelay=15
+ServerExpirationForKillWhenEmpty=120.000000
+RequiredMobileInputConfigs=(GroupName="DebugGroup",RequireZoneNames=("DebugStickMoveZone","DebugStickLookZone","DebugLookZone"),bIsAttractModeGroup=False)
+bIsStandbyCheckingEnabled=False
+GoalScore=0
+MaxLives=0
+TimeLimit=0
+StandbyRxCheatTime=0.000000
+StandbyTxCheatTime=0.000000
+BadPingThreshold=0
+PercentMissingForRxStandby=0.000000
+PercentMissingForTxStandby=0.000000
+PercentForBadPing=0.000000
+JoinInProgressStandbyWaitTime=0.000000
+DefaultGameType=KFGameContent.KFGameInfo_Survival
+AnimTreePoolSize=0
+
+[KFGameContent.KFGameInfo_WeeklySurvival]
+bEnableGameAnalytics=true
+bRecordGameStatsFile=false
+MaxPlayers=6
+bEnableDevAnalytics=true
+GameModes=(FriendlyName="Survival",ClassNameAndPath="KFGameContent.KFGameInfo_Survival",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=4,LocalizeID=0)
+GameModes=(FriendlyName="Weekly",ClassNameAndPath="KFGameContent.KFGameInfo_WeeklySurvival",bSoloPlaySupported=true,DifficultyLevels=0,Lengths=0,LocalizeID=1)
+GameModes=(FriendlyName="Versus",ClassNameAndPath="KFGameContent.KFGameInfo_VersusSurvival",bSoloPlaySupported=false,DifficultyLevels=0,Lengths=0,LocalizeID=2)
+GameModes=(FriendlyName="Endless",ClassNameAndPath="KFGameContent.KFGameInfo_Endless",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=3)
+GameModes=(FriendlyName="Objective",ClassNameAndPath="KFGameContent.KFGameInfo_Objective",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=4)
+
+[KFGameContent.KFGameInfo_VersusSurvival]
+bEnableGameAnalytics=true
+bRecordGameStatsFile=false
+MinNetPlayers=2
+bTeamBalanceEnabled=true
+MaxPlayers=12
+TimeUntilNextRound=30
+bEnableMapObjectives=false
+bEnableDevAnalytics=true
+ScoreRadius=1000.0
+GameModes=(FriendlyName="Survival",ClassNameAndPath="KFGameContent.KFGameInfo_Survival",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=4,LocalizeID=0)
+GameModes=(FriendlyName="Weekly",ClassNameAndPath="KFGameContent.KFGameInfo_WeeklySurvival",bSoloPlaySupported=true,DifficultyLevels=0,Lengths=0,LocalizeID=1)
+GameModes=(FriendlyName="Versus",ClassNameAndPath="KFGameContent.KFGameInfo_VersusSurvival",bSoloPlaySupported=false,DifficultyLevels=0,Lengths=0,LocalizeID=2)
+GameModes=(FriendlyName="Endless",ClassNameAndPath="KFGameContent.KFGameInfo_Endless",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=3)
+GameModes=(FriendlyName="Objective",ClassNameAndPath="KFGameContent.KFGameInfo_Objective",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=4)
+
+[KFGameContent.KFGameInfo_Endless]
+bEnableGameAnalytics=true
+bEnableGameStatsFile=false
+MaxPlayers=6
+GameModes=(FriendlyName="Survival",ClassNameAndPath="KFGameContent.KFGameInfo_Survival",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=4,LocalizeID=0)
+GameModes=(FriendlyName="Weekly",ClassNameAndPath="KFGameContent.KFGameInfo_WeeklySurvival",bSoloPlaySupported=true,DifficultyLevels=0,Lengths=0,LocalizeID=1)
+GameModes=(FriendlyName="Versus",ClassNameAndPath="KFGameContent.KFGameInfo_VersusSurvival",bSoloPlaySupported=false,DifficultyLevels=0,Lengths=0,LocalizeID=2)
+GameModes=(FriendlyName="Endless",ClassNameAndPath="KFGameContent.KFGameInfo_Endless",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=3)
+GameModes=(FriendlyName="Objective",ClassNameAndPath="KFGameContent.KFGameInfo_Objective",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=4)
+
+[KFGame.KFCheatManager]
+DebugCameraControllerClassName=KFGame.KFDebugCameraController
+
+[KFGame.KFAIDirector]
+bShowAINames=false
+bDebugAllAI=false
+bLoadDebugPackageResourcesAtStart=false
+AiDebugScreenLargeFontName=AI_Debug_Helpers.Font_Large
+DebugIsSprintingIconName=AI_Debug_Helpers.DebugIsSprintingIcon
+DebugIsWalkingIconName=AI_Debug_Helpers.DebugIsWalkingIcon
+
+[KFGame.KFDoorGraph]
+bAfterBuildWriteOutGraph=true
+DoorGraphEdgeDebugDisplayColor=(R=0,G=255,B=0,A=255)
+
+[KFGame.KFDoorVertex]
+OffsetUnoccupiedLineDebugDisplayColor=(R=0,G=0,B=255,A=255)
+OffsetOccupiedLineDebugDisplayColor=(R=14,G=162,B=247,A=255)
+Offset2DoorLineDebugDisplayColor=(R=146,G=14,B=247,A=255)
+RegisteredCtrlTextDebugDisplayColor=(R=252,G=244,B=7,A=255)
+DoorActorNameTextDebugDisplayColor=(R=253,G=253,B=250,A=255)
+DoorActorNavLocLeftDebugDisplayColor=(R=255,G=0,B=0,A=255)
+DoorActorNavLocRightDebugDisplayColor=(R=0,G=255,B=0,A=255)
+bShowDoorActorNameText=true
+DoorVertexOffsetCrossSize=20
+DoorVertexOffsetNameOfOccupierSize=40
+DoorVertexShowOffsetCosOfAngle=0.76
+
+[KFGame.KFAiDestructibleInterActionBehavior]
+MaxNumberOfBumpsBeforeAttacking=5
+
+[KFGame.KFScout]
+bReplacePathNodesWithKFPathNodes=false
+bDebugReplacePathNodes=false
+
+[KFGame.KFPlayerReplicationInfo]
+ActivePerkIndex=255
+StoredCharIndex=0
+
+[KFGame.KFPerk]
+bLogPerk=false
+
+[KFGame.KFPerk_Commando]
+bOverrideCloud=false
+Level=0
+Build=0
+
+[KFGame.KFPerk_Berserker]
+bOverrideCloud=false
+Level=0
+Build=0
+
+[KFGame.KFPerk_Support]
+bOverrideCloud=false
+Level=0
+Build=0
+
+[KFGame.KFWeap_FlameBase]
+bArePilotLightsAllowed=True
+
+[KFGame.KFWeapAttach_FlameBase]
+bArePilotLightsAllowed=True
+
+[Engine.GameReplicationInfo]
+ServerName=$[HostName]
+ShortName=KFServer
+
+[KFGame.KFGameEngine]
+MasterVolumeMultiplier=50
+DialogVolumeMultiplier=50
+MusicVolumeMultiplier=50
+SFxVolumeMultiplier=50
+BattleChatterIndex=0
+GammaMultiplier=0.68
+bMusicVocalsEnabled=false
+bMinimalChatter=false
+bEnableAdvDebugLines=false
+bMuteOnLossOfFocus=True
+bShowCrossHair=false
+FOVOptionsPercentageValue=1
+GoreLevel=2
+
+[KFGame.SprayActor]
+bAllowSprayLights=True
+
+[KFGame.KFUIDataStore_GameResource]
+ElementProviderTypes=(ProviderTag="GameTypes",ProviderClassName="KFGame.KFGameInfoSummary")
+ElementProviderTypes=(ProviderTag="Maps",ProviderClassName="KFGame.KFMapSummary")
+ElementProviderTypes=(ProviderTag="Mutators",ProviderClassName="KFGame.KFMutatorSummary")
+
+[KF-Airship KFMapSummary]
+MapName=KF-Airship
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Airship
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=False
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-AshwoodAsylum KFMapSummary]
+MapName=KF-AshwoodAsylum
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Asylum
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-Biolapse KFMapSummary]
+MapName=KF-Biolapse
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Biolapse
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=False
+bPlayableInObjective=False
+
+[KF-BioticsLab KFMapSummary]
+MapName=KF-BioticsLab
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_BioticsLab
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=True
+
+[KF-BlackForest KFMapSummary]
+MapName=KF-BlackForest
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_BlackForest
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-BurningParis KFMapSummary]
+MapName=KF-BurningParis
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Paris
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-Catacombs KFMapSummary]
+MapName=KF-Catacombs
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Catacombs
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-ContainmentStation KFMapSummary]
+MapName=KF-ContainmentStation
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_ContainmentStation
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-Desolation KFMapSummary]
+MapName=KF-Desolation
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Desolation
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-DieSector KFMapSummary]
+MapName=KF-DieSector
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_DieSector
+bPlayableInSurvival=False
+bPlayableInWeekly=False
+bPlayableInVsSurvival=False
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-EvacuationPoint KFMapSummary]
+MapName=KF-EvacuationPoint
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Evac
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-Farmhouse KFMapSummary]
+MapName=KF-Farmhouse
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Farmhouse
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-HellmarkStation KFMapSummary]
+MapName=KF-HellmarkStation
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_HellmarkStation
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=False
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-HostileGrounds KFMapSummary]
+MapName=KF-HostileGrounds
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_HostileGrounds
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-InfernalRealm KFMapSummary]
+MapName=KF-InfernalRealm
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_InfernalRealm
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-KrampusLair KFMapSummary]
+MapName=KF-KrampusLair
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_KrampusLair
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=False
+bPlayableInEndless=False
+bPlayableInObjective=False
+
+[KF-Lockdown KFMapSummary]
+MapName=KF-Lockdown
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Lockdown
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-Monsterball KFMapSummary]
+MapName=KF-MonsterBall
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_MonsterBall
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-Nightmare KFMapSummary]
+MapName=KF-Nightmare
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Nightmare
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=False
+bPlayableInEndless=False
+bPlayableInObjective=False
+
+[KF-Nuked KFMapSummary]
+MapName=KF-Nuked
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Nuked
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=True
+
+[KF-Outpost KFMapSummary]
+MapName=KF-Outpost
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_OutPost
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=True
+
+[KF-PowerCore_Holdout KFMapSummary]
+MapName=KF-PowerCore_Holdout
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_PowerCore
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=False
+bPlayableInEndless=False
+bPlayableInObjective=False
+
+[KF-Prison KFMapSummary]
+MapName=KF-Prison
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Prison
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-Sanitarium KFMapSummary]
+MapName=KF-Sanitarium
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Sanitarium
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-SantasWorkshop KFMapSummary]
+MapName=KF-SantasWorkshop
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_SantasWorkshop
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=False
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-ShoppingSpree KFMapSummary]
+MapName=KF-ShoppingSpree
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_ShoppingSpree
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=False
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-Spillway KFMapSummary]
+MapName=KF-Spillway
+MapAssociation=1
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Spillway
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-SteamFortress KFMapSummary]
+MapName=KF-SteamFortress
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_SteamFortress
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=False
+bPlayableInEndless=True
+bPlayableInObjective=True
+
+[KF-TheDescent KFMapSummary]
+MapName=KF-TheDescent
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Descent
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=False
+bPlayableInEndless=False
+bPlayableInObjective=False
+
+[KF-TragicKingdom KFMapSummary]
+MapName=KF-TragicKingdom
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_TragicKingdom
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-VolterManor KFMapSummary]
+MapName=KF-VolterManor
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.KF2_MapPreview_Manor
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=False
+
+[KF-ZedLanding KFMapSummary]
+MapName=KF-ZedLanding
+MapAssociation=2
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Zedlanding
+bPlayableInSurvival=True
+bPlayableInWeekly=True
+bPlayableInVsSurvival=True
+bPlayableInEndless=True
+bPlayableInObjective=True
+
+[KF-Default KFMapSummary]
+MapName=KF-Default
+MapAssociation=0
+ScreenshotPathName=UI_MapPreview_TEX.UI_MapPreview_Placeholder
+bPlayableInSurvival=False
+bPlayableInWeekly=False
+bPlayableInVsSurvival=False
+bPlayableInEndless=False
+bPlayableInObjective=False
+
+[Boom KFWeeklyOutBreakInformation]
+Index=0
+IconPath=WeeklyObjective_UI.UI_Weeklies_Boom
+RewardIDs[0]=-1
+
+[Zombies KFWeeklyOutBreakInformation]
+Index=1
+IconPath=WeeklyObjective_UI.UI_Weeklies_Zombies
+RewardIDs[0]=-1
+
+[ShrinkyDinky KFWeeklyOutBreakInformation]
+Index=2
+IconPath=WeeklyObjective_UI.UI_Weeklies_TinyTerror
+RewardIDs[0]=-1
+
+[BigHead KFWeeklyOutBreakInformation]
+Index=3
+IconPath=WeeklyObjective_UI.UI_Weeklies_Bighead
+RewardIDs[0]=-1
+
+[PoundAmmonium KFWeeklyOutBreakInformation]
+Index=4
+IconPath=WeeklyObjective_UI.UI_Weeklies_Poundamonium
+RewardIDs[0]=-1
+
+[DeathBalloons KFWeeklyOutBreakInformation]
+Index=5
+IconPath=WeeklyObjective_UI.UI_Weeklies_DeathBalloons
+RewardIDs[0]=-1
+
+[ZedTime KFWeeklyOutBreakInformation]
+Index=6
+IconPath=WeeklyObjective_UI.UI_Weeklies_Zedtime
+RewardIDs[0]=-1
+
+[BeefCake KFWeeklyOutBreakInformation]
+Index=7
+IconPath=WeeklyObjective_UI.UI_Weeklies_Beefcake
+RewardIDs[0]=-1
+
+[Survival KFGameInfoSummary]
+ClassName=KFGameContent.KFGameInfo_Survival
+MapPrefix=KF
+
+[WeeklySurvival KFGameInfoSummary]
+ClassName=KFGameContent.KFGameInfo_WeeklySurvival
+MapPrefix=KF
+
+[VersusSurvival KFGameInfoSummary]
+ClassName=KFGameContent.KFGameInfo_VersusSurvival
+MapPrefix=KF
+
+[Endless KFGameInfoSummary]
+ClassName=KFGameContent.KFGameInfo_Endless
+MapPrefix=KF
+
+[Objective KFGameInfoSummary]
+ClassName=KFGameContent.KFGameInfo_Objective
+MapPrefix=KF
+
+[KFGame.KFPawn_Monster]
+bCanLeap=true
+
+[KFGame.KFMuzzleFlash]
+ShellEjectLifetime=10.f
+
+[IniVersion]
+0=1604438625.000000
+1=1604442046.000000
+2=1604438624.000000
+3=1604439291.000000
+
+[KFGameContent.KFGameInfo_Objective]
+GameModes=(FriendlyName="Survival",ClassNameAndPath="KFGameContent.KFGameInfo_Survival",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=4,LocalizeID=0)
+GameModes=(FriendlyName="Weekly",ClassNameAndPath="KFGameContent.KFGameInfo_WeeklySurvival",bSoloPlaySupported=true,DifficultyLevels=0,Lengths=0,LocalizeID=1)
+GameModes=(FriendlyName="Versus",ClassNameAndPath="KFGameContent.KFGameInfo_VersusSurvival",bSoloPlaySupported=false,DifficultyLevels=0,Lengths=0,LocalizeID=2)
+GameModes=(FriendlyName="Endless",ClassNameAndPath="KFGameContent.KFGameInfo_Endless",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=3)
+GameModes=(FriendlyName="Objective",ClassNameAndPath="KFGameContent.KFGameInfo_Objective",bSoloPlaySupported=true,DifficultyLevels=4,Lengths=0,LocalizeID=4)
+
+</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>0</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:Encoding" value="0" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2020-11-03 22:24:34" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2020-11-03 22:24:44" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <hide_read_failure>0</hide_read_failure>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_scripts>
+    <game_id>147</game_id>
+    <script_id>3</script_id>
+    <mod_id>0</mod_id>
+    <update_id>0</update_id>
+    <operating_system>0</operating_system>
+    <script_engine_id>1</script_engine_id>
+    <description>Change service exe to shared folder</description>
+    <script_contents>import clr
+from System import String
+
+ThisService.Executable = String.Format("C:\\TCAFiles\\Users\\KF2-Shared\\Binaries\\Win64\\KFServerSvc{0}.exe", ThisService.ServiceId)
+ThisService.WorkingDirectory = "C:\\TCAFiles\\Users\\KF2-Shared\\Binaries\\Win64\\"
+ThisService.Save()</script_contents>
+    <service_event>2</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>0</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2020-11-04 21:06:33" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2021-01-12 23:53:51" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+    <execute_in_popup>1</execute_in_popup>
+    <sched_tasks_interval_limit>0</sched_tasks_interval_limit>
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>147</game_id>
+    <script_id>1</script_id>
+    <mod_id>0</mod_id>
+    <update_id>0</update_id>
+    <operating_system>2</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Create symlinks</description>
+    <script_contents>rd /q /s C:\TCAFiles\Users\KF2-Shared\KFGame\Config\ConfigSvc%ThisService_ServiceId%
+del /q C:\TCAFiles\Users\KF2-Shared\Binaries\Win64\KFServerSvc%ThisService_ServiceId%.exe
+mklink /d C:\TCAFiles\Users\KF2-Shared\KFGame\Config\ConfigSvc%ThisService_ServiceId% %ThisService_RootDirectory%KFGame\Config
+mklink C:\TCAFiles\Users\KF2-Shared\Binaries\Win64\KFServerSvc%ThisService_ServiceId%.exe C:\TCAFiles\Users\KF2-Shared\Binaries\Win64\KFServer.exe</script_contents>
+    <service_event>2</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>0</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2020-11-04 20:39:33" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2020-11-04 21:49:37" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+    <execute_in_popup>1</execute_in_popup>
+    <sched_tasks_interval_limit>0</sched_tasks_interval_limit>
+  </tc_game_scripts>
+  <tc_game_scripts>
+    <game_id>147</game_id>
+    <script_id>2</script_id>
+    <mod_id>0</mod_id>
+    <update_id>0</update_id>
+    <operating_system>2</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Delete symlinks</description>
+    <script_contents>rd /q /s C:\TCAFiles\Users\KF2-Shared\KFGame\Config\ConfigSvc%ThisService_ServiceId%
+del /q C:\TCAFiles\Users\KF2-Shared\Binaries\Win64\KFServerSvc%ThisService_ServiceId%.exe
+</script_contents>
+    <service_event>4</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <server_owner_access>0</server_owner_access>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <stop_service>0</stop_service>
+    <allow_scheduling>0</allow_scheduling>
+    <display_name />
+    <image_url />
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2020-11-04 20:54:50" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2020-11-04 21:49:16" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <output_filters />
+    <custom_prompt />
+    <execute_in_popup>1</execute_in_popup>
+    <sched_tasks_interval_limit>0</sched_tasks_interval_limit>
+  </tc_game_scripts>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>BukGet</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineBuilder</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineChanger</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CpuStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FastDlSync</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FileManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Ftp</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>GameSwitcher</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>GoogleDrive</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>1</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveBandwidthStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveCpuStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveMemoryStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LivePlayerStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewer</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerServiceActivity</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerTextConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MapPacks</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MemoryStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ModManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PunkbusterUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Reinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Repair</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledGameSwitcher</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledReinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledRestart</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledScript</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>SteamUpdate</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Updates</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>WebConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>147</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Workshop</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+</KF2-Shared>

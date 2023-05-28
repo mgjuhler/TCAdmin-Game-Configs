@@ -1,0 +1,1424 @@
+<RO2>
+  <tc_games>
+    <game_id>81</game_id>
+    <operating_system>2</operating_system>
+    <display_name>Red Orchestra 2</display_name>
+    <short_name>RO2</short_name>
+    <private_rule_value>1</private_rule_value>
+    <private_rule_name>sv_password</private_rule_name>
+    <hostname_rule />
+    <map_rule />
+    <slots_rule />
+    <exclude_rules />
+    <query_protocol>a2sutf8</query_protocol>
+    <rcon_protocol>0</rcon_protocol>
+    <show_in_create_list>1</show_in_create_list>
+    <is_voice_server>0</is_voice_server>
+    <is_template>0</is_template>
+    <min_slots>0</min_slots>
+    <max_slots>0</max_slots>
+    <default_slots>0</default_slots>
+    <name_from_query>1</name_from_query>
+    <exclude_load_balancing>0</exclude_load_balancing>
+    <join_url>steam://connect/$[Service.IpHostname]:$[Service.GamePort]</join_url>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-24 22:25:39" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="										Thanks to BEservers.be for the original v1 config" type="System.String,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-29 03:58:16" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATE_SYMLINK" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:STEAM_API_GAME_VERSION" value="76:1100" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:STEAM_API_GAME_VERSION_UPDATE" value="2018-09-27 18:46:36" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <enable_community_images>1</enable_community_images>
+  </tc_games>
+  <tc_game_paths>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <relative_executable>binaries\win32\rogame.exe</relative_executable>
+    <relative_working_dir />
+    <relative_subadmin_files />
+    <relative_reseller_files />
+    <relative_user_files />
+    <files_folder_name>ro2</files_folder_name>
+    <enable_ext_download>0</enable_ext_download>
+    <ext_download_url />
+    <ext_save_name />
+    <ext_extract_opt>0</ext_extract_opt>
+    <ext_script_engine_id>1</ext_script_engine_id>
+    <ext_script />
+    <ext_license />
+    <ext_license_accepted>0</ext_license_accepted>
+  </tc_game_paths>
+  <tc_game_general_config>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <enable_start_cpu_0>0</enable_start_cpu_0>
+    <enable_interact_desktop>1</enable_interact_desktop>
+    <enable_configs_icon>1</enable_configs_icon>
+    <enable_log_viewer>1</enable_log_viewer>
+    <log_extensions>*.log</log_extensions>
+    <branded_text />
+    <branded_text_space>0</branded_text_space>
+    <brand_at_end>0</brand_at_end>
+    <brand_regex_search />
+    <brand_regex_case_insensitive>1</brand_regex_case_insensitive>
+    <stop_delay_seconds>3</stop_delay_seconds>
+    <sched_tasks_limit>0</sched_tasks_limit>
+    <force_config_editor_create>0</force_config_editor_create>
+    <collapse_mod_groups>0</collapse_mod_groups>
+  </tc_game_general_config>
+  <tc_game_ports>
+    <game_id>81</game_id>
+    <only_default_ports>0</only_default_ports>
+    <only_primary_ip>0</only_primary_ip>
+    <game_port>7777</game_port>
+    <query_port>27015</query_port>
+    <rcon_port>7777</rcon_port>
+    <port_increment>10</port_increment>
+    <query_port_expression />
+    <rcon_port_expression />
+    <custom_port_1>0</custom_port_1>
+    <custom_port_2>0</custom_port_2>
+    <custom_port_3>0</custom_port_3>
+    <custom_port_4>0</custom_port_4>
+    <custom_port_5>0</custom_port_5>
+    <custom_port_6>0</custom_port_6>
+    <custom_port_7>0</custom_port_7>
+    <custom_port_8>0</custom_port_8>
+    <custom_port_9>0</custom_port_9>
+    <custom_port_10>0</custom_port_10>
+    <custom_port_1_expression />
+    <custom_port_2_expression />
+    <custom_port_3_expression />
+    <custom_port_4_expression />
+    <custom_port_5_expression />
+    <custom_port_6_expression />
+    <custom_port_7_expression />
+    <custom_port_8_expression />
+    <custom_port_9_expression />
+    <custom_port_10_expression />
+    <supports_ipv6>0</supports_ipv6>
+    <unique_ports>0</unique_ports>
+    <enable_forcebindip>0</enable_forcebindip>
+    <app_data />
+  </tc_game_ports>
+  <tc_game_cmdlines>
+    <game_id>81</game_id>
+    <cmdline_default>TE-Apartments?MinPlayers=0?MaxPlayers=$[Service.Slots] -seekfreeloadingserver -multihome=$[Service.IpAddress] -port=$[Service.GamePort] -log=serverlog.log</cmdline_default>
+    <cmdline_private>TE-Apartments?MinPlayers=0?MaxPlayers=$[Service.Slots] -seekfreeloadingserver -multihome=$[Service.IpAddress] -port=$[Service.GamePort] -log=serverlog.log</cmdline_private>
+    <cmdline_default_custom>TE-Apartments?MinPlayers=0?MaxPlayers=$[Service.Slots] -seekfreeloadingserver -multihome=$[Service.IpAddress] -port=$[Service.GamePort] -log=serverlog.log</cmdline_default_custom>
+    <cmdline_private_custom>TE-Apartments?MinPlayers=0?MaxPlayers=$[Service.Slots] -seekfreeloadingserver -multihome=$[Service.IpAddress] -port=$[Service.GamePort] -log=serverlog.log</cmdline_private_custom>
+    <predef_cmdlines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfPredefinedCommandLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;PredefinedCommandLine&gt;
+    &lt;Id&gt;4d62e46c-ec32-4d2a-8638-43dc909d6298&lt;/Id&gt;
+    &lt;CommandLine&gt;TE-Apartments?MinPlayers=0?MaxPlayers=$[Service.Slots] -seekfreeloadingserver -multihome=$[Service.IpAddress] -port=$[Service.GamePort] -log=serverlog.log&lt;/CommandLine&gt;
+    &lt;Description&gt;Default&lt;/Description&gt;
+  &lt;/PredefinedCommandLine&gt;
+&lt;/ArrayOfPredefinedCommandLine&gt;</predef_cmdlines>
+    <disable_param_selection>0</disable_param_selection>
+  </tc_game_cmdlines>
+  <tc_game_punkbuster_config>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <enable_pbweb>1</enable_pbweb>
+    <pb_relative_path>binaries\win32\pb\</pb_relative_path>
+    <pb_download_url />
+    <execute_on_create>0</execute_on_create>
+  </tc_game_punkbuster_config>
+  <tc_game_query_monitoring>
+    <game_id>81</game_id>
+  </tc_game_query_monitoring>
+  <tc_game_mail_templates>
+    <game_id>81</game_id>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:InstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:InstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-24 22:26:01" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-12-29 03:58:18" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_mail_templates>
+  <tc_game_steam_config>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <enable_hldsupdate>2</enable_hldsupdate>
+    <hlds_game_type>212542</hlds_game_type>
+    <validate>0</validate>
+    <execute_on_create>1</execute_on_create>
+    <extra_options />
+    <steam_account />
+    <steam_password />
+    <run_as_service_user>0</run_as_service_user>
+    <store_game_id>35450</store_game_id>
+    <store_backgrounds>https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_389b474cc6ef48e5b1550b9af517d28dc2c8ffae.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_03d2fcf1c9c904ace169c7d7800a942fee1dc3e4.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_6f3c5316f77a05b752b4271760d4db3a973a293e.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_315fc0992910129ea1b19b75299c934acbefc772.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_813fd4e4dc3336737af63464dd4f1b4f9972322a.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_4500dafcce4ad18003764ad4680fc334c08178be.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_4ae84e8fb89363650100b6b0132684179f07c4cc.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_67ae23de420d6b7d75453cb9356126c645a532c9.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_c7bb1bc93e0f4593fd8bae3da01c9d6e09633e12.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_88f183802a2eb4c5a9327ca15072e70a899cbcb2.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_c94398cbee6ae4bcb1cab78d7d10b0aeadb20ff9.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_ab2b7461bbdc1f8396984a1fa6c70437df16f176.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_848828f48a99bb2c58c7c4b44127395f85e216c3.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_b6574bb363a7ba9564a7b071bc986c320f187dc0.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_3b3de12aec2c6bb110788904784ce1dd164bcac4.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_fba1bcd6b54d8f631d26675df2b9bc9a0d9a7c98.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_aaa6cc97ed9e2adcfdf57a0337643cc78a836f6f.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_123b497d45e078d629f23b7b44defda48c21bb78.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_6d14a9dfbd2edab3f871d8e022c9b588f78cc170.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_b1c10472940c219531ed85473422ce54b815c65f.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_61fe073df05261eaa36376b7243c5628bb10547a.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_a71e5d66cd50d845336f97b6e1e0c57e81ebabb1.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_0db81886598575ddfcefd5c28aa3cf815bcfb144.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_8b06dac0256fcc366165255bf0b70a00e40d7a4f.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_1f47164c0b3df94a42d0dc7e6b16312b6fa2f4da.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_f5a1c2d6db26e873c8cff93ea825a1b471da9d56.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_4da04843e6f47f2a2a4d0d5d52a58372094d9fc9.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_3dee5f2d4e5c09f4b8b6dcee7aab98bb622815e9.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_081a10f1bb261f9d5bb53664e29db639d244c78f.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_adcf73ba97f304da168c36df7c42279e2dbbdd7e.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_d2ea084da6b30ba4aaff259d401de58609820fdc.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_14efd99ee8322fdfff8c85654d886e37ce990dea.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_8cbca098c6b51da125187eb1a7b8a31b58db4058.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_0feb2bd5a7017a88f0a0a0a28f5194bfcc8f39b9.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_6c6e4d55088610d4c6e93e851b3cda54f7a4b671.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_99300eb6957a0295722712cb47967122ce9602ef.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_e013b4dcfc998b2051cb6d2566ec07e5e0b8f6f9.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_82510aee15bf1ab89e59ed629a732725e71faa40.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_7575a31ac1d98739d8329dd390abb52663c45c5f.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_21814d064bb2cbc232c8cf4e8e339919d7cfb759.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_e68776e2060023762a1314700b520bfd1ba6aab0.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_0714ebf830fdd198da2c32dc0dccfdf380c60543.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_ca186005b68953be6de80de5230aa42ee8b3764d.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_e18181dc57880c6fdf71fe7ab6b5baf51ab0fecb.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_20c63cb8d0c3c7f66e9aa98ee9f1fa7ec67fe40d.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_583f6b943d5f6604d1dc0bb4fbbf4b33e2c75b21.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_9ab3ddeabeee04e90d4f38a29178691b34469ebf.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_dd45576259fb038ce3a918ec1fa07de956f281fb.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_7f28eacb96a9fc58415c74bd92817f8865894329.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_887ac0e311072cec52650d66412683b2357e9ace.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_4184eb92d52b86ab55f2f55aa8eda4b57e08d15f.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_fde8847cdec228457dfef2639836ac24d0428826.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_af7159f79dbcb7fa0d3650036b23d4d6442ee5b3.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_85625fc014012f2b09750b5e4d6cd8777f563a98.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_8ff53f4d76e92a199a2d81cda836edef45ad3a97.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_3fb455021bfbf9fb03ffbde79a6c0075b963df7b.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_110d1d134e6203338c9e43c073a0afc6ec5ec146.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_015b359e365d55540dcdc2c4a99e222db6bf5e79.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_aa09af340e2376ef7366633e84b8b45ef05a8642.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_af939cf021be27f5cc031980e301e0c03f199836.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_4331746829153cd2fcf7544da222e913b5abd905.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_5ba52e5669968661ae811e689886c2adade01101.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_e2ae6caf8309751bc1c75a1f09bff5f033985776.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_392d38a4b4b2a6c3467716e52e11b8b08074b98b.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_2ce8a6b3ef81cd92a7c9b62521f861ebf3710975.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_e08a161f01f932150db724ac678c9c665d272143.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_e14d4042ec542a23780521a2e931ec465549d871.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_d47acc9c19b15c59ccfd51631f9177ed4ee3c876.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_99afaa50fbde8da327877348eafa5a1032894c29.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_67744bc22473d91e19f8b69cc84385ac11ce1294.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_8854296926f97dbb2eb3a35962d000d235a324f6.1920x1080.jpg?t=1552425243|https://cdn.akamai.steamstatic.com/steam/apps/35450/ss_68668254b7f80957dc16a18a982a7e537dacfde2.1920x1080.jpg?t=1552425243</store_backgrounds>
+    <use_store_backgrounds>1</use_store_backgrounds>
+    <delete_steamapps_on_error>1</delete_steamapps_on_error>
+  </tc_game_steam_config>
+  <tc_game_bukkit_config>
+    <game_id>81</game_id>
+  </tc_game_bukkit_config>
+  <tc_game_tracker_config>
+    <game_id>81</game_id>
+    <ts_id>0</ts_id>
+    <enable_integration>1</enable_integration>
+    <auto_submit>0</auto_submit>
+    <auto_submit_private>0</auto_submit_private>
+    <manual_submit>0</manual_submit>
+    <gt_game_id>ro2</gt_game_id>
+    <display_560x90>1</display_560x90>
+    <display_350x20>1</display_350x20>
+    <display_160>1</display_160>
+    <display_html>1</display_html>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="Custom560x90Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom560x90Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom350x20Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom350x20Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom160Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom160Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomHtmlHtml" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomHtmlForum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-25 06:59:18" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_tracker_config>
+  <tc_game_identity>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <run_as>1</run_as>
+    <user_name />
+    <password />
+  </tc_game_identity>
+  <tc_game_text_console>
+    <game_id>81</game_id>
+    <control_input>0</control_input>
+    <control_output>0</control_output>
+    <stop_commands xml:space="preserve">						</stop_commands>
+    <wait_for_exit>1</wait_for_exit>
+  </tc_game_text_console>
+  <tc_game_web_console>
+    <game_id>81</game_id>
+    <enable_web_console>0</enable_web_console>
+    <input_source>0</input_source>
+    <output_source>0</output_source>
+    <log_file />
+    <print_rcon_response>0</print_rcon_response>
+  </tc_game_web_console>
+  <tc_game_fast_download>
+    <game_id>81</game_id>
+    <enable_fast_download>0</enable_fast_download>
+    <root_directory />
+    <url_expression>$[FastDownloadBaseUrl]/</url_expression>
+    <files />
+    <exclude_files />
+    <sync_created>0</sync_created>
+    <auto_sync>0</auto_sync>
+    <enable_compress>0</enable_compress>
+    <compress_format>zip</compress_format>
+    <disk_quota_mb>0</disk_quota_mb>
+  </tc_game_fast_download>
+  <tc_game_config_files>
+    <game_id>81</game_id>
+    <file_id>1</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>rogame\config\ROGame.ini</relative_path>
+    <description>Configuratione</description>
+    <template>[Engine.GameInfo]
+DefaultGame=ROGame.ROGameInfo
+DefaultServerGame=ROGame.ROGameInfo
+bAdminCanPause=false
+MaxPlayers=32
+GameDifficulty=1.000000
+bChangeLevels=True
+MaxSpectators=2
+MaxIdleTime=0.000000
+MaxTimeMargin=1.000000
+TimeMarginSlack=1.350000
+MinTimeMargin=-1.000000
+TotalNetBandwidth=32000
+MaxDynamicBandwidth=7000
+MinDynamicBandwidth=4000
+GoreLevel=0
+MaxSpeedhackDetections=3
+SpeedhackPunishment=1
+bKickLiveIdlers=False
+ArbitrationHandshakeTimeout=0.000000
+
+[Engine.AccessControl]
+IPPolicies=ACCEPT;*
+AdminPassword=$[RConPassword]
+GamePassword=$[PrivatePassword]
+
+[DefaultPlayer]
+Name=Player
+Team=255
+
+[Engine.HUD]
+bMessageBeep=true
+HudCanvasScale=0.95
+ConsoleMessageCount=4
+ConsoleFontSize=5
+MessageFontOffset=0
+bShowHUD=true
+DebugDisplay=AI
+
+[Engine.PlayerController]
+bAimingHelp=false
+InteractDistance=512
+bCheckRelevancyThroughPortals=true
+MaxConcurrentHearSounds=32
+bLogHearSoundOverflow=FALSE
+
+[Engine.Weapon]
+Priority=-1.0
+
+[Engine.WorldInfo]
+DefaultGravityZ=-520.0
+RBPhysicsGravityScaling=1.0
+MaxPhysicsSubsteps=5
+SquintModeKernelSize=128.0
+EmitterPoolClassPath=ROGame.ROEmitterPool
+DecalManagerClassPath=Engine.DecalManager
+FractureManagerClassPath=Engine.FractureManager
+FracturedMeshWeaponDamage=1.0
+ChanceOfPhysicsChunkOverride=1.0
+bEnableChanceOfPhysicsChunkOverride=FALSE
+FractureExplosionVelScale=1.0
+DefaultAmbientZoneSettings=(bIsWorldInfo=true)
+bPersistPostProcessToNextLevel=TRUE
+bAllowHostMigration=FALSE
+HostMigrationTimeout=15
+DefaultPostProcessSettings=(Bloom_Scale=1.0,DOF_BlurKernelSize=12.0,DOF_MaxNearBlurAmount=0.0,DOF_MaxNearBlurAmount=0.0,DOF_FocusInnerRadius=2000.0,DOF_FocusDistance=0.0,)
+ParticleEventManagerClassPath=ROGame.ROParticleEventManager
+
+[Engine.AutoTestManager]
+NumMinutesPerMap=50
+#CommandsToRunAtEachTravelTheWorldNode=MemLeakCheck
+#CommandsToRunAtEachTravelTheWorldNode=SNAPSHOTMEMORY
+
+[Engine.DecalManager]
+DecalLifeSpan=10.0
+
+[Engine.UIDataStore_GameResource]
+ElementProviderTypes=(ProviderTag="GameTypes",ProviderClassName="Engine.UIGameInfoSummary")
+
+[Engine.UISafeRegionPanel]
+RegionPercentages[0]=0.9
+RegionPercentages[1]=0.8
+
+[GameFramework.MobileHud]
+bShowMobileHud=true
+bShowGameHud=false
+
+[Configuration]
+
+[Engine.CoverLink]
+GLOBAL_bUseSlotMarkers=TRUE
+
+[Engine.EmitterPool]
+bLogPoolOverflow=true
+
+[Engine.GameReplicationInfo]
+ServerName=$[HostName]
+ShortName=ROServer
+
+[ROGame.ROAccessControl]
+bSilentAdminLogin=false
+
+[ROGame.ROBroadcastHandler]
+ChatFilterList=ipsmlorum1
+ChatFilterList=ipsmlorum2
+ChatFilterList=ipsmlorum3
+
+[ROGame.ROGameInfo]
+RoundStartScreenTime=8
+bLANServer=false
+bBalanceTeams=true
+bAutoBalanceTeamsOnDeath=true
+MaxTeamDifference=2
+RoundLimit=2
+EndOfMapDelay=45.0
+GameDifficulty=1.0
+HideWinScreenDelay=7.500000
+HideScoreboardDelay=3.000000
+HideAfterActionReportDelay=10.000000
+bCampaignGame=false
+CampaignStartingCombatPower=200.000000
+CampaignVotingDelay=5.000000
+CampaignAttackDefendVoteTime=15.000000
+CampaignTerritoryVoteTime=25.000000
+CampaignFirstTerritoryVoteTime=90.000000
+CampaignTerritoryMapVoteTime=15.000000
+bUseReadySystem=false
+bRandomizeClassRanks=false
+bRandomizeWeaponProficiencyLevels=false
+MaxHeroes16Player=2
+MaxHeroes32Player=3
+MaxHeroes64Player=5
+bEnableBattlefieldCommissions=true
+bEnableSteamCloud=true
+ServerAdvertisementMessages=
+ServerAdvertisementInterval=30
+MinNetPlayers=1
+FriendlyFireKillLimit=6
+FriendlyFireDamageLimit=800.000000
+FriendlyFireScale=1.000000
+FriendlyFireArtilleryScale=1.000000
+FriendlyFireExplosiveScale=1.000000
+FriendlyFireArtilleryPunishScale=0.100000
+FriendlyFireExplosivePunishScale=0.500000
+FriendlyFirePunishment=1
+bEnableTeamKillForgiving=true
+FriendlyPlayerNames=2
+SmallArmsDamageScale=1.000000
+ExplosivesDamageScale=1.000000
+ArtilleryDamageScale=1.000000
+TankShellDamageScale=1.000000
+PunkbusterServerProfile=2
+bEnableMapVoting=true
+MapVotingTime=30.000000
+bEnableKickVoting=true
+bAnonymousVoteKicking=False
+KickVotingTime=30.000000
+bEnableRoleVoting=true
+RoleVotingTime=30.000000
+bUseScoreAsVoteWeight=false
+bAllowMidGameVoting=false
+MidGameVotingPercentage=50.000000
+EndGameVotingPercentage=50.000000
+MapRepeatLimit=0
+bEnableVOIP=true
+bDisablePublicVOIPChannel=false
+bDisablePublicTextChat=false
+bEnableDeadToDeadVOIP=true
+bPartitionSpectators=true
+bPositional3DVOIP=false
+bPositional3DVOIPAllHear=false
+RealismLevel=1
+SpectatingMode=0
+ReinforcementTimeScale=1.0
+MinimumHonor=0
+MaximumHonor=100
+BannerLink=http://www.heroesofstalingrad.com/ServerAd/RO2_ServerTest.png
+ClanMotto=Welcome to our Red Orchestra 2 server!
+ClanMottoColor=(B=0,G=0,R=0,A=255)
+ServerMOTD=This is our message of the day ...@nl@@nl@Please enjoy your time on our server@nl@@nl@@nl@This is the last line
+ServerMOTDColor=(B=0,G=0,R=16,A=255)
+WebLink=www.redorchestra2.com
+WebLinkColor=(B=0,G=0,R=16,A=255)
+bUseMapList=True
+ActiveMapCycle=0
+GameMapCycles=(Maps=("TE-Apartments","FF-Barracks","CD-Station","TE-Spartanovka","TE-CommissarsHouse","CD-RedOctoberFactory","TE-Gumrak","FF-Station","CD-PavlovsHouse","TE-RedOctoberFactory","CD-Barracks","TE-Station","CD-FallenFighters","FF-GrainElevator","TE-Barracks","CD-CommissarsHouse","TE-FallenFighters","CD-Gumrak","CD-Apartments","TE-GrainElevator","CD-GrainElevator","TE-PavlovsHouse","CD-Spartanovka"),RoundLimits=(0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0))
+TerritoryMaps[0]=(Maps=("TE-Gumrak"))
+TerritoryMaps[1]=(Maps=("TE-GrainElevator","CD-GrainElevator","FF-GrainElevator"))
+TerritoryMaps[2]=(Maps=("TE-Spartanovka","CD-Spartanovka"))
+TerritoryMaps[3]=(Maps=("TE-FallenFighters"))
+TerritoryMaps[4]=(Maps=("TE-Apartments","CD-Apartments","FF-Apartments"))
+TerritoryMaps[5]=(Maps=("TE-Station"))
+TerritoryMaps[6]=(Maps=("TE-GrainElevator","CD-GrainElevator","FF-GrainElevator"))
+TerritoryMaps[7]=(Maps=("TE-Spartanovka","CD-Spartanovka"))
+TerritoryMaps[8]=(Maps=("TE-CommissarsHouse"))
+TerritoryMaps[9]=(Maps=("TE-Apartments","CD-Apartments","FF-Apartments"))
+PreStartDuration=30
+bCampaignGameInitialized=False
+bDisableSpawnOnSquadLeader=False
+bHalfTimeTeamSwap=False
+bDisableOverheadMap=False
+bDisableCompass=False
+bDisableTeamDeathIcons=False
+bDisableTeamMemberIcons=False
+bDisableSquadMemberIcons=False
+bDisableSquadLeaderIcons=False
+bDisableEnemySpottedIcons=False
+bDisableTacticalView=False
+bDisableTacticalSquadLeaderIcons=False
+bDisableTacticalEnemySpottedIcons=False
+bDisablePeripheralActionIndicators=False
+bDisablePeripheralWhips=False
+bDisablePlayerInfoOnScoreboard=False
+bDisableObjectiveForceOutput=False
+bDisableObjectiveNotifications=False
+bLimitedGrenades=False
+bNoGrenades=False
+bShowIPOnScoreboard=False
+bShowDateOnScoreboard=False
+bShowSteamIDsOnScoreboard=False
+bForceDemoRecording=False
+bAutoEndOfMatchScoreboardScreenshot=False
+bIgnoreScoreForTieBreaking=False
+bUseCapturesForTieBreaking=False
+bNoVehicles=False
+bNoWeaponLimits=False
+bRealisticPistolLoadouts=False
+bRealisticDrivingRestrictions=False
+bLogSpawning=False
+bLogRoles=False
+CampaignDifficulty=0
+CurrentTerritory=0
+TeamWithInitiative=0
+CampaignAttackingTeam=0
+TerritoryOwners[0]=0
+TerritoryOwners[1]=0
+TerritoryOwners[2]=0
+TerritoryOwners[3]=0
+TerritoryOwners[4]=0
+TerritoryOwners[5]=0
+TerritoryOwners[6]=0
+TerritoryOwners[7]=0
+TerritoryOwners[8]=0
+TerritoryOwners[9]=0
+TeamCombatPower[0]=0.000000
+TeamCombatPower[1]=0.000000
+CurrentTerritoryMap=
+VoteKickPercentage=0.000000
+MapCycleIndex=-1
+OverrideMaxPlayerScaling=0
+RocketTimeScaling=0.000000
+ArtilleryTimeScaling=0.000000
+MortarTimeScaling=0.000000
+MaxClassRank=0
+MaxWeaponProficiencyLevel=0
+RestartWait=0
+
+[ROGame.ROGameInfoSinglePlayer]
+bUseReadySystem=false
+
+[ROGame.ROGameInfoFirefight]
+TimeLimit=300.0
+FinalCountdownTime=60
+WinStrengthPoints16=40
+WinStrengthPoints32=60
+WinStrengthPoints64=100
+bUseReadySystem=false
+bUseMatchWarmup=false
+WarmupRoundDuration=0
+KillMessageDelay=0.0
+KillMessageMode=ROKMM_All
+bMeleeOnly=false
+bAllowDeadRoaming=true
+bAllowViewpointSpectating=true
+bAllowKillCamera=true
+ReinforcementTimeScale=1.0
+GameTypeDisplay=Firefight
+GameTypeDescription=FirefightDescription
+GameTips=FirefightTip1
+GameTips=FirefightTip2
+FFRespawnDelay=5.0
+
+[ROGame.ROGameInfoTerritories]
+bUseReadySystem=false
+bUseMatchWarmup=false
+WarmupRoundDuration=0
+KillMessageDelay=0.000000
+KillMessageMode=ROKMM_All
+bMeleeOnly=false
+bAllowDeadRoaming=true
+bAllowViewpointSpectating=true
+bAllowKillCamera=true
+ReinforcementTimeScale=1.000000
+bDisableTimeLimit=false
+bDisableReinforcementLimit=false
+ReinforcementScale=1.000000
+bUseCapturesForTieBreaking=false
+GameTypeDisplay=Territories
+GameTypeDescription=TerritoriesDescription
+GameTips=TerritoriesTip1
+GameTips=TerritoriesTip2
+AdminStartDelay=0
+RoundLimit=2
+EndOfMapDelay=45.000000
+MinPlayers=0
+MinimumHonor=0
+MaximumHonor=100
+bIsStandbyCheckingEnabled=False
+GoalScore=0
+MaxLives=0
+TimeLimit=0
+ListenPort=0
+StandbyRxCheatTime=0.000000
+StandbyTxCheatTime=0.000000
+BadPingThreshold=0
+PercentMissingForRxStandby=0.000000
+PercentMissingForTxStandby=0.000000
+PercentForBadPing=0.000000
+DefaultGameType=
+
+[ROGame.ROGameInfoCountdown]
+bUseReadySystem=true
+bUseMatchWarmup=true
+WarmupRoundDuration=0
+KillMessageDelay=5.0
+KillMessageMode=ROKMM_All
+bMeleeOnly=false
+bAllowDeadRoaming=false
+bAllowViewpointSpectating=false
+FinalObjectiveOverride=0
+bDisableTimeLimit=false
+GameTypeDisplay=Countdown
+GameTypeDescription=CountdownDescription
+GameTips=CountdownTip1
+GameTips=CountdownTip2
+
+[ROGame.ROPawn]
+Bob=0.010
+bWeaponBob=true
+bCanMantle=true
+bUseSingleCharacterVariant=false
+MaxPlayerWoundDecals=2
+PlayerWoundDecalLifetime=60
+ServerAnimTickInterval=10
+PainEffectDuration=0.5
+FXLifetimeMultiplier=1.0
+bRetainEffectInView=True
+
+[ROGame.ROGib]
+TimeBetweenBloodSplats=0.1
+
+[ROGame.ROPlayerController]
+bFocusedISFullFreeAim=false
+PlayerFOV=70
+CoverTransitionTime=0.4
+ForceFeedbackManagerClassName=WinDrv.XnaForceFeedbackManager
+InteractDistance=512.000000
+bManualBolting=false
+bAutoReloading=true
+bAutoGrenadeSwitch=true
+bReloadOnLowAmmoCheck=true
+bVehicleAutoReloading=true
+bIncrementalVehicleThrottle=false
+IronSightZoomScaleSMG=1.000000
+IronSightZoomScaleRifle=1.000000
+IronSightZoomScaleBipod=1.000000
+bNoSprintFocus=false
+VoiceMessageFrequency=0
+OverriddenClassRanks[0]=255
+OverriddenClassRanks[1]=255
+OverriddenClassRanks[2]=255
+OverriddenClassRanks[3]=255
+OverriddenClassRanks[4]=255
+OverriddenClassRanks[5]=255
+OverriddenClassRanks[6]=255
+OverriddenClassRanks[7]=255
+OverriddenClassRanks[8]=255
+OverriddenClassRanks[9]=255
+OverriddenClassRanks[10]=255
+OverriddenClassRanks[11]=255
+OverriddenClassRanks[12]=255
+OverriddenClassRanks[13]=255
+OverriddenWeaponProficiencyLevel=255
+MusicVolume=0.400000
+PostProcessingPreset=0
+PostProcessingPresetSettings[0]=(Bloom_Scale_Multiplier=1.0,Scene_Desaturation_Pct=0.1,Scene_ImageGrainScale_Pct=0.0)
+PostProcessingPresetSettings[1]=(Bloom_Scale_Multiplier=0.75,Scene_Desaturation_Pct=0.1,Scene_ImageGrainScale_Pct=0.0,LUTPackageName=LUT_ColorCorrection,LUTTextureName=RGBTable16x1_Enhanced,LUTTexture=Texture2D'LUT_ColorCorrection.RGBTable16x1_Enhanced')
+PostProcessingPresetSettings[2]=(Bloom_Scale_Multiplier=1.0,Scene_Desaturation_Pct=0.4,Scene_ImageGrainScale_Pct=0.05,LUTPackageName=LUT_ColorCorrection,LUTTextureName=RGBTable16x1_OldFilm,LUTTexture=Texture2D'LUT_ColorCorrection.RGBTable16x1_OldFilm')
+SoundChannelToHearSoundsRatio=0.800000
+
+[ROGame.ROConsolePlayerController]
+bTargetAdhesionEnabled=True
+bDebugTargetAdhesion=FALSE
+bAutoTargetEnabled=True
+ForceFeedbackManagerClassName=WinDrv.XnaForceFeedbackManager
+
+[ROGame.SampleClass]
+MyString=Test
+
+[ROGameInfoSummary UIGameInfoSummary]
+ClassName=ROGame.ROGameInfo
+GameAcronym=EX
+MapPrefix=EX
+bIsTeamGame=False
+GameName=RO Game
+Description=RO Game Description
+
+[ROGameInfoFirefight UIGameInfoSummary]
+ClassName=ROGame.ROGameInfoFirefight
+GameAcronym=FF
+MapPrefix=FF
+bIsTeamGame=True
+GameName=RO Firefight
+Description=RO Firefight Description
+
+[SampleGameInfoSummary UIGameInfoSummary]
+ClassName=ROGame.SampleGameInfo
+GameAcronym=SAM
+MapPrefix=SAM
+bIsTeamGame=False
+GameName=Sample Game
+Description=Sample Game Description
+
+[TestDisabledGameInfo UIGameInfoSummary]
+ClassName=SomePackage.DisabledGameInfo
+GameAcronym=DIS
+MapPrefix=DS
+bIsTeamGame=true
+GameName=Disabled Game
+Description=This gametype does not really exist.  It is merely used for testing the functionality for displaying disabled or locked items in UILists.
+bIsDisabled=true
+
+[ROGame.ROSpecialMove]
+SpeedModifier=1.0
+
+[ROGame.ROSpecialMove_LeaveCover]
+SpeedModifier=1.0
+
+[ROGame.ROSpecialMove_GoToCover]
+SpeedModifier=1.0
+
+[ROGame.ROWeapon]
+FreeAimIronSightStyle=0
+FreeAimIronSightsSize=0
+
+[ROGame.ROUIDataStore_MenuItems]
+ElementProviderTypes=(ProviderTag="Maps",ProviderClassName="ROGame.ROUIDataProvider_MapInfo")
+ElementProviderTypes=(ProviderTag="GameModes",ProviderClassName="ROGame.ROUIDataProvider_GameModeInfo")
+ElementProviderTypes=(ProviderTag="Worlds",ProviderClassName="ROGame.ROUIDataProvider_WorldInfo")
+
+[ROGame.RODataStore_VotingSearch]
+ElementProviderTypes=(ProviderTag="MapResultsProvider",ProviderClassName="ROGame.UIDynamicFieldProvider")
+ElementProviderTypes=(ProviderTag="MapAvailableProvider",ProviderClassName="ROGame.UIDynamicFieldProvider")
+ElementProviderTypes=(ProviderTag="ServerPlayerList",ProviderClassName="ROGame.UIDynamicFieldProvider")
+
+[ROGameInfoFirefight ROUIDataProvider_GameModeInfo]
+GameMode=ROGame.ROGameInfoFirefight
+GameSettingsClass=ROOnlineGameSettingsFireFight
+GameSearchClass=ROOnlineGameSearch
+DefaultMap=FF-Barracks
+Prefixes=FF
+OptionSet=FF
+
+[ROGameInfoCountdown ROUIDataProvider_GameModeInfo]
+GameMode=ROGame.ROGameInfoCountdown
+GameSettingsClass=ROOnlineGameSettingsCountdown
+GameSearchClass=ROOnlineGameSearch
+DefaultMap=CD-CommissarsHouse
+Prefixes=CD
+OptionSet=CD
+
+[ROGameInfoTerritories ROUIDataProvider_GameModeInfo]
+GameMode=ROGame.ROGameInfoTerritories
+GameSettingsClass=ROOnlineGameSettingsTerritories
+GameSearchClass=ROOnlineGameSearch
+DefaultMap=TE-Barracks
+Prefixes=TE
+OptionSet=TE
+
+[FF-Barracks ROUIDataProvider_MapInfo]
+MapName=FF-Barracks
+FriendlyName=Barracks
+GameType=ROGame.ROGameInfoFirefight
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Barracks&gt;
+Description=Barracks Map
+LoadMapMovie=LoadScreen_Barracks
+MapTips=FFBarracksTip1
+MapTips=FFBarracksTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[TE-Barracks ROUIDataProvider_MapInfo]
+MapName=TE-Barracks
+FriendlyName=Barracks
+GameType=ROGame.ROGameInfoTerritories
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Barracks&gt;
+Description=Barracks Map
+LoadMapMovie=LoadScreen_Barracks
+MapTips=TEBarracksTip1
+MapTips=TEBarracksTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[CD-Barracks ROUIDataProvider_MapInfo]
+MapName=CD-Barracks
+FriendlyName=Barracks
+GameType=ROGame.ROGameInfoCountdown
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Barracks&gt;
+Description=Barracks Map
+LoadMapMovie=LoadScreen_Barracks
+MapTips=CDBarracksTip1
+MapTips=CDBarracksTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[TE-CommissarsHouse ROUIDataProvider_MapInfo]
+MapName=TE-CommissarsHouse
+FriendlyName=CommissarsHouse
+GameType=ROGame.ROGameInfoTerritories
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_ComHouse&gt;
+Description=Commissars House Map
+LoadMapMovie=LoadScreen_Commissars
+MapTips=TECommissarsTip1
+MapTips=TECommissarsTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_CombinedArms
+MapType64=ROMT_CombinedArms
+
+[CD-CommissarsHouse ROUIDataProvider_MapInfo]
+MapName=CD-CommissarsHouse
+FriendlyName=CommissarsHouse
+GameType=ROGame.ROGameInfoCountdown
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_ComHouse&gt;
+Description=Commissars House Map
+LoadMapMovie=LoadScreen_Commissars
+MapTips=CDCommissarsTip1
+MapTips=CDCommissarsTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[FF-Apartments ROUIDataProvider_MapInfo]
+MapName=FF-Apartments
+FriendlyName=Apartments
+GameType=ROGame.ROGameInfoFirefight
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Apartments&gt;
+Description=Apartments Map
+LoadMapMovie=LoadScreen_Apartments
+MapTips=FFApartmentsTip1
+MapTips=FFApartmentsTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[TE-Apartments ROUIDataProvider_MapInfo]
+MapName=TE-Apartments
+FriendlyName=Apartments
+GameType=ROGame.ROGameInfoTerritories
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Apartments&gt;
+Description=Apartments Map
+LoadMapMovie=LoadScreen_Apartments
+MapTips=TEApartmentsTip1
+MapTips=TEApartmentsTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[CD-Apartments ROUIDataProvider_MapInfo]
+MapName=CD-Apartments
+FriendlyName=Apartments
+GameType=ROGame.ROGameInfoCountdown
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Apartments&gt;
+Description=Apartments Map
+LoadMapMovie=LoadScreen_Apartments
+MapTips=CDApartmentsTip1
+MapTips=CDApartmentsTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[TE-FallenFighters ROUIDataProvider_MapInfo]
+MapName=TE-FallenFighters
+FriendlyName=FallenFighters
+GameType=ROGame.ROGameInfoTerritories
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_FallenFighters&gt;
+Description=Fallen Fighters Map
+LoadMapMovie=LoadScreen_FallenFighters
+MapTips=TEFallenFightersTip1
+MapTips=TEFallenFightersTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_CombinedArms
+MapType64=ROMT_CombinedArms
+
+[CD-FallenFighters ROUIDataProvider_MapInfo]
+MapName=CD-FallenFighters
+FriendlyName=FallenFighters
+GameType=ROGame.ROGameInfoCountdown
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_FallenFighters&gt;
+Description=Fallen Fighters Map
+LoadMapMovie=LoadScreen_FallenFighters
+MapTips=CDFallenFightersTip1
+MapTips=CDFallenFightersTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[FF-GrainElevator ROUIDataProvider_MapInfo]
+MapName=FF-GrainElevator
+FriendlyName=GrainElevator
+GameType=ROGame.ROGameInfoFirefight
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_GrainElevator&gt;
+Description=Grain Elevator Map
+LoadMapMovie=LoadScreen_GrainElevator
+MapTips=FFGrainElevatorTip1
+MapTips=FFGrainElevatorTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[TE-GrainElevator ROUIDataProvider_MapInfo]
+MapName=TE-GrainElevator
+FriendlyName=GrainElevator
+GameType=ROGame.ROGameInfoTerritories
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_GrainElevator&gt;
+Description=Grain Elevator Map
+LoadMapMovie=LoadScreen_GrainElevator
+MapTips=TEGrainElevatorTip1
+MapTips=TEGrainElevatorTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[CD-GrainElevator ROUIDataProvider_MapInfo]
+MapName=CD-GrainElevator
+FriendlyName=GrainElevator
+GameType=ROGame.ROGameInfoCountdown
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_GrainElevator&gt;
+Description=Grain Elevator Map
+LoadMapMovie=LoadScreen_GrainElevator
+MapTips=CDGrainElevatorTip1
+MapTips=CDGrainElevatorTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[TE-Gumrak ROUIDataProvider_MapInfo]
+MapName=TE-Gumrak
+FriendlyName=Gumrak
+GameType=ROGame.ROGameInfoTerritories
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Gumrack&gt;
+Description=Gumrak Map
+bVehicleOnly=TRUE
+LoadMapMovie=LoadScreen_Gumrack
+MapTips=TEGumrakTip1
+MapTips=TEGumrakTip2
+MapType16=ROMT_TanksOnly
+MapType32=ROMT_TanksOnly
+MapType64=ROMT_TanksOnly
+
+[CD-Gumrak ROUIDataProvider_MapInfo]
+MapName=CD-Gumrak
+FriendlyName=Gumrak
+GameType=ROGame.ROGameInfoCountdown
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Gumrack&gt;
+Description=Gumrak Map
+bVehicleOnly=TRUE
+LoadMapMovie=LoadScreen_Gumrack
+MapTips=CDGumrakTip1
+MapTips=CDGumrakTip2
+MapType16=ROMT_TanksOnly
+MapType32=ROMT_TanksOnly
+MapType64=ROMT_TanksOnly
+
+[TE-PavlovsHouse ROUIDataProvider_MapInfo]
+MapName=TE-PavlovsHouse
+FriendlyName=PavlovsHouse
+GameType=ROGame.ROGameInfoTerritories
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Pavlovs&gt;
+Description=Pavlovs House Map
+LoadMapMovie=LoadScreen_Pavlov
+MapTips=TEPavlovsTip1
+MapTips=TEPavlovsTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_CombinedArms
+MapType64=ROMT_CombinedArms
+
+[CD-PavlovsHouse ROUIDataProvider_MapInfo]
+MapName=CD-PavlovsHouse
+FriendlyName=PavlovsHouse
+GameType=ROGame.ROGameInfoCountdown
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Pavlovs&gt;
+Description=Pavlovs House Map
+LoadMapMovie=LoadScreen_Pavlov
+MapTips=CDPavlovsTip1
+MapTips=CDPavlovsTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[TE-RedOctoberFactory ROUIDataProvider_MapInfo]
+MapName=TE-RedOctoberFactory
+FriendlyName=RedOctoberFactory
+GameType=ROGame.ROGameInfoTerritories
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_RedOctober&gt;
+Description=Red October Factory Map
+LoadMapMovie=LoadScreen_RedOctober
+MapTips=TERedOctoberTip1
+MapTips=TERedOctoberTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_CombinedArms
+MapType64=ROMT_CombinedArms
+
+[CD-RedOctoberFactory ROUIDataProvider_MapInfo]
+MapName=CD-RedOctoberFactory
+FriendlyName=RedOctoberFactory
+GameType=ROGame.ROGameInfoCountdown
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_RedOctober&gt;
+Description=Red October Factory Map
+LoadMapMovie=LoadScreen_RedOctober
+MapTips=CDRedOctoberTip1
+MapTips=CDRedOctoberTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_CombinedArms
+MapType64=ROMT_CombinedArms
+
+[TE-Spartanovka ROUIDataProvider_MapInfo]
+MapName=TE-Spartanovka
+FriendlyName=Spartanovka
+GameType=ROGame.ROGameInfoTerritories
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Spartanovka&gt;
+Description=Red October Factory Map
+LoadMapMovie=LoadScreen_Spartanovka
+MapTips=TESpartanovkaTip1
+MapTips=TESpartanovkaTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[CD-Spartanovka ROUIDataProvider_MapInfo]
+MapName=CD-Spartanovka
+FriendlyName=Spartanovka
+GameType=ROGame.ROGameInfoCountdown
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Spartanovka&gt;
+Description=Red October Factory Map
+LoadMapMovie=LoadScreen_Spartanovka
+MapTips=CDSpartanovkaTip1
+MapTips=CDSpartanovkaTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[FF-Station ROUIDataProvider_MapInfo]
+MapName=FF-Station
+FriendlyName=Station
+GameType=ROGame.ROGameInfoFirefight
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Station&gt;
+Description=Train Station Map
+LoadMapMovie=LoadScreen_Station
+MapTips=FFStationTip1
+MapTips=FFStationTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[TE-Station ROUIDataProvider_MapInfo]
+MapName=TE-Station
+FriendlyName=Station
+GameType=ROGame.ROGameInfoTerritories
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Station&gt;
+Description=Train Station Map
+LoadMapMovie=LoadScreen_Station
+MapTips=TEStationTip1
+MapTips=TEStationTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[CD-Station ROUIDataProvider_MapInfo]
+MapName=CD-Station
+FriendlyName=Station
+GameType=ROGame.ROGameInfoCountdown
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Station&gt;
+Description=Train Station Map
+LoadMapMovie=LoadScreen_Station
+MapTips=CDStationTip1
+MapTips=CDStationTip2
+MapType16=ROMT_InfantryOnly
+MapType32=ROMT_InfantryOnly
+MapType64=ROMT_InfantryOnly
+
+[Community ROUIDataProvider_MapInfo]
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.MapSelect_Community&gt;
+Description=Community Made Map
+LoadMapMovie=LoadScreen_Community
+
+[Barracks ROUIDataProvider_WorldInfo]
+MapName=Barracks
+FriendlyName=Barracks
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Barracks&gt;
+Description=Barracks Map
+
+[CommissarsHouse ROUIDataProvider_WorldInfo]
+MapName=CommissarsHouse
+FriendlyName=CommissarsHouse
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_ComHouse&gt;
+Description=Commissars House Map
+
+[Apartments ROUIDataProvider_WorldInfo]
+MapName=Apartments
+FriendlyName=Apartments
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Apartments&gt;
+Description=Apartments Map
+
+[FallenFighters ROUIDataProvider_WorldInfo]
+MapName=FallenFighters
+FriendlyName=FallenFighters
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_FallenFighters&gt;
+Description=Fallen Fighters Map
+
+[GrainElevator ROUIDataProvider_WorldInfo]
+MapName=GrainElevator
+FriendlyName=GrainElevator
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_GrainElevator&gt;
+Description=Grain Elevator Map
+
+[Gumrak ROUIDataProvider_WorldInfo]
+MapName=Gumrak
+FriendlyName=Gumrak
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Gumrack&gt;
+Description=Gumrak Map
+
+[PavlovsHouse ROUIDataProvider_WorldInfo]
+MapName=PavlovsHouse
+FriendlyName=PavlovsHouse
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Pavlovs&gt;
+Description=Pavlovs House Map
+
+[RedOctoberFactory ROUIDataProvider_WorldInfo]
+MapName=RedOctoberFactory
+FriendlyName=RedOctoberFactory
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_RedOctober&gt;
+Description=Red October Factory Map
+
+[Spartanovka ROUIDataProvider_WorldInfo]
+MapName=Spartanovka
+FriendlyName=Spartanovka
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Spartanovka&gt;
+Description=Red October Factory Map
+
+[Station ROUIDataProvider_WorldInfo]
+MapName=Station
+FriendlyName=Station
+PreviewImageMarkup=&lt;Images:ui_textures.menus.HostGame.ui_hostgame_mapselect_Station&gt;
+Description=Train Station Map
+
+[IniVersion]
+0=1315996890.000000
+1=1315996973.000000
+Patch=5
+
+</template>
+    <read_values>1</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-24 22:25:39" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>BukGet</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineBuilder</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineChanger</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FastDlSync</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FileManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Ftp</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>GameSwitcher</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveBandwidthStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveCpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveMemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LivePlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewer</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerServiceActivity</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerTextConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MapPacks</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ModManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PunkbusterUpdate</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Reinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Repair</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledGameSwitcher</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledReinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledRestart</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledScript</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>SteamUpdate</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Updates</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>81</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>WebConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+</RO2>

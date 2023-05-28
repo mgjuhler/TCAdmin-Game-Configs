@@ -1,0 +1,787 @@
+<TS3_x0020_TSDNS>
+  <tc_games>
+    <game_id>122</game_id>
+    <operating_system>2</operating_system>
+    <display_name>Teamspeak 3 TSDNS (64bit)</display_name>
+    <short_name>TS3 TSDNS</short_name>
+    <private_rule_value />
+    <private_rule_name />
+    <hostname_rule />
+    <map_rule />
+    <slots_rule />
+    <exclude_rules />
+    <query_protocol />
+    <rcon_protocol>0</rcon_protocol>
+    <show_in_create_list>1</show_in_create_list>
+    <is_voice_server>1</is_voice_server>
+    <is_template>0</is_template>
+    <min_slots>1</min_slots>
+    <max_slots>1</max_slots>
+    <default_slots>1</default_slots>
+    <name_from_query>1</name_from_query>
+    <exclude_load_balancing>0</exclude_load_balancing>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="This creates a TSDNS server. &amp;#xA;Create a service and assign it to a TS server in &amp;#xA;settings &amp;gt; teamspeak servers." type="System.String,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2015-03-17 05:24:50" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2018-04-26 13:54:03" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <enable_community_images>1</enable_community_images>
+  </tc_games>
+  <tc_game_paths>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <relative_executable>tsdns\tsdnsserver.exe</relative_executable>
+    <relative_working_dir>tsdns\</relative_working_dir>
+    <relative_subadmin_files />
+    <relative_reseller_files />
+    <relative_user_files />
+    <files_folder_name>teamspeak3-server_win64</files_folder_name>
+    <enable_ext_download>1</enable_ext_download>
+    <ext_download_url>http://downloads.tcadmin.net/games/ts3-windows64.aspx</ext_download_url>
+    <ext_save_name>_teamspeak3-server_win64.zip</ext_save_name>
+    <ext_extract_opt>1</ext_extract_opt>
+    <ext_script_engine_id>1</ext_script_engine_id>
+    <ext_script />
+    <ext_license>MASTER LICENSING AGREEMENT FOR AUTHORIZED TEAMSPEAK HOST PROVIDERS (ATHPs), NON-PROFIT LICENSEES (NPL) AND ANNUAL ACTIVATION LICENSEES (AAL)
+
+THIS LICENSING AGREEMENT ("AGREEMENT") is entered into between "you," the person or company using the software brand TeamSpeak, developed by TeamSpeak Systems GmbH ("TeamSpeak"), and TeamSpeak Systems GmbH (Germany).
+
+USE OF TEAMSPEAK SOFTWARE INDICATES YOUR ACCEPTANCE OF THESE TERMS.
+
+I. DEFINITIONS
+
+1. "Standard software" refers to the object code of TeamSpeak Voice Communication Software Version 3.x (binary executable) as well as to all previous versions, both the client and the server that are made available to you by TeamSpeak, including all standard software extensions, upgrades or updates that you receive if and when they are available.
+
+2. "Licensed material"refers to the standard software together with the documentation provided therewith and other information provided by TeamSpeak in conjunction with the license for the standard software.
+
+3. "Client" refers to the TeamSpeak standard software that connects to the TeamSpeak server software via the Internet. The client therefore usually runs on the computer of the end user. A client can be connected to one or more servers at the same time. Several clients can communicate with one another, if the communication data is routed through the server and distributed by it to other clients. Thus, clients do not communicate directly with one another, but only connect to the server, which acts as an exchange and router for voice communication.
+
+4. "Commercially active" refers to a person, a business, an organization, or a group (e.g. also a so-called "clan" or "guild," such terms being commonly used by the gaming industry) or other entities. Moreover, the aforementioned groups pursue business activities through which their presence, and/or their operational structures including their Internet presence are employed to obtain economic benefits of any kind, including use of the software to realize profits and/or to obtain economic benefits.
+
+The items listed below - without claiming to be comprehensive - are examples of commercially active entities:
+
+a) Persons (individuals, but also companies or associations), even those not registered as a business, but which have a source of income from generating profits from direct sales, rental, advertising, or the privileged use of immaterial goods and services, donations, or revenue from the provision of other products or services (e.g. persons or companies that charge a fee for installing or servicing TeamSpeak software even if they do not charge a fee for hosting it). This also applies to instances in which only the server operating system is charged as a service and the installation of the TeamSpeak software is included as a part of the service package.
+
+b) Hosting companies or organizations that charge a recurring fee - usually monthly - for the use of a server.
+
+c) Hosting companies or organizations that do NOT charge a monthly fee for the use of a server, but rather obtain income from advertising and/or donations or from the provision of other products or services (as defined in I 4 a). A hosting company is also to be regarded as commercially active if it is compensated for the use of a server by advertising products or services of another company even if there is no charge for the use of a server itself. Such companies are usually referred to in the industry as "sponsors." An example: operators that receive "payments" in the form of a virtual currency (gold etc.) in exchange for the use of a server in the context of a Massively Multiplayer Online Game (MMOG).
+
+d) You are obligated to provide TeamSpeak with information at all times concerning the circumstances that form the basis for your classification as "commercially active" in the sense of the criteria put forth above.
+
+5. "Server" refers to the TeamSpeak standard software that is installed on a computer (a "server" in the sense of hardware) and acts as a host. This "server" computer is usually to be found in a computing center and rarely at the location of the end user. The "server" software is a program with which the client communicates in order to obtain access to special services and to enable an exchange of data between two or more clients that have established a connection to the server.
+
+6. "Virtual server" refers to an entity within the TeamSpeak server software that in turn externally presents itself as a stand-alone server (cf. point 5). While the server software generally only runs once for each individual computer, the software offers the opportunity to allow one or more virtual server entities to run simultaneously. In this manner the provider can make TeamSpeak server software available on a computer in the form of several virtual server entities that run simultaneously and thereby optimize utilization of available hardware resources. In such cases the server software serves as a container for one or more virtual servers that outwardly present themselves as independent stand-alone units. Unless possessing detailed knowledge thereof, the end user cannot determine whether or not two virtual servers are running on the same or different physical servers.
+
+7. "Slots" refers to the number of places made available to clients through a virtual server. Each connected client occupies one slot. The number of slots can be set individually for each individual server. This determines the number of slots and thereby how many end users can simultaneously connect to a virtual server and communicate with one another. If a virtual server is, for example, configured for 10 slots, a maximum of 10 users can be connected at the same time. The 11th user would be rejected by means of an error message. As soon as the user disconnects from the server, this person's slot becomes open and is once again available for incoming connections. Slots constitute the basic accounting unit, because a TeamSpeak provider usually sells servers with a limit on concurrent users and invoice this service based on the number of slots sold.
+
+8. "Dynamic slot adaptation" refers to intentional repeated increases and decreases of the slots on a virtual server with the objective to thereby obscure the actual number of resold slots, in order to achieve a reduction of the average slot count used in a given month and in turn lowering the invoice amount.
+
+9. "Authorized TeamSpeak host provider" or "ATHP" designates an economic unit that acquires a license for standard software in return for a payment of a monthly fee. ATHPs usually also charge their customers a monthly fee for use of the virtual server or link the use of the virtual server with other free or paid services or offers for their customers. The ATHP license is mandatory as soon as TS3 servers are offered in return for compensation or to obtain economic benefits of any kind (e.g. also so-called "sponsoring," advertising, etc.). It is hereby expressly pointed out that the ATHP is not entitled to resell the license it has acquired (or parts thereof) to third parties.
+
+10. Annual Activation Licenses (AALs) are intended for "commercially active" clients (No. 4 of this Section) wishing to host a TeamSpeak server. Standard configurations for servers and slot counters are offered through our automated sales system. However, should you require a larger number of servers or slots, it may be possible to issue a user-defined license in order to meet your needs. To discuss this possibility, please contact our sales team. No claim to the provision of the user-defined license exists.
+The purchase of a TeamSpeak AAL in standard configuration is a simple and fully automated procedure. To request TeamSpeak AAL, you must open an account on the TeamSpeak Web site and provide all required information in a true and complete manner. Then you add the license by choosing "Buy NEW License." You shall be invoiced immediately for this. Once you have paid, the license is automatically provided and you shall receive your license key by email. AALs are issued for a period of one year.
+
+The AAL is initially contracted for one year (year indicates the contract year, therefore calculated one year from the point in time at which the signed contract has arrived at the TeamSpeak location). It will automatically extend itself for another year if no termination takes place before the contract's expiration date. We are referring to the termination provisions regarding this under VII 3 b. At the beginning of each contract year the current fee becomes due for one year in advance.
+
+If new versions with enhanced functionality are released, TeamSpeak has the right to implement reasonable fee increases. If at the time of the occurring one year extension a new price list is valid due to the release of a new version the annual price will be increased accordingly.
+
+Resale or transfer is prohibited. This annual activation license is not suited for you, as soon as you:
+
+- use the TeamSpeak server to obtain economic benefits,
+- use the TeamSpeak server as the basis of a new product, or
+- offer the TeamSpeak server in order to obtain financial compensation or compensation having monetary value.
+
+If the foregoing applies to you, please contact our Sales Department in order to obtain advice on the appropriate type of license.
+
+In case of non-compliance with this paragraph, you are required to provide information and pay compensation in accordance with Section VI, No. 2 f.
+
+11. An NPL (Non-Profit License) is a license for the use of a TeamSpeak server for persons or groups that are not commercially active in the sense of Section I. No. 4 and is issued free of cost. The NPL is non-transferable and thus tied to the applicant. A transfer of the license for the purpose of allowing hosting by third parties is not permitted. Even parts of this license (virtual server) are non-transferable. Each person or group may have only one NPL. In order to apply for a TeamSpeak non-profit license it is necessary to open an account on the TeamSpeak Web site, to truthfully and completely provide all information required therein, as well as to carry out the steps provided there for obtaining the NPL. Non-profit licenses include 2 virtual servers with a combined total of 512 slots and are issued for a period of half a year and automatically renewed for another six months if the license is still in use. The actual utilization of slots is transmitted to the tracking server; the right to reduce the number of slots to reflect actual use is reserved. A claim to issuance of an NPL does not exist. Decisions by TeamSpeak concerning the issuance or non-issuance of an NPL are final and neither negotiable nor actionable.
+
+In the case of a violation of these licensing provisions, the NPL holder is obligated to provide information and pay compensation in accordance with Section VI, No. 2 f. A possible immediate revocation of the license is not affected thereby. Since the NPL is provided free of charge, if issued, it can be revoked by TeamSpeak at any time without notification of reasons.
+
+
+II. LICENSING FEES
+
+1. All those who are commercially active and use the server or the client must pay a licensing fee regardless of whether or not they themselves charge a fee for use of the server. All accounting, billing and payment matters are handled by TeamSpeak Systems Inc., USA. TeamSpeak Systems GmbH, Germany is the claim holder. Questions concerning accounting and billing are to be sent to sales@TeamSpeak.com or to be submitted using the ticket system at https://support.TeamSpeak.com. Price information concerning the standard software can be downloaded at https://sales.TeamSpeak.com/pricing.
+
+2. You are solely responsible for the payment of all taxes (including all sales and use taxes, as well as taxes on intangible assets and property) that you are obliged to pay as a result of entering into this Agreement and the use of the licensed materials. The fees do not include sales taxes, use taxes, VAT or other taxes (including the applicable withholding taxes). The payment of taxes is your responsibility. All fees are to be paid within 14 days of the invoice date in the currency specified on your standard software order form. After the due date, i.e. from the 15th day after receipt of the invoice, the claim shall bear interest at the rate of 8% points above the prime rate of the European Central Bank (ECB), as long as a consumer is not involved in the legal transaction. For consumers the interest rate is 5% points above the prime interest rate of the ECB. You are not a consumer if you meet the definition of one who is commercially active (Section I. No. 4).
+
+If you are a German customer who is buying our products, then the VAT shall be separately indicated and is also to be paid at the same time as the net amount. The term "German" refers to a customer who runs its company from Germany; this will usually be the company seat, but can also be the business premises.
+
+3. All payments must be made within 14 days of electronic or postal delivery of the invoice. You must ensure that you can properly receive invoices, e.g. by maintaining a current, valid email address that you provide in your online customer account or by ensuring that one of your representatives logs onto your online account on a regular monthly basis in order to access recent bills. If an invoice remains unpaid 30 days or longer after the due date, your rights to the software are terminated until all amounts due are paid. However, you continue to be obligated - for any possible further use - to pay the usual fees and to provide compensation for any further prohibited use, such damages to be calculated on a case-by-case basis. TeamSpeak reserves the right to revoke your server license on a continuing basis or to revoke your license entirely if you repeatedly fail to fulfill your payment obligations in a timely fashion.
+
+4. If new versions with enhanced functionality are released, TeamSpeak has the right to implement reasonable fee increases. In that case a new price list will be sent to you. You agree that you will state your acceptance of the new pice list without delay but within 14 days at the latest. The new rates will become valid 14 days after receipt of the new price list, if you have agreed. If you do not agree with the price change you can terminate the contract by sending a termination notice - which is also to be stated without delay - within a time frame of 14 days. If you donÂ´t state your acceptance of the new termination provision within 14 days, TeamSpeak has the right to terminate without notice.
+
+
+III. ATHP LICENSE
+
+You are to be considered as an ATHP if you have obtained a license for the standard software as part of a monthly fee schedule for realizing a profit within the meaning of Section I No. 4. You are hereby granted a license to install the standard software on one or more CPUs based on the following conditions:
+
+1. You must open a customer account on the Web site of TeamSpeak at https://sales.TeamSpeak.com and provide all information required therein in a truthful and complete fashion.
+
+2. ATHPs must pay a recurring, monthly licensing fee based on the average number of slots configured on each (virtual) server in the preceding month (example: if in the previous month a virtual server was configured to 50 slots on 15 of 30 days, then 25 slots will be billed out for this virtual server). At the commencement of this Licensing Agreement, the minimum monthly number of slots is 200. As a reseller, an interest in serving a growing market is assumed on the part of TeamSpeak. For the appearance of the products of TeamSpeak and due to economic points of view issuing permanent licenses is not useful when used for fewer than 1000 slots. Therefore, after 12 months the minimum number of slots increases to 1,000. If during a given month (starting with the validity of the 1,000 slot rule in the 13th month) you use fewer than the specified minimum number of slots, you shall nonetheless be charged for the minimum. Upon termination and while a new contract is issued soon afterwards the duration of the previous contract is included in the calculation in order to prevent bypassing the 1,000 slot rule through termination and new contract acceptance.The 1,000 slot rule applies to all ATHP licenses that were issued after 04.01.2014. Should the slot count be below 1000 as of the 13th month TeamSpeak can request information with regard to the reasons. If no statement or comprehensible explanation is given the right to an extraordinary termination for this important reason is reserved.
+
+The licensing fee is to be paid independent of whether or not an ATHP customer uses the virtual server. If we determine that a so-called "dynamic slot adaptation" (cf. Section I No. 8) is being practiced, we reserve the right to adjust the invoice to that amount that would be due upon legitimate use for the peak case with a surcharge of 30%. In this case we are also entitled to bill for the additional costs we have incurred thereby and to claim damages that we have incurred, whereby the 30 % surcharge shall be credited against additional costs and other damages. Your right to demonstrate damages of a lesser extent remains unaffected hereby.
+
+3. The fees shall be invoiced to ATHPs on a monthly basis by TeamSpeak Systems Inc., USA on behalf of TeamSpeak Systems GmbH, Germany. All invoices are normally sent out by email on the first or second day of each month and also posted online on the customer account of the ATHP on the TeamSpeak Web site at https://sales.TeamSpeak.com.
+
+You hereby declare yourself in agreement that the data for the slot numbers of each virtual server hosted by an ATHP shall be transmitted daily to the TeamSpeak tracking server so that TeamSpeak can follow the extent of your use and prepare an appropriate invoice. The basis for invoicing is the protocols on the TeamSpeak protocol servers, which ascertain the extent of your daily usage.
+
+4. You hereby declare your agreement that all data concerning you may be stored and processed in accordance with the (BDSG) (Bundesdatenschutzgesetz = German Federal Data Protection Act), the TKG (Telekommunikationsgesetz = German Telecommunications Act) and the TMG (Telemediengesetz = German Telemedia Act) to the extent this is necessary to implement the contractual relationship. You hereby undertake for your part to comply with the provisions of the statutes set out in the prior sentence when using our software, in particular to properly inform third parties concerning any data collection and obtain their agreement therefor. If data protection provisions of countries other than Germany require compliance with other mandatory regulations, then both contracting parties are obliged to comply with them.
+
+5. You are not permitted to install any firewalls or any other tools that could block the communication between your virtual server and the TeamSpeak tracking servers or otherwise manipulate the protocol results. Should violations of this duty take place, TeamSpeak is entitled to seek information from you concerning the usage that actually took place. This requires you to present TeamSpeak with the underlying data/protocols. Under these circumstances you are obligated to pay for actual use with a surcharge of 30% based on the graduation of prices according to paragraph Number 6 below. In this regard it may prove necessary for TeamSpeak to demonstrate a higher level of damages (legal expenses, expenses of a more general nature, etc.). You are also entitled to demonstrate that a lesser amount of damage has occurred. Increased usage fees are to be applied as a credit against any possible damages that must be compensated.
+
+6. You are entitled to use the standard software on a monthly basis based upon payment of the monthly fee therefor, which shall be subsequently billed based on the graduation of prices that is set out on the Web site www.TeamSpeak.com in its current version.
+
+7. If and when available, you shall receive free standard software upgrades. You are obligated to promptly install server upgrades after they are released. The regulation with regard to the price adjustment for new versions (according to II 4) remains unaffected.
+
+8. There is no claim for issuance of an ATHP license. Decisions by TeamSpeak concerning whether or not to issue an ATHP license are final and neither negotiable nor actionable.
+
+
+IV. INDEMNITY / WARRANTY
+
+TeamSpeak shall only pay compensation for damages or reimburse futile expenses, regardless of the legal basis therefor (e.g. due to legal or law-related obligations, violation of duty and torts), only to the following extent:
+
+1. The liability for intentional acts is unlimited.
+
+2. In the case of simple negligence TeamSpeak is only liable up to the amount of typical damages that were foreseeable at the time of concluding the contract.
+
+3. The objection of contributory negligence is open to TeamSpeak. In particular, you have the duty to keep your data secure and to maintain virus protection according to the current state of the art.
+
+4. In the case of loss of life, bodily injury and impairment to health, as well as in the case of claims brought under the Product Liability Statute, the statutory provisions apply.
+
+5. The software has the agreed-upon properties and quality, is suitable for the use contractually set out in this Agreement, otherwise for ordinary use, and is of the quality customary for software of this type; however, the software is not free of defects. The following types of impaired software function do not constitute defects: those arising out of hardware defects, those relating to environmental conditions, incorrect operation, or similar matters. An immaterial reduction in quality shall not be taken into account.
+
+6. In the case of defects in quality, TeamSpeak can initially undertake subsequent performance. In this regard, TeamSpeak has a choice between elimination of the defect, through delivery of a program that does not have this defect, or by demonstrating possibilities through which the effects of the defect may be avoided. You shall accept a new program version of equivalent value or a prior program version of equivalent value that is free of defects, unless this proves to be unreasonable.
+
+7. You are to provide support to TeamSpeak in the analysis of errors and elimination of defects by specifically describing the problems that have arisen, providing TeamSpeak with comprehensive information and by granting the required amount of time and the opportunity to eliminate any defects. TeamSpeak can also provide services through remote maintenance. You must ensure - at your own cost - that the necessary technical conditions have been met for TeamSpeak to provide help. If necessary, you are to grant TeamSpeak access to your computer system after being provided with appropriate prior notice.
+
+8. TeamSpeak can seek additional costs if the software has been modified, installed outside of the designated environment, or operated in an incorrect fashion. You are obligated to reimburse expenses if no defect is found. An offset shall be granted for possible contributory negligence on your part.
+
+9. If TeamSpeak issues a final refusal to undertake subsequent performance or if final performance fails completely, or if subsequent performance is unreasonable for you, then you may cancel this Agreement or reduce compensation in an appropriate manner and, if necessary, seek compensation for damages or reimbursement of expenses.
+
+10. If the contractual relationship is terminated, you must bring your claims within a preclusive period of 3 months from the termination date. If the contractual relationship still continues, then claims must be brought within 6 months of the time you first became aware of them.
+
+
+V. DISTRIBUTION
+
+1. The only permissible method for distribution of the standard software through the Internet is to do so through a link to the Internet page of TeamSpeak (www.TeamSpeak.com). You are only entitled to distribute the standard software over the Internet in another manner, especially by offering it for the purpose of downloading, if TeamSpeak gives you prior written consent.
+
+2. If you offer the standard software for the purpose of downloading, then you are obligated to provide TeamSpeak with information about this, in particular, you must provide the records that contain the download data. For each unauthorized download, liquidated damages in the amount of a flat fee of $150 must be paid, in addition to any other claims for damages on the part of TeamSpeak. You are obligated to provide information concerning the nature and extent of use that you have authorized as well as returning the benefits of use that either you or third parties have received thereby. In such instances you are obligated to provide TeamSpeak with the data/logs that form the basis for this information. You are under an obligation to pay for your actual usage plus a surcharge of 30% on the graduation of prices under Section III, No. 5. This does not exclude proof of a higher level of damage for TeamSpeak (legal fees, fees of a more general nature, etc.) in individual cases. The increased usage fee shall then be used as a credit against any damages that are to be paid.
+
+3. Apart from the conditions of this Agreement, you are required to obtain the prior written consent of TeamSpeak in order to hand over the standard software to third parties (e.g. publishers, magazines, third party products). In the event of an infringement, No. 2 above applies accordingly.
+
+
+VI. OWNERSHIP AND RESTRICTIONS
+
+1. You hereby acknowledge that your rights in and to the licensed material are solely limited to the extent described above (usage of the standard software in exchange for payment of fees paid at regular intervals) and that you do not have any other property rights to any other aspects of the licensed material. You hereby acknowledge that TeamSpeak and/or its licensors possess all rights, including the rights of ownership and exploitation in - but not restricted to - copyrights, patent rights, the right to the confidentiality of trade secrets, as well as all other rights relating to the intellectual property in and to the licensed material and in/to all altered, modified and corrected versions thereof.
+
+2. You are prohibited from undertaking the following activities (with the exception of the limited use of an SDK), and you may not allow a third party to undertake them:
+
+a) to modify or appropriate the licensed material or,
+
+b) to decompile, to reassemble, to disassemble the source code or otherwise to attempt to decipher the source code of any object code (or the underlying ideas, algorithms, structures and organization) that is contained in the standard software.
+
+c) Except for the purposes expressly provided for herein, you are not entitled to market the licensed material, to sublicense, to distribute, to reproduce, to rent, to lease, to offer as part of a timesharing agreement, or to exploit it in any other fashion, whether as a stand-alone version or while integrated into other products.
+
+d) You may not use the standard software for the benefit of third parties, unless doing so expressly conforms to the license for use granted for the standard software in this agreement.
+
+e) This Agreement and the license granted therein may not be assigned, sublicensed, or otherwise transferred without the prior written consent of TeamSpeak.
+
+f) for each case of infringement against the provisions put forth above under a) - e) you are obligated to provide information concerning the nature and extent of use authorized by you and to return the benefits of use that either you have received or that third parties have received based on your authorization. In such a case you are obligated to provide TeamSpeak with a data/log forming the basis therefor. Under these circumstances you are required to pay liquidated damages for actual usage plus a surcharge of 30 % based on the graduation of prices under Section III., No. 5. In such instances proof of higher (legal fees, expenses of a more general nature) or lower damage is not excluded. The increased usage fee is then to be deducted from the damages to be paid.
+
+
+VII. DURATION OF AGREEMENT AND TERMINATION
+
+1. This Agreement becomes effective on the date of your acceptance thereof and is to remain in force until the provisions set forth herein expire or are terminated. TeamSpeak retains the right to terminate this Agreement and to revoke your license if you violate any of the provisions of this Agreement.
+
+2. Any notice of termination is required to be at least in a text format (e.g. via email). All deadlines are calculated, unless determined otherwise, as of receipt by the recipient of the notice.
+
+3. Below the ordinary rights of termination which exist for the individual types of contracts are outlined (meaning a reason for termination is not required); the right of both parties to extraordinary termination for importation reasons (in particular violations of the contract) remains unaffected:
+
+a) An NPL can be revoked and respectively be terminated by TeamSpeak at any time without indicating a reason since it involves a gratuitous provision. You have the right to terminate your use with a notice period of one month.
+
+b) The AAL is initially contracted for one year (year is the year of the contract, therefore calculated one year from the point in time in which the signed contract is received by TeamSpeak). You are entitled at any time to end the AAL within a contract year by notice of termination to be effective by the end of the current contract year. The AAL extends itself with the first day each that follows after a contract year for that additional year, if the termination notice has not been received on the last day of the current contract year.
+
+TeamSpeak is entitled to terminate the AAL with a notice of 3 months to be effective by the end of a contract year.
+
+c) The ATHP license can be terminated by TeamSpeak with a period of six months, calculated from the receipt of the notice of termination. You have the right to terminate at any time with a period of one month.
+
+4. After this Agreement terminates, you must immediately stop the use of the licensed material and destroy all copies and associated intellectual property that are in your possession, custody, or power of disposition. You are obligated to present TeamSpeak with a written confirmation to this effect within two weeks after termination of the Agreement, from which it follows that, to the best of your knowledge, you have taken all reasonable steps to destroy all originals and copies of the licensed materials and that these have actually been destroyed.
+
+
+VIII. TORTS
+
+You hereby make the assurance that you shall not violate any of the provisions of this Agreement and that:
+
+1. You shall not use the standard software in order to engage in any illegal activities and you shall also not allow third parties to misuse the standard software for illegal purposes.
+
+2. You shall not use the standard software in any manner that interrupts or harms third parties in the operation of services by exhausting or deactivating network resources, as may e.g. occur as a result of automated inquiries, overloading, or similar activities.
+
+3. You are not to use the standard software for activities that violate any third party rights, e.g. through the use, public display or performance, reproduction, distribution, or modification of any communications or material that violates the copyrights, trademark rights, rights of publication, data protection rights or property rights of third parties.
+
+4. In the case of the unauthorized use of our standard software you are obligated to provide us with information and to render account concerning the nature and extent of usage by yourself or third parties - regardless of whether or not it is your own use or authorizing/ permitting or even supporting the unauthorized use of our standard software by third parties.
+
+5. Moreover, for the circumstances set out in No. 4 above, you are obligated to pay reasonable compensation for use and possibly damages for your own use and for the use of our products that you have either caused or permitted. For each instance of infringement VI, Number 2 Letter f applies accordingly.
+
+
+IX. NON-DISCLOSURE
+
+You are not permitted to reveal the following information to third parties, to make such information available to third parties, or to make such information accessible to third parties in any way:
+
+1. Information and data that you receive from TeamSpeak and that is related to the licensed material.
+
+2. Training materials and procedural documents that TeamSpeak prepared for the use or installation of the standard software (hereinafter referred to collectively as "confidential information"). Unless this Agreement expressly provides otherwise, you are not permitted to use or disclose this confidential information without the prior written consent of TeamSpeak, with the exception of employees who must be familiar with this information in order to carry out their duties in a proper fashion and only on the condition that these persons have signed written agreements that also place them under an obligation of non-disclosure and that includes rules at least as stringent as those of the applicable provisions in this section.
+
+3. In addition to the obligation of non-disclosure described above, you also hereby grant the assurance that you shall carefully protect confidential information - especially source codes, as well as the methods for operating and installing standard software.
+
+4. Upon termination of this Agreement or at the request of TeamSpeak all documents containing confidential information are to be returned immediately, any remaining or retained standard software or parts thereof are to be deleted and such deletions shall be confirmed to us in writing.
+
+5. Your duties under this Agreement shall survive the termination of this Agreement. These obligations also apply to your representatives, successors, and assigns where applicable. In any event, in the case of permissible disclosure to third parties, you must obligate them accordingly.
+
+
+
+X. OTHER PROVISIONS
+
+1. Changes, additions or adjustments to this Agreement undertaken by TeamSpeak that are occasioned by unforeseeable changes that TeamSpeak does not initiate and over which TeamSpeak has no influence and that become necessary and do not disturb the principle of equivalence that existed at the time of contract conclusion to a material extent, are to be treated as binding as soon as the updated version has been published on the Web site at www.TeamSpeak.com or has been sent to you by email and you have not objected thereto within a time period of 4 weeks after publication of the change. You are under an obligation to remain informed by regularly checking the Internet site for changes to this Agreement.
+
+2. Should a provision of this Agreement prove to be invalid, this does not affect the validity of the remaining provisions. To the extent permitted by statute, the invalid provision is to be replaced by a provision that comes closest to the original intent of the parties.
+
+3. This entire Agreement must be in written form; even modifications must be in writing. No. 1 of this section remains unaffected hereby.
+
+4. You hereby agree to comply with all export and re-export regulations and restrictions of the respective competent authorities or governmental bodies of the countries whose law is affected by the exercise of rights arising out of this Agreement. The provisions of countries whose rights are affected by the use and dissemination of the standard software are mandatory provisions that must be complied with. This applies especially to tax provisions. You are required to keep sufficiently informed in this regard.
+
+5. The parties hereby agree that all controversies arising out of and in connection with this agreement, regardless of conflict of law provisions, are subject to the law of the Federal Republic of Germany, also including the substantive law thereof, to the exclusion of the UN Sales Law. The parties agree that German courts have jurisdiction over all controversies arising out of and in connection with this agreement. The place of performance is KrÃ¼n, Germany.
+
+6. It is not permitted to transfer or assign this Agreement or parts thereof without the written consent of TeamSpeak. </ext_license>
+    <ext_license_accepted>0</ext_license_accepted>
+  </tc_game_paths>
+  <tc_game_general_config>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <enable_start_cpu_0>0</enable_start_cpu_0>
+    <enable_interact_desktop>1</enable_interact_desktop>
+    <enable_configs_icon>1</enable_configs_icon>
+    <enable_log_viewer>0</enable_log_viewer>
+    <log_extensions>*.log</log_extensions>
+    <branded_text />
+    <branded_text_space>0</branded_text_space>
+    <brand_at_end>0</brand_at_end>
+    <brand_regex_search />
+    <brand_regex_case_insensitive>0</brand_regex_case_insensitive>
+    <stop_delay_seconds>2</stop_delay_seconds>
+    <sched_tasks_limit>0</sched_tasks_limit>
+    <force_config_editor_create>0</force_config_editor_create>
+    <collapse_mod_groups>0</collapse_mod_groups>
+  </tc_game_general_config>
+  <tc_game_ports>
+    <game_id>122</game_id>
+    <only_default_ports>1</only_default_ports>
+    <only_primary_ip>1</only_primary_ip>
+    <game_port>41144</game_port>
+    <query_port>0</query_port>
+    <rcon_port>0</rcon_port>
+    <port_increment>10</port_increment>
+    <query_port_expression />
+    <rcon_port_expression />
+    <custom_port_1>0</custom_port_1>
+    <custom_port_2>0</custom_port_2>
+    <custom_port_3>0</custom_port_3>
+    <custom_port_4>0</custom_port_4>
+    <custom_port_5>0</custom_port_5>
+    <custom_port_6>0</custom_port_6>
+    <custom_port_7>0</custom_port_7>
+    <custom_port_8>0</custom_port_8>
+    <custom_port_9>0</custom_port_9>
+    <custom_port_10>0</custom_port_10>
+    <custom_port_1_expression />
+    <custom_port_2_expression />
+    <custom_port_3_expression />
+    <custom_port_4_expression />
+    <custom_port_5_expression />
+    <custom_port_6_expression />
+    <custom_port_7_expression />
+    <custom_port_8_expression />
+    <custom_port_9_expression />
+    <custom_port_10_expression />
+    <supports_ipv6>0</supports_ipv6>
+    <unique_ports>0</unique_ports>
+    <enable_forcebindip>0</enable_forcebindip>
+    <app_data />
+  </tc_game_ports>
+  <tc_game_cmdlines>
+    <game_id>122</game_id>
+    <cmdline_default />
+    <cmdline_private />
+    <cmdline_default_custom />
+    <cmdline_private_custom />
+    <predef_cmdlines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfPredefinedCommandLine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</predef_cmdlines>
+    <disable_param_selection>0</disable_param_selection>
+  </tc_game_cmdlines>
+  <tc_game_punkbuster_config>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <enable_pbweb>0</enable_pbweb>
+    <pb_relative_path>pb\</pb_relative_path>
+    <pb_download_url />
+    <execute_on_create>0</execute_on_create>
+  </tc_game_punkbuster_config>
+  <tc_game_query_monitoring>
+    <game_id>122</game_id>
+    <app_data />
+  </tc_game_query_monitoring>
+  <tc_game_mail_templates>
+    <game_id>122</game_id>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:InstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:InstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2015-03-14 06:47:42" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2018-04-26 13:54:03" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_mail_templates>
+  <tc_game_steam_config>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <enable_hldsupdate>0</enable_hldsupdate>
+    <hlds_game_type />
+    <validate>0</validate>
+    <execute_on_create>0</execute_on_create>
+    <extra_options />
+    <steam_account />
+    <steam_password />
+    <run_as_service_user>0</run_as_service_user>
+    <store_game_id>0</store_game_id>
+    <delete_steamapps_on_error>1</delete_steamapps_on_error>
+  </tc_game_steam_config>
+  <tc_game_bukkit_config>
+    <game_id>122</game_id>
+  </tc_game_bukkit_config>
+  <tc_game_tracker_config>
+    <game_id>122</game_id>
+    <ts_id>0</ts_id>
+  </tc_game_tracker_config>
+  <tc_game_identity>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <run_as>0</run_as>
+    <user_name />
+    <password />
+  </tc_game_identity>
+  <tc_game_text_console>
+    <game_id>122</game_id>
+    <control_input>0</control_input>
+    <control_output>1</control_output>
+    <stop_commands />
+    <wait_for_exit>1</wait_for_exit>
+  </tc_game_text_console>
+  <tc_game_web_console>
+    <game_id>122</game_id>
+    <enable_web_console>1</enable_web_console>
+    <input_source>2</input_source>
+    <output_source>1</output_source>
+    <log_file> logs\ts3server_*.log</log_file>
+    <print_rcon_response>1</print_rcon_response>
+  </tc_game_web_console>
+  <tc_game_fast_download>
+    <game_id>122</game_id>
+    <enable_fast_download>0</enable_fast_download>
+    <root_directory />
+    <url_expression>$[FastDownloadBaseUrl]/</url_expression>
+    <files />
+    <exclude_files />
+    <sync_created>0</sync_created>
+    <auto_sync>0</auto_sync>
+    <enable_compress>0</enable_compress>
+    <compress_format>zip</compress_format>
+    <disk_quota_mb>0</disk_quota_mb>
+    <max_compress_size>0</max_compress_size>
+  </tc_game_fast_download>
+  <tc_game_config_files>
+    <game_id>122</game_id>
+    <file_id>1</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>tsdns\tsdns_settings.ini</relative_path>
+    <description>Main configuration file</description>
+    <view_order>1</view_order>
+    <template>#   ***This is the configuration file for the TSDNS server***
+#
+# The format is always "ident=value", where:
+# ident is a host-name, which should at least for the right hand side be a
+# valid (DNS) host-name. 
+# On a box known via DNS as "myrootserver.com" sensible idents might be
+# "myrootserver.com" or "any.combination.of.weird.words.myrootserver.com".
+# Also allowed is "*" as first character of an ident, which matches any
+# queries that end with what follows the star. For example "*" matches
+# always, providing a default answer. "*.myserver.eu" matches every query
+# that ends with ".myserver.eu", like "foo.myserver.eu".
+#
+# The value side is always an IP possibly followed by a ':' and then either
+# a port of the special string "$PORT"
+#
+# Also allowed as value is the special string "NORESPONSE", which makes the
+# TSDNS server answer not answer this query...this can be useful in scenarios
+# where multiple TSDNS servers exist and you wish to let "the other" TSDNS
+# server handle this request. Or you wish regular domain resolving to take
+# place for some cases.
+#
+# Example: The TSDNS server runs on on a box reachable as both as
+# "teamspeak.com" and as "teamspeak-systems.de"
+# So we might configure:
+#public.teamspeak.com=12.13.14.15:10000
+#test.teamspeak.com=12.13.14.15:12000
+#private.teamspeak.com=12.13.14.15:14000
+#voice.teamspeak.com=NORESPONSE
+#*.teamspeak-systems.de=1.2.3.4:15000
+#*=12.13.14.15:$PORT
+#
+#This way, now clients can connect to "test.teamspeak.com" to reach the test
+#server, but if they still have the old "teamspeak.com:12000" in their
+#bookmarks, it will also work thanks to the "*=12.13.14.15:$PORT" line, which
+#acts as a backwards compatibility mechanism in this case, for everybody not
+#using the new TSDNS names to connect.
+#
+# Lines starting with "#" are ignored by the tsdns server, so to make any
+# actual configuration you must remove the "#" infront.
+#
+# Note that if you want to use any non ascii characters you may do so,
+# but you should make sure to store this configuration file as UTF8 encoded
+# document.
+#
+</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>0</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2015-03-14 06:47:13" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2018-01-20 16:08:48" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>122</game_id>
+    <file_id>2</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>tsdns\domain.txt</relative_path>
+    <description>List of domains used by TSDNS (one per line)</description>
+    <view_order>2</view_order>
+    <template>yourdomain.com</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>0</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2018-01-20 16:20:00" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2018-01-20 16:20:49" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>BukGet</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineBuilder</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineChanger</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FastDlSync</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FileManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Ftp</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>GameSwitcher</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveBandwidthStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveCpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveMemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LivePlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewer</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerServiceActivity</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerTextConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MapPacks</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ModManager</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PunkbusterUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Reinstall</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Repair</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledGameSwitcher</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledReinstall</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledRestart</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledScript</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>SteamUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Updates</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>122</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>WebConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+</TS3_x0020_TSDNS>

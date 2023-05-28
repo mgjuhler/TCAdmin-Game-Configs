@@ -1,0 +1,1214 @@
+<MTA>
+  <tc_games>
+    <game_id>94</game_id>
+    <operating_system>2</operating_system>
+    <display_name>Multi Theft Auto</display_name>
+    <short_name>MTA</short_name>
+    <private_rule_value>1</private_rule_value>
+    <private_rule_name>_password</private_rule_name>
+    <hostname_rule />
+    <map_rule />
+    <slots_rule />
+    <exclude_rules />
+    <query_protocol>eye</query_protocol>
+    <rcon_protocol>0</rcon_protocol>
+    <show_in_create_list>1</show_in_create_list>
+    <is_voice_server>0</is_voice_server>
+    <is_template>1</is_template>
+    <min_slots>0</min_slots>
+    <max_slots>0</max_slots>
+    <default_slots>32</default_slots>
+    <name_from_query>1</name_from_query>
+    <exclude_load_balancing>0</exclude_load_balancing>
+    <custom_home_view />
+    <custom_status_view />
+    <background_image />
+    <join_url />
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2012-06-28 23:48:23" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="Latest installer:&amp;#xA;https://nightly.mtasa.com/?mtasa_x64-1.5.8-latest" type="System.String,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.xml&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.conf&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2022-09-21 22:33:19" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATE_SYMLINK" value="False" type="System.Boolean,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <rcon_commands>[]</rcon_commands>
+    <enable_community_images>1</enable_community_images>
+  </tc_games>
+  <tc_game_paths>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <relative_executable>MTA Server.exe</relative_executable>
+    <relative_working_dir />
+    <relative_subadmin_files />
+    <relative_reseller_files />
+    <relative_user_files />
+    <files_folder_name>mta</files_folder_name>
+    <enable_ext_download>1</enable_ext_download>
+    <ext_download_url>http://downloads.tcadmin.com/games/mta-windows.aspx</ext_download_url>
+    <ext_save_name>_mta.zip</ext_save_name>
+    <ext_extract_opt>2</ext_extract_opt>
+    <ext_script_engine_id>1</ext_script_engine_id>
+    <ext_script />
+    <ext_license />
+    <ext_license_accepted>0</ext_license_accepted>
+    <skip_exe_error>0</skip_exe_error>
+  </tc_game_paths>
+  <tc_game_general_config>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <enable_start_cpu_0>0</enable_start_cpu_0>
+    <enable_interact_desktop>1</enable_interact_desktop>
+    <enable_configs_icon>1</enable_configs_icon>
+    <enable_log_viewer>1</enable_log_viewer>
+    <log_extensions>*.log</log_extensions>
+    <branded_text />
+    <branded_text_space>0</branded_text_space>
+    <brand_at_end>0</brand_at_end>
+    <brand_regex_search />
+    <brand_regex_case_insensitive>0</brand_regex_case_insensitive>
+    <stop_delay_seconds>2</stop_delay_seconds>
+    <sched_tasks_limit>0</sched_tasks_limit>
+    <force_config_editor_create>0</force_config_editor_create>
+    <collapse_mod_groups>0</collapse_mod_groups>
+    <reuse_keys_on_ip>0</reuse_keys_on_ip>
+    <sched_tasks_interval_limit>15</sched_tasks_interval_limit>
+  </tc_game_general_config>
+  <tc_game_ports>
+    <game_id>94</game_id>
+    <only_default_ports>0</only_default_ports>
+    <only_primary_ip>0</only_primary_ip>
+    <game_port>22003</game_port>
+    <query_port>22003</query_port>
+    <rcon_port>22003</rcon_port>
+    <port_increment>10</port_increment>
+    <query_port_expression />
+    <rcon_port_expression />
+    <custom_port_1>22005</custom_port_1>
+    <custom_port_2>0</custom_port_2>
+    <custom_port_3>0</custom_port_3>
+    <custom_port_4>0</custom_port_4>
+    <custom_port_5>0</custom_port_5>
+    <custom_port_6>0</custom_port_6>
+    <custom_port_7>0</custom_port_7>
+    <custom_port_8>0</custom_port_8>
+    <custom_port_9>0</custom_port_9>
+    <custom_port_10>0</custom_port_10>
+    <custom_port_11>0</custom_port_11>
+    <custom_port_12>0</custom_port_12>
+    <custom_port_13>0</custom_port_13>
+    <custom_port_14>0</custom_port_14>
+    <custom_port_15>0</custom_port_15>
+    <custom_port_16>0</custom_port_16>
+    <custom_port_17>0</custom_port_17>
+    <custom_port_18>0</custom_port_18>
+    <custom_port_19>0</custom_port_19>
+    <custom_port_20>0</custom_port_20>
+    <custom_port_21>0</custom_port_21>
+    <custom_port_22>0</custom_port_22>
+    <custom_port_23>0</custom_port_23>
+    <custom_port_24>0</custom_port_24>
+    <custom_port_25>0</custom_port_25>
+    <custom_port_26>0</custom_port_26>
+    <custom_port_27>0</custom_port_27>
+    <custom_port_28>0</custom_port_28>
+    <custom_port_29>0</custom_port_29>
+    <custom_port_30>0</custom_port_30>
+    <custom_port_31>0</custom_port_31>
+    <custom_port_32>0</custom_port_32>
+    <custom_port_33>0</custom_port_33>
+    <custom_port_34>0</custom_port_34>
+    <custom_port_35>0</custom_port_35>
+    <custom_port_36>0</custom_port_36>
+    <custom_port_37>0</custom_port_37>
+    <custom_port_38>0</custom_port_38>
+    <custom_port_39>0</custom_port_39>
+    <custom_port_40>0</custom_port_40>
+    <custom_port_41>0</custom_port_41>
+    <custom_port_42>0</custom_port_42>
+    <custom_port_43>0</custom_port_43>
+    <custom_port_44>0</custom_port_44>
+    <custom_port_45>0</custom_port_45>
+    <custom_port_46>0</custom_port_46>
+    <custom_port_47>0</custom_port_47>
+    <custom_port_48>0</custom_port_48>
+    <custom_port_49>0</custom_port_49>
+    <custom_port_50>0</custom_port_50>
+    <custom_port_1_expression />
+    <custom_port_2_expression />
+    <custom_port_3_expression />
+    <custom_port_4_expression />
+    <custom_port_5_expression />
+    <custom_port_6_expression />
+    <custom_port_7_expression />
+    <custom_port_8_expression />
+    <custom_port_9_expression />
+    <custom_port_10_expression />
+    <supports_ipv6>0</supports_ipv6>
+    <unique_ports>0</unique_ports>
+    <enable_forcebindip>0</enable_forcebindip>
+    <app_data />
+  </tc_game_ports>
+  <tc_game_cmdlines>
+    <game_id>94</game_id>
+    <cmdline_default />
+    <cmdline_private />
+    <cmdline_default_custom />
+    <cmdline_private_custom />
+    <predef_cmdlines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfPredefinedCommandLine xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</predef_cmdlines>
+    <disable_param_selection>0</disable_param_selection>
+  </tc_game_cmdlines>
+  <tc_game_punkbuster_config>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <enable_pbweb>0</enable_pbweb>
+    <pb_relative_path>pb\</pb_relative_path>
+    <pb_download_url />
+    <execute_on_create>0</execute_on_create>
+  </tc_game_punkbuster_config>
+  <tc_game_query_monitoring>
+    <game_id>94</game_id>
+    <query_interval>300000</query_interval>
+    <query_interval_retry>30000</query_interval_retry>
+    <enable_query_detect>1</enable_query_detect>
+    <query_detect_actions>10</query_detect_actions>
+    <query_detect_max>3</query_detect_max>
+    <query_detect_max_actions>0</query_detect_max_actions>
+    <enable_slot_detect>1</enable_slot_detect>
+    <slot_detect_actions>9</slot_detect_actions>
+    <slot_detect_additional_slots>0</slot_detect_additional_slots>
+    <enable_private_detect>1</enable_private_detect>
+    <private_detect_actions>9</private_detect_actions>
+    <enable_brand_detect>1</enable_brand_detect>
+    <brand_detect_actions>9</brand_detect_actions>
+    <enable_rule_detect>0</enable_rule_detect>
+    <rules>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameMonitorRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" /&gt;</rules>
+    <enable_stats>1</enable_stats>
+    <stats_interval>900</stats_interval>
+    <det_stats_max_days>7</det_stats_max_days>
+    <stats_max_days>30</stats_max_days>
+    <enable_live_stats>1</enable_live_stats>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:QueryFailureUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureMaxAllowedUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureMaxAllowedAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:SlotDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:SlotDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:PrivateDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:PrivateDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:BrandDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:BrandDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2012-06-28 23:53:26" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2018-08-03 04:51:48" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:QUERY_FAILURE_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCA:QUERY_FAILURE_MAX_ALLOWED_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCA:SLOT_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCA:PRIVATE_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+  &lt;add key="__TCA:BRAND_DETECTION_SCRIPTS" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfInt xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; /&amp;gt;" type="System.Int32[],mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_query_monitoring>
+  <tc_game_mail_templates>
+    <game_id>94</game_id>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:InstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:InstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2012-06-28 23:48:36" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2022-09-21 22:33:20" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_mail_templates>
+  <tc_game_steam_config>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <enable_hldsupdate>0</enable_hldsupdate>
+    <hlds_game_type />
+    <validate>0</validate>
+    <execute_on_create>0</execute_on_create>
+    <extra_options />
+    <steam_account />
+    <steam_password />
+    <run_as_service_user>0</run_as_service_user>
+    <store_game_id>0</store_game_id>
+    <workshop_enabled>0</workshop_enabled>
+    <workshop_stop>0</workshop_stop>
+    <workshop_skip_download>0</workshop_skip_download>
+    <workshop_file_id_format>![FileId]</workshop_file_id_format>
+    <workshop_file_id_separator>,</workshop_file_id_separator>
+    <store_backgrounds />
+    <use_store_backgrounds>0</use_store_backgrounds>
+    <workshop_account />
+    <workshop_password />
+    <workshop_installed_icon>0</workshop_installed_icon>
+    <workshop_updatable_icon>0</workshop_updatable_icon>
+    <workshop_collections_enabled>0</workshop_collections_enabled>
+    <workshop_retry>10</workshop_retry>
+    <search_unlisted>0</search_unlisted>
+    <delete_steamapps_on_error>1</delete_steamapps_on_error>
+  </tc_game_steam_config>
+  <tc_game_bukkit_config>
+    <game_id>94</game_id>
+  </tc_game_bukkit_config>
+  <tc_game_tracker_config>
+    <game_id>94</game_id>
+    <ts_id>0</ts_id>
+  </tc_game_tracker_config>
+  <tc_game_identity>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <run_as>1</run_as>
+    <user_name />
+    <password />
+  </tc_game_identity>
+  <tc_game_text_console>
+    <game_id>94</game_id>
+    <control_input>0</control_input>
+    <control_output>0</control_output>
+    <stop_commands>^c</stop_commands>
+    <wait_for_exit>10</wait_for_exit>
+  </tc_game_text_console>
+  <tc_game_web_console>
+    <game_id>94</game_id>
+    <enable_web_console>1</enable_web_console>
+    <input_source>2</input_source>
+    <output_source>0</output_source>
+    <log_file>mods\deathmatch\logs\server.log </log_file>
+    <print_rcon_response>0</print_rcon_response>
+    <output_filters />
+  </tc_game_web_console>
+  <tc_game_fast_download>
+    <game_id>94</game_id>
+    <enable_fast_download>0</enable_fast_download>
+    <root_directory />
+    <url_expression>$[FastDownloadBaseUrl]/</url_expression>
+    <files />
+    <exclude_files />
+    <sync_created>0</sync_created>
+    <auto_sync>0</auto_sync>
+    <enable_compress>0</enable_compress>
+    <compress_format>zip</compress_format>
+    <disk_quota_mb>0</disk_quota_mb>
+    <max_compress_size>0</max_compress_size>
+    <requires_https>0</requires_https>
+  </tc_game_fast_download>
+  <tc_game_config_files>
+    <game_id>94</game_id>
+    <file_id>1</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>mods\deathmatch\mtaserver.conf</relative_path>
+    <description>Main configuration file</description>
+    <view_order>0</view_order>
+    <template>&lt;config&gt;
+
+    &lt;!-- This parameter specifies the name the server will be visible as in the ingame server browser 
+         and on Game-Monitor. It is a required parameter. --&gt;
+	&lt;servername&gt;$[HostName]&lt;/servername&gt;
+    
+    &lt;!-- This parameter specifies the contact email addresses for the owner(s) of this server.
+         The email addresses will not be publicly available, and only used by MTA administrators
+         to contact the server owner.
+         Note: Missing or incorrect owner_email_address can affect visibility in the master server list.
+         Values: Comma separated list of email addresses --&gt;
+    &lt;owner_email_address&gt;&lt;/owner_email_address&gt;
+
+    &lt;!-- ONLY USE THIS PARAMETER IF YOU ARE SURE OF WHAT YOU ARE DOING - it is generally only
+         needed for professional servers and should be left at the default value otherwise.
+         This parameter specifies the IP to use for servers that have multiple IP addresses. If set
+         to auto, it will automatically detect and use the server's standard local IP address.
+         Values: auto or x.x.x.x ; default value: auto --&gt;
+    &lt;!-- SERVERIP SHOULD BE LEFT SET TO auto UNLESS YOU ARE SURE OF WHAT YOU ARE DOING --&gt;
+	&lt;serverip&gt;$[Service.IpAddress]&lt;/serverip&gt;
+    &lt;!-- WARNING: SETTING serverip AND THEN ASKING FOR SUPPORT CAN CAUSE DEATH OR INJURY --&gt;
+
+    &lt;!-- This parameter specifies the UDP port on which the server will be accepting incoming player
+         connections; default value: 22003. It is a required parameter. --&gt;
+	&lt;serverport&gt;$[Service.GamePort]&lt;/serverport&gt; 
+    
+    &lt;!-- This parameter specifies the number of maximum player slots available on the server; default
+         value: 32. It is a required parameter. --&gt;
+	&lt;maxplayers&gt;$[Service.Slots]&lt;/maxplayers&gt;
+        
+    &lt;!-- This parameter specifies the TCP port on which the server will be accepting incoming http
+         connections. It can be set to the same value as &lt;serverport&gt;. It is a required parameter
+         if &lt;httpserver&gt; is set to 1. --&gt;
+	&lt;httpport&gt;$[Service.CustomPort1]&lt;/httpport&gt;
+    
+    &lt;!-- If set, this parameter specifies the external URL from which clients will be able to download
+         needed resources ingame. If not set (or the external URL files are incorrect), resource downloads
+         are switched to the internal http server. --&gt;
+    &lt;httpdownloadurl&gt;&lt;/httpdownloadurl&gt;
+
+    &lt;!-- This parameter limits the number of http connections each client can make. Depending on the type
+         of http server that is used, a lower figure may reduce download timeouts.
+         Available range: 1 to 8. --&gt;
+    &lt;httpmaxconnectionsperclient&gt;5&lt;/httpmaxconnectionsperclient&gt;
+
+    &lt;!-- This parameter limits the number http connections that an IP can initiate over a short period of time.
+         Available range: 1 to 100. default value: 20 --&gt;
+    &lt;httpdosthreshold&gt;20&lt;/httpdosthreshold&gt;
+
+    &lt;!-- This parameter lists the IP addresses that are to be excluded from http dos threshold limits.
+         e.g. 88.11.22.33,101.2.3.4 --&gt;
+    &lt;http_dos_exclude&gt;&lt;/http_dos_exclude&gt;
+
+    &lt;!-- By default, the server will block the use of locally customized gta3.img player skins
+         This setting can be used to allow such mods. Not recommended for competitive servers.
+         Values: none, peds ; default value: none --&gt;
+    &lt;allow_gta3_img_mods&gt;none&lt;/allow_gta3_img_mods&gt;
+
+    &lt;!-- By default, the server will block the use of customized GTA:SA data files. --&gt;
+    &lt;!-- To allow specific client files, add one or more of the following: --&gt;
+    &lt;!-- &lt;client_file name="data/carmods.dat" verify="0"/&gt; --&gt;
+
+    &lt;!-- Comma separated list of disabled anti-cheats.
+         For details see http://wiki.multitheftauto.com/wiki/Anti-cheat_guide
+         e.g. To disable anti-cheat #2 and #3, use: 2,3 --&gt;
+    &lt;disableac&gt;&lt;/disableac&gt;
+
+    &lt;!-- Comma separated list of enabled special detections.
+         A special detection is a type of anti-cheat for (usually) harmless game modifications.
+         Competitive servers may wish to enable certain special detections, but most servers should leave this setting on its default.
+         For details and SD codes, see http://wiki.multitheftauto.com/wiki/Anti-cheat_guide
+         Available values: special detection (SD) codes ; default value: 31,32 (e.g. enables special detections #31 and #32) --&gt;
+    &lt;enablesd&gt;31,32&lt;/enablesd&gt;
+
+    &lt;!-- Minimum client version. Clients with a lower version will not be allowed to connect. After
+         disconnection, clients will be given an opportunity to download an update.
+         If left blank, this setting is disabled and there are no restrictions on who can connect.
+         Version numbers are described here: http://wiki.multitheftauto.com/wiki/GetPlayerVersion
+         and look like this: 1.1.0-9.03100.0 
+         Note that this setting only determines if the client should be prompted to update. The actual
+         build number they receive will be the highest available. See: http://nightly.mtasa.com/ver  --&gt;
+    &lt;minclientversion&gt;&lt;/minclientversion&gt;
+
+    &lt;!-- This parameter specifies if/when the &lt;minclientversion&gt; setting is automatically updated.
+         Keeping &lt;minclientversion&gt; updated can help reduce cheating.
+         Note: The instant setting (2) is only recommended for competitive servers.
+         Values: 0 - disabled, 1 - enabled (delayed by a few days), 2 - enabled (instant) ; default value: 1.  --&gt;
+    &lt;minclientversion_auto_update&gt;1&lt;/minclientversion_auto_update&gt;
+
+    &lt;!-- Recommended client version. When connecting, if clients have a lower version, they will be given
+         the option to download an update. If left blank, this setting is disabled.
+         Note that this setting only determines if the client should be prompted to update. The actual
+         build number they receive will be the highest available. See: http://nightly.mtasa.com/ver  --&gt;
+    &lt;recommendedclientversion&gt;&lt;/recommendedclientversion&gt;
+
+    &lt;!-- This parameter can be used to make the server report to Game-Monitor master servers, allowing it to
+         be visible in the ingame server browser. An additional UDP port needs to be available for this to
+         work (value from &lt;serverport&gt; + 123 , so on a default &lt;serverport&gt; value 22003 the right port
+         will be 22126 ). Available values: 0 - disabled , 1 - enabled. Optional parameter, defaults to 0. --&gt;
+    &lt;ase&gt;1&lt;/ase&gt;
+
+    &lt;!-- This parameter allows you to disable LAN broadcasting. --&gt; 
+    &lt;donotbroadcastlan&gt;0&lt;/donotbroadcastlan&gt;
+
+    &lt;!-- If set, players will have to provide a password specified below, before they can connect to the
+         server. If left blank, server doesn't require a password from them. --&gt;
+	&lt;password&gt;$[PrivatePassword]&lt;/password&gt; 
+
+    &lt;!-- This parameter reduces the server's bandwidth usage by using various optimizations.
+         Values: none, medium or maximum ; default value: medium --&gt;
+    &lt;bandwidth_reduction&gt;medium&lt;/bandwidth_reduction&gt; 
+
+    &lt;!-- The following ???_sync_interval parameters determine the time in milliseconds between certain
+         network packets being sent. More information on how each settings works is available here:
+         http://wiki.multitheftauto.com/wiki/Server_mtaserver.conf --&gt;
+    &lt;!-- Player sync interval. Default: 100 --&gt;
+    &lt;player_sync_interval&gt;100&lt;/player_sync_interval&gt;
+    &lt;!-- Lightweight (player) sync interval. Used when players are far apart. Default: 1500 --&gt;
+    &lt;lightweight_sync_interval&gt;1500&lt;/lightweight_sync_interval&gt; 
+    &lt;!-- Camera sync interval. Default: 500 --&gt;
+    &lt;camera_sync_interval&gt;500&lt;/camera_sync_interval&gt; 
+    &lt;!-- Ped sync interval. Default: 400 --&gt;
+    &lt;ped_sync_interval&gt;400&lt;/ped_sync_interval&gt; 
+    &lt;!-- Unoccupied_vehicle sync interval. Default: 400 --&gt;
+    &lt;unoccupied_vehicle_sync_interval&gt;400&lt;/unoccupied_vehicle_sync_interval&gt; 
+    &lt;!-- Keysync mouse rotation sync interval. For limiting key sync packets due to mouse movement. Default: 100 --&gt;
+    &lt;keysync_mouse_sync_interval&gt;100&lt;/keysync_mouse_sync_interval&gt; 
+    &lt;!-- Keysync analog movement sync interval. For limiting key sync packets due to joystick movement. Default: 100 --&gt;
+    &lt;keysync_analog_sync_interval&gt;100&lt;/keysync_analog_sync_interval&gt; 
+
+    &lt;!-- This parameter can improve the reliability of shots when using certain weapons. However, it uses more bandwidth.
+         Values: 0 - disabled , 1 - enabled ; default value: 1. --&gt;
+    &lt;bullet_sync&gt;1&lt;/bullet_sync&gt; 
+
+    &lt;!-- This parameter sets the amount of extrapolation that clients will apply to remote vehicles. This can reduce
+         some of the latency induced location disparency by predicting where the remote vehicles will probably be.
+         Depending on the gamemode, an incorrect prediction may have a negative effect. Therefore this setting
+         should be considered experimental.
+         Available range: 0 to 100.  Default - 0 --&gt;
+    &lt;vehext_percent&gt;0&lt;/vehext_percent&gt;
+
+    &lt;!-- This parameter places a limit on how much time (in milliseconds) the vehicle extrapolation will attempt to
+         compensate for.
+         Only relevant if &lt;vehext_percent&gt; is greater than zero.
+         Available range: 50 to 500.  Default - 150 --&gt;
+    &lt;vehext_ping_limit&gt;150&lt;/vehext_ping_limit&gt;
+
+    &lt;!-- This parameter can reduce the delay of player actions appearing on remote clients by 2 frames (approx 50ms).
+         Due to the impact this may have on shot lag compensation, it should be considered experimental.
+         Values: 0 - disabled , 1 - enabled ; default value: 0. --&gt;
+    &lt;latency_reduction&gt;0&lt;/latency_reduction&gt;
+
+    &lt;!-- Specifies the location and file name of this servers unique private key.
+         This is used to prevent private files saved on the client from being read by other servers.
+         More infomation about client private files can be found here: http://wiki.multitheftauto.com/wiki/Filepath
+         Keep a backup of this file in a safe place. Default value: server-id.keys--&gt;
+    &lt;idfile&gt;server-id.keys&lt;/idfile&gt; 
+
+    &lt;!-- Specifies the location and name of the main server log file. If left blank, server won't be saving this file. --&gt;
+    &lt;logfile&gt;logs/server.log&lt;/logfile&gt;
+
+    &lt;!-- As well as the main log file, login successes and failures are logged here for easy reviewing of security issues.
+         If left blank, this file is not used --&gt;
+    &lt;authfile&gt;logs/server_auth.log&lt;/authfile&gt;
+
+    &lt;!-- Specifies the location and name of the file used to log database queries.
+         The server command 'debugdb' sets the amount of logging. --&gt;
+    &lt;dbfile&gt;logs/db.log&lt;/dbfile&gt;
+
+    &lt;!-- Specifies the location and name of the file used to log loadstring function calls.
+         If left blank or not set, no logging is done. --&gt;
+    &lt;!-- &lt;loadstringfile&gt;logs/loadstring.log&lt;/loadstringfile&gt; --&gt;
+    
+    &lt;!-- This parameter specifies the location and name of the Access Control List settings file. If left
+         blank, server will use acl.xml file, located in the same folder as this configuration file. --&gt;
+    &lt;acl&gt;acl.xml&lt;/acl&gt; 
+
+    &lt;!-- Specifies the location and name of the debugscript log file. If left blank, server won't be saving this file. --&gt;
+    &lt;scriptdebuglogfile&gt;logs/scripts.log&lt;/scriptdebuglogfile&gt;
+
+    &lt;!-- Specifies the level of the debugscript log file. Available values: 0, 1, 2, 3. When not set, defaults to 0. --&gt;
+    &lt;scriptdebugloglevel&gt;0&lt;/scriptdebugloglevel&gt;
+
+    &lt;!-- Specifies the level of the html debug. Available values: 0, 1, 2, 3. When not set, defaults to 0. --&gt;
+    &lt;htmldebuglevel&gt;0&lt;/htmldebuglevel&gt;
+
+    &lt;!-- Specifies whether or not duplicate log lines should be filtered. Available values: 0 or 1, defaults to 1. --&gt;
+    &lt;filter_duplicate_log_lines&gt;1&lt;/filter_duplicate_log_lines&gt;
+
+    &lt;!-- Specifies the frame rate limit that will be applied to connecting clients.
+         Available range: 25 to 100. Default: 36. --&gt;
+    &lt;fpslimit&gt;36&lt;/fpslimit&gt;
+
+    &lt;!-- This parameter specifies whether or not to enable player voice chat in-game
+         Values: 0 - disabled , 1 - enabled --&gt;
+    &lt;voice&gt;0&lt;/voice&gt;
+    
+    &lt;!-- This parameter specifies the sample rate for voice chat.  'voice' parameter must be set to 1 for this to be effective.
+         Higher settings use more bandwidth and increase the sampling quality of voice chat
+         Values: 0 - Narrowband (8kHz), 1 - Wideband (16kHz), 2 - Ultrawideband (32kHz).  Default - 1 --&gt;
+    &lt;voice_samplerate&gt;1&lt;/voice_samplerate&gt;
+    
+    &lt;!-- This parameter specifies the voice quality for voice chat.  'voice' parameter must be set to 1 for this to be effective.
+         Higher settings use more bandwidth and increase the the overall quality of voice chat
+         Available range: 0 to 10.  Default - 4 --&gt;
+    &lt;voice_quality&gt;4&lt;/voice_quality&gt;
+
+    &lt;!-- Specifies the voice bitrate, in bps. This optional parameter overrides the previous two settings. 
+         If not set, MTA handles this automatically.  Use with care. --&gt;
+    &lt;!-- &lt;voice_bitrate&gt;24600&lt;/voice_bitrate&gt; --&gt;
+
+    &lt;!-- This parameter specifies the path to use for a basic backup of some server files.
+         Note that basic backups are only made during server startup. Default value: backups --&gt;
+    &lt;backup_path&gt;backups&lt;/backup_path&gt;
+
+    &lt;!-- This parameter specifies the number of days between each basic backup.
+         Backups are only made during server startup, so the actual interval may be much longer.
+         Setting backup_interval to 0 will disable backups
+         Available range: 0 to 30.  Default - 3 --&gt;
+    &lt;backup_interval&gt;3&lt;/backup_interval&gt;
+
+    &lt;!-- This parameter specifies the maximum number of backup copies to keep.
+         Setting backup_copies to 0 will disable backups
+         Available range: 0 to 100.  Default - 5 --&gt;
+    &lt;backup_copies&gt;5&lt;/backup_copies&gt;
+
+    &lt;!-- This parameter specifies when the internal sqlite databases should be defragmented.
+         http://www.sqlite.org/lang_vacuum.html
+         Values: 0 - Never, 1 - On server start only after basic backup, 2 - On server start always.  Default - 1 --&gt;
+    &lt;compact_internal_databases&gt;1&lt;/compact_internal_databases&gt;
+
+    &lt;!-- This parameter specifies whether server crash dump files should be sent to MTA HQ.
+         Values: 0 - Off, 1 - On. Default - 1 --&gt;
+    &lt;crash_dump_upload&gt;1&lt;/crash_dump_upload&gt;
+
+    &lt;!-- This parameter lists the ACL groups that are protected by serial authorization.
+         Login attempts to a protected account from a second serial are blocked until the serial is manually authorized via
+         the authserial command.
+         For more info see: https://mtasa.com/authserial
+         Note: This is security critical feature and disabling auth_serial_groups can affect visibility in the master server list.
+         Values: Comma separated list of ACL groups.  Default - Admin --&gt;
+    &lt;auth_serial_groups&gt;Admin&lt;/auth_serial_groups&gt;
+
+    &lt;!-- This parameter specifies if the authorized serial login checks should also apply to the http interface.
+         Protected account login attempts to the http interface will only succeed if the IP address matches one
+         recently used by the account holder in-game
+         For more info see: https://mtasa.com/authserialhttp
+         Note: This is security critical feature and disabling auth_serial_http can affect visibility in the master server list.
+         Values: 0 - Off, 1 - Enabled.  Default - 1 --&gt;
+    &lt;auth_serial_http&gt;1&lt;/auth_serial_http&gt;
+
+    &lt;!-- This parameter specifies which IP addresses should always pass auth_serial_http checks.
+         Values: Comma separated list of IP addresses --&gt;
+    &lt;auth_serial_http_ip_exceptions&gt;127.0.0.1&lt;/auth_serial_http_ip_exceptions&gt;
+
+    &lt;!-- This parameter specifies if extra security measures are applied to resources which use dbConnect with mysql.
+         The extra measures are:
+           - Script files cannot be accessed with fileOpen()
+           - meta.xml is read only
+         *NOTE* This only protects resources which use dbConnect with mysql
+         Values: 0 - Off, 1 - Enabled.  Default - 1 --&gt;
+    &lt;database_credentials_protection&gt;1&lt;/database_credentials_protection&gt;
+
+    &lt;!-- Specifies the module(s) which are loaded with the server. To load several modules, add more &lt;module&gt;
+         parameter(s). Optional parameter. --&gt;
+    &lt;!-- &lt;module src="sample_win32.dll"/&gt; --&gt;
+    &lt;!-- &lt;module src="sample_linux.so"/&gt; --&gt;
+    
+    &lt;!-- Specifies resources that are loaded when the server starts and/or which are protected from being stopped.
+         To specify several resources, add more &lt;resource&gt; parameter(s). --&gt;
+
+    &lt;resource src="admin" startup="1" protected="0"/&gt;
+    &lt;resource src="defaultstats" startup="1" protected="0"/&gt;
+    &lt;resource src="helpmanager" startup="1" protected="0"/&gt;
+    &lt;resource src="joinquit" startup="1" protected="0"/&gt;
+    &lt;resource src="mapcycler" startup="1" protected="0"/&gt;
+    &lt;resource src="mapmanager" startup="1" protected="0"/&gt;
+    &lt;resource src="parachute" startup="1" protected="0"/&gt;
+    &lt;resource src="performancebrowser" startup="1" protected="0"/&gt;
+    &lt;resource src="reload" startup="1" protected="0"/&gt;
+    &lt;resource src="resourcebrowser" startup="1" protected="1" default="true"/&gt;
+    &lt;resource src="resourcemanager" startup="1" protected="1"/&gt;
+    &lt;resource src="scoreboard" startup="1" protected="0"/&gt;
+    &lt;resource src="spawnmanager" startup="1" protected="0"/&gt;
+    &lt;resource src="voice" startup="1" protected="0" /&gt;
+    &lt;resource src="votemanager" startup="1" protected="0"/&gt;
+    &lt;resource src="webadmin" startup="1" protected="0"/&gt;
+    
+    &lt;!-- play is the default freeroam gamemode. Remove the following line to prevent it from starting. --&gt;       
+    &lt;resource src="play" startup="1" protected="0"/&gt;
+    
+
+&lt;/config&gt;</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>0</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2012-06-28 23:48:24" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2019-08-09 01:41:03" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:Encoding" value="0" type="System.Int32,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <hide_read_failure>0</hide_read_failure>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>94</game_id>
+    <file_id>2</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>mods\deathmatch\acl.xml</relative_path>
+    <description />
+    <view_order>1</view_order>
+    <template>&lt;acl&gt; 
+   &lt;group name="Everyone"&gt; 
+      &lt;acl name="Default"/&gt; 
+      &lt;object name="user.*"/&gt; 
+      &lt;object name="resource.*"/&gt; 
+   &lt;/group&gt; 
+   &lt;group name="Moderator"&gt; 
+      &lt;acl name="Moderator"/&gt; 
+      &lt;object name="resource.mapcycler"/&gt; 
+      &lt;object name="resource.mapmanager"/&gt; 
+      &lt;object name="resource.resourcemanager"/&gt; 
+      &lt;object name="resource.votemanager"/&gt; 
+   &lt;/group&gt; 
+   &lt;group name="SuperModerator"&gt; 
+      &lt;acl name="Moderator"/&gt; 
+      &lt;acl name="SuperModerator"/&gt; 
+   &lt;/group&gt; 
+   &lt;group name="Admin"&gt; 
+      &lt;acl name="Moderator"/&gt; 
+      &lt;acl name="SuperModerator"/&gt; 
+      &lt;acl name="Admin"/&gt; 
+      &lt;acl name="RPC"/&gt; 
+      &lt;object name="resource.admin"/&gt; 
+      &lt;object name="resource.webadmin"/&gt; 
+      &lt;object name="user.reLax"/&gt; 
+   &lt;/group&gt; 
+   &lt;group name="Console"&gt; 
+      &lt;acl name="Moderator"/&gt; 
+      &lt;acl name="SuperModerator"/&gt; 
+      &lt;acl name="Admin"/&gt; 
+      &lt;acl name="RPC"/&gt; 
+      &lt;object name="user.Console"/&gt; 
+   &lt;/group&gt; 
+   &lt;group name="RPC"&gt; 
+      &lt;acl name="RPC"/&gt; 
+   &lt;/group&gt; 
+   &lt;group name="MapEditor"&gt; 
+      &lt;acl name="Default"/&gt; 
+      &lt;acl name="MapEditor"/&gt; 
+      &lt;object name="resource.editor_main"/&gt; 
+      &lt;object name="resource.edf"/&gt; 
+   &lt;/group&gt; 
+   &lt;group name="raceACLGroup"&gt; 
+      &lt;acl name="Default"/&gt; 
+      &lt;acl name="raceACL"/&gt; 
+      &lt;object name="resource.race"/&gt; 
+   &lt;/group&gt; 
+   &lt;group name="DevGroup"&gt; 
+      &lt;acl name="DevACL"/&gt; 
+   &lt;/group&gt; 
+   &lt;acl name="Default"&gt; 
+      &lt;right name="general.ModifyOtherObjects" access="false"/&gt; 
+      &lt;right name="general.http" access="false"/&gt; 
+      &lt;right name="command.start" access="false"/&gt; 
+      &lt;right name="command.stop" access="false"/&gt; 
+      &lt;right name="command.stopall" access="false"/&gt; 
+      &lt;right name="command.gamemode" access="false"/&gt; 
+      &lt;right name="command.changemode" access="false"/&gt; 
+      &lt;right name="command.changemap" access="false"/&gt; 
+      &lt;right name="command.stopmode" access="false"/&gt; 
+      &lt;right name="command.stopmap" access="false"/&gt; 
+      &lt;right name="command.skipmap" access="false"/&gt; 
+      &lt;right name="command.restart" access="false"/&gt; 
+      &lt;right name="command.refresh" access="false"/&gt; 
+      &lt;right name="command.refreshall" access="false"/&gt; 
+      &lt;right name="command.addaccount" access="false"/&gt; 
+      &lt;right name="command.delaccount" access="false"/&gt; 
+      &lt;right name="command.debugscript" access="false"/&gt; 
+      &lt;right name="command.chgpass" access="false"/&gt; 
+      &lt;right name="command.loadmodule" access="false"/&gt; 
+      &lt;right name="command.upgrade" access="false"/&gt; 
+      &lt;right name="command.mute" access="false"/&gt; 
+      &lt;right name="command.crun" access="false"/&gt; 
+      &lt;right name="command.srun" access="false"/&gt; 
+      &lt;right name="command.run" access="false"/&gt; 
+      &lt;right name="command.unmute" access="false"/&gt; 
+      &lt;right name="command.kick" access="false"/&gt; 
+      &lt;right name="command.ban" access="false"/&gt; 
+      &lt;right name="command.banip" access="false"/&gt; 
+      &lt;right name="command.unbanip" access="false"/&gt; 
+      &lt;right name="command.reloadbans" access="false"/&gt; 
+      &lt;right name="command.shutdown" access="false"/&gt; 
+      &lt;right name="command.install" access="false"/&gt; 
+      &lt;right name="command.aexec" access="false"/&gt; 
+      &lt;right name="command.whois" access="false"/&gt; 
+      &lt;right name="command.whowas" access="false"/&gt; 
+      &lt;right name="function.executeCommandHandler" access="false"/&gt; 
+      &lt;right name="function.setPlayerMuted" access="false"/&gt; 
+      &lt;right name="function.addAccount" access="false"/&gt; 
+      &lt;right name="function.addBan" access="false"/&gt; 
+      &lt;right name="function.removeBan" access="false"/&gt; 
+      &lt;right name="function.removeAccount" access="false"/&gt; 
+      &lt;right name="function.setAccountPassword" access="false"/&gt; 
+      &lt;right name="function.kickPlayer" access="false"/&gt; 
+      &lt;right name="function.banIP" access="false"/&gt; 
+      &lt;right name="function.banPlayer" access="false"/&gt; 
+      &lt;right name="function.banSerial" access="false"/&gt; 
+      &lt;right name="function.getBansXML" access="false"/&gt; 
+      &lt;right name="function.unbanIP" access="false"/&gt; 
+      &lt;right name="function.unbanSerial" access="false"/&gt; 
+      &lt;right name="function.reloadBans" access="false"/&gt; 
+      &lt;right name="function.getClientIP" access="false"/&gt; 
+      &lt;right name="function.setServerPassword" access="false"/&gt; 
+      &lt;right name="function.getServerPassword" access="false"/&gt; 
+      &lt;right name="function.callRemote" access="false"/&gt; 
+      &lt;right name="function.startResource" access="false"/&gt; 
+      &lt;right name="function.stopResource" access="false"/&gt; 
+      &lt;right name="function.restartResource" access="false"/&gt; 
+      &lt;right name="function.createResource" access="false"/&gt; 
+      &lt;right name="function.copyResource" access="false"/&gt; 
+      &lt;right name="function.addResourceMap" access="false"/&gt; 
+      &lt;right name="function.addResourceConfig" access="false"/&gt; 
+      &lt;right name="function.removeResourceFile" access="false"/&gt; 
+      &lt;right name="function.setResourceDefaultSetting" access="false"/&gt; 
+      &lt;right name="function.removeResourceDefaultSetting" access="false"/&gt; 
+      &lt;right name="function.redirectPlayer" access="false"/&gt; 
+      &lt;right name="function.aclReload" access="false"/&gt; 
+      &lt;right name="function.aclSave" access="false"/&gt; 
+      &lt;right name="function.aclCreate" access="false"/&gt; 
+      &lt;right name="function.aclDestroy" access="false"/&gt; 
+      &lt;right name="function.aclSetRight" access="false"/&gt; 
+      &lt;right name="function.aclRemoveRight" access="false"/&gt; 
+      &lt;right name="function.aclCreateGroup" access="false"/&gt; 
+      &lt;right name="function.aclDestroyGroup" access="false"/&gt; 
+      &lt;right name="function.aclGroupAddACL" access="false"/&gt; 
+      &lt;right name="function.aclGroupRemoveACL" access="false"/&gt; 
+      &lt;right name="function.aclGroupAddObject" access="false"/&gt; 
+      &lt;right name="function.aclGroupRemoveObject" access="false"/&gt; 
+      &lt;right name="function.refreshResources" access="false"/&gt; 
+      &lt;right name="function.setServerConfigSetting" access="false" /&gt; 
+      &lt;right name="function.updateResourceACLRequest" access="false" /&gt; 
+      &lt;right name="command.aclrequest" access="false" /&gt; 
+   &lt;/acl&gt; 
+   &lt;acl name="Moderator"&gt; 
+      &lt;right name="general.ModifyOtherObjects" access="false"/&gt; 
+      &lt;right name="command.gamemode" access="true"/&gt; 
+      &lt;right name="command.changemode" access="true"/&gt; 
+      &lt;right name="command.changemap" access="true"/&gt; 
+      &lt;right name="command.stopmode" access="true"/&gt; 
+      &lt;right name="command.stopmap" access="true"/&gt; 
+      &lt;right name="command.skipmap" access="true"/&gt; 
+      &lt;right name="command.mute" access="true"/&gt; 
+      &lt;right name="command.unmute" access="true"/&gt; 
+      &lt;right name="command.whois" access="true"/&gt; 
+      &lt;right name="command.whowas" access="true"/&gt; 
+      &lt;right name="function.setPlayerMuted" access="true"/&gt; 
+      &lt;right name="function.kickPlayer" access="true"/&gt; 
+      &lt;right name="function.banIP" access="true"/&gt; 
+      &lt;right name="function.banPlayer" access="true"/&gt; 
+      &lt;right name="function.banSerial" access="true"/&gt; 
+      &lt;right name="function.getBansXML" access="true"/&gt; 
+      &lt;right name="function.unbanIP" access="true"/&gt; 
+      &lt;right name="function.unbanSerial" access="true"/&gt; 
+      &lt;right name="function.getClientIP" access="true"/&gt; 
+      &lt;right name="function.startResource" access="true"/&gt; 
+      &lt;right name="function.stopResource" access="true"/&gt; 
+      &lt;right name="function.restartResource" access="true"/&gt; 
+      &lt;right name="function.redirectPlayer" access="true"/&gt; 
+   &lt;/acl&gt; 
+   &lt;acl name="SuperModerator"&gt; 
+      &lt;right name="general.ModifyOtherObjects" access="false"/&gt; 
+      &lt;right name="command.start" access="true"/&gt; 
+      &lt;right name="command.stop" access="true"/&gt; 
+      &lt;right name="command.restart" access="true"/&gt; 
+      &lt;right name="command.kick" access="true"/&gt; 
+      &lt;right name="command.ban" access="true"/&gt; 
+      &lt;right name="command.banip" access="true"/&gt; 
+      &lt;right name="command.unbanip" access="true"/&gt; 
+      &lt;right name="command.reloadbans" access="true"/&gt; 
+      &lt;right name="command.refresh" access="true"/&gt; 
+      &lt;right name="command.refreshall" access="true"/&gt; 
+      &lt;right name="command.loadmodule" access="true"/&gt; 
+      &lt;right name="command.addaccount" access="true"/&gt; 
+      &lt;right name="command.delaccount" access="true"/&gt; 
+      &lt;right name="command.chgpass" access="true"/&gt; 
+      &lt;right name="function.addAccount" access="true"/&gt; 
+      &lt;right name="function.removeAccount" access="true"/&gt; 
+      &lt;right name="function.setAccountPassword" access="true"/&gt; 
+   &lt;/acl&gt; 
+   &lt;acl name="Admin"&gt; 
+      &lt;right name="general.ModifyOtherObjects" access="true"/&gt; 
+      &lt;right name="general.http" access="true"/&gt; 
+      &lt;right name="command.shutdown" access="true"/&gt; 
+      &lt;right name="command.install" access="true"/&gt; 
+      &lt;right name="command.aexec" access="true"/&gt; 
+      &lt;right name="command.debugscript" access="true"/&gt; 
+      &lt;right name="command.upgrade" access="true"/&gt; 
+      &lt;right name="command.crun" access="true"/&gt; 
+      &lt;right name="command.srun" access="true"/&gt; 
+      &lt;right name="command.run" access="true"/&gt; 
+      &lt;right name="function.addBan" access="true"/&gt; 
+      &lt;right name="function.removeBan" access="true"/&gt; 
+      &lt;right name="function.reloadBans" access="true"/&gt; 
+      &lt;right name="function.executeCommandHandler" access="true"/&gt; 
+      &lt;right name="function.setServerPassword" access="true"/&gt; 
+      &lt;right name="function.getServerPassword" access="true"/&gt; 
+      &lt;right name="function.createResource" access="true"/&gt; 
+      &lt;right name="function.copyResource" access="true"/&gt; 
+      &lt;right name="function.addResourceMap" access="true"/&gt; 
+      &lt;right name="function.addResourceConfig" access="true"/&gt; 
+      &lt;right name="function.removeResourceFile" access="true"/&gt; 
+      &lt;right name="function.setResourceDefaultSetting" access="true"/&gt; 
+      &lt;right name="function.removeResourceDefaultSetting" access="true"/&gt; 
+      &lt;right name="function.aclReload" access="true"/&gt; 
+      &lt;right name="function.aclSave" access="true"/&gt; 
+      &lt;right name="function.aclCreate" access="true"/&gt; 
+      &lt;right name="function.aclDestroy" access="true"/&gt; 
+      &lt;right name="function.aclSetRight" access="true"/&gt; 
+      &lt;right name="function.aclRemoveRight" access="true"/&gt; 
+      &lt;right name="function.aclCreateGroup" access="true"/&gt; 
+      &lt;right name="function.aclDestroyGroup" access="true"/&gt; 
+      &lt;right name="function.aclGroupAddACL" access="true"/&gt; 
+      &lt;right name="function.aclGroupRemoveACL" access="true"/&gt; 
+      &lt;right name="function.aclGroupAddObject" access="true"/&gt; 
+      &lt;right name="function.aclGroupRemoveObject" access="true"/&gt; 
+      &lt;right name="function.refreshResources" access="true"/&gt; 
+      &lt;right name="function.setServerConfigSetting" access="true" /&gt; 
+      &lt;right name="function.updateResourceACLRequest" access="true" /&gt; 
+      &lt;right name="command.aclrequest" access="true" /&gt; 
+   &lt;/acl&gt; 
+   &lt;acl name="RPC"&gt; 
+      &lt;right name="function.callRemote" access="true"/&gt; 
+   &lt;/acl&gt; 
+   &lt;acl name="MapEditor"&gt; 
+      &lt;right name="general.ModifyOtherObjects" access="true"/&gt; 
+      &lt;right name="function.startResource" access="true"/&gt; 
+      &lt;right name="function.stopResource" access="true"/&gt; 
+      &lt;right name="function.restartResource" access="true"/&gt; 
+      &lt;right name="function.createResource" access="true"/&gt; 
+      &lt;right name="function.copyResource" access="true"/&gt; 
+      &lt;right name="function.renameResource" access="true"/&gt; 
+      &lt;right name="function.deleteResource" access="true"/&gt; 
+      &lt;right name="function.addResourceMap" access="true"/&gt; 
+      &lt;right name="function.addResourceConfig" access="true"/&gt; 
+      &lt;right name="function.removeResourceFile" access="true"/&gt; 
+      &lt;right name="function.setResourceDefaultSetting" access="true"/&gt; 
+      &lt;right name="function.removeResourceDefaultSetting" access="true"/&gt; 
+      &lt;right name="function.xmlLoadFile" access="true"/&gt; 
+   &lt;/acl&gt; 
+   &lt;acl name="raceACL"&gt; 
+      &lt;right name="general.ModifyOtherObjects" access="true"/&gt; 
+      &lt;right name="function.xmlLoadFile" access="true"/&gt; 
+      &lt;right name="function.startResource" access="true"/&gt; 
+      &lt;right name="function.stopResource" access="true"/&gt; 
+      &lt;right name="function.restartResource" access="true"/&gt; 
+    &lt;/acl&gt; 
+   &lt;acl name="DevACL"&gt; 
+        &lt;right name="resource.performancebrowser.http" access="true"&gt;&lt;/right&gt; 
+        &lt;right name="resource.ajax.http" access="true"&gt;&lt;/right&gt; 
+   &lt;/acl&gt; 
+&lt;/acl&gt; </template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>0</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:Encoding" value="0" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2021-06-04 18:56:27" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <hide_read_failure>0</hide_read_failure>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>BukGet</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineBuilder</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineChanger</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FastDlSync</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FileManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Ftp</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>GameSwitcher</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>GoogleDrive</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveBandwidthStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveCpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveMemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LivePlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewer</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerServiceActivity</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerTextConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MapPacks</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ModManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PunkbusterUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Reinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Repair</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>RepairOptions</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledGameSwitcher</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledReinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledRestart</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledScript</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>SteamUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Updates</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>WebConsole</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>94</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Workshop</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+</MTA>
