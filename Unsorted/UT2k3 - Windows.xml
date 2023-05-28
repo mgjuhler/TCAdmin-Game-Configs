@@ -1,0 +1,1102 @@
+<UT2k3>
+  <tc_games>
+    <game_id>44</game_id>
+    <operating_system>2</operating_system>
+    <display_name>Unreal Tournament 2003</display_name>
+    <short_name>UT2k3</short_name>
+    <private_rule_value />
+    <private_rule_name />
+    <hostname_rule />
+    <map_rule />
+    <slots_rule />
+    <exclude_rules />
+    <query_protocol>ut2s</query_protocol>
+    <rcon_protocol>0</rcon_protocol>
+    <show_in_create_list>1</show_in_create_list>
+    <is_voice_server>0</is_voice_server>
+    <is_template>0</is_template>
+    <min_slots>0</min_slots>
+    <max_slots>0</max_slots>
+    <default_slots>8</default_slots>
+    <name_from_query>1</name_from_query>
+    <exclude_load_balancing>0</exclude_load_balancing>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-27 15:56:25" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2012-12-20 00:57:57" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATE_SYMLINK" value="False" type="System.Boolean,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <enable_community_images>1</enable_community_images>
+  </tc_games>
+  <tc_game_paths>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <relative_executable>system\ucc.exe</relative_executable>
+    <relative_working_dir>system\</relative_working_dir>
+    <relative_subadmin_files />
+    <relative_reseller_files />
+    <relative_user_files />
+    <files_folder_name>ut2003</files_folder_name>
+    <enable_ext_download>0</enable_ext_download>
+    <ext_download_url />
+    <ext_save_name />
+    <ext_extract_opt>0</ext_extract_opt>
+    <ext_script_engine_id>1</ext_script_engine_id>
+    <ext_script />
+    <ext_license />
+    <ext_license_accepted>0</ext_license_accepted>
+  </tc_game_paths>
+  <tc_game_general_config>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <enable_start_cpu_0>0</enable_start_cpu_0>
+    <enable_interact_desktop>0</enable_interact_desktop>
+    <enable_configs_icon>1</enable_configs_icon>
+    <enable_log_viewer>0</enable_log_viewer>
+    <log_extensions />
+    <branded_text />
+    <branded_text_space>0</branded_text_space>
+    <brand_at_end>0</brand_at_end>
+    <brand_regex_search />
+    <brand_regex_case_insensitive>1</brand_regex_case_insensitive>
+    <stop_delay_seconds>2</stop_delay_seconds>
+    <sched_tasks_limit>0</sched_tasks_limit>
+    <force_config_editor_create>0</force_config_editor_create>
+  </tc_game_general_config>
+  <tc_game_ports>
+    <game_id>44</game_id>
+    <only_default_ports>0</only_default_ports>
+    <only_primary_ip>0</only_primary_ip>
+    <game_port>7777</game_port>
+    <query_port>7787</query_port>
+    <rcon_port>7777</rcon_port>
+    <port_increment>10</port_increment>
+    <query_port_expression />
+    <rcon_port_expression />
+    <custom_port_1>0</custom_port_1>
+    <custom_port_2>0</custom_port_2>
+    <custom_port_3>0</custom_port_3>
+    <custom_port_4>0</custom_port_4>
+    <custom_port_5>0</custom_port_5>
+    <custom_port_1_expression />
+    <custom_port_2_expression />
+    <custom_port_3_expression />
+    <custom_port_4_expression />
+    <custom_port_5_expression />
+    <supports_ipv6>0</supports_ipv6>
+    <unique_ports>0</unique_ports>
+    <enable_forcebindip>0</enable_forcebindip>
+    <app_data />
+  </tc_game_ports>
+  <tc_game_cmdlines>
+    <game_id>44</game_id>
+    <cmdline_default>server DM-Antalus?game=XGame.xDeathMatch?MaxPlayers=$[Service.Slots] ini=UT2003.ini log=DeathMatch.log port=$[Service.GamePort] multihome=$[Service.IpAddress]</cmdline_default>
+    <cmdline_private>server DM-Antalus?game=XGame.xDeathMatch?MaxPlayers=$[Service.Slots] ini=UT2003.ini log=DeathMatch.log port=$[Service.GamePort] multihome=$[Service.IpAddress]</cmdline_private>
+    <cmdline_default_custom>server DM-Antalus?game=XGame.xDeathMatch?MaxPlayers=$[Service.Slots] ini=UT2003.ini log=DeathMatch.log port=$[Service.GamePort] multihome=$[Service.IpAddress]</cmdline_default_custom>
+    <cmdline_private_custom>server DM-Antalus?game=XGame.xDeathMatch?MaxPlayers=$[Service.Slots] ini=UT2003.ini log=DeathMatch.log port=$[Service.GamePort] multihome=$[Service.IpAddress]</cmdline_private_custom>
+    <predef_cmdlines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfPredefinedCommandLine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;PredefinedCommandLine&gt;
+    &lt;Id&gt;9c95dcc2-b299-4a2e-bd65-d83908257b86&lt;/Id&gt;
+    &lt;CommandLine&gt;server DM-Antalus?game=XGame.xDeathMatch?MaxPlayers=$[Service.Slots] ini=UT2003.ini log=DeathMatch.log port=$[Service.GamePort] multihome=$[Service.IpAddress]&lt;/CommandLine&gt;
+    &lt;Description&gt;Default&lt;/Description&gt;
+  &lt;/PredefinedCommandLine&gt;
+&lt;/ArrayOfPredefinedCommandLine&gt;</predef_cmdlines>
+  </tc_game_cmdlines>
+  <tc_game_punkbuster_config>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <enable_pbweb>0</enable_pbweb>
+    <pb_relative_path>pb\</pb_relative_path>
+    <pb_download_url />
+    <execute_on_create>0</execute_on_create>
+  </tc_game_punkbuster_config>
+  <tc_game_query_monitoring>
+    <game_id>44</game_id>
+  </tc_game_query_monitoring>
+  <tc_game_mail_templates>
+    <game_id>44</game_id>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:InstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:InstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 00:50:45" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2012-12-20 00:57:59" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_mail_templates>
+  <tc_game_steam_config>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <enable_hldsupdate>0</enable_hldsupdate>
+    <hlds_game_type />
+    <validate>0</validate>
+    <execute_on_create>0</execute_on_create>
+    <run_as_service_user>0</run_as_service_user>
+    <store_game_id>0</store_game_id>
+    <delete_steamapps_on_error>1</delete_steamapps_on_error>
+  </tc_game_steam_config>
+  <tc_game_bukkit_config>
+    <game_id>44</game_id>
+  </tc_game_bukkit_config>
+  <tc_game_tracker_config>
+    <game_id>44</game_id>
+    <ts_id>0</ts_id>
+  </tc_game_tracker_config>
+  <tc_game_identity>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <run_as>1</run_as>
+    <user_name />
+    <password />
+  </tc_game_identity>
+  <tc_game_text_console>
+    <game_id>44</game_id>
+    <control_input>0</control_input>
+    <control_output>0</control_output>
+    <stop_commands />
+    <wait_for_exit>1</wait_for_exit>
+  </tc_game_text_console>
+  <tc_game_web_console>
+    <game_id>44</game_id>
+    <enable_web_console>0</enable_web_console>
+    <input_source>0</input_source>
+    <output_source>0</output_source>
+    <log_file />
+    <print_rcon_response>0</print_rcon_response>
+  </tc_game_web_console>
+  <tc_game_fast_download>
+    <game_id>44</game_id>
+    <enable_fast_download>0</enable_fast_download>
+    <root_directory />
+    <url_expression>$[FastDownloadBaseUrl]/</url_expression>
+    <files />
+    <exclude_files />
+    <sync_created>0</sync_created>
+    <auto_sync>0</auto_sync>
+    <enable_compress>0</enable_compress>
+    <compress_format>zip</compress_format>
+    <disk_quota_mb>0</disk_quota_mb>
+  </tc_game_fast_download>
+  <tc_game_config_files>
+    <game_id>44</game_id>
+    <file_id>1</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>system\UT2003.ini</relative_path>
+    <description>Server Configuration File</description>
+    <template>[URL]
+Protocol=unreal
+ProtocolDescription=Unreal Protocol
+Name=Player
+Map=Index.ut2
+LocalMap=NvidiaLogo.ut2
+NetBrowseMap=Entry.ut2
+Host=
+Portal=
+MapExt=ut2
+EXEName=UT2003.exe
+SaveExt=usa
+Port=$[Service.GamePort]
+Class=Engine.Pawn
+Character=Gorge
+
+[FirstRun]
+FirstRun=0
+
+[Engine.Engine]
+RenderDevice=D3DDrv.D3DRenderDevice
+;RenderDevice=Engine.NullRenderDevice
+;RenderDevice=OpenGLDrv.OpenGLRenderDevice
+AudioDevice=ALAudio.ALAudioSubsystem
+NetworkDevice=IpDrv.TcpNetDriver
+DemoRecordingDevice=Engine.DemoRecDriver
+Console=XInterface.extendedconsole
+GUIController=XInterface.GUIController
+Language=int
+Product=UT2003
+GameEngine=Engine.GameEngine
+EditorEngine=Editor.EditorEngine
+DefaultGame=XGame.XDeathmatch
+DefaultServerGame=XGame.XDeathmatch
+ViewportManager=WinDrv.WindowsClient
+;ViewportManager=SDLDrv.SDLClient
+Render=Render.Render
+Input=Engine.Input
+Canvas=Engine.Canvas
+CdPath=E:
+
+[Core.System]
+PurgeCacheDays=30
+SavePath=../Save
+CachePath=../Cache
+CacheExt=.uxx
+Paths=../System/*.u
+Paths=../Maps/*.ut2
+Paths=../Textures/*.utx
+Paths=../Sounds/*.uax
+Paths=../Music/*.umx
+Paths=../StaticMeshes/*.usx
+Paths=../Animations/*.ukx
+Paths=../Saves/*.uvx
+Suppress=DevLoad
+Suppress=DevSave
+Suppress=DevNetTraffic
+Suppress=DevGarbage
+Suppress=DevKill
+Suppress=DevReplace
+Suppress=DevCompile
+Suppress=DevBind
+Suppress=DevBsp
+
+[Engine.GameEngine]
+CacheSizeMegs=32
+UseSound=True
+ServerActors=IpDrv.MasterServerUplink
+ServerActors=UWeb.WebServer
+ServerPackages=Core
+ServerPackages=Engine
+ServerPackages=Fire
+ServerPackages=Editor
+ServerPackages=IpDrv
+ServerPackages=UWeb
+ServerPackages=GamePlay
+ServerPackages=UnrealGame
+ServerPackages=XEffects
+ServerPackages=XPickups
+ServerPackages=XGame
+ServerPackages=XWeapons
+ServerPackages=XInterface
+ServerPackages=Vehicles
+ServerPackages=TeamSymbols_UT2003
+MainMenuClass=XInterface.UT2MainMenu
+ConnectingMenuClass=XInterface.MenuConnecting
+DisconnectMenuClass=XInterface.UT2NetworkStatusMsg
+UseStaticMeshBatching=True
+ServerPackages=UTClassic
+ServerPackages=BonusPack
+ServerPackages=SkaarjPack
+ServerPackages=SkaarjPack_rc
+
+[WinDrv.WindowsClient]
+WindowedViewportX=640
+WindowedViewportY=480
+FullscreenViewportX=800
+FullscreenViewportY=600
+MenuViewportX=640
+MenuViewportY=480
+Brightness=0.800000
+Contrast=0.700000
+Gamma=0.800000
+UseJoystick=False
+CaptureMouse=True
+StartupFullscreen=True
+ScreenFlashes=True
+NoLighting=False
+MinDesiredFrameRate=35.000000
+Decals=True
+Coronas=True
+DecoLayers=True
+Projectors=True
+NoDynamicLights=False
+ReportDynamicUploads=False
+TextureDetailInterface=Normal
+TextureDetailTerrain=Normal
+TextureDetailWeaponSkin=Normal
+TextureDetailPlayerSkin=Normal
+TextureDetailWorld=Normal
+TextureDetailRenderMap=Normal
+TextureDetailLightmap=UltraHigh
+TextureMaxLOD=0
+TextureMinLOD=0
+NoFractalAnim=False
+ScaleHUDX=0.0
+
+[SDLDrv.SDLClient]
+WindowedViewportX=640
+WindowedViewportY=480
+FullscreenViewportX=800
+FullscreenViewportY=600
+MenuViewportX=640
+MenuViewportY=480
+Brightness=0.800000
+Contrast=0.700000
+Gamma=0.800000
+UseJoystick=False
+JoystickNumber=0
+IgnoreHat=False
+JoystickHatNumber=0
+CaptureMouse=True
+StartupFullscreen=True
+ScreenFlashes=True
+NoLighting=False
+MinDesiredFrameRate=35.000000
+Decals=True
+Coronas=True
+DecoLayers=True
+Projectors=True
+NoDynamicLights=False
+ReportDynamicUploads=False
+TextureDetailInterface=Normal
+TextureDetailTerrain=Normal
+TextureDetailWeaponSkin=Normal
+TextureDetailPlayerSkin=Normal
+TextureDetailWorld=Normal
+TextureDetailRenderMap=Normal
+TextureDetailLightmap=UltraHigh
+TextureMaxLOD=0
+TextureMinLOD=0
+NoFractalAnim=False
+
+[Engine.Player]
+ConfiguredInternetSpeed=2600
+ConfiguredLanSpeed=20000
+
+[ALAudio.ALAudioSubsystem]
+UseEAX=False
+Use3DSound=False
+UseDefaultDriver=True
+CompatibilityMode=False
+UsePrecache=True
+ReverseStereo=false
+Channels=32
+MusicVolume=0.1
+AmbientVolume=0.3
+SoundVolume=1.0
+DopplerFactor=1.0
+Rolloff=0.5
+TimeBetweenHWUpdates=15
+DisablePitch=False
+LowQualitySound=False
+
+[IpDrv.TcpNetDriver]
+AllowDownloads=True
+ConnectionTimeout=180.0
+InitialConnectTimeout=200.0
+AckTimeout=1.0
+KeepAliveTime=0.2
+MaxClientRate=10000.0
+SimLatency=0
+RelevantTimeout=5.0
+SpawnPrioritySeconds=1.0
+ServerTravelPause=4.0
+NetServerMaxTickRate=20
+LanServerMaxTickRate=35
+DownloadManagers=IpDrv.HTTPDownload
+DownloadManagers=Engine.ChannelDownload
+AllowPlayerPortUnreach=False
+LogPortUnreach=False
+MaxInternetClientRate=7000.0
+MaxConnPerIPPerMinute=5
+LogMaxConnPerIPPerMin=False
+
+[IpDrv.HTTPDownload]
+RedirectToURL=
+ProxyServerHost=
+ProxyServerPort=3128
+UseCompression=True
+
+[Engine.DemoRecDriver]
+DemoSpectatorClass=UnrealGame.DemoRecSpectator
+MaxClientRate=25000
+ConnectionTimeout=15.0
+InitialConnectTimeout=200.0
+AckTimeout=1.0
+KeepAliveTime=1.0
+SimLatency=0
+RelevantTimeout=5.0
+SpawnPrioritySeconds=1.0
+ServerTravelPause=4.0
+NetServerMaxTickRate=30
+LanServerMaxTickRate=30
+
+[Engine.GameReplicationInfo]
+ServerName=$[HostName]
+ShortName=UT2 Server
+ServerRegion=0
+AdminName=
+AdminEmail=
+MOTDLine1=
+MOTDLine2=
+MOTDLine3=
+MOTDLine4=
+
+[IpServer.UdpServerQuery]
+GameName=ut2
+
+[IpDrv.UdpBeacon]
+DoBeacon=True
+BeaconTime=0.50
+BeaconTimeout=5.0
+BeaconProduct=ut2
+
+[D3DDrv.D3DRenderDevice]
+DetailTextures=True
+HighDetailActors=True
+SuperHighDetailActors=True
+UsePrecaching=True
+UseTrilinear=True
+AdapterNumber=-1
+ReduceMouseLag=True
+UseTripleBuffering=False
+UseHardwareTL=True
+UseHardwareVS=True
+UseCubemaps=True
+DesiredRefreshRate=60
+UseCompressedLightmaps=True
+UseStencil=False
+Use16bit=False
+Use16bitTextures=False
+MaxPixelShaderVersion=255
+UseVSync=False
+LevelOfAnisotropy=1
+DetailTexMipBias=0.8
+DefaultTexMipBias=-0.5
+UseNPatches=False
+TesselationFactor=1.0
+CheckForOverflow=False
+AvoidHitches=False
+OverrideDesktopRefreshRate=False
+
+[OpenGLDrv.OpenGLRenderDevice]
+DetailTextures=True
+HighDetailActors=True
+SuperHighDetailActors=True
+UsePrecaching=True
+UseCompressedLightmaps=True
+UseTrilinear=True
+UseStencil=False
+MaxTextureUnits=8
+VARSize=32
+ReduceMouseLag=False
+
+[Engine.NullRenderDevice]
+DetailTextures=True
+HighDetailActors=True
+SuperHighDetailActors=True
+UsePrecaching=True
+UseCompressedLightmaps=True
+UseStencil=False
+
+[Editor.EditorEngine]
+UseSound=True
+CacheSizeMegs=32
+GridEnabled=True
+SnapVertices=False
+SnapDistance=1.000000
+GridSize=(X=4.000000,Y=4.000000,Z=4.000000)
+RotGridEnabled=True
+RotGridSize=(Pitch=1024,Yaw=1024,Roll=1024)
+GameCommandLine=-log
+FovAngleDegrees=90.000000
+GodMode=True
+AutoSave=True
+AutoSaveTimeMinutes=5
+AutoSaveIndex=6
+UseAxisIndicator=True
+MatineeCurveDetail=0.1
+ShowIntWarnings=False
+UseSizingBox=True
+RenderDevice=D3DDrv.D3DRenderDevice
+AudioDevice=ALAudio.ALAudioSubsystem
+NetworkDevice=IpDrv.TcpNetDriver
+DemoRecordingDevice=Engine.DemoRecDriver
+Console=Engine.Console
+Language=ute
+AlwaysShowTerrain=False
+UseActorRotationGizmo=False
+LoadEntirePackageWhenSaving=0
+EditPackages=Core
+EditPackages=Engine
+EditPackages=Fire
+EditPackages=Editor
+EditPackages=UnrealEd
+EditPackages=IpDrv
+EditPackages=UWeb
+EditPackages=GamePlay
+EditPackages=UnrealGame
+EditPackages=XGame_rc
+EditPackages=XEffects
+EditPackages=XWeapons_rc
+EditPackages=XPickups_rc
+EditPackages=XPickups
+EditPackages=XGame
+EditPackages=XWeapons
+EditPackages=XInterface
+EditPackages=XAdmin
+EditPackages=XWebAdmin
+EditPackages=Vehicles
+EditPackages=BonusPack
+EditPackages=SkaarjPack
+EditPackages=SkaarjPack_rc
+EditPackages=OGGPlayer
+
+[UWeb.WebServer]
+Applications[0]=xWebAdmin.UTServerAdmin
+ApplicationPaths[0]=/ServerAdmin
+Applications[1]=xWebAdmin.UTImageServer
+ApplicationPaths[1]=/images
+DefaultApplication=0
+bEnabled=False
+
+[Engine.Console]
+ConsoleHotKey=9
+TimePerTitle=30.0
+TimePerDemo=60.0
+TimePerSoak=3600.0
+TimeTooIdle=60.0
+DemoLevels[0]=DM-Curse3
+DemoLevels[1]=DM-Antalus
+DemoLevels[2]=CTF-Chrome
+DemoLevels[3]=DOM-SunTemple
+DemoLevels[4]=BR-Endagra
+
+[Engine.AccessControl]
+AdminPassword=$[RConPassword]
+KickToMenu=Xinterface.UT2NetworkStatusMsg
+GamePassword=$[PrivatePassword]
+bBanByID=True
+
+[Engine.GameInfo]
+GoreLevel=0
+MaxSpectators=2
+MaxPlayers=$[Service.Slots]
+AutoAim=1.000000
+GameSpeed=1.000000
+bChangeLevels=True
+bStartUpLocked=False
+bNoBots=False
+bAttractAlwaysFirstPerson=False
+NumMusicFiles=13
+bEnableStatLogging=true
+HUDType=Engine.Hud
+MaxLives=0
+TimeLimit=0
+GoalScore=0
+GameStatsClass=IpDrv.MasterServerGameStats
+SecurityClass=UnrealGame.UnrealSecurity
+
+[Engine.AmbientSound]
+AmbientVolume=0.25
+
+[Engine.LevelInfo]
+PhysicsDetailLevel=PDL_Medium
+bLowSoundDetail=False
+DecalStayScale=1.0
+bNeverPrecache=false
+bCapFramerate=true
+
+[xInterface.Tab_MultiplayerHostMain]
+LastGameType=XGame.xDeathmatch
+LastMap=DM-Antalus
+
+[xInterface.Tab_InstantActionMain]
+LastGameType=XGame.xDeathmatch
+LastMap=DM-Antalus
+LastBotSkill=1
+LastBotCount=4
+LastUseMapBots=True
+LastUseCustomBots=False
+
+[xInterface.Tab_InstantActionBaseRules]
+LastFriendlyFire=0
+LastWeaponStay=True
+LastTranslocator=False
+LastGameSpeed=1.0
+LastGoalScore=0
+LastTimeLimit=0
+LastMaxLives=0
+
+[xInterface.Tab_IADeathMatch]
+LastFriendlyFire=0
+LastWeaponStay=True
+LastTranslocator=False
+LastGameSpeed=1.0
+LastGoalScore=25
+LastTimeLimit=15
+LastMaxLives=0
+LastAutoAdjustSkill=False
+
+[xInterface.Tab_IATeamDeathMatch]
+LastFriendlyFire=0
+LastWeaponStay=True
+LastTranslocator=False
+LastGameSpeed=1.0
+LastGoalScore=35
+LastTimeLimit=15
+LastMaxLives=0
+LastAutoAdjustSkill=False
+
+[xInterface.Tab_IACaptureTheFlag]
+LastFriendlyFire=0.000000
+LastWeaponStay=True
+LastTranslocator=True
+LastGameSpeed=1.000000
+LastGoalScore=3
+LastTimeLimit=15
+LastMaxLives=0
+
+[xInterface.Tab_IABombingRun]
+LastFriendlyFire=0
+LastWeaponStay=True
+LastTranslocator=True
+LastGameSpeed=1.0
+LastGoalScore=21
+LastTimeLimit=15
+LastMaxLives=0
+
+[xInterface.Tab_IADoubleDomination]
+LastFriendlyFire=0
+LastWeaponStay=True
+LastTranslocator=False
+LastGameSpeed=1.0
+LastGoalScore=3
+LastTimeLimit=15
+LastMaxLives=0
+
+[xInterface.Tab_InstantActionMutators]
+LastActiveMutators=
+
+[xInterface.Tab_MultiplayerHostServerSettings]
+bDedicated=False
+bLanPlay=False
+BotSkill=1
+bUseDefaults=False
+bUseCustomBots=False
+MinPlayers=0
+MaxPlayers=$[Service.Slots]
+MaxSpecs=2
+AdminName=Admin
+AdminPass=$[RConPassword]
+GamePass=$[PrivatePassword]
+bCollectStats=False
+bBalanceTeams=True
+
+[xInterface.ExtendedConsole]
+ConsoleHotKey=192
+PasswordPromptMenu=XInterface.UT2GetPassword
+bSpeechMenuUseMouseWheel=True
+bSpeechMenuUseLetters=False
+SMOriginX=0.01
+SMOriginY=0.3
+LetterKeys[0]=IK_Q
+LetterKeys[1]=IK_W
+LetterKeys[2]=IK_E
+LetterKeys[3]=IK_R
+LetterKeys[4]=IK_A
+LetterKeys[5]=IK_S
+LetterKeys[6]=IK_D
+LetterKeys[7]=IK_F
+LetterKeys[8]=IK_Z
+LetterKeys[9]=IK_X
+MusicManagerClassName=OGGPlayer.UT2OGGMenu
+
+[XInterface.GUIController]
+MenuMouseSens=1.25
+
+[XGame.xDeathMatch]
+HUDType=XInterface.HudBDeathMatch
+MaxLives=0
+TimeLimit=0
+GoalScore=25
+bTeamScoreRound=False
+bPlayersMustBeReady=False
+bAllowTaunts=True
+bForceRespawn=False
+bWeaponStay=false
+
+[XGame.xTeamGame]
+HUDType=XInterface.HudBTeamDeathMatch
+MaxLives=0
+TimeLimit=0
+GoalScore=60
+bTeamScoreRound=False
+bPlayersMustBeReady=False
+bAllowTaunts=True
+FriendlyFireScale=0
+MaxTeamSize=16
+bForceRespawn=False
+bWeaponStay=true
+
+[XGame.xCTFGame]
+HUDType=XInterface.HudBCaptureTheFlag
+MaxLives=0
+TimeLimit=0
+GoalScore=0
+bTeamScoreRound=False
+bPlayersMustBeReady=False
+bAllowTaunts=True
+FriendlyFireScale=0
+MaxTeamSize=16
+bForceRespawn=False
+bWeaponStay=true
+
+[XGame.xDoubleDom]
+HUDType=XInterface.HudBDoubleDomination
+MaxLives=0
+TimeLimit=0
+GoalScore=3
+bTeamScoreRound=False
+bPlayersMustBeReady=False
+bAllowTaunts=True
+TimeToScore=10
+TimeDisabled=10
+FriendlyFireScale=0
+MaxTeamSize=16
+bForceRespawn=False
+bWeaponStay=true
+
+[XGame.xBombingRun]
+HUDType=XInterface.HudBBombingRun
+MaxLives=0
+TimeLimit=0
+GoalScore=15
+bTeamScoreRound=False
+bPlayersMustBeReady=False
+bAllowTaunts=True
+FriendlyFireScale=0
+MaxTeamSize=16
+bForceRespawn=False
+bWeaponStay=true
+
+[IpDrv.MasterServerLink]
+LANPort=11777
+LANServerPort=10777
+CurrentMasterServer=0
+MasterServerPort[0]=28902
+MasterServerAddress[0]=ut2003master1.epicgames.com
+MasterServerPort[1]=28902
+MasterServerAddress[1]=ut2003master2.epicgames.com
+MasterServerPort[2]=0
+MasterServerAddress[2]=
+MasterServerPort[3]=0
+MasterServerAddress[3]=
+MasterServerPort[4]=0
+MasterServerAddress[4]=
+
+[XInterface.MapListDeathMatch]
+Maps=DM-Antalus
+
+[XInterface.MapListTeamDeathMatch]
+Maps=DM-Antalus
+
+[XInterface.MapListCaptureTheFlag]
+Maps=CTF-Chrome
+
+[XInterface.MapListDoubleDomination]
+Maps=DOM-SunTemple
+
+[XInterface.MapListBombingRun]
+Maps=BR-Anubis
+
+[xInterface.IRC_System]
+ServerHistory=irc.utchat.com
+
+[xInterface.IRC_Page]
+MaxChatScrollback=250
+IRCTextColor=(R=160,G=160,B=160,A=0)
+IRCNickColor=(R=150,G=150,B=255,A=0)
+IRCActionColor=(R=230,G=200,B=0,A=0)
+IRCInfoColor=(R=130,G=130,B=160,A=0)
+IRCLinkColor=(R=255,G=150,B=150,A=0)
+
+[XInterface.ServerBrowser]
+MinGamespeed=0
+MaxGamespeed=200
+
+[UnrealGame.UnrealMPGameInfo]
+bPreloadAllSkins=false
+
+[Xinterface.Tab_AudioSettings]
+BonusPackInfo[0]=(PackageName="AnnouncerMain.uax",Description="Default")
+BonusPackInfo[1]=(PackageName="AnnouncerEvil.uax",Description="Evil")
+BonusPackInfo[2]=(PackageName="AnnouncerFemale.uax",Description="Female")
+BonusPackInfo[3]=(PackageName="AnnouncerSexy.uax",Description="Aroused")
+
+[BonusPack.xLastManStandingGame]
+DefaultMaxLives=3
+
+[Skaarjpack.Invasion]
+DefaultMaxLives=1
+
+</template>
+    <read_values>1</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-27 15:56:25" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineBuilder</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineChanger</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FastDlSync</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FileManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Ftp</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveBandwidthStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveCpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveMemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LivePlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewer</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerTextConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MapPacks</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ModManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PunkbusterUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Reinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledReinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledRestart</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledScript</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>SteamUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Updates</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>44</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>WebConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+</UT2k3>

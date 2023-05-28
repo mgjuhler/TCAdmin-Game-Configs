@@ -1,0 +1,873 @@
+<COD_MW4>
+  <tc_games>
+    <game_id>111</game_id>
+    <operating_system>4</operating_system>
+    <display_name>Call of Duty : Modern Warfare 4</display_name>
+    <short_name>COD:MW4</short_name>
+    <private_rule_value>1</private_rule_value>
+    <private_rule_name>password</private_rule_name>
+    <hostname_rule />
+    <map_rule />
+    <slots_rule />
+    <exclude_rules />
+    <query_protocol>a2sutf8</query_protocol>
+    <rcon_protocol>0</rcon_protocol>
+    <show_in_create_list>1</show_in_create_list>
+    <is_voice_server>0</is_voice_server>
+    <is_template>0</is_template>
+    <min_slots>2</min_slots>
+    <max_slots>128</max_slots>
+    <default_slots>8</default_slots>
+    <name_from_query>1</name_from_query>
+    <exclude_load_balancing>0</exclude_load_balancing>
+    <join_url>steam://connect/$[Service.IpHostname]:$[Service.GamePort]</join_url>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="Based on:&amp;#xA;http://www.fpsadmin.com/forum/showthread.php?t=13490&amp;#xA;https://www.gametracker.com/games/cod4/forum.php?thread=97369" type="System.String,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisableSymlinkCheck&amp;gt;false&amp;lt;/DisableSymlinkCheck&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2016-01-17 17:05:15" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2016-01-17 17:08:11" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <enable_community_images>1</enable_community_images>
+  </tc_games>
+  <tc_game_paths>
+    <game_id>111</game_id>
+    <service_id>0</service_id>
+    <relative_executable>cod4_lnxded</relative_executable>
+    <relative_working_dir />
+    <relative_subadmin_files />
+    <relative_reseller_files />
+    <relative_user_files />
+    <files_folder_name>codmw4-linux</files_folder_name>
+    <enable_ext_download>0</enable_ext_download>
+    <ext_download_url />
+    <ext_save_name />
+    <ext_extract_opt>0</ext_extract_opt>
+    <ext_script_engine_id>1</ext_script_engine_id>
+    <ext_script />
+    <ext_license />
+    <ext_license_accepted>0</ext_license_accepted>
+  </tc_game_paths>
+  <tc_game_general_config>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <enable_start_cpu_0>0</enable_start_cpu_0>
+    <enable_interact_desktop>0</enable_interact_desktop>
+    <enable_configs_icon>1</enable_configs_icon>
+    <enable_log_viewer>1</enable_log_viewer>
+    <log_extensions>*.log</log_extensions>
+    <branded_text />
+    <branded_text_space>0</branded_text_space>
+    <brand_at_end>0</brand_at_end>
+    <brand_regex_search />
+    <brand_regex_case_insensitive>1</brand_regex_case_insensitive>
+    <stop_delay_seconds>2</stop_delay_seconds>
+    <sched_tasks_limit>0</sched_tasks_limit>
+    <force_config_editor_create>0</force_config_editor_create>
+  </tc_game_general_config>
+  <tc_game_ports>
+    <game_id>16</game_id>
+    <only_default_ports>0</only_default_ports>
+    <only_primary_ip>0</only_primary_ip>
+    <game_port>28960</game_port>
+    <query_port>28960</query_port>
+    <rcon_port>28960</rcon_port>
+    <port_increment>10</port_increment>
+    <query_port_expression />
+    <rcon_port_expression />
+    <custom_port_1>0</custom_port_1>
+    <custom_port_2>0</custom_port_2>
+    <custom_port_3>0</custom_port_3>
+    <custom_port_4>0</custom_port_4>
+    <custom_port_5>0</custom_port_5>
+    <custom_port_1_expression />
+    <custom_port_2_expression />
+    <custom_port_3_expression />
+    <custom_port_4_expression />
+    <custom_port_5_expression />
+    <supports_ipv6>0</supports_ipv6>
+    <unique_ports>0</unique_ports>
+    <enable_forcebindip>0</enable_forcebindip>
+    <app_data />
+  </tc_game_ports>
+  <tc_game_cmdlines>
+    <game_id>16</game_id>
+    <cmdline_default>+set fs_homepath $[Service.UserDirectory] +set fs_savepath $[Service.UserDirectory] +set dedicated 2 +set net_ip $[Service.IpAddress] +set net_port $[Service.GamePort] +set sv_maxclients $[Service.Slots] +set ui_maxclients $[Service.Slots] +set sv_punkbuster "1" +exec server.cfg +map_rotate</cmdline_default>
+    <cmdline_private>+set fs_homepath $[Service.UserDirectory] +set fs_savepath $[Service.UserDirectory] +set dedicated 2 +set net_ip $[Service.IpAddress] +set net_port $[Service.GamePort] +set sv_maxclients $[Service.Slots] +set ui_maxclients $[Service.Slots] +set sv_punkbuster "1" +exec server.cfg +map_rotate</cmdline_private>
+    <cmdline_default_custom>+set fs_homepath $[Service.UserDirectory] +set fs_savepath $[Service.UserDirectory] +set dedicated 2 +set net_ip $[Service.IpAddress] +set net_port $[Service.GamePort] +set sv_maxclients $[Service.Slots] +set ui_maxclients $[Service.Slots] +exec server.cfg +map_rotate $[Service.UserCommandLine]</cmdline_default_custom>
+    <cmdline_private_custom>+set fs_homepath $[Service.UserDirectory] +set fs_savepath $[Service.UserDirectory] +set dedicated 2 +set net_ip $[Service.IpAddress] +set net_port $[Service.GamePort] +set sv_maxclients $[Service.Slots] +set ui_maxclients $[Service.Slots] +exec server.cfg +map_rotate $[Service.UserCommandLine]</cmdline_private_custom>
+    <predef_cmdlines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfPredefinedCommandLine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;PredefinedCommandLine&gt;
+    &lt;Id&gt;e226af59-840c-4c47-8c20-585fc60029ef&lt;/Id&gt;
+    &lt;CommandLine&gt;+set fs_homepath $[Service.UserDirectory]  +set fs_savepath $[Service.UserDirectory] +set dedicated 2 +set net_ip $[Service.IpAddress] +set net_port $[Service.GamePort] +set sv_maxclients $[Service.Slots] +set ui_maxclients $[Service.Slots] +set sv_punkbuster "1" +exec server.cfg +map_rotate&lt;/CommandLine&gt;
+    &lt;Description&gt;Default&lt;/Description&gt;
+  &lt;/PredefinedCommandLine&gt;
+&lt;/ArrayOfPredefinedCommandLine&gt;</predef_cmdlines>
+  </tc_game_cmdlines>
+  <tc_game_punkbuster_config>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <enable_pbweb>1</enable_pbweb>
+    <pb_relative_path>pb\</pb_relative_path>
+    <pb_download_url>http://www.punkbuster.com/index.php?page=dl-cod4.php</pb_download_url>
+    <execute_on_create>0</execute_on_create>
+  </tc_game_punkbuster_config>
+  <tc_game_query_monitoring>
+    <game_id>16</game_id>
+  </tc_game_query_monitoring>
+  <tc_game_mail_templates>
+    <game_id>16</game_id>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:InstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:InstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-09 16:46:23" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2012-12-20 00:34:58" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_mail_templates>
+  <tc_game_steam_config>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <enable_hldsupdate>0</enable_hldsupdate>
+    <hlds_game_type />
+    <validate>0</validate>
+    <execute_on_create>0</execute_on_create>
+    <run_as_service_user>0</run_as_service_user>
+    <store_game_id>0</store_game_id>
+    <delete_steamapps_on_error>1</delete_steamapps_on_error>
+  </tc_game_steam_config>
+  <tc_game_bukkit_config>
+    <game_id>16</game_id>
+  </tc_game_bukkit_config>
+  <tc_game_tracker_config>
+    <game_id>16</game_id>
+    <ts_id>0</ts_id>
+    <enable_integration>1</enable_integration>
+    <auto_submit>0</auto_submit>
+    <auto_submit_private>0</auto_submit_private>
+    <manual_submit>1</manual_submit>
+    <gt_game_id>cod4</gt_game_id>
+    <display_560x90>1</display_560x90>
+    <display_350x20>1</display_350x20>
+    <display_160>1</display_160>
+    <display_html>1</display_html>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="Custom560x90Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom560x90Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom350x20Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom350x20Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom160Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom160Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomHtmlHtml" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomHtmlForum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-18 17:48:13" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_tracker_config>
+  <tc_game_identity>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <run_as>1</run_as>
+    <user_name />
+    <password />
+  </tc_game_identity>
+  <tc_game_text_console>
+    <game_id>16</game_id>
+    <control_input>0</control_input>
+    <control_output>0</control_output>
+    <stop_commands />
+    <wait_for_exit>1</wait_for_exit>
+  </tc_game_text_console>
+  <tc_game_web_console>
+    <game_id>16</game_id>
+    <enable_web_console>1</enable_web_console>
+    <input_source>0</input_source>
+    <output_source>0</output_source>
+    <log_file>main\games_mp.log</log_file>
+    <print_rcon_response>1</print_rcon_response>
+  </tc_game_web_console>
+  <tc_game_fast_download>
+    <game_id>16</game_id>
+    <enable_fast_download>0</enable_fast_download>
+    <root_directory />
+    <url_expression>$[FastDownloadBaseUrl]/</url_expression>
+    <files />
+    <exclude_files />
+    <sync_created>0</sync_created>
+    <auto_sync>0</auto_sync>
+    <enable_compress>0</enable_compress>
+    <compress_format>zip</compress_format>
+    <disk_quota_mb>0</disk_quota_mb>
+  </tc_game_fast_download>
+  <tc_game_config_files>
+    <game_id>16</game_id>
+    <file_id>1</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>main\server.cfg</relative_path>
+    <description>Server Configuration File</description>
+    <template>//******************************************************************************
+// Call of Duty 4 Server Configuration File
+
+
+
+//******************************************************************************
+// Color Codes
+//******************************************************************************
+// Colors for text. Do not clear the comment in front of the color codes.
+// Useful for your server name, motd msg's - Information and ref use only 
+// 
+// ^1 = Red 
+// ^2 = Green
+// ^3 = Yellow
+// ^4 = Blue
+// ^5 = Cyan
+// ^6 = pink/Magenta
+// ^7 = White
+// ^0 = Black
+
+//******************************************************************************
+// Public Information
+//******************************************************************************
+sets sv_hostname "$[HostName]"
+sets _Admin "admin"
+sets _Email ""
+sets _Website ""
+sets _Location ""
+sets _Irc ""
+set scr_motd ""
+
+//******************************************************************************
+// Common Server Settings
+//******************************************************************************
+// Log Settings
+set g_logsync "2"         // 0=no log, 1=buffered, 2=continuous, 3=append
+set logfile "1"           // 0 = NO log, 1 = log file enabled
+set g_log "games_mp.log"  // Name of log file, default is games_mp.log
+set sv_log_damage "1"
+
+// Master servers
+set sv_master1 "cod2master.activision.com" 
+set sv_master2 "cod2authorize.activision.com"
+set sv_master3 "cod2master.infinityward.com"
+set sv_master3 "cod2update.activision.com"
+set sv_master4 "master.gamespy.com:28960" 
+set sv_master5 "master0.gamespy.com" 
+set sv_master6 "master1.gamespy.com" 
+set sv_master7 "clanservers.net" 
+set sv_gamespy "1" 
+
+// Password Settings
+set rcon_password "$[RConPassword]"   // RCON must supply pw to use
+set sv_privatePassword ""      // Private slots, non-public slots
+
+// The following can be used to lock out the server so that only those
+// players that have been provide the password can connect.  Good for
+// matches, practices, etc.
+set g_password "$[PrivatePassword]"
+
+// Player slots setup
+set sv_privateclients ""       // Number of private player slots, maxclients - privateclients = public slots
+
+// Ping 
+set sv_minPing "0"             // MIN player ping on CONNECT, any lower and player isnt allowed to connect
+set sv_maxping "350"           // MAX player ping on CONNECT, any higher and player isnt allowed to connect
+
+// Client Download Settings. (0=off/1=on) Used for MODs and custom maps
+// See included Quick Setup Guide for instructions.
+set sv_allowdownload "1"
+seta sv_wwwDownload "1"
+//seta sv_wwwBaseURL "http://www.your_website.com/base_folder"
+seta sv_wwwBaseURL "ftp://client:client@ftpfiles.myftp.org"
+seta sv_wwwDlDisconnected "1"
+
+// Rate 
+set sv_maxRate "5000" 
+
+// FPS
+//set sv_fps "20"
+
+// Drop inactive players
+set sv_timeout "300"
+set sv_zombietime "1"
+set g_inactivity "0"
+set g_inactivityspectator "0"
+
+// AntiFlooding Settings
+set sv_floodProtect "1"
+set sv_reconnectlimit "3"
+
+// Anti Cheat Settings
+set sv_disableClientConsole "0"
+set cl_autocmd "0"
+set sv_cheats "0"
+set sv_pure "1"
+set g_banIPs ""
+set g_no_script_spam "1"
+set sv_punkbuster "1"
+
+// Temporary Ban duration, in seconds
+set sv_kickBanTime "3600"
+
+// In-game voice communication system
+set sv_voice "1"
+set sv_voiceQuality "1"
+set voice_deadChat "0"
+set voice_global "0"
+set voice_localEcho "0"
+set winvoice_mic_mute "1"
+
+//******************************************************************************
+// Misc 
+//******************************************************************************
+set sv_allowAnonymous "0"
+set g_antilag "0"
+set g_compassShowEnemies "0"
+
+//******************************************************************************
+// GAME TYPE SETTINGS
+//******************************************************************************
+// DEATHMATCH
+//******************************************************************************
+set scr_dm_scorelimit		150
+set scr_dm_timelimit		10
+set scr_dm_roundlimit		1
+set scr_dm_numlives 		0
+set scr_dm_playerrespawndelay 0
+set scr_dm_waverespawndelay 0
+
+//******************************************************************************
+// DOMINATION
+//******************************************************************************
+set scr_dom_scorelimit		200
+set scr_dom_timelimit		0
+set scr_dom_roundlimit		1
+set scr_dom_numlives 		0
+set scr_dom_playerrespawndelay 0
+set scr_dom_waverespawndelay 0
+
+//******************************************************************************
+// TEAM DEATHMATCH
+//******************************************************************************
+set scr_war_scorelimit		750
+set scr_war_timelimit		10
+set scr_war_roundlimit		1
+set scr_war_numlives 		0
+set scr_war_playerrespawndelay 0
+set scr_war_waverespawndelay 0
+
+//******************************************************************************
+// SABOTAGE
+//******************************************************************************
+set scr_sab_scorelimit		1
+set scr_sab_timelimit		20
+set scr_sab_roundlimit		0
+set scr_sab_roundswitch		1
+set scr_sab_numlives 		0
+set scr_sab_bombtimer		30
+set scr_sab_planttime		2.5
+set scr_sab_defusetime		5
+set scr_sab_hotpotato		0
+set scr_sab_playerrespawndelay 7.5
+set scr_sab_waverespawndelay 0
+
+//******************************************************************************
+// SEARCH AND DESTROY CLASSIC
+//******************************************************************************
+set scr_sd_scorelimit		4
+set scr_sd_timelimit		2.5
+set scr_sd_roundlimit		0
+set scr_sd_roundswitch		3 		// rounds between switching teams
+set scr_sd_numlives 		1 		// elimination
+set scr_sd_bombtimer		45
+set scr_sd_planttime		5
+set scr_sd_defusetime		5
+set scr_sd_multibomb		0
+set scr_sd_playerrespawndelay 0
+set scr_sd_waverespawndelay 0
+
+//******************************************************************************
+// CAPTURE THE FLAG -- NOT INCLUDED IN COD4
+//******************************************************************************
+//set scr_ctf_scorelimit	10
+//set scr_ctf_timelimit	5
+//set scr_ctf_roundlimit	2
+//set scr_ctf_roundswitch	1
+//set scr_ctf_numlives	0
+//set scr_ctf_playerrespawndelay 0
+//set scr_ctf_waverespawndelay 15
+
+//******************************************************************************
+// KING OF THE HILL
+//******************************************************************************
+set scr_koth_scorelimit		250
+set scr_koth_timelimit		15
+set scr_koth_roundlimit		1
+set scr_koth_roundswitch	1
+set scr_koth_numlives		0
+set scr_koth_playerrespawndelay 0
+set scr_koth_waverespawndelay 0
+set koth_autodestroytime	60
+set koth_spawntime			0
+set koth_kothmode			0
+set koth_capturetime		20
+set koth_destroytime		10
+set koth_delayPlayer		0
+set koth_spawnDelay			60
+
+//******************************************************************************
+// First gametype to load
+// "dm"   - free for all deathmatch
+// "dom"  - domination
+// "koth" - headquarters
+// "sab"  - sabotage
+// "sd"   - search &amp; destroy
+// "war"  - team deathmatch
+//******************************************************************************
+//MAP ROTATION SETTINGS - Uncomment the map line for the gametype you wish to play.
+//
+//******************************************************************************
+// DM -- FREE FOR ALL DEATHMATCH
+//******************************************************************************
+set sv_mapRotation "gametype dm map mp_backlot gametype dm map mp_bloc gametype dm map mp_bog gametype dm map mp_cargoship gametype dm map mp_citystreets gametype dm map mp_convoy gametype dm map mp_countdown gametype dm map mp_crash gametype dm map mp_crossfire gametype dm map mp_farm gametype dm map mp_overgrown gametype dm map mp_pipeline gametype dm map mp_shipment gametype dm map mp_showdown gametype dm map mp_strike gametype dm map mp_vacant"
+
+//******************************************************************************
+// DOM -- DOMINATION
+//******************************************************************************
+//set sv_mapRotation "gametype dom map mp_backlot gametype dom map mp_bloc gametype dom map mp_bog gametype dom map mp_cargoship gametype dom map mp_citystreets gametype dom map mp_convoy gametype dom map mp_countdown gametype dom map mp_crash gametype dom map mp_crossfire gametype dom map mp_farm gametype dom map mp_overgrown gametype dom map mp_pipeline gametype dom map mp_shipment gametype dom map mp_showdown gametype dom map mp_strike gametype dom map mp_vacant"
+
+//******************************************************************************
+// KOTH -- HEADQUARTERS
+//******************************************************************************
+//set sv_mapRotation "gametype koth map mp_backlot gametype koth map mp_bloc gametype koth map mp_bog gametype koth map mp_cargoship gametype koth map mp_citystreets gametype koth map mp_convoy gametype koth map mp_countdown gametype koth map mp_crash gametype koth map mp_crossfire gametype koth map mp_farm gametype koth map mp_overgrown gametype koth map mp_pipeline gametype koth map mp_shipment gametype koth map mp_showdown gametype koth map mp_strike gametype koth map mp_vacant"
+
+//******************************************************************************
+// SAB -- SABOTAGE
+//******************************************************************************
+//set sv_mapRotation "gametype sab map mp_backlot gametype sab map mp_bloc gametype sab map mp_bog gametype sab map mp_cargoship gametype sab map mp_citystreets gametype sab map mp_convoy gametype sab map mp_countdown gametype sab map mp_crash gametype sab map mp_crossfire gametype sab map mp_farm gametype sab map mp_overgrown gametype sab map mp_pipeline gametype sab map mp_shipment gametype sab map mp_showdown gametype sab map mp_strike gametype sab map mp_vacant"
+
+//******************************************************************************
+// SD -- SEARCH &amp; DESTROY
+//******************************************************************************
+//set sv_mapRotation "gametype sd map mp_backlot gametype sd map mp_bloc gametype sd map mp_bog gametype sd map mp_cargoship gametype sd map mp_citystreets gametype sd map mp_convoy gametype sd map mp_countdown gametype sd map mp_crash gametype sd map mp_crossfire gametype sd map mp_farm gametype sd map mp_overgrown gametype sd map mp_pipeline gametype sd map mp_shipment gametype sd map mp_showdown gametype sd map mp_strike gametype sd map mp_vacant"
+
+//******************************************************************************
+// WAR -- TEAM DEATH MATCH
+//******************************************************************************
+set sv_mapRotation "gametype war map mp_backlot gametype war map mp_bloc gametype war map mp_bog gametype war map mp_cargoship gametype war map mp_citystreets gametype war map mp_convoy gametype war map mp_countdown gametype war map mp_crash gametype war map mp_crossfire gametype war map mp_farm gametype war map mp_overgrown gametype war map mp_pipeline gametype war map mp_shipment gametype war map mp_showdown gametype war map mp_strike gametype war map mp_vacant"
+
+</template>
+    <read_values>1</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-09 16:46:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>16</variable_source_id>
+    <variable_id>1</variable_id>
+    <name>setfsgame</name>
+    <default_value />
+    <is_numeric>0</is_numeric>
+    <view_order>1</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-09 16:46:06" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-07-09 18:19:37" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>16</variable_source_id>
+    <variable_id>2</variable_id>
+    <name>setsvpunkbuster</name>
+    <default_value />
+    <is_numeric>0</is_numeric>
+    <view_order>2</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-09 16:46:06" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-07-09 18:20:02" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_game_scripts>
+    <game_id>16</game_id>
+    <script_id>1</script_id>
+    <mod_id>0</mod_id>
+    <update_id>0</update_id>
+    <operating_system>2</operating_system>
+    <script_engine_id>3</script_engine_id>
+    <description>Prevent popups</description>
+    <script_contents>IF NOT EXIST __iw3mp GOTO CONTINUE1
+
+attrib -h __iw3mp
+del __iw3mp
+
+:CONTINUE1
+
+IF NOT EXIST players\profiles\active.txt GOTO END
+del players\profiles\active.txt
+
+:END</script_contents>
+    <service_event>14</service_event>
+    <execute_order>0</execute_order>
+    <ignore_errors>1</ignore_errors>
+    <prompt_variables>0</prompt_variables>
+    <exec_as_service_user>0</exec_as_service_user>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-15 03:52:19" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-07-28 23:10:38" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_scripts>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineBuilder</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineChanger</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FastDlSync</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FileManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Ftp</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveBandwidthStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveCpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveMemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LivePlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewer</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerTextConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MapPacks</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ModManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PunkbusterUpdate</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Reinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledReinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledRestart</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledScript</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>SteamUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Updates</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>16</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>WebConsole</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>16</variable_source_id>
+    <variable_id>1</variable_id>
+    <admin_access>1</admin_access>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>1</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label>+set fs_game</item_label>
+    <description />
+    <custom_cmdline_template> +set fs_game ![setfsgame]</custom_cmdline_template>
+    <view_order>1</view_order>
+    <cmdline_parameter>1</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+  </tc_game_variables_config>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>16</variable_source_id>
+    <variable_id>2</variable_id>
+    <admin_access>1</admin_access>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>1</value_required>
+    <required_message />
+    <item_type>5</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="Text" value="Punkbuster" type="System.String,mscorlib" /&gt;
+  &lt;add key="OnValue" value="1" type="System.String,mscorlib" /&gt;
+  &lt;add key="OffValue" value="0" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label>+set sv_punkbuster </item_label>
+    <description />
+    <custom_cmdline_template> +set sv_punkbuster  "![setsvpunkbuster]"</custom_cmdline_template>
+    <view_order>2</view_order>
+    <cmdline_parameter>1</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+  </tc_game_variables_config>
+</COD_MW4>

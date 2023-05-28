@@ -1,0 +1,1290 @@
+<BF2>
+  <tc_games>
+    <game_id>55</game_id>
+    <operating_system>2</operating_system>
+    <display_name>Battlefield 2 Non Ranked</display_name>
+    <short_name>BF2</short_name>
+    <private_rule_value />
+    <private_rule_name />
+    <hostname_rule />
+    <map_rule />
+    <slots_rule />
+    <exclude_rules />
+    <query_protocol>gs3</query_protocol>
+    <rcon_protocol>0</rcon_protocol>
+    <show_in_create_list>1</show_in_create_list>
+    <is_voice_server>0</is_voice_server>
+    <is_template>1</is_template>
+    <min_slots>0</min_slots>
+    <max_slots>0</max_slots>
+    <default_slots>8</default_slots>
+    <name_from_query>1</name_from_query>
+    <exclude_load_balancing>0</exclude_load_balancing>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;WriteBom&amp;gt;false&amp;lt;/WriteBom&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2012-12-20 00:33:06" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATE_SYMLINK" value="False" type="System.Boolean,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <enable_community_images>1</enable_community_images>
+  </tc_games>
+  <tc_game_paths>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <relative_executable>bf2_w32ded.exe</relative_executable>
+    <relative_working_dir />
+    <relative_subadmin_files />
+    <relative_reseller_files />
+    <relative_user_files />
+    <files_folder_name>bf2</files_folder_name>
+    <enable_ext_download>1</enable_ext_download>
+    <ext_download_url>http://downloads.tcadmin.net/games/bf2-windows.aspx</ext_download_url>
+    <ext_save_name>__BF2_Server_13.exe</ext_save_name>
+    <ext_extract_opt>0</ext_extract_opt>
+    <ext_script_engine_id>3</ext_script_engine_id>
+    <ext_script>echo [InstallShield Silent] &gt; __BF2_Server_13.iss
+echo Version=v7.00 &gt;&gt; __BF2_Server_13.iss
+echo File=Response File &gt;&gt; __BF2_Server_13.iss
+echo [File Transfer] &gt;&gt; __BF2_Server_13.iss
+echo OverwrittenReadOnly=NoToAll &gt;&gt; __BF2_Server_13.iss
+echo [{F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-DlgOrder] &gt;&gt; __BF2_Server_13.iss
+echo Dlg0={F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdWelcome-0 &gt;&gt; __BF2_Server_13.iss
+echo Count=8 &gt;&gt; __BF2_Server_13.iss
+echo Dlg1={F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdAskDestPath-0 &gt;&gt; __BF2_Server_13.iss
+echo Dlg2={F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-AskYesNo-0 &gt;&gt; __BF2_Server_13.iss
+echo Dlg3={F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdSelectFolder-0 &gt;&gt; __BF2_Server_13.iss
+echo Dlg4={F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdLicense2-0 &gt;&gt; __BF2_Server_13.iss
+echo Dlg5={F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-AskOptions-0 &gt;&gt; __BF2_Server_13.iss
+echo Dlg6={F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdLicense-0 &gt;&gt; __BF2_Server_13.iss
+echo Dlg7={F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdFinish-0 &gt;&gt; __BF2_Server_13.iss
+echo [{F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdWelcome-0] &gt;&gt; __BF2_Server_13.iss
+echo Result=1 &gt;&gt; __BF2_Server_13.iss
+echo [{F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdAskDestPath-0] &gt;&gt; __BF2_Server_13.iss
+echo szDir=%FilesFolderFullName% &gt;&gt; __BF2_Server_13.iss
+echo Result=1 &gt;&gt; __BF2_Server_13.iss
+echo [{F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-AskYesNo-0] &gt;&gt; __BF2_Server_13.iss
+echo Result=1 &gt;&gt; __BF2_Server_13.iss
+echo [{F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdSelectFolder-0] &gt;&gt; __BF2_Server_13.iss
+echo szFolder=EA Games\Battlefield 2 Server &gt;&gt; __BF2_Server_13.iss
+echo Result=1 &gt;&gt; __BF2_Server_13.iss
+echo [{F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdLicense2-0] &gt;&gt; __BF2_Server_13.iss
+echo Result=1 &gt;&gt; __BF2_Server_13.iss
+echo [{F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-AskOptions-0] &gt;&gt; __BF2_Server_13.iss
+echo Result=1 &gt;&gt; __BF2_Server_13.iss
+echo Sel-0=1 &gt;&gt; __BF2_Server_13.iss
+echo Sel-1=0 &gt;&gt; __BF2_Server_13.iss
+echo [{F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdLicense-0] &gt;&gt; __BF2_Server_13.iss
+echo Result=1 &gt;&gt; __BF2_Server_13.iss
+echo [Application] &gt;&gt; __BF2_Server_13.iss
+echo Name=Battlefield 2 Server &gt;&gt; __BF2_Server_13.iss
+echo Version=1.00.001 &gt;&gt; __BF2_Server_13.iss
+echo Company=EA Games &gt;&gt; __BF2_Server_13.iss
+echo Lang=0009 &gt;&gt; __BF2_Server_13.iss
+echo [{F3CA370F-0B4B-4239-BF5A-2CC751EB5D3C}-SdFinish-0] &gt;&gt; __BF2_Server_13.iss
+echo Result=1 &gt;&gt; __BF2_Server_13.iss
+echo bOpt1=0 &gt;&gt; __BF2_Server_13.iss
+echo bOpt2=0 &gt;&gt; __BF2_Server_13.iss
+
+start /wait __BF2_Server_13.exe /s /sms /f1"%GameFilesPath%__BF2_Server_13.iss" /f2"%GameFilesPath%__BF2_Server_13.log"
+
+del __BF2_Server_13.exe
+del __BF2_Server_13.iss
+del __BF2_Server_13.log</ext_script>
+    <ext_license>EA TOOLS END USER LICENSE
+
+Electronic Arts Inc, and its subsidiaries, affiliates and licensors
+(collectively, "EA") grants you a non- transferable non-exclusive license to
+download and/or install and use one copy of the software tool ("Tool") and/or
+materials ("Materials") (collectively the "Tools &amp; Materials") solely for your
+personal noncommercial use in connection with EA's products, in accordance with
+the terms below.
+
+EA owns all of the rights, title and interest in the Tools &amp; Materials. You may
+not alter any of EA's trademarks or logos, or alter or remove any of EA's
+trademark or copyright notices included in or with the Tools &amp; Materials or
+EA's products. Your right to use Tools &amp; Materials is limited to the license
+grant above, and you may not otherwise copy, display, distribute, perform,
+publish, modify, create works from, or use any of the Tools &amp; Materials.
+Without limiting the preceding sentence, you may not modify, reverse engineer,
+disassemble, license, transfer, distribute, create works from, or sell the
+Tool, or use the Tools &amp; Materials to further any commercial purpose.  Without
+limiting the foregoing, you may not use the Tools &amp; Materials to promote
+another product or business, or on any site that operates or promotes a server
+emulator.
+
+You may include materials created with the Tools &amp; Materials on your personal
+noncommercial website for the noncommercial benefit of the fan community for
+EA's products and provided that if you do so, you must also post the following
+notice on your site on the same web page(s) where those materials are located:
+"This site is not endorsed by or affiliated with Electronic Arts, or its
+licensors.  Trademarks are the property of their respective owners.  Game
+content and materials copyright Electronic Arts Inc. and its licensors.  All
+Rights Reserved."  You will not represent that your site is endorsed or
+approved by or affiliated with EA or our licensors or that any other content on
+your site is endorsed or approved by or affiliated with EA or our licensors.
+
+THESE TOOLS &amp; MATERIALS ARE PROVIDED "AS IS" WITHOUT ANY WARRANTIES OF ANY
+KIND, EXPRESS OR IMPLIED.  EA SPECIFICALLY DISCLAIMS ANY WARRANTIES OF FITNESS
+FOR A PARTICULAR PURPOSE, MERCHANTABILITY AND NONINFRINGEMENT.
+
+ANY USE YOU CHOOSE TO MAKE OF THESE TOOLS &amp; MATERIALS IS UNDERTAKEN BY YOU
+ENTIRELY AT YOUR OWN RISK.  EA DOES NOT WARRANT THAT THESE TOOLS &amp; MATERIALS
+WILL NOT CAUSE DAMAGE TO YOUR COMPUTER SYSTEM, NETWORK, SOFTWARE OR OTHER
+TECHNOLOGY.
+
+EA WILL NOT PROVIDE SUPPORT FOR THESE TOOLS &amp; MATERIALS.  PLEASE DO NOT CALL OR
+SEND EMAIL TO EA CUSTOMER SUPPORT REGARDING THESE TOOLS &amp; MATERIALS, AS EA WILL
+NOT BE ABLE TO ANSWER THESE INQUIRIES.
+
+IN NO EVENT SHALL EA BE LIABLE FOR ANY DIRECT, CONSEQUENTIAL, INCIDENTAL,
+SPECIAL, PUNITIVE OR OTHER DAMAGES WHATSOEVER, ARISING OUT OF OR RELATED TO
+THIS LICENSE EVEN IF EA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+EA RESERVES THE RIGHT TO DISCONTINUE THE AVAILABILITY OF THESE TOOLS &amp;
+MATERIALS, OR MODIFY THEM, AT ANY TIME, WITHOUT OBLIGATION TO ANYONE.
+
+At EA's request, you agree to defend, indemnify and hold harmless EA from all
+liabilities, claims and expenses, including attorneys' fees, arising from any
+breach of this License by you and/or your use or misuse of the Tools &amp;
+Materials.
+
+EA may make the Tools &amp; Materials available at its site(s) located in the
+United States and/or Canada and/or the European Union.  You are solely
+responsible for knowing and complying with all federal, state, and local laws
+that may apply to your use of Tools &amp; Materials in your own locale. By
+downloading any Tools &amp; Materials, you warrant that you are not located in any
+country, or exporting the Tools &amp; Materials to any person or place, to which
+the United States and/or Canada and/or European Union or its member countries
+has embargoed goods.
+
+EA may revoke or terminate this license at any time, for any reason or no
+reason, in its sole discretion.  Upon termination, you must destroy or return
+to EA all Tools &amp; Materials.  This License is governed by United States
+Copyright and California law (without regard to conflicts of law), and is the
+entire agreement between EA and you regarding the Tools &amp; Materials.
+
+Please select "I accept the terms of the license agreement" if you agree to
+the above terms, or "I do not accept the terms of the license agreement"
+to discontinue. If you decline, you may not use the Tools &amp; Materials.</ext_license>
+    <ext_license_accepted>0</ext_license_accepted>
+  </tc_game_paths>
+  <tc_game_general_config>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <enable_start_cpu_0>0</enable_start_cpu_0>
+    <enable_interact_desktop>1</enable_interact_desktop>
+    <enable_configs_icon>1</enable_configs_icon>
+    <enable_log_viewer>1</enable_log_viewer>
+    <log_extensions>*.log</log_extensions>
+    <branded_text />
+    <branded_text_space>0</branded_text_space>
+    <brand_at_end>0</brand_at_end>
+    <brand_regex_search />
+    <brand_regex_case_insensitive>1</brand_regex_case_insensitive>
+    <stop_delay_seconds>3</stop_delay_seconds>
+    <sched_tasks_limit>0</sched_tasks_limit>
+    <force_config_editor_create>0</force_config_editor_create>
+  </tc_game_general_config>
+  <tc_game_ports>
+    <game_id>55</game_id>
+    <only_default_ports>0</only_default_ports>
+    <only_primary_ip>0</only_primary_ip>
+    <game_port>16567</game_port>
+    <query_port>29900</query_port>
+    <rcon_port>4711</rcon_port>
+    <port_increment>10</port_increment>
+    <query_port_expression />
+    <rcon_port_expression />
+    <custom_port_1>0</custom_port_1>
+    <custom_port_2>0</custom_port_2>
+    <custom_port_3>0</custom_port_3>
+    <custom_port_4>0</custom_port_4>
+    <custom_port_5>0</custom_port_5>
+    <custom_port_1_expression />
+    <custom_port_2_expression />
+    <custom_port_3_expression />
+    <custom_port_4_expression />
+    <custom_port_5_expression />
+    <supports_ipv6>0</supports_ipv6>
+    <unique_ports>0</unique_ports>
+    <enable_forcebindip>0</enable_forcebindip>
+    <app_data />
+  </tc_game_ports>
+  <tc_game_cmdlines>
+    <game_id>55</game_id>
+    <cmdline_default>playerlimit $[Service.Slots] -noquitprompts -locknetsettings -autostart </cmdline_default>
+    <cmdline_private>playerlimit $[Service.Slots] -noquitprompts -locknetsettings -autostart </cmdline_private>
+    <cmdline_default_custom>playerlimit $[Service.Slots] -noquitprompts -locknetsettings -autostart  $[Service.UserCommandLine]</cmdline_default_custom>
+    <cmdline_private_custom>playerlimit $[Service.Slots] -noquitprompts -locknetsettings -autostart  $[Service.UserCommandLine]</cmdline_private_custom>
+    <predef_cmdlines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfPredefinedCommandLine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;PredefinedCommandLine&gt;
+    &lt;Id&gt;21bf46d7-f82a-4e0a-b0f3-ed57b5a2f2fb&lt;/Id&gt;
+    &lt;CommandLine&gt;playerlimit $[Service.Slots] -noquitprompts -locknetsettings -autostart &lt;/CommandLine&gt;
+    &lt;Description&gt;Default&lt;/Description&gt;
+  &lt;/PredefinedCommandLine&gt;
+&lt;/ArrayOfPredefinedCommandLine&gt;</predef_cmdlines>
+  </tc_game_cmdlines>
+  <tc_game_punkbuster_config>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <enable_pbweb>1</enable_pbweb>
+    <pb_relative_path>pb\</pb_relative_path>
+    <pb_download_url>http://www.punkbuster.com/index.php?page=dl-bf2.php</pb_download_url>
+    <execute_on_create>0</execute_on_create>
+  </tc_game_punkbuster_config>
+  <tc_game_query_monitoring>
+    <game_id>55</game_id>
+    <query_interval>300000</query_interval>
+    <query_interval_retry>30000</query_interval_retry>
+    <enable_query_detect>1</enable_query_detect>
+    <query_detect_actions>10</query_detect_actions>
+    <query_detect_max>3</query_detect_max>
+    <query_detect_max_actions>0</query_detect_max_actions>
+    <enable_slot_detect>1</enable_slot_detect>
+    <slot_detect_actions>9</slot_detect_actions>
+    <slot_detect_additional_slots>0</slot_detect_additional_slots>
+    <enable_private_detect>1</enable_private_detect>
+    <private_detect_actions>9</private_detect_actions>
+    <enable_brand_detect>1</enable_brand_detect>
+    <brand_detect_actions>9</brand_detect_actions>
+    <enable_rule_detect>0</enable_rule_detect>
+    <rules>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameMonitorRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</rules>
+    <enable_stats>1</enable_stats>
+    <stats_interval>900</stats_interval>
+    <det_stats_max_days>7</det_stats_max_days>
+    <stats_max_days>30</stats_max_days>
+    <enable_live_stats>1</enable_live_stats>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:QueryFailureUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureMaxAllowedUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureMaxAllowedAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:SlotDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:SlotDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:PrivateDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:PrivateDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:BrandDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:BrandDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:44:43" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-11-02 16:32:43" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_query_monitoring>
+  <tc_game_mail_templates>
+    <game_id>55</game_id>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:InstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:InstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:20" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2012-12-20 00:33:08" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_mail_templates>
+  <tc_game_steam_config>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <enable_hldsupdate>0</enable_hldsupdate>
+    <hlds_game_type />
+    <validate>0</validate>
+    <execute_on_create>0</execute_on_create>
+    <run_as_service_user>0</run_as_service_user>
+    <store_game_id>0</store_game_id>
+    <delete_steamapps_on_error>1</delete_steamapps_on_error>
+  </tc_game_steam_config>
+  <tc_game_bukkit_config>
+    <game_id>55</game_id>
+  </tc_game_bukkit_config>
+  <tc_game_tracker_config>
+    <game_id>55</game_id>
+    <ts_id>0</ts_id>
+    <enable_integration>1</enable_integration>
+    <auto_submit>0</auto_submit>
+    <auto_submit_private>0</auto_submit_private>
+    <manual_submit>1</manual_submit>
+    <gt_game_id>bf2</gt_game_id>
+    <display_560x90>1</display_560x90>
+    <display_350x20>1</display_350x20>
+    <display_160>1</display_160>
+    <display_html>1</display_html>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="Custom560x90Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom560x90Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom350x20Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom350x20Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom160Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom160Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomHtmlHtml" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomHtmlForum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:54:48" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_tracker_config>
+  <tc_game_identity>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <run_as>1</run_as>
+    <user_name />
+    <password />
+  </tc_game_identity>
+  <tc_game_text_console>
+    <game_id>55</game_id>
+    <control_input>0</control_input>
+    <control_output>0</control_output>
+    <stop_commands />
+    <wait_for_exit>1</wait_for_exit>
+  </tc_game_text_console>
+  <tc_game_web_console>
+    <game_id>55</game_id>
+    <enable_web_console>0</enable_web_console>
+    <input_source>0</input_source>
+    <output_source>0</output_source>
+    <log_file />
+    <print_rcon_response>0</print_rcon_response>
+  </tc_game_web_console>
+  <tc_game_fast_download>
+    <game_id>55</game_id>
+    <enable_fast_download>0</enable_fast_download>
+    <root_directory />
+    <url_expression>$[FastDownloadBaseUrl]/</url_expression>
+    <files />
+    <exclude_files />
+    <sync_created>0</sync_created>
+    <auto_sync>0</auto_sync>
+    <enable_compress>0</enable_compress>
+    <compress_format>zip</compress_format>
+    <disk_quota_mb>0</disk_quota_mb>
+  </tc_game_fast_download>
+  <tc_game_config_files>
+    <game_id>55</game_id>
+    <file_id>2</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>mods\bf2\settings\maplist.con</relative_path>
+    <description>Maps Cycle File</description>
+    <template>mapList.append Road_To_Jalalabad gpm_cq 32
+mapList.append strike_at_karkand gpm_cq 32
+mapList.append Dalian_plant gpm_cq 32
+mapList.append Daqing_oilfields gpm_cq 32
+mapList.append Dragon_Valley gpm_cq 32
+mapList.append FuShe_Pass gpm_cq 32
+mapList.append GreatWall gpm_cq 32
+mapList.append Gulf_of_Oman gpm_cq 32
+mapList.append kubra_dam gpm_cq 32
+mapList.append Mashtuur_City gpm_cq 32
+mapList.append Midnight_Sun gpm_cq 32
+mapList.append Operation_Clean_Sweep gpm_cq 32
+mapList.append OperationHarvest gpm_cq 32
+mapList.append OperationRoadRage gpm_cq 32
+mapList.append OperationSmokeScreen gpm_cq 32
+mapList.append Sharqi_Peninsula gpm_cq 32
+mapList.append Songhua_Stalemate gpm_cq 32
+mapList.append Taraba_Quarry gpm_cq 32
+mapList.append Wake_Island_2007 gpm_cq 32
+mapList.append Zatar_Wetlands gpm_cq 32</template>
+    <read_values>1</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>55</game_id>
+    <file_id>1</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>admin\default.cfg</relative_path>
+    <description>Contains rcon port and password info</description>
+    <view_order>0</view_order>
+    <template>password = ![bf2rcon1]
+# Don't change the ip or port
+ip = $[Service.IpAddress]
+port = $[Service.RConPort]
+# Uncomment to write debug to a file (resides in root BF2 dir)
+# pythonlogfile = stdoutlogstuff.txt</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>0</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-08-05 18:50:40" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>55</game_id>
+    <file_id>3</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>mods\bf2\settings\serversettings.con</relative_path>
+    <description>Contains server config info</description>
+    <view_order>0</view_order>
+    <template>sv.serverName "$[HostName]" 
+sv.password "" 
+sv.internet 0
+sv.serverIP "$[Service.IpAddress]" 
+sv.serverPort $[Service.GamePort] 
+sv.welcomeMessage "![welcomeMessage3]" 
+sv.punkBuster 1 
+sv.allowFreeCam ![svallowFreeam3] 
+sv.allowExternalViews ![svallowExternalviews3] 
+sv.allowNoseCam ![svallowNoseam3] 
+sv.hitIndicator 1 
+sv.maxPlayers $[Service.Slots] 
+sv.numPlayersNeededToStart 2 
+sv.notEnoughPlayersRestartDelay 15 
+sv.startDelay ![svstartelay3] 
+sv.endDelay ![svendelay3] 
+sv.spawnTime 15 
+sv.manDownTime 15 
+sv.endOfRoundDelay ![svendOfRoundelay3]
+sv.ticketRatio 100 
+sv.roundsPerMap ![svroundsPerMap3] 
+sv.timeLimit ![svtimeLimit3] 
+sv.scoreLimit ![svscoreLimit3] 
+sv.soldierFriendlyFire 100 
+sv.vehicleFriendlyFire 100 
+sv.soldierSplashFriendlyFire 100 
+sv.vehicleSplashFriendlyFire 100 
+sv.tkPunishEnabled ![svtkPunishEnabled3] 
+sv.tkNumPunishToKick ![svtkNumPunishToKick3] 
+sv.tkPunishByDefault ![svtkPunishyefault3] 
+sv.votingEnabled ![svvotingEnabled3] 
+sv.voteTime ![svvoteTime3] 
+sv.minPlayersForVoting ![svminPlayersForVoting3] 
+sv.gameSpyPort $[Service.QueryPort]
+sv.allowNATNegotiation 0 
+sv.interfaceIP "$[Service.IpAddress]" 
+sv.autoRecord 0 
+sv.demoIndexURL http:// 
+sv.demoDownloadURL http:// 
+sv.autoDemoHook "adminutils/demo/rotate_demo.exe" 
+sv.demoQuality 1 
+sv.adminScript "![modman3]" 
+sv.timeBeforeRestartMap 30 
+sv.autoBalanceTeam ![svautoalanceTeam3]
+sv.teamRatioPercent 100 
+sv.voipEnabled 0 
+sv.voipQuality 3 
+sv.voipServerRemote 0 
+sv.voipServerRemoteIP "" 
+sv.voipServerPort 55125 
+sv.voipBFClientPort 55123 
+sv.voipBFServerPort 55124 
+sv.voipSharedPassword "" 
+sv.useGlobalRank 1 
+sv.useGlobalUnlocks ![svuseGlobalUnlocks3]
+sv.sponsorText "" 
+sv.sponsorLogoURL "![svsponsorLogoURL3]" 
+sv.communityLogoURL "![svcommunityLogoURL3]" 
+sv.radioSpamInterval 6 
+sv.radioMaxSpamFlagCount 6 
+sv.radioBlockedDurationTime 30 
+sv.numReservedSlots 0</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>0</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2015-04-01 00:00:40" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>55</game_id>
+    <file_id>4</file_id>
+    <mod_id>1</mod_id>
+    <relative_path>mods\sandbox\settings\serversettings.com</relative_path>
+    <template>sv.serverName "$[HostName]"
+sv.password ""
+sv.internet 0
+sv.serverIP "$[Service.IpAddress]"
+sv.serverPort $[Service.GamePort]
+sv.welcomeMessage ""
+sv.punkBuster 0
+sv.allowFreeCam 0
+sv.allowExternalViews 1
+sv.allowNoseCam 1
+sv.hitIndicator 1
+sv.maxPlayers $[Service.Slots]
+sv.numPlayersNeededToStart 1
+sv.notEnoughPlayersRestartDelay 1
+sv.startDelay 1
+sv.endDelay 1
+sv.spawnTime 3
+sv.manDownTime 3
+sv.endOfRoundDelay 3
+sv.ticketRatio 100
+sv.roundsPerMap 3
+sv.timeLimit 0
+sv.scoreLimit 0
+sv.soldierFriendlyFire 100
+sv.vehicleFriendlyFire 100
+sv.soldierSplashFriendlyFire 100
+sv.vehicleSplashFriendlyFire 100
+sv.tkPunishEnabled 1
+sv.tkNumPunishToKick 3
+sv.tkPunishByDefault 0
+sv.votingEnabled 1
+sv.voteTime 90
+sv.minPlayersForVoting 2
+sv.teamVoteOnly 1
+sv.gameSpyPort 29900
+sv.allowNATNegotiation 0
+sv.interfaceIP ""
+sv.autoRecord 0
+sv.demoIndexURL http://
+sv.demoDownloadURL http://
+sv.autoDemoHook "adminutils/demo/rotate_demo.exe"
+sv.demoQuality 1
+sv.adminScript "default"
+sv.timeBeforeRestartMap 30
+sv.autoBalanceTeam 0
+sv.teamRatioPercent 100
+sv.coopBotRatio	50
+sv.coopBotCount	16
+sv.coopBotDifficulty 50
+sv.voipEnabled 1
+sv.voipQuality 3
+sv.voipServerRemote 0
+sv.voipServerRemoteIP ""
+sv.voipServerPort 55125
+sv.voipBFClientPort 55123
+sv.voipBFServerPort 55124
+sv.voipSharedPassword ""
+sv.useGlobalRank 1
+sv.useGlobalUnlocks 1
+sv.sponsorText ""
+sv.sponsorLogoURL ""
+sv.communityLogoURL ""
+sv.radioSpamInterval 6
+sv.radioMaxSpamFlagCount 6
+sv.radioBlockedDurationTime 30
+sv.friendlyFireWithMines 0
+</template>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:07" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>29</variable_id>
+    <name>modPathmodsxpack</name>
+    <is_numeric>0</is_numeric>
+    <view_order>1</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:07" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>1</variable_id>
+    <name>bf2rcon1</name>
+    <default_value />
+    <is_numeric>0</is_numeric>
+    <view_order>2</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>2</variable_id>
+    <name>hostname3</name>
+    <default_value>YourServer</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>3</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>3</variable_id>
+    <name>svpassword3</name>
+    <default_value />
+    <is_numeric>0</is_numeric>
+    <view_order>3</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>4</variable_id>
+    <name>welcomeMessage3</name>
+    <default_value>Server provided by your clan</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>4</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>5</variable_id>
+    <name>svallowFreeam3</name>
+    <default_value>0</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>6</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>6</variable_id>
+    <name>svallowExternalviews3</name>
+    <default_value>1</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>7</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>7</variable_id>
+    <name>svallowNoseam3</name>
+    <default_value>1</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>8</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>9</variable_id>
+    <name>svnumPlayersNeededToStart3</name>
+    <default_value>2</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>10</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>8</variable_id>
+    <name>svstartelay3</name>
+    <default_value>15</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>10</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>10</variable_id>
+    <name>svendelay3</name>
+    <default_value>15</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>13</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>11</variable_id>
+    <name>svendOfRoundelay3</name>
+    <default_value>15</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>14</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>12</variable_id>
+    <name>svroundsPerMap3</name>
+    <default_value>3</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>16</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>13</variable_id>
+    <name>svspawnTime3</name>
+    <default_value>15</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>16</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>15</variable_id>
+    <name>svmanownTime3</name>
+    <default_value>15</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>17</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>14</variable_id>
+    <name>svtimeLimit3</name>
+    <default_value>1800</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>17</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>16</variable_id>
+    <name>svscoreLimit3</name>
+    <default_value>0</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>18</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>17</variable_id>
+    <name>svtkPunishEnabled3</name>
+    <default_value>1</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>20</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>18</variable_id>
+    <name>svtkNumPunishToKick3</name>
+    <default_value>3</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>21</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>19</variable_id>
+    <name>svtkPunishyefault3</name>
+    <default_value>0</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>22</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>20</variable_id>
+    <name>svvotingEnabled3</name>
+    <default_value>1</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>23</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>21</variable_id>
+    <name>svvoteTime3</name>
+    <default_value>90</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>24</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:06" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>22</variable_id>
+    <name>svminPlayersForVoting3</name>
+    <default_value>2</default_value>
+    <is_numeric>1</is_numeric>
+    <view_order>25</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:07" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>23</variable_id>
+    <name>svautoalanceTeam3</name>
+    <default_value>1</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>27</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:07" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>24</variable_id>
+    <name>svuseGlobalUnlocks3</name>
+    <default_value>1</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>28</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:07" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>25</variable_id>
+    <name>svsponsorLogoURL3</name>
+    <default_value />
+    <is_numeric>0</is_numeric>
+    <view_order>31</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:07" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>26</variable_id>
+    <name>svcommunityLogoURL3</name>
+    <default_value />
+    <is_numeric>0</is_numeric>
+    <view_order>32</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:07" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>27</variable_id>
+    <name>modman3</name>
+    <default_value>modmanager</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>34</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:07" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>28</variable_id>
+    <name>useGlobalRank3</name>
+    <default_value>1</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>36</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-07-28 05:40:07" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineBuilder</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineChanger</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FastDlSync</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FileManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Ftp</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveBandwidthStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveCpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveMemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LivePlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewer</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerTextConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MapPacks</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ModManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PunkbusterUpdate</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Reinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledReinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledRestart</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledScript</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>SteamUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Updates</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>55</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>WebConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>55</variable_source_id>
+    <variable_id>29</variable_id>
+    <user_access>1</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>0</value_required>
+    <item_type>5</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="Text" value="Enable" type="System.String,mscorlib" /&gt;
+  &lt;add key="OnValue" value="+modPath &amp;quot;mods/xpack&amp;quot;" type="System.String,mscorlib" /&gt;
+  &lt;add key="OffValue" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <description>Enables Special Forces Mod</description>
+    <custom_cmdline_template>![modPathmodsxpack]</custom_cmdline_template>
+    <view_order>1</view_order>
+    <cmdline_parameter>1</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+  </tc_game_variables_config>
+</BF2>

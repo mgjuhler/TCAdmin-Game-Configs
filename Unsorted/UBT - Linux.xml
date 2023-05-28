@@ -1,0 +1,917 @@
+<UBT>
+  <tc_games>
+    <game_id>88</game_id>
+    <operating_system>4</operating_system>
+    <display_name>Urban Terror</display_name>
+    <short_name>UBT</short_name>
+    <private_rule_value>1</private_rule_value>
+    <private_rule_name>g_needpass</private_rule_name>
+    <hostname_rule />
+    <map_rule />
+    <slots_rule />
+    <exclude_rules />
+    <query_protocol>q3s</query_protocol>
+    <rcon_protocol>1</rcon_protocol>
+    <show_in_create_list>1</show_in_create_list>
+    <is_voice_server>0</is_voice_server>
+    <is_template>0</is_template>
+    <min_slots>0</min_slots>
+    <max_slots>0</max_slots>
+    <default_slots>8</default_slots>
+    <name_from_query>1</name_from_query>
+    <exclude_load_balancing>0</exclude_load_balancing>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="== CENTOS ==&amp;#xA;If server does not start execute these commands:&amp;#xA;yum install ld-linux.so.2&amp;#xA;yum install libSDL-1.2.so.0&amp;#xA;" type="System.String,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:FileManager" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;FileManagerConfig xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EditPatterns&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.cfg&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.txt&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;string&amp;gt;*.ini&amp;lt;/string&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/EditPatterns&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxEditSize&amp;gt;102400&amp;lt;/MaxEditSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDecompress&amp;gt;true&amp;lt;/EnableDecompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableCompress&amp;gt;true&amp;lt;/EnableCompress&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;MaxCompressSize&amp;gt;52428800&amp;lt;/MaxCompressSize&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableUpload&amp;gt;true&amp;lt;/EnableUpload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;EnableDownload&amp;gt;true&amp;lt;/EnableDownload&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;DefaultFileName&amp;gt;custom.cfg&amp;lt;/DefaultFileName&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/FileManagerConfig&amp;gt;" type="TCAdmin.SDK.Web.FileManager.FileManagerConfig,TCAdmin.SDK.Web" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-11-08 20:46:04" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2012-12-20 01:02:52" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATE_SYMLINK" value="False" type="System.Boolean,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <enable_community_images>1</enable_community_images>
+  </tc_games>
+  <tc_game_paths>
+    <game_id>88</game_id>
+    <service_id>0</service_id>
+    <relative_executable>Quake3-UrT-Ded.i386</relative_executable>
+    <relative_working_dir />
+    <relative_subadmin_files />
+    <relative_reseller_files />
+    <relative_user_files />
+    <files_folder_name>UrbanTerror42</files_folder_name>
+    <enable_ext_download>1</enable_ext_download>
+    <ext_download_url>http://downloads.tcadmin.net/games/urbanterror-linux.aspx</ext_download_url>
+    <ext_save_name>__UrbanTerror42.zip</ext_save_name>
+    <ext_extract_opt>1</ext_extract_opt>
+    <ext_script_engine_id>1</ext_script_engine_id>
+    <ext_script />
+    <ext_license>		    GNU GENERAL PUBLIC LICENSE
+		       Version 2, June 1991
+
+ Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+                       51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+			    Preamble
+
+  The licenses for most software are designed to take away your
+freedom to share and change it.  By contrast, the GNU General Public
+License is intended to guarantee your freedom to share and change free
+software--to make sure the software is free for all its users.  This
+General Public License applies to most of the Free Software
+Foundation's software and to any other program whose authors commit to
+using it.  (Some other Free Software Foundation software is covered by
+the GNU Library General Public License instead.)  You can apply it to
+your programs, too.
+
+  When we speak of free software, we are referring to freedom, not
+price.  Our General Public Licenses are designed to make sure that you
+have the freedom to distribute copies of free software (and charge for
+this service if you wish), that you receive source code or can get it
+if you want it, that you can change the software or use pieces of it
+in new free programs; and that you know you can do these things.
+
+  To protect your rights, we need to make restrictions that forbid
+anyone to deny you these rights or to ask you to surrender the rights.
+These restrictions translate to certain responsibilities for you if you
+distribute copies of the software, or if you modify it.
+
+  For example, if you distribute copies of such a program, whether
+gratis or for a fee, you must give the recipients all the rights that
+you have.  You must make sure that they, too, receive or can get the
+source code.  And you must show them these terms so they know their
+rights.
+
+  We protect your rights with two steps: (1) copyright the software, and
+(2) offer you this license which gives you legal permission to copy,
+distribute and/or modify the software.
+
+  Also, for each author's protection and ours, we want to make certain
+that everyone understands that there is no warranty for this free
+software.  If the software is modified by someone else and passed on, we
+want its recipients to know that what they have is not the original, so
+that any problems introduced by others will not reflect on the original
+authors' reputations.
+
+  Finally, any free program is threatened constantly by software
+patents.  We wish to avoid the danger that redistributors of a free
+program will individually obtain patent licenses, in effect making the
+program proprietary.  To prevent this, we have made it clear that any
+patent must be licensed for everyone's free use or not licensed at all.
+
+  The precise terms and conditions for copying, distribution and
+modification follow.
+
+		    GNU GENERAL PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. This License applies to any program or other work which contains
+a notice placed by the copyright holder saying it may be distributed
+under the terms of this General Public License.  The "Program", below,
+refers to any such program or work, and a "work based on the Program"
+means either the Program or any derivative work under copyright law:
+that is to say, a work containing the Program or a portion of it,
+either verbatim or with modifications and/or translated into another
+language.  (Hereinafter, translation is included without limitation in
+the term "modification".)  Each licensee is addressed as "you".
+
+Activities other than copying, distribution and modification are not
+covered by this License; they are outside its scope.  The act of
+running the Program is not restricted, and the output from the Program
+is covered only if its contents constitute a work based on the
+Program (independent of having been made by running the Program).
+Whether that is true depends on what the Program does.
+
+  1. You may copy and distribute verbatim copies of the Program's
+source code as you receive it, in any medium, provided that you
+conspicuously and appropriately publish on each copy an appropriate
+copyright notice and disclaimer of warranty; keep intact all the
+notices that refer to this License and to the absence of any warranty;
+and give any other recipients of the Program a copy of this License
+along with the Program.
+
+You may charge a fee for the physical act of transferring a copy, and
+you may at your option offer warranty protection in exchange for a fee.
+
+  2. You may modify your copy or copies of the Program or any portion
+of it, thus forming a work based on the Program, and copy and
+distribute such modifications or work under the terms of Section 1
+above, provided that you also meet all of these conditions:
+
+    a) You must cause the modified files to carry prominent notices
+    stating that you changed the files and the date of any change.
+
+    b) You must cause any work that you distribute or publish, that in
+    whole or in part contains or is derived from the Program or any
+    part thereof, to be licensed as a whole at no charge to all third
+    parties under the terms of this License.
+
+    c) If the modified program normally reads commands interactively
+    when run, you must cause it, when started running for such
+    interactive use in the most ordinary way, to print or display an
+    announcement including an appropriate copyright notice and a
+    notice that there is no warranty (or else, saying that you provide
+    a warranty) and that users may redistribute the program under
+    these conditions, and telling the user how to view a copy of this
+    License.  (Exception: if the Program itself is interactive but
+    does not normally print such an announcement, your work based on
+    the Program is not required to print an announcement.)
+
+These requirements apply to the modified work as a whole.  If
+identifiable sections of that work are not derived from the Program,
+and can be reasonably considered independent and separate works in
+themselves, then this License, and its terms, do not apply to those
+sections when you distribute them as separate works.  But when you
+distribute the same sections as part of a whole which is a work based
+on the Program, the distribution of the whole must be on the terms of
+this License, whose permissions for other licensees extend to the
+entire whole, and thus to each and every part regardless of who wrote it.
+
+Thus, it is not the intent of this section to claim rights or contest
+your rights to work written entirely by you; rather, the intent is to
+exercise the right to control the distribution of derivative or
+collective works based on the Program.
+
+In addition, mere aggregation of another work not based on the Program
+with the Program (or with a work based on the Program) on a volume of
+a storage or distribution medium does not bring the other work under
+the scope of this License.
+
+  3. You may copy and distribute the Program (or a work based on it,
+under Section 2) in object code or executable form under the terms of
+Sections 1 and 2 above provided that you also do one of the following:
+
+    a) Accompany it with the complete corresponding machine-readable
+    source code, which must be distributed under the terms of Sections
+    1 and 2 above on a medium customarily used for software interchange; or,
+
+    b) Accompany it with a written offer, valid for at least three
+    years, to give any third party, for a charge no more than your
+    cost of physically performing source distribution, a complete
+    machine-readable copy of the corresponding source code, to be
+    distributed under the terms of Sections 1 and 2 above on a medium
+    customarily used for software interchange; or,
+
+    c) Accompany it with the information you received as to the offer
+    to distribute corresponding source code.  (This alternative is
+    allowed only for noncommercial distribution and only if you
+    received the program in object code or executable form with such
+    an offer, in accord with Subsection b above.)
+
+The source code for a work means the preferred form of the work for
+making modifications to it.  For an executable work, complete source
+code means all the source code for all modules it contains, plus any
+associated interface definition files, plus the scripts used to
+control compilation and installation of the executable.  However, as a
+special exception, the source code distributed need not include
+anything that is normally distributed (in either source or binary
+form) with the major components (compiler, kernel, and so on) of the
+operating system on which the executable runs, unless that component
+itself accompanies the executable.
+
+If distribution of executable or object code is made by offering
+access to copy from a designated place, then offering equivalent
+access to copy the source code from the same place counts as
+distribution of the source code, even though third parties are not
+compelled to copy the source along with the object code.
+
+  4. You may not copy, modify, sublicense, or distribute the Program
+except as expressly provided under this License.  Any attempt
+otherwise to copy, modify, sublicense or distribute the Program is
+void, and will automatically terminate your rights under this License.
+However, parties who have received copies, or rights, from you under
+this License will not have their licenses terminated so long as such
+parties remain in full compliance.
+
+  5. You are not required to accept this License, since you have not
+signed it.  However, nothing else grants you permission to modify or
+distribute the Program or its derivative works.  These actions are
+prohibited by law if you do not accept this License.  Therefore, by
+modifying or distributing the Program (or any work based on the
+Program), you indicate your acceptance of this License to do so, and
+all its terms and conditions for copying, distributing or modifying
+the Program or works based on it.
+
+  6. Each time you redistribute the Program (or any work based on the
+Program), the recipient automatically receives a license from the
+original licensor to copy, distribute or modify the Program subject to
+these terms and conditions.  You may not impose any further
+restrictions on the recipients' exercise of the rights granted herein.
+You are not responsible for enforcing compliance by third parties to
+this License.
+
+  7. If, as a consequence of a court judgment or allegation of patent
+infringement or for any other reason (not limited to patent issues),
+conditions are imposed on you (whether by court order, agreement or
+otherwise) that contradict the conditions of this License, they do not
+excuse you from the conditions of this License.  If you cannot
+distribute so as to satisfy simultaneously your obligations under this
+License and any other pertinent obligations, then as a consequence you
+may not distribute the Program at all.  For example, if a patent
+license would not permit royalty-free redistribution of the Program by
+all those who receive copies directly or indirectly through you, then
+the only way you could satisfy both it and this License would be to
+refrain entirely from distribution of the Program.
+
+If any portion of this section is held invalid or unenforceable under
+any particular circumstance, the balance of the section is intended to
+apply and the section as a whole is intended to apply in other
+circumstances.
+
+It is not the purpose of this section to induce you to infringe any
+patents or other property right claims or to contest validity of any
+such claims; this section has the sole purpose of protecting the
+integrity of the free software distribution system, which is
+implemented by public license practices.  Many people have made
+generous contributions to the wide range of software distributed
+through that system in reliance on consistent application of that
+system; it is up to the author/donor to decide if he or she is willing
+to distribute software through any other system and a licensee cannot
+impose that choice.
+
+This section is intended to make thoroughly clear what is believed to
+be a consequence of the rest of this License.
+
+  8. If the distribution and/or use of the Program is restricted in
+certain countries either by patents or by copyrighted interfaces, the
+original copyright holder who places the Program under this License
+may add an explicit geographical distribution limitation excluding
+those countries, so that distribution is permitted only in or among
+countries not thus excluded.  In such case, this License incorporates
+the limitation as if written in the body of this License.
+
+  9. The Free Software Foundation may publish revised and/or new versions
+of the General Public License from time to time.  Such new versions will
+be similar in spirit to the present version, but may differ in detail to
+address new problems or concerns.
+
+Each version is given a distinguishing version number.  If the Program
+specifies a version number of this License which applies to it and "any
+later version", you have the option of following the terms and conditions
+either of that version or of any later version published by the Free
+Software Foundation.  If the Program does not specify a version number of
+this License, you may choose any version ever published by the Free Software
+Foundation.
+
+  10. If you wish to incorporate parts of the Program into other free
+programs whose distribution conditions are different, write to the author
+to ask for permission.  For software which is copyrighted by the Free
+Software Foundation, write to the Free Software Foundation; we sometimes
+make exceptions for this.  Our decision will be guided by the two goals
+of preserving the free status of all derivatives of our free software and
+of promoting the sharing and reuse of software generally.
+
+			    NO WARRANTY
+
+  11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY
+FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.  EXCEPT WHEN
+OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES
+PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED
+OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS
+TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE
+PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING,
+REPAIR OR CORRECTION.
+
+  12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES,
+INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING
+OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED
+TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY
+YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER
+PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGES.
+
+		     END OF TERMS AND CONDITIONS</ext_license>
+    <ext_license_accepted>0</ext_license_accepted>
+  </tc_game_paths>
+  <tc_game_general_config>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <enable_start_cpu_0>0</enable_start_cpu_0>
+    <enable_interact_desktop>1</enable_interact_desktop>
+    <enable_configs_icon>1</enable_configs_icon>
+    <enable_log_viewer>1</enable_log_viewer>
+    <log_extensions>*.log</log_extensions>
+    <branded_text />
+    <branded_text_space>0</branded_text_space>
+    <brand_at_end>0</brand_at_end>
+    <brand_regex_search />
+    <brand_regex_case_insensitive>1</brand_regex_case_insensitive>
+    <stop_delay_seconds>3</stop_delay_seconds>
+    <sched_tasks_limit>0</sched_tasks_limit>
+    <force_config_editor_create>0</force_config_editor_create>
+  </tc_game_general_config>
+  <tc_game_ports>
+    <game_id>87</game_id>
+    <only_default_ports>0</only_default_ports>
+    <only_primary_ip>0</only_primary_ip>
+    <game_port>27960</game_port>
+    <query_port>27960</query_port>
+    <rcon_port>27960</rcon_port>
+    <port_increment>1</port_increment>
+    <query_port_expression />
+    <rcon_port_expression />
+    <custom_port_1>0</custom_port_1>
+    <custom_port_2>0</custom_port_2>
+    <custom_port_3>0</custom_port_3>
+    <custom_port_4>0</custom_port_4>
+    <custom_port_5>0</custom_port_5>
+    <custom_port_1_expression />
+    <custom_port_2_expression />
+    <custom_port_3_expression />
+    <custom_port_4_expression />
+    <custom_port_5_expression />
+    <supports_ipv6>0</supports_ipv6>
+    <unique_ports>0</unique_ports>
+    <enable_forcebindip>0</enable_forcebindip>
+    <app_data />
+  </tc_game_ports>
+  <tc_game_cmdlines>
+    <game_id>87</game_id>
+    <cmdline_default>+set dedicated 2 +set net_IP $[Service.IpAddress] +set net_port $[Service.GamePort] +set com_hunkmegs 25 +exec server.cfg</cmdline_default>
+    <cmdline_private>+set dedicated 2 +set net_IP $[Service.IpAddress] +set net_port $[Service.GamePort] +set com_hunkmegs 25 +exec server.cfg</cmdline_private>
+    <cmdline_default_custom>+set dedicated 2 +set net_IP $[Service.IpAddress] +set net_port $[Service.GamePort] +set com_hunkmegs 25 +exec server.cfg $[Service.UserCommandLine]</cmdline_default_custom>
+    <cmdline_private_custom>+set dedicated 2 +set net_IP $[Service.IpAddress] +set net_port $[Service.GamePort] +set com_hunkmegs 25 +exec server.cfg $[Service.UserCommandLine]</cmdline_private_custom>
+    <predef_cmdlines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfPredefinedCommandLine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;PredefinedCommandLine&gt;
+    &lt;Id&gt;ff342a1d-8a9a-4065-9026-c190e70b75bf&lt;/Id&gt;
+    &lt;CommandLine&gt;+set dedicated 2 +set net_IP $[Service.IpAddress] +set net_port $[Service.GamePort] +set com_hunkmegs 25 +exec server.cfg&lt;/CommandLine&gt;
+    &lt;Description&gt;Default&lt;/Description&gt;
+  &lt;/PredefinedCommandLine&gt;
+&lt;/ArrayOfPredefinedCommandLine&gt;</predef_cmdlines>
+  </tc_game_cmdlines>
+  <tc_game_punkbuster_config>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <enable_pbweb>0</enable_pbweb>
+    <pb_relative_path>pb\</pb_relative_path>
+    <pb_download_url />
+    <execute_on_create>0</execute_on_create>
+  </tc_game_punkbuster_config>
+  <tc_game_query_monitoring>
+    <game_id>87</game_id>
+  </tc_game_query_monitoring>
+  <tc_game_mail_templates>
+    <game_id>87</game_id>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:InstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:InstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-10-20 21:37:32" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2012-12-20 01:01:48" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_mail_templates>
+  <tc_game_steam_config>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <enable_hldsupdate>0</enable_hldsupdate>
+    <hlds_game_type />
+    <validate>0</validate>
+    <execute_on_create>0</execute_on_create>
+    <run_as_service_user>0</run_as_service_user>
+    <store_game_id>0</store_game_id>
+    <delete_steamapps_on_error>1</delete_steamapps_on_error>
+  </tc_game_steam_config>
+  <tc_game_bukkit_config>
+    <game_id>88</game_id>
+  </tc_game_bukkit_config>
+  <tc_game_tracker_config>
+    <game_id>87</game_id>
+    <ts_id>0</ts_id>
+    <enable_integration>1</enable_integration>
+    <auto_submit>0</auto_submit>
+    <auto_submit_private>0</auto_submit_private>
+    <manual_submit>1</manual_submit>
+    <gt_game_id>urbanterror</gt_game_id>
+    <display_560x90>1</display_560x90>
+    <display_350x20>1</display_350x20>
+    <display_160>1</display_160>
+    <display_html>1</display_html>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="Custom560x90Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom560x90Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom350x20Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom350x20Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom160Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom160Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomHtmlHtml" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomHtmlForum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-10-20 22:23:37" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_tracker_config>
+  <tc_game_identity>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <run_as>1</run_as>
+    <user_name />
+    <password />
+  </tc_game_identity>
+  <tc_game_text_console>
+    <game_id>88</game_id>
+    <control_input>1</control_input>
+    <control_output>0</control_output>
+    <stop_commands>quit</stop_commands>
+    <wait_for_exit>5</wait_for_exit>
+  </tc_game_text_console>
+  <tc_game_web_console>
+    <game_id>88</game_id>
+    <enable_web_console>1</enable_web_console>
+    <input_source>1</input_source>
+    <output_source>0</output_source>
+    <log_file>.q3a/q3ut4/qconsole.log</log_file>
+    <print_rcon_response>1</print_rcon_response>
+  </tc_game_web_console>
+  <tc_game_fast_download>
+    <game_id>87</game_id>
+    <enable_fast_download>0</enable_fast_download>
+    <root_directory />
+    <url_expression>$[FastDownloadBaseUrl]/</url_expression>
+    <files />
+    <exclude_files />
+    <sync_created>0</sync_created>
+    <auto_sync>0</auto_sync>
+    <enable_compress>0</enable_compress>
+    <compress_format>zip</compress_format>
+    <disk_quota_mb>0</disk_quota_mb>
+  </tc_game_fast_download>
+  <tc_game_config_files>
+    <game_id>87</game_id>
+    <file_id>1</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>q3ut4\autoexec.cfg</relative_path>
+    <description>autoexec.cfg</description>
+    <template />
+    <read_values>1</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-10-20 21:37:23" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>87</game_id>
+    <file_id>2</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>q3ut4\mapcycle.txt</relative_path>
+    <description>mapcycle.txt</description>
+    <template />
+    <read_values>1</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-10-20 21:37:23" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_config_files>
+    <game_id>87</game_id>
+    <file_id>3</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>q3ut4\server.cfg</relative_path>
+    <description>server.cfg</description>
+    <view_order>0</view_order>
+    <template>//Example config. Note that everything behind // is ignored by the game
+//Try to keep cvar-values as short as possible. Otherwise you might get "info string length exceeded" errors on your server
+
+//*** Administrator Info, shows in some gamebrowsers ***
+sets " Admin" "adminname" //Uses a space in front so it shows up at the top of the properties list
+sets " Email" "xxx@xxx.xxx"
+
+//*** Server Name and Daily Message ***
+set sv_hostname "$[HostName]"
+set g_motd "Urban Terror, Presented by FrozenSand!" //Your message of the day here, it is displayed while connecting
+set sv_joinmessage "Welcome to $[HostName]" //Your joinmessage here, it is displayed when the game is joined
+
+//*** General Game Settings ***
+set sv_maxclients "$[Service.Slots]" //max clientslots available on the server, using more than 16 is not advised. It can cause lag and most maps are not built for it. Going over 24 can cause nasty bugs.
+set g_maxGameClients "0" //max clients that can actually join the game. Other clients are forced to spectate. 0=all
+set sv_privateClients "0" //Amount of private slots. This amount of slots will be reserved for players who enter the right privatepassword
+set g_gametype "4" //0=FreeForAll, 3=TeamDeathMatch, 4=Team Survivor, 5=Follow the Leader, 6=Capture and Hold, 7=Capture The Flag, 8=Bombmode
+sets sv_dlURL "urbanterror.net" //Sets the address for auto-downloading. Auto-download only works on ioUrbanTerror-clients, not quake3-clients. The client will try to download &lt;sv_dlURL&gt;/q3ut4/mapname.pk3. So if your server is running ut4_coolmap and sv_dlURL is set to 'yoursite.com/maps', make sure the maps is hosted at http://www.yoursite.com/maps/q3ut4/ut4_coolmap.pk3. Leaving this set 'urbanterror.net' will make it use a map mirror with the most common maps on it. If you got your own hosting, please us that though, to save bandwith.
+
+//*** Passwords ***
+set rconpassword "$[RConPassword]" //Password to control the server remotely using rcon.
+set sv_privatePassword "$[PrivatePassword]" //password for private slots
+set g_password "$[PrivatePassword]" //password for the server. Nothing = public
+
+//*** Limits/times ***
+set timelimit "20" //time in minutes before map is over, 0=never
+set fraglimit "10" //amount of points to be scored before map is over, 0=never
+set capturelimit "0" //amount of flagcaps before map is over, 0=never
+set g_warmup "15" //time in seconds before game starts when changed to a new map. Gives slower computers time to load before game starts
+
+//*** Respawning *** (FFA, TDM, CAH, CTF)
+set g_respawnDelay "8" //seconds before respawn, ignored when g_waverespawns is 1
+set g_forcerespawn "20" //seconds before respawn is forced, even when plater did not press fire
+set g_waverespawns "0" //use waverespawns, meaning everybody in a team respawns at the same time
+set g_bluewave "15" //seconds between blue waverespawns, ignored when g_waverespawns is 0
+set g_redwave "15" //seconds between red waverespawns, ignored when g_waverespawns is 0
+set g_respawnProtection "2" //amount of seconds a spawning players is protected from damage
+
+//*** Rules ***
+set g_deadchat "1" //Determines if alive players can see dead players message. 0=living players can not see dead players chat 1=living players see only team-messages from dead teammembers 2=living players also see normal chats from dead players
+set g_antiwarp "1" //enable or disable antiwarp. This option smooths the movement of warping players (warping is caused by a crappy connection, for instance when torrenting during playing). The warping player will experience stutters when this is enabled
+set g_antiwarptol "50" //tolerance of the antiwarp. Higher = more tolerant. 50=default
+set g_gear "0" //bitmask that decides which votes are allowed and which not. Check http://www.urbanterror.net/gear_calc.html to find the correct number
+set g_allowvote "536871039" //bitmask that decides which votes are allowed and which not. Check http://www.urbanterror.net/allowvote_calc.html to find the correct number
+set g_failedvotetime "300" //time in seconds before someone can call another vote after another has failed
+set g_followstrict "1" //1=no haunting of enemies when dead
+set sv_floodprotect "1" //1=stops clients from spamming many chatlines
+
+//*** Matchmode ***
+set g_matchmode "0" //matchmode is for matchplay. Features timeouts and ready-commands
+set g_timeouts "3" //ammount of timeouts that a team can do per map
+set g_timeoutlength "240" //length of the timeout
+set g_pauselength "0" //length of a pause. This can only be done by rcon. 0=indefinatly
+
+//*** Team Game Settings ***
+set g_friendlyFire "1" //0=no friendlyfire 1=friendlyfire on, kick after too many TK's 2=friendlyfire on, no kicks
+set g_maxteamkills "3" //amount of TK's before you get kicked when friendlyfire is 1
+set g_teamkillsforgettime "300" //amount of seconds before TK's are forgotten
+set g_teamautojoin "0" //force players to autojoin on connect, instead of letting them spec untill they join themselves
+set g_teamForceBalance "1" //if on, you can't join a team when it has more players then the other
+set g_maintainTeam "1" //when switching maps, players will stay in their team
+set g_teamnamered "" //name for the red team, nothing = Red Dragons
+set g_teamnameblue "" //name for the red team, nothing = SWAT
+set g_swaproles "0" //When map is over, play it again with the teams swapped (recommended for bombmode). After that, change map. 0=change map immediatly when map is over, no swapping of teams
+
+//*** Team Survivor/Bombmode/Follow the Leader Specific Settings ***
+set g_maxrounds "0" //number of rounds before map is over, 0=never
+set g_RoundTime "3" //maximum minutes a round can take
+set g_survivorrule "0" //0=teams don't get a point when time is up before everyone is dead. 1=team with most players left gets point
+set g_suddendeath "1" //when map is over and both teams have same amount of points, add another round
+set g_bombdefusetime "10" //seconds it takes to defuse bomb
+set g_bombexplodetime "40" //seconds before bomb goes off after planting
+
+//*** Capture the flag Specific Settings ***
+set g_flagreturntime "30" //if a flag is dropped, return it after this amount of seconds
+set g_hotpotato "2" //when both flags are taken, they will explode after this amount of minutes
+
+//*** Advanced settings *** Dont change, unless you know what you are doing
+set sv_strictauth "0" //1=check for valid cdkey, this means ioUrbanTerror players will not be able to join
+set sv_pure "1" //dont let players load modified pk3-files
+set sv_maxRate "0" //maximum traffic per second the server will send per client. 25000 or 0 = max
+set sv_timeout "180" //time in seconds before player with a interupted connection will be kicked
+set g_inactivity "0" //time in seconds before a non-moving player will be kicked
+
+//*** Master Servers *** Servers the server will report to if 'dedicated' is set to 2. When set to 1, it doesn't report.
+set sv_master1 "" //This one will be set automatically by the game-engine, so just leave it blank
+set sv_master2 "master.urbanterror.net"
+set sv_master3 "master2.urbanterror.net"
+set sv_master4 "master.quake3arena.com"
+set sv_master5 ""
+
+//*** Other Settings ***
+set g_armbands "1" //determines the behaviour of the armbandcolor (also shows on playerlist and minimap). 0=player's choice, set with cg_rgb 1=Based on teamcolor (red or blue) 2=assigned by server (random)
+set sv_maxping "0" //max ping a client may have when connecting to the server
+set sv_minping "0" //min ping a client may have when connecting to the server
+set g_allowchat "2" //0= no chatting at all 1=teamchats only 2=all chats
+set g_log "games.log" //name of the logfile. Empty ("") means no log. Log will be in the q3ut4 folder in windows. Linux uses ~/.q3a/q3ut4
+set g_logsync "1" //enables/disables direct writing to the log file instead of buffered
+set g_loghits "0" //log every single hit. Creates very big logs
+set g_logroll "0" //create new log every now and then, instead of always using the same one
+set logfile "2" //additional logging in seperate qconsole.log file. 1=buffered, 2=synced
+set g_cahtime "60" //Interval in seconds of awarding points for flags in Capture and Hold gamemode
+
+//*** Map Rotation ***
+set g_mapcycle "mapcycle.txt" //name of mapcycle-file, located in q3ut4 directory
+map ut4_casa //what map to start with
+
+//*** Anti Cheat ***
+//pb_sv_enable //to enable PB, remove the // at the beginning of this line (only works when using Quake 3 Arena, not ioUrbanTerror)
+set sv_battleye "0" //Keep this disabled, BattlEye is dead
+</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-10-20 21:37:23" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-10-20 22:19:52" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineBuilder</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineChanger</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FastDlSync</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FileManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Ftp</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveBandwidthStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveCpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveMemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LivePlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewer</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerTextConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MapPacks</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ModManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PunkbusterUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Reinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledReinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledRestart</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledScript</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>SteamUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Updates</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>87</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>WebConsole</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+</UBT>

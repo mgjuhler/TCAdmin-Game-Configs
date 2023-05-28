@@ -1,0 +1,2508 @@
+<UT3>
+  <tc_games>
+    <game_id>75</game_id>
+    <operating_system>4</operating_system>
+    <display_name>Unreal Tournament 3</display_name>
+    <short_name>UT3</short_name>
+    <private_rule_value />
+    <private_rule_name />
+    <hostname_rule />
+    <map_rule />
+    <slots_rule />
+    <exclude_rules />
+    <query_protocol>ut3s</query_protocol>
+    <rcon_protocol>0</rcon_protocol>
+    <show_in_create_list>1</show_in_create_list>
+    <is_voice_server>0</is_voice_server>
+    <is_template>0</is_template>
+    <min_slots>0</min_slots>
+    <max_slots>0</max_slots>
+    <default_slots>8</default_slots>
+    <name_from_query>1</name_from_query>
+    <exclude_load_balancing>0</exclude_load_balancing>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="Query works only if login and password are set in the commandline." type="System.String,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9:VirtualDirectories" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfVirtualDirectorySecurity xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;1&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[SubAdminFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Sub Admin Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;2&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[ResellerFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;Reseller Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionMode&amp;gt;Basic&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;PermissionType&amp;gt;Root&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Permissions&amp;gt;ReadFile WriteFile DeleteFile RenameFile ListDirectory CreateDirectory DeleteDirectory RenameDirectory&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;ServerId&amp;gt;3&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;RootPhysicalPath&amp;gt;$[UserFiles]&amp;lt;/RootPhysicalPath&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;VirtualDirectoryName&amp;gt;User Files&amp;lt;/VirtualDirectoryName&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Filters&amp;gt;*.exe;*.dll;*.so;*.bat;*.sh;*.cmd;*.vbs;*.pif;*.scr;*.com&amp;lt;/Filters&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionMode&amp;gt;None&amp;lt;/PermissionMode&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;PermissionType&amp;gt;File&amp;lt;/PermissionType&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;Permissions&amp;gt;None&amp;lt;/Permissions&amp;gt;&amp;#xD;&amp;#xA;        &amp;lt;ServerId&amp;gt;0&amp;lt;/ServerId&amp;gt;&amp;#xD;&amp;#xA;      &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;/AdditionalPermissions&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/VirtualDirectorySecurity&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ArrayOfVirtualDirectorySecurity&amp;gt;" type="TCAdmin.SDK.VirtualFileSystem.VirtualDirectorySecurity[],TCAdmin.SDK" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-22 06:14:56" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2012-12-20 00:58:29" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:V1_GAME_ID" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATE_SYMLINK" value="False" type="System.Boolean,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <enable_community_images>1</enable_community_images>
+  </tc_games>
+  <tc_game_paths>
+    <game_id>75</game_id>
+    <service_id>0</service_id>
+    <relative_executable>Binaries/ut3-bin</relative_executable>
+    <relative_working_dir>Binaries/</relative_working_dir>
+    <relative_subadmin_files />
+    <relative_reseller_files />
+    <relative_user_files />
+    <files_folder_name>ut3-linux</files_folder_name>
+    <enable_ext_download>0</enable_ext_download>
+    <ext_download_url />
+    <ext_save_name />
+    <ext_extract_opt>0</ext_extract_opt>
+    <ext_script_engine_id>1</ext_script_engine_id>
+    <ext_script />
+    <ext_license />
+    <ext_license_accepted>0</ext_license_accepted>
+  </tc_game_paths>
+  <tc_game_general_config>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <enable_start_cpu_0>0</enable_start_cpu_0>
+    <enable_interact_desktop>1</enable_interact_desktop>
+    <enable_configs_icon>1</enable_configs_icon>
+    <enable_log_viewer>1</enable_log_viewer>
+    <log_extensions>*.log</log_extensions>
+    <branded_text />
+    <branded_text_space>0</branded_text_space>
+    <brand_at_end>0</brand_at_end>
+    <brand_regex_search />
+    <brand_regex_case_insensitive>1</brand_regex_case_insensitive>
+    <stop_delay_seconds>3</stop_delay_seconds>
+    <sched_tasks_limit>0</sched_tasks_limit>
+    <force_config_editor_create>0</force_config_editor_create>
+  </tc_game_general_config>
+  <tc_game_ports>
+    <game_id>74</game_id>
+    <only_default_ports>0</only_default_ports>
+    <only_primary_ip>0</only_primary_ip>
+    <game_port>7777</game_port>
+    <query_port>6500</query_port>
+    <rcon_port>7777</rcon_port>
+    <port_increment>10</port_increment>
+    <query_port_expression />
+    <rcon_port_expression />
+    <custom_port_1>0</custom_port_1>
+    <custom_port_2>0</custom_port_2>
+    <custom_port_3>0</custom_port_3>
+    <custom_port_4>0</custom_port_4>
+    <custom_port_5>0</custom_port_5>
+    <custom_port_1_expression />
+    <custom_port_2_expression />
+    <custom_port_3_expression />
+    <custom_port_4_expression />
+    <custom_port_5_expression />
+    <supports_ipv6>0</supports_ipv6>
+    <unique_ports>0</unique_ports>
+    <enable_forcebindip>0</enable_forcebindip>
+    <app_data />
+  </tc_game_ports>
+  <tc_game_cmdlines>
+    <game_id>74</game_id>
+    <cmdline_default>server DM-Arsenal?game=UTGame.UTDeathmatch?GameMode=0?bShouldAdvertise=True?bIsDedicated=True?MaxPlayers=$[Service.Slots]?NumPublicConnections=$[Service.Slots]?NumOpenPublicConnections=$[Service.Slots]? -multihome=$[Service.IpAddress] -port=$[Service.GamePort] -log=GameServers.log -QueryPort=$[Service.QueryPort] -nohomedir -unattended</cmdline_default>
+    <cmdline_private />
+    <cmdline_default_custom>server DM-Arsenal?game=![gametype]?GameMode=0?bShouldAdvertise=True?bIsDedicated=True?MaxPlayers=$[Service.Slots]?NumPublicConnections=$[Service.Slots]?NumOpenPublicConnections=$[Service.Slots]$[Service.UserCommandLine] -multihome=$[Service.IpAddress] -port=$[Service.GamePort] -log=GameServers.log -QueryPort=$[Service.QueryPort] -nohomedir ![login] ![password] -unattended</cmdline_default_custom>
+    <cmdline_private_custom />
+    <predef_cmdlines>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfPredefinedCommandLine xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;PredefinedCommandLine&gt;
+    &lt;Id&gt;0f40ad6f-3817-4b4c-9153-49152c175566&lt;/Id&gt;
+    &lt;CommandLine&gt;server DM-Arsenal?game=UTGame.UTDeathmatch?GameMode=0?bShouldAdvertise=True?bIsDedicated=True?MaxPlayers=$[Service.Slots]?NumPublicConnections=$[Service.Slots]?NumOpenPublicConnections=$[Service.Slots]? -multihome=$[Service.IpAddress] -port=$[Service.GamePort] -log=GameServers.log -QueryPort=$[Service.QueryPort] -nohomedir -unattended&lt;/CommandLine&gt;
+    &lt;Description&gt;Default&lt;/Description&gt;
+  &lt;/PredefinedCommandLine&gt;
+  &lt;PredefinedCommandLine&gt;
+    &lt;Id&gt;d1478062-629a-462c-84b4-3f0909b88b17&lt;/Id&gt;
+    &lt;CommandLine&gt;server DM-Arsenal?game=UTGame.UTDeathmatch?GameMode=0?bShouldAdvertise=True?bIsDedicated=True?MaxPlayers=$[Service.Slots]?NumPublicConnections=$[Service.Slots]?NumOpenPublicConnections=$[Service.Slots] -multihome=$[Service.IpAddress] -port=$[Service.GamePort] -log=GameServers.log -QueryPort=$[Service.QueryPort] -nohomedir ![login] ![password] -unattended&lt;/CommandLine&gt;
+    &lt;Description&gt;Default with Login&lt;/Description&gt;
+  &lt;/PredefinedCommandLine&gt;
+&lt;/ArrayOfPredefinedCommandLine&gt;</predef_cmdlines>
+  </tc_game_cmdlines>
+  <tc_game_punkbuster_config>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <enable_pbweb>0</enable_pbweb>
+    <pb_relative_path>pb\</pb_relative_path>
+    <pb_download_url />
+    <execute_on_create>0</execute_on_create>
+  </tc_game_punkbuster_config>
+  <tc_game_query_monitoring>
+    <game_id>74</game_id>
+    <query_interval>300000</query_interval>
+    <query_interval_retry>30000</query_interval_retry>
+    <enable_query_detect>0</enable_query_detect>
+    <query_detect_actions>10</query_detect_actions>
+    <query_detect_max>3</query_detect_max>
+    <query_detect_max_actions>0</query_detect_max_actions>
+    <enable_slot_detect>1</enable_slot_detect>
+    <slot_detect_actions>9</slot_detect_actions>
+    <slot_detect_additional_slots>0</slot_detect_additional_slots>
+    <enable_private_detect>1</enable_private_detect>
+    <private_detect_actions>9</private_detect_actions>
+    <enable_brand_detect>1</enable_brand_detect>
+    <brand_detect_actions>9</brand_detect_actions>
+    <enable_rule_detect>0</enable_rule_detect>
+    <rules>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfGameMonitorRule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</rules>
+    <enable_stats>1</enable_stats>
+    <stats_interval>900</stats_interval>
+    <det_stats_max_days>7</det_stats_max_days>
+    <stats_max_days>30</stats_max_days>
+    <enable_live_stats>1</enable_live_stats>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:QueryFailureUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureMaxAllowedUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:QueryFailureMaxAllowedAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:SlotDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:SlotDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:PrivateDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:PrivateDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:BrandDetectionUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:BrandDetectionAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-22 06:10:12" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_query_monitoring>
+  <tc_game_mail_templates>
+    <game_id>74</game_id>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCAGH:InstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:InstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallUserTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCAGH:ReinstallAdminTemplateId" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-22 01:06:24" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2012-12-20 01:01:34" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_mail_templates>
+  <tc_game_steam_config>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <enable_hldsupdate>0</enable_hldsupdate>
+    <hlds_game_type />
+    <validate>0</validate>
+    <execute_on_create>0</execute_on_create>
+    <run_as_service_user>0</run_as_service_user>
+    <store_game_id>0</store_game_id>
+    <delete_steamapps_on_error>1</delete_steamapps_on_error>
+  </tc_game_steam_config>
+  <tc_game_bukkit_config>
+    <game_id>75</game_id>
+  </tc_game_bukkit_config>
+  <tc_game_tracker_config>
+    <game_id>74</game_id>
+    <ts_id>0</ts_id>
+    <enable_integration>1</enable_integration>
+    <auto_submit>0</auto_submit>
+    <auto_submit_private>0</auto_submit_private>
+    <manual_submit>1</manual_submit>
+    <gt_game_id>ut3</gt_game_id>
+    <display_560x90>1</display_560x90>
+    <display_350x20>1</display_350x20>
+    <display_160>1</display_160>
+    <display_html>1</display_html>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="Custom560x90Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom560x90Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom350x20Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom350x20Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom160Html" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="Custom160Forum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomHtmlHtml" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomHtmlForum" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-22 06:16:00" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_game_tracker_config>
+  <tc_game_identity>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <run_as>1</run_as>
+    <user_name />
+    <password />
+  </tc_game_identity>
+  <tc_game_text_console>
+    <game_id>74</game_id>
+    <control_input>0</control_input>
+    <control_output>0</control_output>
+    <stop_commands />
+    <wait_for_exit>1</wait_for_exit>
+  </tc_game_text_console>
+  <tc_game_web_console>
+    <game_id>74</game_id>
+    <enable_web_console>0</enable_web_console>
+    <input_source>0</input_source>
+    <output_source>0</output_source>
+    <log_file />
+    <print_rcon_response>0</print_rcon_response>
+  </tc_game_web_console>
+  <tc_game_fast_download>
+    <game_id>74</game_id>
+    <enable_fast_download>0</enable_fast_download>
+    <root_directory />
+    <url_expression>$[FastDownloadBaseUrl]/</url_expression>
+    <files />
+    <exclude_files />
+    <sync_created>0</sync_created>
+    <auto_sync>0</auto_sync>
+    <enable_compress>0</enable_compress>
+    <compress_format>zip</compress_format>
+    <disk_quota_mb>0</disk_quota_mb>
+  </tc_game_fast_download>
+  <tc_game_config_files>
+    <game_id>74</game_id>
+    <file_id>1</file_id>
+    <mod_id>0</mod_id>
+    <relative_path>UTgame\Config\UTgame.ini</relative_path>
+    <description>Server Configuration File</description>
+    <view_order>0</view_order>
+    <template>[Engine.GameInfo]
+DefaultGame=UTGame.UTDeathmatch
+DefaultServerGame=UTGame.UTDeathmatch
+bAdminCanPause=false
+MaxPlayers=$[Service.Slots]
+QueryPort=$[Service.QueryPort]
+GameDifficulty=1.000000
+bChangeLevels=True
+MaxSpectators=2
+MaxIdleTime=0.000000
+MaxTimeMargin=0.000000
+TimeMarginSlack=1.350000
+MinTimeMargin=-1.000000
+PlayerControllerClassName=UTGame.UTPlayerController
+bKickLiveIdlers=False
+ArbitrationHandshakeTimeout=0.000000
+GoreLevel=0
+
+[Engine.AccessControl]
+IPPolicies=ACCEPT;*
+
+[Engine.GameReplicationInfo]
+ServerName=$[HostName]
+ShortName=UT3 Server
+MessageOfTheDay=Welcome to our server!
+AdminPassword=$[RConPassword]
+
+[DefaultPlayer]
+Name=Player
+team=255
+
+[Engine.HUD]
+bMessageBeep=true
+HudCanvasScale=0.95
+ConsoleMessageCount=4
+ConsoleFontSize=5
+MessageFontOffset=0
+bShowHud=true
+DebugDisplay=AI
+
+[Engine.PlayerController]
+bAimingHelp=false
+bDynamicNetSpeed=true
+InteractDistance=512
+DynamicPingThreshold=+400.0
+bCheckRelevancyThroughPortals=true
+MaxConcurrentHearSounds=32
+
+[Engine.Weapon]
+Priority=-1.0
+
+[Engine.WorldInfo]
+DefaultGravityZ=-520.0
+RBPhysicsGravityScaling=2.0
+SquintModeKernelSize=128.0
+DecalManagerClassPath=UTGame.UTDecalManager
+DefaultPostProcessSettings=(Bloom_Scale=0.2,DOF_BlurKernelSize=12.0,DOF_MaxNearBlurAmount=0.0,DOF_MaxNearBlurAmount=0.0,DOF_FocusInnerRadius=2000.0,DOF_FocusDistance=0.0,)
+EmitterPoolClassPath=UTGame.UTEmitterPool
+
+[Engine.DecalManager]
+DecalLifeSpan=30.0
+
+[Engine.UIDataStore_GameResource]
+ElementProviderTypes=(ProviderTag="GameTypes",ProviderClassName="Engine.UIGameInfoSummary")
+ElementProviderTypes=(ProviderTag="KeyBindings",ProviderClassName="UTGame.UTUIDataProvider_KeyBinding")
+
+[Engine.UISafeRegionPanel]
+RegionPercentages=0.99
+RegionPercentages=0.98
+
+[Configuration]
+BasedOn=..\Engine\Config\BaseGame.ini
+
+[Engine.EmitterPool]
+bLogPoolOverflow=true
+
+[UTGame.UTPawn]
+Bob=0.010
+bWeaponBob=true
+
+[UTGame.UTPlayerController]
+bEnableDodging=true
+bAlwaysMouseLook=True
+bAutoTaunt=false
+bLandingShake=true
+PawnShadowMode=SHADOW_All
+AutoObjectivePreference=AOP_NoPreference
+bUseVehicleRotationOnPossess=true
+bFirstPersonWeaponsSelfShadow=true
+
+[UTGame.UTConsolePlayerController]
+bTargetAdhesionEnabled=TRUE
+bDebugTargetAdhesion=FALSE
+
+[UTGame.DemoRecSpectator]
+bLockRotationToViewTarget=false
+bAutoSwitchPlayers=false
+AutoSwitchPlayerInterval=0
+
+[UTGame.UTDeathMessage]
+bNoConsoleDeathMessages=false
+
+[UTGame.UTTeamDeathMessage]
+bNoConsoleDeathMessages=true
+
+[UTGame.UTAnnouncer]
+AnnouncerLevel=2
+
+[UTGame.UTMusicManager]
+MusicVolume=0.36
+StingerVolumeMultiplier=1.1
+
+[UTGame.UTGame]
+BotRatio=1.000000
+GoalScore=25
+bTournament=false
+bPlayersMustBeReady=false
+NetWait=15
+ClientProcessingTimeout=30
+RestartWait=30
+MinNetPlayers=1
+bWaitForNetPlayers=true
+LateEntryLives=1
+TimeLimit=20
+GameDifficulty=+5.0
+EndTimeDelay=4.000000
+bAllowMapVoting=true
+VoteDuration=45
+ServerSkillLevel=0
+MaxCustomChars=12
+bForceRespawn=False
+MapCycleIndex=-1
+GameSpecificMapCycles=(GameClassName="UTOnslaughtGame",Maps=("WAR-Downtown","WAR-SinkHole","WAR-Dusk","WAR-Islander","WAR-Avalanche","WAR-MarketDistrict","WAR-OnyxCoast","WAR-Powersurge","WAR-Serenity","WAR-FloodGate","WAR-Torlan"))
+
+[UTGame.UTTeamGame]
+GoalScore=60
+bPlayersBalanceTeams=true
+bWeaponStay=true
+MaxLives=0
+
+[UTGame.UTCTFGame]
+GoalScore=3
+bWeaponStay=true
+
+[UTGame.UTOnslaughtGame]
+ResetTimeDelay=18
+NetWait=15
+GoalScore=3
+bSwapSidesAfterReset=true
+
+[UTGame.UTDuelGame]
+NumRounds=1
+GoalScore=0
+TimeLimit=5
+ResetTimeDelay=15
+
+[UTGame.UTHUD]
+ConsoleMessageCount=16
+SafeRegionPct=1.0
+bShowMap=true
+MapDefaultSize=255
+bShowClock=false
+bShowDoll=true
+bShowAmmo=true
+bShowPowerups=true
+PowerupDims=(X=48,Y=52);
+bShowScoring=true
+bShowLeaderboard=true
+bShowVehicle=true
+bShowDamage=true
+DamageIndicatorSize=384
+bShowVehicleArmorCount=True
+ConsoleIconFontClassName=UI_Fonts.Fonts.UI_Fonts_Xbox18
+
+[UTGame.UTInventoryManager]
+bAutoSwitchWeaponOnPickup=true
+
+[UTGame.UTMutator_Arena]
+ArenaWeaponClassPath=UTGame.UTWeap_ShockRifle
+
+[UTGame.UTUIScene_COptions]
+FirstCinematicMapName=UTCin-Intro
+
+[UTGame.UTUIFrontEnd_LoginScreen]
+bSavePassword=True
+
+[UTGame.UTUIDataStore_StringAliasMap]
+FakePlatform=-1
+MenuInputMapArray=(FieldName="None",MappedText="")
+MenuInputMapArray=(FieldName="Term_Controller",Set="PC",MappedText="&lt;Strings:UTGameUI.Terms.Controller_PC&gt;")
+MenuInputMapArray=(FieldName="Term_Controller",Set="PS3",MappedText="&lt;Strings:UTGameUI.Terms.Controller_PS3&gt;")
+MenuInputMapArray=(FieldName="Term_Controller",Set="360",MappedText="&lt;Strings:UTGameUI.Terms.Controller_360&gt;")
+MenuInputMapArray=(FieldName="Term_GamerCard",Set="PS3",MappedText="&lt;Strings:UTGameUI.Terms.GamerCard_PS3&gt;")
+MenuInputMapArray=(FieldName="Term_GamerCard",Set="PC",MappedText="&lt;Strings:UTGameUI.Terms.GamerCard_PC&gt;")
+MenuInputMapArray=(FieldName="Term_GamerCard",Set="360",MappedText="&lt;Strings:UTGameUI.Terms.GamerCard_360&gt;")
+MenuInputMapArray=(FieldName="CycleTabs",Set="PS3",MappedText="CYCLE TABS")
+MenuInputMapArray=(FieldName="CycleTabs",Set="360",MappedText="CYCLE TABS")
+MenuInputMapArray=(FieldName="AnyKey",Set="PC",MappedText="&lt;Strings:UTGameUI.Generic.Fire&gt; ")
+MenuInputMapArray=(FieldName="Accept",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_A&gt; ")
+MenuInputMapArray=(FieldName="Cancel",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_B&gt; ")
+MenuInputMapArray=(FieldName="Conditional1",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_Y&gt; ")
+MenuInputMapArray=(FieldName="Conditional2",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_X&gt; ")
+MenuInputMapArray=(FieldName="Start",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_Start&gt; ")
+MenuInputMapArray=(FieldName="ShiftUp",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_LeftBumper&gt; ")
+MenuInputMapArray=(FieldName="ShiftDown",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_RightBumper&gt; ")
+MenuInputMapArray=(FieldName="ShiftUpTrigger",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_LeftTrigger&gt; ")
+MenuInputMapArray=(FieldName="ShiftDownTrigger",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_RightTrigger&gt; ")
+MenuInputMapArray=(FieldName="ShiftBothTrigger",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_LeftTrigger&gt;&lt;Strings:UTGameUI.ButtonFont.Xenon_RightTrigger&gt; ")
+MenuInputMapArray=(FieldName="Defaults",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_LeftTrigger&gt; ")
+MenuInputMapArray=(FieldName="AnyKey",Set="360",MappedText="&lt;Strings:UTGameUI.ButtonFont.Xenon_A&gt; ")
+MenuInputMapArray=(FieldName="Accept",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_X&gt; ")
+MenuInputMapArray=(FieldName="Cancel",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_Circle&gt; ")
+MenuInputMapArray=(FieldName="Conditional1",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_Triangle&gt; ")
+MenuInputMapArray=(FieldName="Conditional2",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_Square&gt; ")
+MenuInputMapArray=(FieldName="Start",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_Start&gt; ")
+MenuInputMapArray=(FieldName="Select",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_Select&gt; ")
+MenuInputMapArray=(FieldName="ShiftUp",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_L1&gt; ")
+MenuInputMapArray=(FieldName="ShiftDown",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_R1&gt; ")
+MenuInputMapArray=(FieldName="ShiftUpTrigger",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_L2&gt; ")
+MenuInputMapArray=(FieldName="ShiftDownTrigger",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_R2&gt; ")
+MenuInputMapArray=(FieldName="ShiftBothTrigger",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_L2&gt;&lt;Strings:UTGameUI.ButtonFont.PS3_R2&gt; ")
+MenuInputMapArray=(FieldName="LeftTrigger",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_L2&gt; ")
+MenuInputMapArray=(FieldName="Defaults",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_L2&gt; ")
+MenuInputMapArray=(FieldName="RightTrigger",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_R2&gt; ")
+MenuInputMapArray=(FieldName="AnyKey",Set="PS3",MappedText="&lt;Strings:UTGameUI.ButtonFont.PS3_X&gt; ")
+
+[UTGame.UTUIDataStore_StringAliasBindingsMap]
+FakePlatform=-1
+MenuInputMapArray=(FieldName="None",MappedText="")
+MenuInputMapArray=(FieldName="GBA_MoveForward")
+MenuInputMapArray=(FieldName="GBA_Backward")
+MenuInputMapArray=(FieldName="GBA_StrafeLeft")
+MenuInputMapArray=(FieldName="GBA_StrafeRight")
+MenuInputMapArray=(FieldName="GBA_TurnLeft")
+MenuInputMapArray=(FieldName="GBA_TurnRight")
+MenuInputMapArray=(FieldName="GBA_Jump")
+MenuInputMapArray=(FieldName="GBA_Duck")
+MenuInputMapArray=(FieldName="GBA_Fire")
+MenuInputMapArray=(FieldName="GBA_AltFire")
+MenuInputMapArray=(FieldName="GBA_Use")
+MenuInputMapArray=(FieldName="GBA_FeignDeath")
+MenuInputMapArray=(FieldName="GBA_SwitchToBestWeapon")
+MenuInputMapArray=(FieldName="GBA_PrevWeapon")
+MenuInputMapArray=(FieldName="GBA_NextWeapon")
+MenuInputMapArray=(FieldName="GBA_SwitchWeapon1")
+MenuInputMapArray=(FieldName="GBA_SwitchWeapon2")
+MenuInputMapArray=(FieldName="GBA_SwitchWeapon3")
+MenuInputMapArray=(FieldName="GBA_SwitchWeapon4")
+MenuInputMapArray=(FieldName="GBA_SwitchWeapon5")
+MenuInputMapArray=(FieldName="GBA_SwitchWeapon6")
+MenuInputMapArray=(FieldName="GBA_SwitchWeapon7")
+MenuInputMapArray=(FieldName="GBA_SwitchWeapon8")
+MenuInputMapArray=(FieldName="GBA_SwitchWeapon9")
+MenuInputMapArray=(FieldName="GBA_SwitchWeapon10")
+MenuInputMapArray=(FieldName="GBA_ToggleTranslocator")
+MenuInputMapArray=(FieldName="GBA_ToggleSpeaking")
+MenuInputMapArray=(FieldName="GBA_Talk")
+MenuInputMapArray=(FieldName="GBA_TeamTalk")
+MenuInputMapArray=(FieldName="GBA_Taunt1")
+MenuInputMapArray=(FieldName="GBA_Taunt2")
+MenuInputMapArray=(FieldName="GBA_Horn")
+MenuInputMapArray=(FieldName="GBA_ShowMenu")
+MenuInputMapArray=(FieldName="GBA_ShowCommandMenu")
+MenuInputMapArray=(FieldName="GBA_ShowScores")
+MenuInputMapArray=(FieldName="GBA_ShowMap")
+MenuInputMapArray=(FieldName="GBA_ToggleMinimap")
+MenuInputMapArray=(FieldName="GBA_GrowHud")
+MenuInputMapArray=(FieldName="GBA_ShrinkHud")
+MenuInputMapArray=(FieldName="GBA_ToggleMelee")
+MenuInputMapArray=(FieldName="GBA_WeaponPicker")
+MenuInputMapArray=(FieldName="GBA_Jump_Gamepad")
+MenuInputMapArray=(FieldName="GBA_MoveForward_Gamepad")
+MenuInputMapArray=(FieldName="GBA_TurnLeft_Gamepad")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_A",XBoxMapping="Xenon_A",PS3Mapping="PS3_X")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_B",XBoxMapping="Xenon_B",PS3Mapping="PS3_Circle")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_X",XBoxMapping="Xenon_X",PS3Mapping="PS3_Square")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_Y",XBoxMapping="Xenon_Y",PS3Mapping="PS3_Triangle")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_Start",XBoxMapping="Xenon_Start",PS3Mapping="PS3_Start")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_Back",XBoxMapping="Xenon_Back",PS3Mapping="PS3_Select")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_LeftShoulder",XBoxMapping="Xenon_LeftBumper",PS3Mapping="PS3_L1")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_RightShoulder",XBoxMapping="Xenon_RightBumper",PS3Mapping="PS3_R1")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_LeftTrigger",XBoxMapping="Xenon_LeftTrigger",PS3Mapping="PS3_L2")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_RightTrigger",XBoxMapping="Xenon_RightTrigger",PS3Mapping="PS3_R2")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_DPad_Up",XBoxMapping="Xenon_DPadUp",PS3Mapping="PS3_DPadUp")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_DPad_Down",XBoxMapping="Xenon_DPadDown",PS3Mapping="PS3_DPadDown")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_DPad_Left",XBoxMapping="Xenon_DPadLeft",PS3Mapping="PS3_DPadLeft")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_DPad_Right",XBoxMapping="Xenon_DPadRight",PS3Mapping="PS3_DPadRight")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_LeftThumbstick",XBoxMapping="Xenon_LeftStickButton",PS3Mapping="PS3_LeftStickButton")
+ControllerMapArray=(KeyName="GMS_XBoxTypeS_RightThumbstick",XBoxMapping="Xenon_RightStickButton",PS3Mapping="PS3_RightStickButton")
+ControllerMapArray=(KeyName="GMS_XboxTypeS_LeftX",XBoxMapping="Xenon_LeftStick",PS3Mapping="PS3_LeftStick")
+ControllerMapArray=(KeyName="GMS_XboxTypeS_LeftY",XBoxMapping="Xenon_LeftStick",PS3Mapping="PS3_LeftStick")
+ControllerMapArray=(KeyName="GMS_XboxTypeS_RightX",XBoxMapping="Xenon_RightStick",PS3Mapping="PS3_RightStick")
+ControllerMapArray=(KeyName="GMS_XboxTypeS_RightY",XBoxMapping="Xenon_RightStick",PS3Mapping="PS3_RightStick")
+
+[UTGame.UTUIDataStore_StringList]
+StringData=(Tag="ServerType",DefaultValueIndex=1)
+StringData=(Tag="ServerType360",DefaultValueIndex=1)
+StringData=(Tag="MatchType",DefaultValueIndex=1)
+StringData=(Tag="MatchType360",DefaultValueIndex=1)
+StringData=(Tag="BotTeams",DefaultValueIndex=0)
+StringData=(Tag="RecordDemo",DefaultValueIndex=0)
+StringData=(Tag="Fullscreen",DefaultValueIndex=1)
+StringData=(Tag="ScreenResolution",DefaultValueIndex=0)
+StringData=(Tag="PS3ButtonPresets",DefaultValueIndex=0)
+StringData=(Tag="Splitscreen",DefaultValueIndex=0)
+StringData=(Tag="CharacterParts",DefaultValueIndex=0)
+StringData=(Tag="PlayerCardOptions",DefaultValueIndex=0,Strings=("Item1","Item2","Item3","Item4"))
+StringData=(Tag="ComboTest",DefaultValueIndex=0,Strings=("Item1","Item2","Item3","Item4"))
+StringData=(Tag="MissionList",CurrentValue="",Strings=(""))
+StringData=(Tag="PlayerName",DefaultValueIndex=0)
+
+[UTGame.UTUIDataStore_MenuItems]
+ElementProviderTypes=(ProviderTag="MainMenu",ProviderClassName="UTGame.UTUIDataProvider_MainMenuItems")
+ElementProviderTypes=(ProviderTag="Settings",ProviderClassName="UTGame.UTUIDataProvider_SettingsMenuItem")
+ElementProviderTypes=(ProviderTag="MultiplayerMenu",ProviderClassName="UTGame.UTUIDataProvider_MultiplayerMenuItem")
+ElementProviderTypes=(ProviderTag="CommunityMenu",ProviderClassName="UTGame.UTUIDataProvider_CommunityMenuItem")
+ElementProviderTypes=(ProviderTag="SettingsMenu",ProviderClassName="UTGame.UTUIDataProvider_SettingsMenuItem")
+ElementProviderTypes=(ProviderTag="GameModes",ProviderClassName="UTGame.UTUIDataProvider_GameModeInfo")
+ElementProviderTypes=(ProviderTag="Maps",ProviderClassName="UTGame.UTUIDataProvider_MapInfo")
+ElementProviderTypes=(ProviderTag="MidGameMenu",ProviderClassName="UTGame.UTUIDataProvider_MidGameMenu")
+ElementProviderTypes=(ProviderTag="Mutators",ProviderClassName="UTGame.UTUIDataProvider_Mutator")
+ElementProviderTypes=(ProviderTag="Weapons",ProviderClassName="UTGame.UTUIDataProvider_Weapon")
+ElementProviderTypes=(ProviderTag="DropDownWeapons",ProviderClassName="UTGame.UTUIDataProvider_Weapon")
+ElementProviderTypes=(ProviderTag="DemoFiles",ProviderClassName="UTGame.UTUIDataProvider_DemoFile")
+
+[UTWeap_RocketLauncher UTUIDataProvider_Weapon]
+ClassName=UTGame.UTWeap_RocketLauncher
+AmmoClassPath=UTGame.UTAmmo_RocketLauncher
+MeshReference=UI_Weapons.Mesh.SK_UI_Weapons_RocketLauncher_3P
+
+[UTWeap_BioRifle_Content UTUIDataProvider_Weapon]
+ClassName=UTGameContent.UTWeap_BioRifle_Content
+AmmoClassPath=UTGameContent.UTAmmo_BioRifle_Content
+MeshReference=UI_Weapons.Mesh.SK_UI_Weapons_BioRifle_3P
+
+[UTWeap_FlakCannon UTUIDataProvider_Weapon]
+ClassName=UTGame.UTWeap_FlakCannon
+AmmoClassPath=UTGame.UTAmmo_FlakCannon
+MeshReference=UI_Weapons.Mesh.SK_UI_Weapons_FlakCannon_3P
+
+[UTWeap_SniperRifle UTUIDataProvider_Weapon]
+ClassName=UTGame.UTWeap_SniperRifle
+AmmoClassPath=UTGame.UTAmmo_SniperRifle
+MeshReference=UI_Weapons.Mesh.SK_UI_Weapons_SniperRifle_3P
+
+[UTWeap_LinkGun UTUIDataProvider_Weapon]
+ClassName=UTGame.UTWeap_LinkGun
+AmmoClassPath=UTGame.UTAmmo_LinkGun
+MeshReference=UI_Weapons.Mesh.SK_UI_Weapons_LinkGun_3P
+
+[UTWeap_ImpactHammer UTUIDataProvider_Weapon]
+ClassName=UTGame.UTWeap_ImpactHammer
+Flags=CLASS_HideDropDown
+MeshReference=UI_Weapons.Mesh.SK_UI_Weapons_Impact_3P
+
+[UTWeap_Enforcer UTUIDataProvider_Weapon]
+ClassName=UTGame.UTWeap_Enforcer
+AmmoClassPath=UTGame.UTAmmo_Enforcer
+MeshReference=UI_Weapons.Mesh.SK_UI_Weapons_Enforcer_3P
+
+[UTWeap_ShockRifle UTUIDataProvider_Weapon]
+ClassName=UTGame.UTWeap_ShockRifle
+AmmoClassPath=UTGame.UTAmmo_ShockRifle
+MeshReference=UI_Weapons.Mesh.SK_UI_Weapons_ShockRifle_3P
+
+[UTWeap_Stinger UTUIDataProvider_Weapon]
+ClassName=UTGame.UTWeap_Stinger
+AmmoClassPath=UTGame.UTAmmo_Stinger
+MeshReference=UI_Weapons.Mesh.SK_UI_Weapons_Stinger_3P
+
+[UTWeap_Avril_Content UTUIDataProvider_Weapon]
+ClassName=UTGameContent.UTWeap_Avril_Content
+AmmoClassPath=UTGameContent.UTAmmo_AVRiL
+MeshReference=UI_Weapons.Mesh.SK_UI_Weapons_Avril_3p
+
+[UTWeap_Redeemer_Content UTUIDataProvider_Weapon]
+ClassName=UTGameContent.UTWeap_Redeemer_Content
+Flags=NOARENA
+MeshReference=UI_Weapons.Mesh.SK_UI_Weapons_Redeemer_3P
+
+[MoveForward UTUIDataProvider_KeyBinding]
+Command=GBA_MoveForward
+bIsCrucialBind=true
+
+[MoveBackward UTUIDataProvider_KeyBinding]
+Command=GBA_Backward
+bIsCrucialBind=true
+
+[StrafeLeft UTUIDataProvider_KeyBinding]
+Command=GBA_StrafeLeft
+bIsCrucialBind=true
+
+[StrafeRight UTUIDataProvider_KeyBinding]
+Command=GBA_StrafeRight
+bIsCrucialBind=true
+
+[TurnLeft UTUIDataProvider_KeyBinding]
+Command=GBA_TurnLeft
+
+[TurnRight UTUIDataProvider_KeyBinding]
+Command=GBA_TurnRight
+
+[Jump UTUIDataProvider_KeyBinding]
+Command=GBA_Jump
+bIsCrucialBind=true
+
+[Duck UTUIDataProvider_KeyBinding]
+Command=GBA_Duck
+bRemoveOnPS3=1
+bIsCrucialBind=true
+
+[Fire UTUIDataProvider_KeyBinding]
+Command=GBA_Fire
+bIsCrucialBind=true
+
+[AltFire UTUIDataProvider_KeyBinding]
+Command=GBA_AltFire
+bIsCrucialBind=true
+
+[Use UTUIDataProvider_KeyBinding]
+Command=GBA_Use
+bIsCrucialBind=true
+
+[FeignDeath UTUIDataProvider_KeyBinding]
+Command=GBA_FeignDeath
+
+[SwitchToBestWeapon UTUIDataProvider_KeyBinding]
+Command=GBA_SwitchToBestWeapon
+
+[PreviousWeapon UTUIDataProvider_KeyBinding]
+Command=GBA_PrevWeapon
+
+[NextWeapon UTUIDataProvider_KeyBinding]
+Command=GBA_NextWeapon
+
+[SwitchWeapon1 UTUIDataProvider_KeyBinding]
+Command=GBA_SwitchWeapon1
+
+[SwitchWeapon2 UTUIDataProvider_KeyBinding]
+Command=GBA_SwitchWeapon2
+
+[SwitchWeapon3 UTUIDataProvider_KeyBinding]
+Command=GBA_SwitchWeapon3
+
+[SwitchWeapon4 UTUIDataProvider_KeyBinding]
+Command=GBA_SwitchWeapon4
+
+[SwitchWeapon5 UTUIDataProvider_KeyBinding]
+Command=GBA_SwitchWeapon5
+
+[SwitchWeapon6 UTUIDataProvider_KeyBinding]
+Command=GBA_SwitchWeapon6
+
+[SwitchWeapon7 UTUIDataProvider_KeyBinding]
+Command=GBA_SwitchWeapon7
+
+[SwitchWeapon8 UTUIDataProvider_KeyBinding]
+Command=GBA_SwitchWeapon8
+
+[SwitchWeapon9 UTUIDataProvider_KeyBinding]
+Command=GBA_SwitchWeapon9
+
+[SwitchWeapon10 UTUIDataProvider_KeyBinding]
+Command=GBA_SwitchWeapon10
+
+[ToggleTranslocator UTUIDataProvider_KeyBinding]
+Command=GBA_ToggleTranslocator
+bIsCrucialBind=true
+
+[TransmitVoice UTUIDataProvider_KeyBinding]
+Command=GBA_ToggleSpeaking
+
+[Talk UTUIDataProvider_KeyBinding]
+Command=GBA_Talk
+
+[TeamTalk UTUIDataProvider_KeyBinding]
+Command=GBA_TeamTalk
+
+[Taunt1 UTUIDataProvider_KeyBinding]
+Command=GBA_Taunt1
+
+[Taunt2 UTUIDataProvider_KeyBinding]
+Command=GBA_Taunt2
+
+[Horn UTUIDataProvider_KeyBinding]
+Command=GBA_Horn
+
+[ShowMenu UTUIDataProvider_KeyBinding]
+Command=GBA_ShowMenu
+bIsCrucialBind=true
+
+[ShowCommandMenu UTUIDataProvider_KeyBinding]
+Command=GBA_ShowCommandMenu
+
+[ShowScores UTUIDataProvider_KeyBinding]
+Command=GBA_ShowScores
+
+[ShowMap UTUIDataProvider_KeyBinding]
+Command=GBA_ShowMap
+
+[ToggleMinimap UTUIDataProvider_KeyBinding]
+Command=GBA_ToggleMinimap
+;Command=GBA_ShrinkHud
+
+[Campaign UTUIDataProvider_MainMenuItems]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[InstantAction UTUIDataProvider_MainMenuItems]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[Multiplayer UTUIDataProvider_MainMenuItems]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[Community UTUIDataProvider_MainMenuItems]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[Settings UTUIDataProvider_MainMenuItems]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[Exit UTUIDataProvider_MainMenuItems]
+bRemoveOnPC=0
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[QuickMatch UTUIDataProvider_MultiplayerMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+bRequiresOnlineAccess=true
+
+[JoinGame UTUIDataProvider_MultiplayerMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[HostGame UTUIDataProvider_MultiplayerMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+;bRemoveOnPC=0
+;bRemoveOn360=0
+;bRemoveOnPS3=0
+
+[News UTUIDataProvider_CommunityMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+;bRemoveOnPC=0
+;bRemoveOn360=1
+;bRemoveOnPS3=0
+
+[Friends UTUIDataProvider_CommunityMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[Messages UTUIDataProvider_CommunityMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[Leaderboards UTUIDataProvider_CommunityMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[DemoPlayback UTUIDataProvider_CommunityMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[Achievements UTUIDataProvider_CommunityMenuItem]
+bRemoveOnPC=1
+bRemoveOn360=0
+bRemoveOnPS3=1
+;bRemoveOnPC=0
+;bRemoveOn360=0
+;bRemoveOnPS3=0
+
+[VideoSettings UTUIDataProvider_SettingsMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[AudioSettings UTUIDataProvider_SettingsMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[InputSettings UTUIDataProvider_SettingsMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[NetworkSettings UTUIDataProvider_SettingsMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[WeaponSettings UTUIDataProvider_SettingsMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[HUDSettings UTUIDataProvider_SettingsMenuItem]
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[Credits UTUIDataProvider_SettingsMenuItem]
+bFrontEndOnly=true
+bRemoveOnPC=0
+bRemoveOn360=0
+bRemoveOnPS3=0
+
+[InstallPS3 UTUIDataProvider_SettingsMenuItem]
+bRemoveOnPC=1
+bRemoveOn360=1
+bRemoveOnPS3=0
+
+[UTMutator_SlowTimeKills UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_SlowTimeKills
+GroupNames=GAMESPEED
+bStandaloneOnly=1
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_BigHead UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_BigHead
+GroupNames=BIGHEAD
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_NoOrbs UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_NoOrbs
+GroupNames=WARFARE
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_FriendlyFire UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_FriendlyFire
+GroupNames=FRIENDLYFIRE
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_Handicap UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_Handicap
+GroupNames=HANDICAP
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_Instagib UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_Instagib
+GroupNames=WEAPONMOD|WEAPONRESPAWN|HANDICAP|POWERUPS
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_LowGrav UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_LowGrav
+GroupNames=JUMPING
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_NoPowerups UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_NoPowerups
+GroupNames=POWERUPS
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_NoTranslocator UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_NoTranslocator
+GroupNames=TRANSLOC
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_Slomo UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_Slomo
+GroupNames=GAMESPEED
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_SpeedFreak UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_SpeedFreak
+GroupNames=GAMESPEED
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_SuperBerserk UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_SuperBerserk
+GroupNames=FIRINGSPEED
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_WeaponReplacement UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_WeaponReplacement
+GroupNames=WEAPONMOD
+UIConfigScene=UI_Scenes_Mutators.Scenes.WeaponReplacement
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_WeaponsRespawn UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_WeaponsRespawn
+GroupNames=WEAPONRESPAWN
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTMutator_Survival UTUIDataProvider_Mutator]
+ClassName=UTGame.UTMutator_Survival
+GroupNames=
+UIConfigScene=
+bRemoveOn360=False
+bRemoveOnPC=False
+bRemoveOnPS3=False
+
+[UTDeathmatch UTUIDataProvider_GameModeInfo]
+GameMode=UTGame.UTDeathmatch
+GameSettingsClass=UTgameSettingsDM
+GameSearchClass=UTGameSearchDM
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.GameTypes.Deathmatch&gt;
+DefaultMap=DM-Deck
+Prefixes=DM
+OptionSet=DM
+IconImage=UI_HUD.HUD.UI_HUD_BaseD
+IconU=442
+IconV=76
+IconUL=129
+IconVL=104
+
+[UTTeamGame UTUIDataProvider_GameModeInfo]
+GameMode=UTGame.UTTeamGame
+GameSettingsClass=UTGameSettingsTDM
+GameSearchClass=UTGameSearchTDM
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.GameTypes.TeamDeathmatch&gt;
+DefaultMap=DM-Deck
+Prefixes=DM
+OptionSet=TDM
+IconImage=UI_HUD.HUD.UI_HUD_BaseD
+IconU=571
+IconV=76
+IconUL=149
+IconVL=105
+
+[UTCTFGame_Content UTUIDataProvider_GameModeInfo]
+GameMode=UTGameContent.UTCTFGame_Content
+GameSettingsClass=UTGameSettingsCTF
+GameSearchClass=UTGameSearchCTF
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.GameTypes.CaptureTheFlag&gt;
+DefaultMap=CTF-Strident
+Prefixes=CTF
+OptionSet=CTF
+IconImage=UI_HUD.HUD.UI_HUD_BaseD
+IconU=230
+IconV=76
+IconUL=104
+IconVL=113
+
+[UTVehicleCTFGame_Content UTUIDataProvider_GameModeInfo]
+GameMode=UTGameContent.UTVehicleCTFGame_Content
+GameSettingsClass=UTGameSettingsVCTF
+GameSearchClass=UTGameSearchVCTF
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.GameTypes.VCTF&gt;
+DefaultMap=VCTF-Corruption
+Prefixes=VCTF
+OptionSet=VCTF
+IconImage=UI_HUD.HUD.UI_HUD_BaseD
+IconU=230
+IconV=76
+IconUL=104
+IconVL=113
+
+[UTOnslaughtGame_Content UTUIDataProvider_GameModeInfo]
+GameMode=UTGameContent.UTOnslaughtGame_Content
+GameSettingsClass=UTGameSettingsWAR
+GameSearchClass=UTGameSearchWAR
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.GameTypes.Warfare&gt;
+DefaultMap=WAR-OnyxCoast
+Prefixes=WAR
+OptionSet=WAR
+IconImage=UI_HUD.HUD.UI_HUD_BaseD
+IconU=720
+IconV=76
+IconUL=186
+IconVL=94
+
+[UTDuelGame UTUIDataProvider_GameModeInfo]
+GameMode=UTGame.UTDuelGame
+GameSettingsClass=UTGameSettingsDUEL
+GameSearchClass=UTGameSearchDUEL
+DefaultMap=
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.GameTypes.Duel&gt;
+Prefixes=DM
+OptionSet=DUEL
+IconImage=UI_HUD.HUD.UI_HUD_BaseD
+IconU=442
+IconV=76
+IconUL=129
+IconVL=104
+
+[UTCampaignGame UTUIDataProvider_GameModeInfo]
+GameMode=CampaignGame
+GameSettingsClass=UTGameSettingsCampaign
+GameSearchClass=UTGameSearchCampaign
+bIsCampaign=1
+
+[CTF-Strident UTUIDataProvider_MapInfo]
+MapName=CTF-Strident
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-CTF-Strident&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc23&gt;
+
+[CTF-OmicronDawn UTUIDataProvider_MapInfo]
+MapName=CTF-OmicronDawn
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-CTF-DeadPlanet&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc34&gt;
+
+[CTF-Coret UTUIDataProvider_MapInfo]
+MapName=CTF-Coret
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-CTF-Coret&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc20&gt;
+
+[CTF-Reflection UTUIDataProvider_MapInfo]
+MapName=CTF-Reflection
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-CTF-Reflection&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc3&gt;
+
+[CTF-Hydrosis UTUIDataProvider_MapInfo]
+MapName=CTF-Hydrosis
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-CTF-Hydrosis&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc8&gt;
+
+[CTF-Vertebrae UTUIDataProvider_MapInfo]
+MapName=CTF-Vertebrae
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-CTF-Vertebrae&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc39&gt;
+
+[vCTF-Necropolis UTUIDataProvider_MapInfo]
+MapName=vCTF-Necropolis
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-vCTF-Necropolis&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc38&gt;
+
+[vCTF-Sandstorm UTUIDataProvider_MapInfo]
+MapName=vCTF-Sandstorm
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-vCTF-Sandstorm&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc35&gt;
+
+[vCTF-Kargo UTUIDataProvider_MapInfo]
+MapName=vCTF-Kargo
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-vCTF-Kargo&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc7&gt;
+
+[vCTF-Containment UTUIDataProvider_MapInfo]
+MapName=vCTF-Containment
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-vCTF-Containment&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc52&gt;
+
+[vCTF-Suspense UTUIDataProvider_MapInfo]
+MapName=vCTF-Suspense
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-vCTF-Suspense&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc10&gt;
+
+[vCTF-Corruption UTUIDataProvider_MapInfo]
+MapName=vCTF-Corruption
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-vCTF-Corruption&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc28&gt;
+
+[DM-Arsenal UTUIDataProvider_MapInfo]
+MapName=DM-Arsenal
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-Arsenal&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc16&gt;
+
+[DM-RisingSun UTUIDataProvider_MapInfo]
+MapName=DM-RisingSun
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-RisingSun&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc1&gt;
+
+[DM-CarbonFire UTUIDataProvider_MapInfo]
+MapName=DM-CarbonFire
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-CarbonFire&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc57&gt;
+
+[DM-Deck UTUIDataProvider_MapInfo]
+MapName=DM-Deck
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-Deck&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc139&gt;
+
+[DM-Defiance UTUIDataProvider_MapInfo]
+MapName=DM-Defiance
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-Defiance&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc13&gt;
+
+[DM-Deimos UTUIDataProvider_MapInfo]
+MapName=DM-Deimos
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-Deimos&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc33&gt;
+
+[DM-Diesel UTUIDataProvider_MapInfo]
+MapName=DM-Diesel
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-Diesel&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc107&gt;
+
+[DM-Biohazard UTUIDataProvider_MapInfo]
+MapName=DM-Biohazard
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-Biohazard&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc45&gt;
+
+[DM-HeatRay UTUIDataProvider_MapInfo]
+MapName=DM-HeatRay
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-HeatRay&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc17&gt;
+
+[DM-Gateway UTUIDataProvider_MapInfo]
+MapName=DM-Gateway
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-Gateway&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc24&gt;
+
+[DM-Fearless UTUIDataProvider_MapInfo]
+MapName=DM-Fearless
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-Fearless&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc42&gt;
+
+[DM-Sentinel UTUIDataProvider_MapInfo]
+MapName=DM-Sentinel
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-Sentinel&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc41&gt;
+
+[DM-ShangriLa UTUIDataProvider_MapInfo]
+MapName=DM-ShangriLa
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-ShangriLa&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc2&gt;
+
+[DM-Sanctuary UTUIDataProvider_MapInfo]
+MapName=DM-Sanctuary
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-DM-Sanctuary&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc36&gt;
+
+[WAR-TankCrossing UTUIDataProvider_MapInfo]
+MapName=WAR-TankCrossing
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-TankCrossing&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc6&gt;
+
+[WAR-Downtown UTUIDataProvider_MapInfo]
+MapName=WAR-Downtown
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Downtown&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc12&gt;
+
+[WAR-DowntownTwoFronts UTUIDataProvider_MapInfo]
+MapName=WAR-Downtown?LinkSetup=Alt
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Downtown&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc12&gt;
+
+[WAR-Sinkhole UTUIDataProvider_MapInfo]
+MapName=WAR-Sinkhole
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Sinkhole&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc4&gt;
+
+[WAR-Dusk UTUIDataProvider_MapInfo]
+MapName=WAR-Dusk
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Dusk&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc18&gt;
+
+[WAR-DuskFreeMine UTUIDataProvider_MapInfo]
+MapName=WAR-Dusk?LinkSetup=Alt
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Dusk&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc18&gt;
+
+[WAR-Islander UTUIDataProvider_MapInfo]
+MapName=WAR-Islander
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Islander&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc22&gt;
+
+[WAR-IslanderNecris UTUIDataProvider_MapInfo]
+MapName=WAR-Islander_Necris
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Islander&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc22&gt;
+
+[WAR-MarketDistrict UTUIDataProvider_MapInfo]
+MapName=WAR-MarketDistrict
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-MarketDistrict&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc5&gt;
+
+[WAR-OnyxCoast UTUIDataProvider_MapInfo]
+MapName=WAR-OnyxCoast
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-OnyxCoast&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc30&gt;
+
+[WAR-PowerSurge UTUIDataProvider_MapInfo]
+MapName=WAR-PowerSurge
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-PowerSurge&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc19&gt;
+
+[WAR-Serenity UTUIDataProvider_MapInfo]
+MapName=WAR-Serenity
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Serenity&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc11&gt;
+
+[WAR-SerenityNecris UTUIDataProvider_MapInfo]
+MapName=WAR-Serenity_Necris
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Serenity&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc11&gt;
+bRemoveOnPS3=1
+
+[WAR-Floodgate UTUIDataProvider_MapInfo]
+MapName=WAR-Floodgate
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Floodgate&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc40&gt;
+
+[WAR-Avalanche UTUIDataProvider_MapInfo]
+MapName=WAR-Avalanche
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Avalanche&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc32&gt;
+
+[WAR-AvalancheTwoFronts UTUIDataProvider_MapInfo]
+MapName=WAR-Avalanche?LinkSetup=Alt
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Avalanche&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc32&gt;
+
+[WAR-Torlan UTUIDataProvider_MapInfo]
+MapName=WAR-Torlan
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Torlan&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc9&gt;
+
+[WAR-TorlanNecris UTUIDataProvider_MapInfo]
+MapName=WAR-Torlan_Necris
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Torlan&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc9&gt;
+
+[WAR-TorlanClassic UTUIDataProvider_MapInfo]
+MapName=WAR-Torlan?LinkSetup=classic
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Torlan&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc9&gt;
+
+[WAR-TorlanShort UTUIDataProvider_MapInfo]
+MapName=WAR-Torlan?LinkSetup=short
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Torlan&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc9&gt;
+
+[WAR-TorlanDoublePrime UTUIDataProvider_MapInfo]
+MapName=WAR-Torlan?LinkSetup=TwoFronts
+PreviewImageMarkup=&lt;Images:UI_FrontEnd_Art.MapPics.Map-Pic-WAR-Torlan&gt;
+Description=&lt;Strings:UTGAMEUI.CampaignBriefing.BriefDesc9&gt;
+
+[ChangeTeam UTUIDataProvider_MidGameMenu]
+FriendlyName=Change Teams
+Description=Change to a new team.
+
+[Reconnect UTUIDataProvider_MidGameMenu]
+FriendlyName=Reconnect
+Description=Reconnect to the last server.
+
+[ExitGame UTUIDataProvider_MidGameMenu]
+FriendlyName=Exit Match
+Description=Exit and return to the main menu.
+
+[UTGame.UTUIDataStore_Options]
+ElementProviderTypes=(ProviderTag="OptionSets",ProviderClassName="UTGame.UTUIDataProvider_MenuOption")
+;OptionSet=Common
+;DataStoreMarkup=&lt;UTStringList:Splitscreen&gt;
+;bRemoveOnPC=1
+;bRemoveOn360=1
+
+[BotSkill_Common UTUIDataProvider_MenuOption]
+OptionSet=Common
+DataStoreMarkup=&lt;UTGameSettings:BotSkill&gt;
+bReadOnlyCombo=1
+
+[NumBots_Common UTUIDataProvider_MenuOption]
+OptionSet=Common
+DataStoreMarkup=&lt;UTGameSettings:NumBots&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=0.0,MaxValue=31.0,bIntRange=1,NudgeValue=1.0,CurrentValue=7.0)
+
+[GoalScore_Common UTUIDataProvider_MenuOption]
+OptionSet=Common
+DataStoreMarkup=&lt;UTGameSettings:GoalScore&gt;
+bEditableCombo=1
+bNumericCombo=1
+
+[TimeLimit_Common UTUIDataProvider_MenuOption]
+OptionSet=Common
+DataStoreMarkup=&lt;UTGameSettings:TimeLimit&gt;
+bEditableCombo=1
+bNumericCombo=1
+
+[BotTeam_Common UTUIDataProvider_MenuOption]
+OptionSet=Common
+DataStoreMarkup=&lt;UTStringList:BotTeams&gt;
+;OptionSet=DM
+;DataStoreMarkup=&lt;UTStringList:Splitscreen&gt;
+;bRemoveOn360=1
+;OptionType=UTOT_CollectionCheckBox
+;bRemoveOnPC=1
+
+[BotSkill_DM UTUIDataProvider_MenuOption]
+OptionSet=DM
+OptionSet=TDM
+OptionSet=CTF
+OptionSet=VCTF
+OptionSet=WAR
+DataStoreMarkup=&lt;UTGameSettings:BotSkill&gt;
+
+[BotSkill_DUEL UTUIDataProvider_MenuOption]
+OptionSet=DUEL
+DataStoreMarkup=&lt;UTGameSettings:BotSkill&gt;
+bOfflineOnly=1
+
+[NumBots_DM UTUIDataProvider_MenuOption]
+OptionSet=DM
+OptionSet=TDM
+OptionSet=CTF
+OptionSet=VCTF
+OptionSet=WAR
+DataStoreMarkup=&lt;UTGameSettings:NumBots&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=0.0,MaxValue=31.0,bIntRange=1,NudgeValue=1.0,CurrentValue=7.0)
+
+[VsBots_DM UTUIDataProvider_MenuOption]
+OptionSet=TDM
+OptionSet=CTF
+OptionSet=VCTF
+OptionSet=WAR
+DataStoreMarkup=&lt;UTGameSettings:VsBots&gt;
+bOnlineOnly=1
+
+[GoalScore_DM UTUIDataProvider_MenuOption]
+OptionSet=DM
+OptionSet=TDM
+OptionSet=CTF
+OptionSet=VCTF
+OptionSet=WAR
+OptionSet=DUEL
+DataStoreMarkup=&lt;UTGameSettings:GoalScore&gt;
+bEditableCombo=1
+bNumericCombo=1
+
+[TimeLimit_DM UTUIDataProvider_MenuOption]
+OptionSet=DM
+OptionSet=TDM
+OptionSet=CTF
+OptionSet=VCTF
+OptionSet=WAR
+OptionSet=DUEL
+DataStoreMarkup=&lt;UTGameSettings:TimeLimit&gt;
+bEditableCombo=1
+bNumericCombo=1
+
+[BotTeam_DM UTUIDataProvider_MenuOption]
+OptionSet=TDM
+OptionSet=CTF
+OptionSet=VCTF
+OptionSet=WAR
+DataStoreMarkup=&lt;UTStringList:BotTeams&gt;
+
+[ForceRespawn_DM UTUIDataProvider_MenuOption]
+OptionSet=DM
+OptionSet=TDM
+OptionSet=CTF
+OptionSet=VCTF
+OptionSet=WAR
+DataStoreMarkup=&lt;UTGameSettings:ForceRespawn&gt;
+OptionType=UTOT_CollectionCheckBox
+
+[RecordDemo_DM UTUIDataProvider_MenuOption]
+OptionSet=DM
+OptionSet=TDM
+OptionSet=CTF
+OptionSet=VCTF
+OptionSet=WAR
+OptionSet=DUEL
+DataStoreMarkup=&lt;UTStringList:RecordDemo&gt;
+bRemoveOn360=1
+bRemoveOnPS3=1
+OptionType=UTOT_CollectionCheckBox
+;OptionSet=Audio
+;DataStoreMarkup=&lt;UTStringList:AudioDevices&gt;
+;bRemoveOn360=1
+;bRemoveOnPS3=1
+
+[HardwareOpenAL UTUIDataProvider_MenuOption]
+OptionSet=Audio
+DataStoreMarkup=&lt;UTStringList:AudioDevices&gt;
+bRemoveOn360=1
+bRemoveOnPS3=1
+OptionType=UTOT_CollectionCheckBox
+
+[SFXVolume UTUIDataProvider_MenuOption]
+OptionSet=Audio
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.SFXVolume&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=0.0,MaxValue=10.0,bIntRange=1,NudgeValue=1.0,CurrentValue=5.0)
+
+[MusicVolume UTUIDataProvider_MenuOption]
+OptionSet=Audio
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.MusicVolume&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=0.0,MaxValue=10.0,bIntRange=1,NudgeValue=1.0,CurrentValue=5.0)
+
+[VoiceVolume UTUIDataProvider_MenuOption]
+OptionSet=Audio
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.VoiceVolume&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=0.0,MaxValue=10.0,bIntRange=1,NudgeValue=1.0,CurrentValue=5.0)
+
+[AmbianceVolume UTUIDataProvider_MenuOption]
+OptionSet=Audio
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.AmbianceVolume&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=0.0,MaxValue=10.0,bIntRange=1,NudgeValue=1.0,CurrentValue=5.0)
+
+[AnnouncerVolume UTUIDataProvider_MenuOption]
+OptionSet=Audio
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.AnnouncerVolume&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=0.0,MaxValue=10.0,bIntRange=1,NudgeValue=1.0,CurrentValue=5.0)
+
+[AnnounceSetting UTUIDataProvider_MenuOption]
+OptionSet=Audio
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.AnnounceSetting&gt;
+
+[AutoTaunt UTUIDataProvider_MenuOption]
+OptionSet=Audio
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.AutoTaunt&gt;
+OptionType=UTOT_CollectionCheckBox
+;OptionSet=Audio
+;DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.MessageBeep&gt;
+;bRemoveOn360=1
+;bRemoveOnPS3=1
+;OptionType=UTOT_CollectionCheckBox
+
+[MuteVoice UTUIDataProvider_MenuOption]
+OptionSet=Audio
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.MuteVoice&gt;
+OptionType=UTOT_CollectionCheckBox
+bRemoveOnPS3=1
+;OptionSet=Audio
+;DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.SpeechRecognition&gt;
+;OptionType=UTOT_CollectionCheckBox
+;bRemoveOnPS3=1
+
+[TextToSpeechMode UTUIDataProvider_MenuOption]
+OptionSet=Audio
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.TextToSpeechMode&gt;
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[ControllerVibration UTUIDataProvider_MenuOption]
+OptionSet=Input
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ControllerVibration&gt;
+bRemoveOnPS3=1
+bRemoveOnPC=1
+
+[InvertY UTUIDataProvider_MenuOption]
+OptionSet=Input
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.InvertY&gt;
+OptionType=UTOT_CollectionCheckBox
+;OptionSet=Input
+;DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.DodgingEnabled&gt;
+;OptionType=UTOT_CollectionCheckBox
+
+[AutoAim UTUIDataProvider_MenuOption]
+OptionSet=Input
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.AutoAim&gt;
+bRemoveOnPS3=1
+bRemoveOn360=1
+OptionType=UTOT_CollectionCheckBox
+
+[ControllerSensitivityMultiplier UTUIDataProvider_MenuOption]
+OptionSet=Input
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ControllerSensitivityMultiplier&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=5,MaxValue=20,bIntRange=1,NudgeValue=1,CurrentValue=10)
+bRemoveOnPC=1
+
+[TurningAccelerationFactor UTUIDataProvider_MenuOption]
+OptionSet=Input
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.TurningAccelerationFactor&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=1.0,MaxValue=10.0,bIntRange=1,NudgeValue=1.0,CurrentValue=5.0)
+bRemoveOnPC=1
+
+[MouseSmoothing UTUIDataProvider_MenuOption]
+OptionSet=Input
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.MouseSmoothing&gt;
+bRemoveOn360=1
+OptionType=UTOT_CollectionCheckBox
+bKeyboardOrMouseOption=1
+
+[MouseSensitivityGame UTUIDataProvider_MenuOption]
+OptionSet=Input
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.MouseSensitivityGame&gt;
+OptionType=UTOT_EditBox
+RangeData=(MinValue=1.0,MaxValue=20.0,bIntRange=1,NudgeValue=1.0,CurrentValue=5.0)
+bRemoveOn360=1
+bKeyboardOrMouseOption=1
+;OptionSet=Input
+;DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.DodgeDoubleClickTime&gt;
+;OptionType=UTOT_Slider
+;RangeData=(MinValue=20,MaxValue=60,bIntRange=1,NudgeValue=5,CurrentValue=25)
+;bRemoveOn360=1
+;bRemoveOnPS3=1
+EditBoxMaxLength=4
+
+[AutoCenterPitch UTUIDataProvider_MenuOption]
+OptionSet=Input
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.AutoCenterPitch&gt;
+bRemoveOnPC=1
+
+[AutoCenterVehiclePitch UTUIDataProvider_MenuOption]
+OptionSet=Input
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.AutoCenterVehiclePitch&gt;
+bRemoveOnPC=1
+
+[TiltSensing UTUIDataProvider_MenuOption]
+OptionSet=Input
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.TiltSensing&gt;
+bRemoveOnPC=1
+bRemoveOn360=1
+
+[VehicleControls UTUIDataProvider_MenuOption]
+OptionSet=Input
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.VehicleControls&gt;
+bRemoveOnPC=1
+
+[ScreenResolution UTUIDataProvider_MenuOption]
+OptionSet=Video
+DataStoreMarkup=&lt;UTStringList:ScreenResolution&gt;
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[FullScreen UTUIDataProvider_MenuOption]
+OptionSet=Video
+DataStoreMarkup=&lt;UTStringList:FullScreen&gt;
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[Brightness UTUIDataProvider_MenuOption]
+OptionSet=Video
+OptionSet=MidGameMenu
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.Gamma&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=1,MaxValue=10,bIntRange=1,NudgeValue=1.0,CurrentValue=6.0)
+
+[PostProcess UTUIDataProvider_MenuOption]
+OptionSet=Video
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.PostProcessPreset&gt;
+
+[GoreLevel UTUIDataProvider_MenuOption]
+OptionSet=Video
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.GoreLevel&gt;
+OptionType=UTOT_CollectionCheckBox
+
+[Subtitles UTUIDataProvider_MenuOption]
+OptionSet=Video
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.Subtitles&gt;
+OptionType=UTOT_CollectionCheckBox
+;OptionSet=Video
+;DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.DefaultFOV&gt;
+;OptionType=UTOT_Slider
+;RangeData=(MinValue=80.0,MaxValue=120.0,bIntRange=1,NudgeValue=2.0,CurrentValue=90.0)
+; OptionSet=Video
+; DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ViewBob&gt;
+; OptionType=UTOT_CollectionCheckBox
+
+[EnableHardwarePhysics UTUIDataProvider_MenuOption]
+OptionSet=Video
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.EnableHardwarePhysics&gt;
+bRemoveOn360=1
+bRemoveOnPS3=1
+OptionType=UTOT_CollectionCheckBox
+
+[ScreenPercentage UTUIDataProvider_MenuOption]
+OptionSet=AdvancedVideo
+DataStoreMarkup=&lt;Registry:ScreenPercentage&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=50,MaxValue=100,bIntRange=1,NudgeValue=2,CurrentValue=100)
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[TextureDetail UTUIDataProvider_MenuOption]
+OptionSet=AdvancedVideo
+DataStoreMarkup=&lt;Registry:TextureDetail&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=1,MaxValue=5,bIntRange=1,NudgeValue=1,CurrentValue=1)
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[WorldDetail UTUIDataProvider_MenuOption]
+OptionSet=AdvancedVideo
+DataStoreMarkup=&lt;Registry:WorldDetail&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=1,MaxValue=5,bIntRange=1,NudgeValue=1,CurrentValue=1)
+bRemoveOn360=1
+bRemoveOnPS3=1
+;OptionSet=AdvancedVideo
+;DataStoreMarkup=&lt;Registry:PostProcessQuality&gt;
+;OptionType=UTOT_Slider
+;RangeData=(MinValue=0,MaxValue=2,bIntRange=1,NudgeValue=1,CurrentValue=1)
+;bRemoveOn360=1
+;bRemoveOnPS3=1
+;;RangeData=(MinValue=0,MaxValue=2,bIntRange=1,NudgeValue=1,CurrentValue=1)
+
+[VSyncValue UTUIDataProvider_MenuOption]
+OptionSet=AdvancedVideo
+DataStoreMarkup=&lt;Registry:VSyncValue&gt;
+OptionType=UTOT_Checkbox
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[Alias UTUIDataProvider_MenuOption]
+OptionSet=Network
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.Alias&gt;
+OptionType=UTOT_EditBox
+EditboxMaxLength=20
+bRemoveOnPS3=1
+bRemoveOnPC=1
+
+[ClanTag UTUIDataProvider_MenuOption]
+OptionSet=Network
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ClanTag&gt;
+OptionType=UTOT_EditBox
+EditboxMaxLength=10
+bRemoveOnPS3=1
+
+[NetworkConnection UTUIDataProvider_MenuOption]
+OptionSet=Network
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.NetworkConnection&gt;
+bRemoveOnPS3=1
+
+[DynamicNetspeed UTUIDataProvider_MenuOption]
+OptionSet=Network
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.DynamicNetspeed&gt;
+OptionType=UTOT_CollectionCheckBox
+bRemoveOnPS3=1
+
+[AllowCustomCharacters UTUIDataProvider_MenuOption]
+OptionSet=Network
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.AllowCustomCharacters&gt;
+OptionType=UTOT_CollectionCheckBox
+
+[CrosshairType UTUIDataProvider_MenuOption]
+OptionSet=Weapons
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.CrosshairType&gt;
+
+[WeaponSwitchOnPickup UTUIDataProvider_MenuOption]
+OptionSet=Weapons
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.WeaponSwitchOnPickup&gt;
+OptionType=UTOT_CollectionCheckBox
+
+[WeaponHand UTUIDataProvider_MenuOption]
+OptionSet=Weapons
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.WeaponHand&gt;
+
+[SmallWeapons UTUIDataProvider_MenuOption]
+OptionSet=Weapons
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.SmallWeapons&gt;
+OptionType=UTOT_CollectionCheckBox
+
+[DisplayWeaponBar UTUIDataProvider_MenuOption]
+OptionSet=Weapons
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.DisplayWeaponBar&gt;
+OptionType=UTOT_CollectionCheckBox
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[ShowOnlyAvailableWeapons UTUIDataProvider_MenuOption]
+OptionSet=Weapons
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ShowOnlyAvailableWeapons&gt;
+bRemoveOn360=1
+bRemoveOnPS3=1
+OptionType=UTOT_CollectionCheckBox
+
+[RotateMap UTUIDataProvider_MenuOption]
+OptionSet=HUD
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.RotateMap&gt;
+OptionType=UTOT_CollectionCheckBox
+
+[ShowMap UTUIDataProvider_MenuOption]
+OptionSet=HUD
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ShowMap&gt;
+OptionType=UTOT_CollectionCheckBox
+
+[ShowClock UTUIDataProvider_MenuOption]
+OptionSet=HUD
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ShowClock&gt;
+OptionType=UTOT_CollectionCheckBox
+;OptionSet=HUD
+;DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ShowPowerups&gt;
+;OptionType=UTOT_CollectionCheckBox
+
+[ShowScoring UTUIDataProvider_MenuOption]
+OptionSet=HUD
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ShowScoring&gt;
+OptionType=UTOT_CollectionCheckBox
+
+[ShowLeaderboard UTUIDataProvider_MenuOption]
+OptionSet=HUD
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ShowLeaderboard&gt;
+OptionType=UTOT_CollectionCheckBox
+
+[ShowVehicleArmorCount UTUIDataProvider_MenuOption]
+OptionSet=HUD
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ShowVehicleArmorCount&gt;
+OptionType=UTOT_CollectionCheckBox
+bRemoveOnPS3=1
+bRemoveOn360=1
+
+[ServerType UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;UTStringList:ServerType&gt;
+bRemoveOn360=1
+
+[ServerType360 UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;UTStringList:ServerType360&gt;
+bRemoveOnPC=1
+bRemoveOnPS3=1
+
+[DedicatedServer UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;UTGameSettings:bIsDedicated&gt;
+OptionType=UTOT_CheckBox
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[MaxPlayers_PC UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;UTGameSettings:MaxPlayers&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=2,MaxValue=32,bIntRange=1,NudgeValue=1,CurrentValue=16)
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[MaxPlayers_Console UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;UTGameSettings:MaxPlayers&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=2,MaxValue=16,bIntRange=1,NudgeValue=1,CurrentValue=16)
+bRemoveOnPC=1
+
+[MinNumPlayers_PC UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;UTGameSettings:MinNetPlayers&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=0,MaxValue=32,bIntRange=1,NudgeValue=1,CurrentValue=16)
+bRemoveOn360=1
+bRemoveOnPS3=1
+
+[MinNumPlayers_Console UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;UTGameSettings:MinNetPlayers&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=0,MaxValue=16,bIntRange=1,NudgeValue=1,CurrentValue=16)
+bRemoveOnPC=1
+
+[PrivateSlots UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;UTGameSettings:NumPrivateConnections&gt;
+OptionType=UTOT_Slider
+RangeData=(MinValue=0,MaxValue=23,bIntRange=1,NudgeValue=1,CurrentValue=0)
+bRemoveOnPS3=1
+bRemoveOnPC=1
+
+[AllowKeyboard UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;UTGameSettings:AllowKeyboard&gt;
+OptionType=UTOT_CollectionCheckBox
+bRemoveOnPC=true
+bRemoveOn360=true
+
+[ServerDescription UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;OnlinePlayerData:ProfileData.ServerDescription&gt;
+OptionType=UTOT_EditBox
+EditboxMaxLength=32
+
+[ServerMOTD UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;Registry:ServerMOTD&gt;
+OptionType=UTOT_EditBox
+EditboxMaxLength=512
+
+[ServerPassword UTUIDataProvider_MenuOption]
+OptionSet=Server
+DataStoreMarkup=&lt;Registry:ServerPassword&gt;
+OptionType=UTOT_EditBox
+EditboxMaxLength=16
+;OptionSet=Client
+;DataStoreMarkup=&lt;UTStringList:Splitscreen&gt;
+;bRemoveOnPC=1
+;bRemoveOn360=1
+
+[MatchType UTUIDataProvider_MenuOption]
+OptionSet=Client
+OptionSet=QuickMatch
+DataStoreMarkup=&lt;UTStringList:MatchType&gt;
+bRemoveOn360=1
+
+[MatchType360 UTUIDataProvider_MenuOption]
+OptionSet=Client
+OptionSet=QuickMatch
+DataStoreMarkup=&lt;UTStringList:MatchType360&gt;
+bRemoveOnPC=1
+bRemoveOnPS3=1
+
+[GameMode_Client UTUIDataProvider_MenuOption]
+OptionSet=Client
+OptionSet=QuickMatch
+DataStoreMarkup=&lt;UTMenuItems:GameModeFilter&gt;
+
+[PureServer_Client UTUIDataProvider_MenuOption]
+OptionSet=Client
+OptionSet=QuickMatch
+DataStoreMarkup=&lt;UTGameSearch:DesiredSettings.PureServer&gt;
+OptionType=UTOT_ComboReadOnly
+
+[FullServer_Client UTUIDataProvider_MenuOption]
+OptionSet=Client
+DataStoreMarkup=&lt;UTGameSearch:DesiredSettings.ShowFullServers&gt;
+OptionType=UTOT_CollectionCheckBox
+bRemoveOn360=true
+
+[EmptyServer_Client UTUIDataProvider_MenuOption]
+OptionSet=Client
+DataStoreMarkup=&lt;UTGameSearch:DesiredSettings.ShowEmptyServers&gt;
+OptionType=UTOT_CollectionCheckBox
+bRemoveOn360=true
+bRemoveOnPS3=true
+
+[LockedServer_Client UTUIDataProvider_MenuOption]
+OptionSet=Client
+DataStoreMarkup=&lt;UTGameSearch:DesiredSettings.LockedServer&gt;
+OptionType=UTOT_CollectionCheckBox
+
+[AllowKeyboard_Client UTUIDataProvider_MenuOption]
+OptionSet=Client
+OptionSet=QuickMatch
+DataStoreMarkup=&lt;UTGameSearch:DesiredSettings.AllowKeyboard&gt;
+OptionType=UTOT_ComboReadOnly
+bRemoveOnPC=true
+
+[IniVersion]
+0=1190311974.000000
+1=1195875337.000000
+Patch=1
+
+[Credits UTUIDataProvider_CommunityMenuItem]
+bRemoveOnPC=False
+bRemoveOn360=True
+bRemoveOnPS3=True
+
+[ShowOnlyDedicatedServers UTUIDataProvider_MenuOption]
+OptionSet=Client
+DataStoreMarkup=&lt;UTGameSearch:DesiredSettings.IsDedicated&gt;
+OptionType=UTOT_CollectionCheckbox
+bRemoveOn360=True
+
+[SmoothFramerate UTUIDataProvider_MenuOption]
+OptionSet=AdvancedVideo
+DataStoreMarkup=&lt;Registry:SmoothFramerate&gt;
+OptionType=UTOT_Checkbox
+bRemoveOn360=True
+bRemoveOnPS3=True
+
+[PlayerFOV UTUIDataProvider_MenuOption]
+OptionSet=AdvancedVideo
+DataStoreMarkup=&lt;Registry:PlayerFOV&gt;
+OptionType=UTOT_Slider
+bRemoveOn360=True
+bRemoveOnPS3=True
+
+[UTGame.UTDeathmatch]
+bWarmupRound=False
+bAllowMapVoting=True
+bForceMidGameMenuAtStart=False
+NetWait=15
+ClientProcessingTimeout=30
+WarmupTime=0
+LateEntryLives=1
+ResetTimeDelay=0
+VoteDuration=45
+MaxCustomChars=12
+GoalScore=25
+MaxLives=0
+TimeLimit=20
+
+</template>
+    <enable_config_editor>0</enable_config_editor>
+    <read_values>1</read_values>
+    <hide_path>0</hide_path>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-22 01:06:15" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-09-22 01:28:16" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+    <update_automatically>1</update_automatically>
+  </tc_game_config_files>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>74</variable_source_id>
+    <variable_id>3</variable_id>
+    <name>gametype</name>
+    <default_value>UTGame.UTDeathmatch</default_value>
+    <is_numeric>0</is_numeric>
+    <view_order>0</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-22 05:11:50" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-09-22 05:47:53" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>74</variable_source_id>
+    <variable_id>4</variable_id>
+    <name>mutator</name>
+    <default_value />
+    <is_numeric>0</is_numeric>
+    <view_order>0</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-22 05:16:34" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-09-22 06:17:41" type="System.DateTime,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>74</variable_source_id>
+    <variable_id>1</variable_id>
+    <name>login</name>
+    <default_value />
+    <is_numeric>0</is_numeric>
+    <view_order>1</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-22 01:06:15" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-09-22 03:14:46" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_custom_variables>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>74</variable_source_id>
+    <variable_id>2</variable_id>
+    <name>password</name>
+    <default_value />
+    <is_numeric>0</is_numeric>
+    <view_order>2</view_order>
+    <app_data>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="__TCA:CREATED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:CREATED_ON" value="2011-09-22 01:06:15" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="__TCA:NOTES" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_BY" value="3" type="System.Int32,mscorlib" /&gt;
+  &lt;add key="__TCA:MODIFIED_ON" value="2011-09-22 03:14:37" type="System.DateTime,mscorlib" /&gt;
+  &lt;add key="d3b2aa93-7e2b-4e0d-8080-67d14b2fa8a9" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot; standalone=&amp;quot;yes&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;values&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;add key=&amp;quot;MaxMemoryVariable&amp;quot; value=&amp;quot;False&amp;quot; type=&amp;quot;System.Boolean,mscorlib&amp;quot; /&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/values&amp;gt;" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</app_data>
+  </tc_custom_variables>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineBuilder</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CmdLineChanger</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>CpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FastDlSync</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>FileManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Ftp</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveBandwidthStats</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveCpuStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LiveMemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LivePlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewer</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>LogViewerTextConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MapPacks</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>MemoryStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ModManager</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PlayerStats</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>PunkbusterUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Reinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledReinstall</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledRestart</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>ScheduledScript</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>SteamUpdate</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>Updates</permission_key>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_permissions>
+    <game_id>74</game_id>
+    <service_id>0</service_id>
+    <user_id>0</user_id>
+    <permission_key>WebConsole</permission_key>
+    <subadmin_access>0</subadmin_access>
+    <reseller_access>0</reseller_access>
+    <user_access>0</user_access>
+    <subuser_access>0</subuser_access>
+    <reseller_override>0</reseller_override>
+  </tc_game_permissions>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>74</variable_source_id>
+    <variable_id>1</variable_id>
+    <admin_access>1</admin_access>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>1</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label>Login:</item_label>
+    <description>Account username</description>
+    <custom_cmdline_template> -login=![login]</custom_cmdline_template>
+    <view_order>1</view_order>
+    <cmdline_parameter>1</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+  </tc_game_variables_config>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>74</variable_source_id>
+    <variable_id>2</variable_id>
+    <admin_access>1</admin_access>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>1</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="Password" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label>Password:</item_label>
+    <description>Account password</description>
+    <custom_cmdline_template> -password=![password]</custom_cmdline_template>
+    <view_order>2</view_order>
+    <cmdline_parameter>1</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+  </tc_game_variables_config>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>74</variable_source_id>
+    <variable_id>3</variable_id>
+    <admin_access>1</admin_access>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>1</value_required>
+    <required_message />
+    <item_type>6</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="StartIndex" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Source" value="CustomList" type="System.String,mscorlib" /&gt;
+  &lt;add key="CustomList" value="&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;utf-16&amp;quot;?&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;ArrayOfCustomDataSourceItem xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:xsd=&amp;quot;http://www.w3.org/2001/XMLSchema&amp;quot;&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Value&amp;gt;UTGame.UTDeathmatch&amp;lt;/Value&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisplayText&amp;gt;Deathmatch&amp;lt;/DisplayText&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Selected&amp;gt;true&amp;lt;/Selected&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Value&amp;gt;UTGameContent.UTCTFGame_Content&amp;lt;/Value&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisplayText&amp;gt;Capture the Flag&amp;lt;/DisplayText&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Selected&amp;gt;false&amp;lt;/Selected&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Value&amp;gt;UTGameContent.UTOnslaughtGame_Content&amp;lt;/Value&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisplayText&amp;gt;Warfare&amp;lt;/DisplayText&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Selected&amp;gt;false&amp;lt;/Selected&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Value&amp;gt;UTGameContent.UTVehicleCTFGame_Content&amp;lt;/Value&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisplayText&amp;gt;Vehicle Capture the Flag&amp;lt;/DisplayText&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Selected&amp;gt;false&amp;lt;/Selected&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Value&amp;gt;UTGame.UTTeamGame&amp;lt;/Value&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisplayText&amp;gt;Team Deathmatch&amp;lt;/DisplayText&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Selected&amp;gt;false&amp;lt;/Selected&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Value&amp;gt;UTGame.UTDuelGame&amp;lt;/Value&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;DisplayText&amp;gt;Duel&amp;lt;/DisplayText&amp;gt;&amp;#xD;&amp;#xA;    &amp;lt;Selected&amp;gt;false&amp;lt;/Selected&amp;gt;&amp;#xD;&amp;#xA;  &amp;lt;/CustomDataSourceItem&amp;gt;&amp;#xD;&amp;#xA;&amp;lt;/ArrayOfCustomDataSourceItem&amp;gt;" type="System.String,mscorlib" /&gt;
+  &lt;add key="FileSystemFilterType" value="Files" type="System.String,mscorlib" /&gt;
+  &lt;add key="FileSystemFilter" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="FileSystemExcludeFilter" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="FileSystemIncludeSubDirectories" value="False" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="FileSystemItemValue" value="FileName" type="System.String,mscorlib" /&gt;
+  &lt;add key="FileSystemItemDisplay" value="FileName" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label>Game Type:</item_label>
+    <description />
+    <custom_cmdline_template>game=![gametype]</custom_cmdline_template>
+    <view_order>0</view_order>
+    <cmdline_parameter>1</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+  </tc_game_variables_config>
+  <tc_game_variables_config>
+    <variable_source>TCAdmin.GameHosting.SDK.Objects.Game</variable_source>
+    <variable_source_id>74</variable_source_id>
+    <variable_id>4</variable_id>
+    <admin_access>1</admin_access>
+    <subadmin_access>1</subadmin_access>
+    <reseller_access>1</reseller_access>
+    <user_access>1</user_access>
+    <server_owner_access>0</server_owner_access>
+    <value_required>1</value_required>
+    <required_message />
+    <item_type>2</item_type>
+    <item_config>&lt;?xml version="1.0" encoding="utf-16" standalone="yes"?&gt;
+&lt;values&gt;
+  &lt;add key="MaxLength" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Mode" value="SingleLine" type="System.String,mscorlib" /&gt;
+  &lt;add key="Width" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Rows" value="0" type="System.Double,mscorlib" /&gt;
+  &lt;add key="Wrap" value="True" type="System.Boolean,mscorlib" /&gt;
+  &lt;add key="RegEx" value="" type="System.String,mscorlib" /&gt;
+  &lt;add key="DenyChars" value="?" type="System.String,mscorlib" /&gt;
+&lt;/values&gt;</item_config>
+    <parent_variable_source />
+    <parent_variable_source_id />
+    <parent_variable_id>0</parent_variable_id>
+    <parent_variable_value />
+    <item_label>Mutator:</item_label>
+    <description>&lt;p&gt;Here is a list of Mutators shipped with the Retail Version. If you want to run more than one mutator separate them with commas.&lt;/p&gt;
+&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;
+&lt;th&gt; Name &lt;/th&gt;&lt;th&gt; MutatorIdentifier
+&lt;/th&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Instagib &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_Instagib
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; BigHead &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_BigHead
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Low Gravity &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_LowGrav
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Super Berserk &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_SuperBerserk
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Friendly Fire &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_FriendlyFire
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; No Translocator &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_NoTranslocator
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Speed Freak &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_SpeedFreak
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Handicap &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_Handicap
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; No Powerups &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_NoPowerups
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Slomo &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_Slomo
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Weapon Replacement &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_WeaponReplacement
+&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt; Weapon Respawn &lt;/td&gt;&lt;td&gt; UTGame.UTMutator_WeaponsRespawn
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description>
+    <custom_cmdline_template>?mutator=![mutator]</custom_cmdline_template>
+    <view_order>0</view_order>
+    <cmdline_parameter>1</cmdline_parameter>
+    <script_parameter>0</script_parameter>
+    <save_script_value>0</save_script_value>
+    <disable_space>0</disable_space>
+  </tc_game_variables_config>
+</UT3>
